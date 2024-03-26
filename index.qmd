@@ -1,0 +1,64 @@
+---
+title: "Reproducible Data Analysis"
+toc: false
+---
+
+## Slides
+
+- [Day 1 (2023-10-03): Introduction: Why code? Why reproducibility?](day1/index.qmd)
+
+- [Day 2 (2023-10-10): Git and GitHub](day2/index.qmd)
+
+- [Day 3 (2023-10-17): Basic usage of R and RStudio](day3/index.qmd)
+
+- [Day 4 (2023-10-24): Data loading and tidying with tidyverse](day4/index.qmd)
+
+- [Day 5 (Media Day): Data visualization with ggplot2](day5/index.qmd)
+
+- [Day 6 (2023-11-07): Writing documents with Quarto](day6/index.qmd)
+
+- [Day 7 (2023-11-14): Quarto, part II](day7/index.qmd)
+
+- [Day 8 (2023-11-21): Final presentation](day8/index.qmd)
+
+## Recordings
+
+(video recordings are not available for all lectures)
+
+- [Day 4: Tidyverse](https://youtu.be/ikzQwRJbh18)
+
+- [Day 5: ggplot2](https://youtu.be/n06QEKese5U)
+
+## Materials
+
+- [Day 2: Git and GitHub](https://github.com/data-analysis-chiba-2023/day02-git/blob/main/day02_intro_to_git.md)
+
+- [Day 3: R and RStudio](https://github.com/data-analysis-chiba-2023/day03-r/blob/main/day03_intro_to_r.md)
+
+- [Day 4: Tidyverse](https://github.com/data-analysis-chiba-2023/day04-tidy/blob/main/day04_tidy.md)
+
+- [Day 5: ggplot2](https://github.com/data-analysis-chiba-2023/day05-ggplot/blob/main/day05_ggplot2.md)
+
+- [Final Report Example](https://github.com/data-analysis-chiba-2023/gapminder-report/)
+
+## Important Deadlines
+
+- 2023-10-16 11:59PM: [Day 2 homework](https://github.com/data-analysis-chiba-2023/day02-git/blob/main/git_facts.md) due
+
+- 2023-10-23 11:59PM: [Day 3 homework](https://github.com/data-analysis-chiba-2023/day03-r/blob/main/day03_homework.R) due
+
+- 2023-10-30 11:59PM: [Day 4 homework](https://github.com/data-analysis-chiba-2023/day04-tidy/blob/main/day04_homework.R) due
+
+- 2023-11-06 11:59PM: [Day 5 homework](https://github.com/data-analysis-chiba-2023/day05-ggplot/blob/main/day05_homework.R) due
+
+- 2023-11-20 11:59: Final paper due
+
+- 2023-11-21: Final presentation (in class)
+
+## Office Hours
+
+By appointment, please send an email to <joelnitta@chiba-u.jp>
+
+## Syllabus
+
+[Syllabus in English](https://syllabus.gs.chiba-u.jp/2023/101101101076000/Z011531301/en_US)
