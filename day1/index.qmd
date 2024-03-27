@@ -11,20 +11,51 @@ execute:
 
 2024-04-02
 
-## 生成AIが何をやっているのか？
+## ニッタ ジョエル
 
-- みなさん、生成AI（ChatGPT、DeepLなど）って使っていますか？
+:::: {.columns}
 
+::: {.column}
+- 研究テーマその１：**シダ植物の進化と生態学**
+
+- 研究テーマその２：**データサイエンス**用ソフトの開発
+
+- <https://www.joelnitta.com>
+:::
+
+::: {.column}
+![](https://github.com/joelnitta/joelnitta-site/blob/master/static/media/headers/research_img2.jpg?raw=true){fig-alt="Image of Joel Nitta in field" height="450"}
+:::
+
+::::
+
+# AIについて
+
+## みなさん、生成AI（ChatGPT、DeepLなど）を使っていますか？
+
+:::: {.columns}
+
+::: {.column}
 - 私も使っています
 
-- でも、そもそもAIって何か、分かりますか？
+- データサイエンスのみならず、様々な場面において大事なツール
+
+- でも、**そもそもAIが何をしている**のか、分かりますか？
+:::
+
+::: {.column}
+![](images/chatgpt.png)
+
+<https://chat.openai.com/>
+:::
+
+::::
 
 ## **A**rtificial **I**ntelligenceという名前は嘘
 
-- 「機械認知」
-  - この呼び方は非常にミスリードイング！
+- AI ＝「人工知能」
 
-- AIは何も**考えて**いない！
+- ・・でも、AIは何も**考えて**いない！
   - 真偽を知らない！
 
 ## LLMは言葉を予測するモデルである
@@ -35,9 +66,15 @@ execute:
 
 - LLMは入力された言葉に対して、最も確率の高い次に来る言葉を返す
 
-## LLMは言葉を予測するモデルである
+## LLMにとっての「言葉」は人間にとっての言葉と違う
 
-<!-- show example of token visualizer -->
+- 言葉ではなく、**token（トークン）**という
+
+<https://platform.openai.com/tokenizer>
+
+## LLMはトークンを予測するモデルである
+
+<https://perplexity.vercel.app/>
 
 ## LLMは必ず「もっともらしい」言葉を自信満々で返す
 
@@ -45,18 +82,22 @@ execute:
 
 - 平気な顔で**嘘をつく**
 
+## LLMは「妄想」しがち
+
+<https://chat.openai.com/share/dcee3278-0f51-4bc2-8051-849ef1b0b072>
+
 - LLMが返した言葉を信用できるかどうか判断するのが**あなたの責任**
 
-## じゃ、どうやって使ったら良いのか？（DO）
+## じゃ、どうやって使ったら良いのか？
 
 - 返ってきた答えを**確かめる**
   - コードを走らせてみる
   - 内容を他のソースで確認する
-  - 裏付けとなっている文献を出すように指示する
+  - 裏付けとなっている文献を出すように指示する（ChatGPT 4.0に限る）
 
-- 必ず批判的なスタンスを持つこと
+- **必ず批判的なスタンスを持つこと**
 
-## コピペしないこと（DO NOT）
+## コピペしないこと
 
 - 大学とは自分で考えることを身につける場である
 - 「言葉の計算機」だと思えば良い
@@ -68,4 +109,67 @@ execute:
 - 自分が得意（詳しい）分野についてChatGPTに質問して、しばらく会話をしてください
   - 嘘を見つけたら、それをメモってください
 
-- 例
+- 提出はしなくていいけど、次回の授業でディスカッションがある
+
+# 必要なソフトのインストール
+
+## なぜR?
+
+:::: {.columns}
+
+::: {.column width="50%"}
+- 無料
+- データ解析の機能が豊富
+- 多様なニーズに応えるパッケージ
+- コミュニティー
+:::
+
+::: {.column width="50%"}
+![](images/r_uses_crop.png)
+
+[<https://www.linkedin.com/pulse/why-r-4-reason-learn-programming-language-business-corporate>]{.tiny}
+:::
+
+::::
+
+## RとRStudioについて
+
+:::: {.columns}
+
+::: {.column width="50%"}
+- Rとは「R Project for Statistical Computing」という組織が提供しているオープンソース（タダの）プログラミング言語
+:::
+
+::: {.column width="50%"}
+![](https://www.r-project.org/logo/Rlogo.svg)
+:::
+
+::::
+
+## RとRStudioについて
+
+:::: {.columns}
+
+::: {.column width="50%"}
+- Rのコードを書く・実行する最適なソフト（タダ）
+- RStudioなしでもRは一応使えるけど、不便
+- **この授業ではRStudioを介してRを使う。**
+:::
+
+::: {.column width="50%"}
+![](https://posit.co/wp-content/uploads/2022/10/thumbnail-3.jpg)
+:::
+
+::::
+
+## Rのインストール
+
+<https://cloud.r-project.org/>から自分のOSに合ったファイルをダウンロードして、インストール
+
+## RStudioのインストール
+
+<https://posit.co/download/rstudio-desktop/>から自分のOSに合ったファイルをダウンロードして、インストール
+
+## 困ったら・・
+
+ご連絡下さい（メールなど）

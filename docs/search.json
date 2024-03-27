@@ -1,0 +1,233 @@
+[
+  {
+    "objectID": "day1/index.html#生成aiが何をやっているのか",
+    "href": "day1/index.html#生成aiが何をやっているのか",
+    "title": "データサイエンス",
+    "section": "生成AIが何をやっているのか？",
+    "text": "生成AIが何をやっているのか？\n\n\n\nみなさん、生成AI（ChatGPT、DeepLなど）って使っていますか？\n私も使っています\nでも、そもそもAIって何か、分かりますか？"
+  },
+  {
+    "objectID": "day1/index.html#artificial-intelligenceという名前は嘘",
+    "href": "day1/index.html#artificial-intelligenceという名前は嘘",
+    "title": "データサイエンス",
+    "section": "Artificial Intelligenceという名前は嘘",
+    "text": "Artificial Intelligenceという名前は嘘\n\nAI ＝「人工知能」\n・・でも、AIは何も考えていない！\n\n真偽を知らない！"
+  },
+  {
+    "objectID": "day1/index.html#llmは言葉を予測するモデルである",
+    "href": "day1/index.html#llmは言葉を予測するモデルである",
+    "title": "データサイエンス",
+    "section": "LLMは言葉を予測するモデルである",
+    "text": "LLMは言葉を予測するモデルである\n\nいわゆる「生成AI」はLarge Language Model（LLM）の一種である\n\n言葉を予測するモデル\n莫大的な量のデータ（インターネットの大部分）を使っている\n\nLLMは入力された言葉に対して、最も確率の高い次に来る言葉を返す"
+  },
+  {
+    "objectID": "day1/index.html#llmにとっての言葉は人間にとっての言葉と違う",
+    "href": "day1/index.html#llmにとっての言葉は人間にとっての言葉と違う",
+    "title": "データサイエンス",
+    "section": "LLMにとっての「言葉」は人間にとっての言葉と違う",
+    "text": "LLMにとっての「言葉」は人間にとっての言葉と違う\n\n言葉ではなく、token（トークン）という\n\nhttps://platform.openai.com/tokenizer"
+  },
+  {
+    "objectID": "day1/index.html#llmはトークンを予測するモデルである",
+    "href": "day1/index.html#llmはトークンを予測するモデルである",
+    "title": "データサイエンス",
+    "section": "LLMはトークンを予測するモデルである",
+    "text": "LLMはトークンを予測するモデルである\nhttps://perplexity.vercel.app/"
+  },
+  {
+    "objectID": "day1/index.html#llmは必ずもっともらしい言葉を自信満々で返す",
+    "href": "day1/index.html#llmは必ずもっともらしい言葉を自信満々で返す",
+    "title": "データサイエンス",
+    "section": "LLMは必ず「もっともらしい」言葉を自信満々で返す",
+    "text": "LLMは必ず「もっともらしい」言葉を自信満々で返す\n・・けど、それが正解とは限らない\n\n平気な顔で嘘をつく"
+  },
+  {
+    "objectID": "day1/index.html#llmは妄想しがち",
+    "href": "day1/index.html#llmは妄想しがち",
+    "title": "データサイエンス",
+    "section": "LLMは「妄想」しがち",
+    "text": "LLMは「妄想」しがち\nhttps://chat.openai.com/share/dcee3278-0f51-4bc2-8051-849ef1b0b072\n\nLLMが返した言葉を信用できるかどうか判断するのがあなたの責任"
+  },
+  {
+    "objectID": "day1/index.html#じゃどうやって使ったら良いのかdo",
+    "href": "day1/index.html#じゃどうやって使ったら良いのかdo",
+    "title": "データサイエンス",
+    "section": "じゃ、どうやって使ったら良いのか？（DO）",
+    "text": "じゃ、どうやって使ったら良いのか？（DO）\n\n返ってきた答えを確かめる\n\nコードを走らせてみる\n内容を他のソースで確認する\n裏付けとなっている文献を出すように指示する（ChatGPT 4.0に限る）\n\n必ず批判的なスタンスを持つこと"
+  },
+  {
+    "objectID": "day1/index.html#コピペしないことdo-not",
+    "href": "day1/index.html#コピペしないことdo-not",
+    "title": "データサイエンス",
+    "section": "コピペしないこと（DO NOT）",
+    "text": "コピペしないこと（DO NOT）\n\n大学とは自分で考えることを身につける場である\n「言葉の計算機」だと思えば良い\n\n計算機があるからといって、算数を全く勉強しなくていいわけではない\n\nLLMは色々な作業を手伝う（よく嘘をつく）アシスタントであるが、自分の代わりに考えるものではない！"
+  },
+  {
+    "objectID": "day1/index.html#宿題",
+    "href": "day1/index.html#宿題",
+    "title": "データサイエンス",
+    "section": "宿題",
+    "text": "宿題\n\n自分が得意（詳しい）分野についてChatGPTに質問して、しばらく会話をしてください\n\n嘘を見つけたら、それをメモってください\n\n提出はしなくていいけど、次回の授業でディスカッションがある"
+  },
+  {
+    "objectID": "day1/index.html#みなさん生成aichatgptdeeplなどを使っていますか",
+    "href": "day1/index.html#みなさん生成aichatgptdeeplなどを使っていますか",
+    "title": "データサイエンス",
+    "section": "みなさん、生成AI（ChatGPT、DeepLなど）を使っていますか？",
+    "text": "みなさん、生成AI（ChatGPT、DeepLなど）を使っていますか？\n\n\n\n私も使っています\nデータサイエンスのみならず、様々な場面において大事なツール\nでも、そもそもAIが何をしているのか、分かりますか？\n\n\n\nhttps://chat.openai.com/"
+  },
+  {
+    "objectID": "day1/index.html#じゃどうやって使ったら良いのか",
+    "href": "day1/index.html#じゃどうやって使ったら良いのか",
+    "title": "データサイエンス",
+    "section": "じゃ、どうやって使ったら良いのか？",
+    "text": "じゃ、どうやって使ったら良いのか？\n\n返ってきた答えを確かめる\n\nコードを走らせてみる\n内容を他のソースで確認する\n裏付けとなっている文献を出すように指示する（ChatGPT 4.0に限る）\n\n必ず批判的なスタンスを持つこと"
+  },
+  {
+    "objectID": "day1/index.html#コピペしないこと",
+    "href": "day1/index.html#コピペしないこと",
+    "title": "データサイエンス",
+    "section": "コピペしないこと",
+    "text": "コピペしないこと\n\n大学とは自分で考えることを身につける場である\n「言葉の計算機」だと思えば良い\n\n計算機があるからといって、算数を全く勉強しなくていいわけではない\n\nLLMは色々な作業を手伝う（よく嘘をつく）アシスタントであるが、自分の代わりに考えるものではない！"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "データサイエンス",
+    "section": "",
+    "text": "千葉大学 総合国際学位プログラムの授業\n担当教員：ニッタ ジョエル"
+  },
+  {
+    "objectID": "index.html#slides",
+    "href": "index.html#slides",
+    "title": "Reproducible Data Analysis",
+    "section": "",
+    "text": "Day 1 (2023-10-03): Introduction: Why code? Why reproducibility?"
+  },
+  {
+    "objectID": "index.html#recordings",
+    "href": "index.html#recordings",
+    "title": "Reproducible Data Analysis",
+    "section": "Recordings",
+    "text": "Recordings\n(video recordings are not available for all lectures)\n\nDay 4: Tidyverse\nDay 5: ggplot2"
+  },
+  {
+    "objectID": "index.html#materials",
+    "href": "index.html#materials",
+    "title": "Reproducible Data Analysis",
+    "section": "Materials",
+    "text": "Materials\n\nDay 2: Git and GitHub"
+  },
+  {
+    "objectID": "index.html#office-hours",
+    "href": "index.html#office-hours",
+    "title": "Reproducible Data Analysis",
+    "section": "Office Hours",
+    "text": "Office Hours\nBy appointment, please send an email to joelnitta@chiba-u.jp"
+  },
+  {
+    "objectID": "index.html#syllabus",
+    "href": "index.html#syllabus",
+    "title": "Reproducible Data Analysis",
+    "section": "Syllabus",
+    "text": "Syllabus\nSyllabus"
+  },
+  {
+    "objectID": "day1/index.html",
+    "href": "day1/index.html",
+    "title": "１日目：AIとソフトのインストール",
+    "section": "",
+    "text": "2024-04-02\n\n\n\n研究テーマその１：シダ植物の進化と生態学\n研究テーマその２：データサイエンス用ソフトの開発\nhttps://www.joelnitta.com"
+  },
+  {
+    "objectID": "day1/index.html#ニッタ-ジョエル",
+    "href": "day1/index.html#ニッタ-ジョエル",
+    "title": "データサイエンス",
+    "section": "ニッタ ジョエル",
+    "text": "ニッタ ジョエル\n\n\n\n研究テーマその１：シダ植物の進化と生態学\n研究テーマその２：データサイエンス用ソフトの開発\nhttps://www.joelnitta.com"
+  },
+  {
+    "objectID": "day1/index.html#rとrstudioについて",
+    "href": "day1/index.html#rとrstudioについて",
+    "title": "データサイエンス",
+    "section": "RとRStudioについて",
+    "text": "RとRStudioについて\n\n\n\nRとは「R Project for Statistical Computing」という組織が提供しているオープンソース（タダの）プログラミング言語"
+  },
+  {
+    "objectID": "day1/index.html#rとrstudioについて-1",
+    "href": "day1/index.html#rとrstudioについて-1",
+    "title": "データサイエンス",
+    "section": "RとRStudioについて",
+    "text": "RとRStudioについて\n\n\n\nRのコードを書く・実行する最適なソフト（タダ）\nRStudioなしでもRは一応使えるけど、不便\nこの授業ではRStudioを介してRを使う。"
+  },
+  {
+    "objectID": "day1/index.html#rのインストール",
+    "href": "day1/index.html#rのインストール",
+    "title": "データサイエンス",
+    "section": "Rのインストール",
+    "text": "Rのインストール\nhttps://cloud.r-project.org/から自分のOSに合ったファイルをダウンロードして、インストール"
+  },
+  {
+    "objectID": "day1/index.html#rstudioのインストール",
+    "href": "day1/index.html#rstudioのインストール",
+    "title": "データサイエンス",
+    "section": "RStudioのインストール",
+    "text": "RStudioのインストール\nhttps://posit.co/download/rstudio-desktop/から自分のOSに合ったファイルをダウンロードして、インストール"
+  },
+  {
+    "objectID": "day1/index.html#なぜr",
+    "href": "day1/index.html#なぜr",
+    "title": "データサイエンス",
+    "section": "なぜR?",
+    "text": "なぜR?\n\n\n\n無料\nデータ解析の機能が豊富\n多様なニーズに応えるパッケージ\nコミュニティー\n\n\n\nhttps://www.linkedin.com/pulse/why-r-4-reason-learn-programming-language-business-corporate"
+  },
+  {
+    "objectID": "day1/index.html#困ったら",
+    "href": "day1/index.html#困ったら",
+    "title": "データサイエンス",
+    "section": "困ったら・・",
+    "text": "困ったら・・\nご連絡下さい（メールなど）"
+  },
+  {
+    "objectID": "index.html#講義",
+    "href": "index.html#講義",
+    "title": "データサイエンス",
+    "section": "",
+    "text": "（全ての講義の録画はありません）\n\n第１回（2024-04-02）: RとRStudioのインストール、生成AIの基本（オンデマンド）\n\nスライド\n録画\n\n第２回（2024-04-09）: なぜコードを使うのか？再現可能なデータ解析とは？\n第３回（2024-04-16）: GitとGitHub\n第４回（2024-04-23）: データの読み込みと整理\n第５回（2024-05-07）: データの可視化\n第６回（2024-05-14）: 再現可能な文書の書き方\n第７回（2024-05-21）: レポートの発表\n第８回（2024-05-28）: 再現性を高めるツール（オンデマンド）"
+  },
+  {
+    "objectID": "index.html#オフィスアワー",
+    "href": "index.html#オフィスアワー",
+    "title": "データサイエンス",
+    "section": "オフィスアワー",
+    "text": "オフィスアワー\n予約制（joelnitta@chiba-u.jpまでメールにて連絡ください）。対面・非対面での相談、ご希望とご都合に合わせて対応いたします。"
+  },
+  {
+    "objectID": "index.html#シラバス",
+    "href": "index.html#シラバス",
+    "title": "データサイエンス",
+    "section": "シラバス",
+    "text": "シラバス\nシラバス"
+  },
+  {
+    "objectID": "index.html#概要",
+    "href": "index.html#概要",
+    "title": "データサイエンス",
+    "section": "概要",
+    "text": "概要\nデータ解析は、理系だけではなく、文系も含めた多くの学問分野で使われるようになっている。本授業では、特に大学院生の研究に応用できるようにデータサイエンスの基本的なスキルとツールを学ぶ。主に「R」プログラミング言語を使用するが、大学院生のニーズに合わせて、必要なツールがあれば適宜授業の内容に加える。"
+  },
+  {
+    "objectID": "index.html#スケジュール",
+    "href": "index.html#スケジュール",
+    "title": "データサイエンス",
+    "section": "スケジュール",
+    "text": "スケジュール\n（全ての講義の録画はありません）\n\n第１回（2024-04-02）: RとRStudioのインストール、生成AIの基本（オンデマンド）\n\nスライド\n録画\n\n第２回（2024-04-09）: なぜコードを使うのか？再現可能なデータ解析とは？\n第３回（2024-04-16）: GitとGitHub\n第４回（2024-04-23）: データの読み込みと整理\n第５回（2024-05-07）: データの可視化\n第６回（2024-05-14）: 再現可能な文書の書き方\n第７回（2024-05-21）: レポートの発表\n第８回（2024-05-28）: 再現性を高めるツール（オンデマンド）"
+  },
+  {
+    "objectID": "index.html#リンク",
+    "href": "index.html#リンク",
+    "title": "データサイエンス",
+    "section": "リンク",
+    "text": "リンク\n\nシラバス"
+  }
+]
