@@ -18,7 +18,7 @@
     "href": "day1/index.html#llmは言葉を予測するモデルである",
     "title": "データサイエンス",
     "section": "LLMは言葉を予測するモデルである",
-    "text": "LLMは言葉を予測するモデルである\n\nいわゆる「生成AI」はLarge Language Model（LLM）の一種である\n\n言葉を予測するモデル\n莫大的な量のデータ（インターネットの大部分）を使っている\n\nLLMは入力された言葉に対して、最も確率の高い次に来る言葉を返す"
+    "text": "LLMは言葉を予測するモデルである\n\nChatGPTはLarge Language Model（LLM）の一種である\n\n言葉を予測するモデル\n莫大的な量のデータ（インターネットの大部分）を使っている\n\nLLMは入力された言葉に対して、最も確率の高い次に来る言葉を返す"
   },
   {
     "objectID": "day1/index.html#llmにとっての言葉は人間にとっての言葉と違う",

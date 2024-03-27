@@ -62,7 +62,7 @@ execute:
 
 ## LLMは言葉を予測するモデルである
 
-- いわゆる「生成AI」は**Large Language Model**（LLM）の一種である
+- ChatGPTは**Large Language Model**（LLM）の一種である
   - **言葉を予測する**モデル
   - 莫大的な量のデータ（インターネットの大部分）を使っている
 
