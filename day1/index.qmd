@@ -7,9 +7,11 @@ execute:
   echo: true
 ---
 
-# １日目：AIとソフトのインストール
+# 第一回：生成AIの基本、RとRStudioのインストール
 
 2024-04-02
+
+<https://data-science-chiba-2024.github.io/day1/>
 
 ## ニッタ ジョエル
 
@@ -29,7 +31,7 @@ execute:
 
 ::::
 
-# AIについて
+# 生成AIの基本
 
 ## みなさん、生成AI（ChatGPT、DeepLなど）を使っていますか？
 
@@ -51,7 +53,7 @@ execute:
 
 ::::
 
-## **A**rtificial **I**ntelligenceという名前は嘘
+## Artificial Intelligenceという名前は嘘
 
 - AI ＝「人工知能」
 
@@ -111,7 +113,7 @@ execute:
 
 - 提出はしなくていいけど、次回の授業でディスカッションがある
 
-# 必要なソフトのインストール
+# RとRStudioのインストール
 
 ## なぜR?
 
@@ -172,4 +174,4 @@ execute:
 
 ## 困ったら・・
 
-ご連絡下さい（メールなど）
+ご連絡下さい（<joelnitta@chiba-u.jp>）
