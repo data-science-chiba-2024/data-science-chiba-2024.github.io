@@ -327,10 +327,10 @@
 
 
 <section>
-<section id="第一回生成aiの基本rとrstudioのインストール" class="title-slide slide level1 center">
-<h1>第一回：生成AIの基本、RとRStudioのインストール</h1>
-<p>2024-04-02</p>
-<p><a href="https://data-science-chiba-2024.github.io/day1/" class="uri">https://data-science-chiba-2024.github.io/day1/</a></p>
+<section id="第一回なぜコードを使うのか再現可能なデータ解析とは" class="title-slide slide level1 center">
+<h1>第一回：なぜコードを使うのか？再現可能なデータ解析とは？</h1>
+<p>2024-04-09</p>
+<p><a href="https://data-science-chiba-2024.github.io/day2/" class="uri">https://data-science-chiba-2024.github.io/day2/</a></p>
 </section>
 <section id="ニッタ-ジョエル" class="slide level2">
 <h2>ニッタ ジョエル</h2>
@@ -347,111 +347,71 @@
 </div>
 </section></section>
 <section>
-<section id="生成aiの基本" class="title-slide slide level1 center">
-<h1>生成AIの基本</h1>
+<section id="データサイエンスとは" class="title-slide slide level1 center">
+<h1>データサイエンスとは？</h1>
 
 </section>
-<section id="みなさん生成aichatgptdeeplなどを使っていますか" class="slide level2">
-<h2>みなさん、生成AI（ChatGPT、DeepLなど）を使っていますか？</h2>
-<div class="columns">
-<div class="column">
+<section id="データサイエンスとは-1" class="slide level2">
+<h2>データサイエンスとは？</h2>
 <ul>
-<li><p>私も使っています</p></li>
-<li><p>データサイエンスのみならず、様々な場面において大事なツール</p></li>
-<li><p>でも、<strong>そもそもAIが何をしている</strong>のか、分かりますか？</p></li>
+<li><strong>データ</strong>から<strong>洞察</strong>（インサイト）を得ること</li>
 </ul>
-</div><div class="column">
-<p><img data-src="../images/chatgpt.png"></p>
-<p><a href="https://chat.openai.com/" class="uri">https://chat.openai.com/</a></p>
-</div>
-</div>
 </section>
-<section id="artificial-intelligenceという名前は嘘" class="slide level2">
-<h2>Artificial Intelligenceという名前は嘘</h2>
+<section id="データサイエンスとは-2" class="slide level2">
+<h2>データサイエンスとは？</h2>
 <ul>
-<li><p>AI ＝「人工知能」</p></li>
-<li><p>・・でも、AIは何も<strong>考えて</strong>いない！</p>
+<li>他の特徴
 <ul>
-<li>真偽を知らない！</li>
+<li>大量のデータを扱う（<strong>「ビッグデータ」</strong>）
+<ul>
+<li><strong>統計学</strong>を使う</li>
+</ul></li>
+<li><strong>プログラミング</strong>を使う（python、R、など）</li>
+<li>様々な用がある（学術研究、治療、産業、など）</li>
 </ul></li>
 </ul>
 </section>
-<section id="llmは言葉を予測するモデルである" class="slide level2">
-<h2>LLMは言葉を予測するモデルである</h2>
-<ul>
-<li>ChatGPTは<strong>Large Language Model</strong>（LLM）の一種である
-<ul>
-<li><strong>言葉を予測する</strong>モデル</li>
-<li>莫大的な量のデータ（インターネットの大部分）を使っている</li>
-</ul></li>
-<li>LLMは入力された言葉に対して、最も確率の高い次に来る言葉を返す</li>
-</ul>
+<section id="データ解析の循環" class="slide level2">
+<h2>データ解析の循環</h2>
+
+<img data-src="https://r4ds.hadley.nz/diagrams/data-science/base.png" class="r-stretch"><p><span class="small"><a href="https://r4ds.hadley.nz/diagrams/data-science/base.png" class="uri">https://r4ds.hadley.nz/diagrams/data-science/base.png</a></span></p>
 </section>
-<section id="llmにとっての言葉は人間にとっての言葉と違う" class="slide level2">
-<h2>LLMにとっての「言葉」は人間にとっての言葉と違う</h2>
+<section class="slide level2">
+
 <ul>
-<li>言葉ではなく、<strong>token（トークン）</strong>という</li>
+<li>Import: データを入力する</li>
+<li>Tidy and Transform: データを整える</li>
+<li>Visualize: データを可視化する</li>
+<li>Model: モデルを構築する（予測する）</li>
+<li>Communicate: 結果を伝える</li>
 </ul>
-<p><a href="https://platform.openai.com/tokenizer" class="uri">https://platform.openai.com/tokenizer</a></p>
-</section>
-<section id="llmはトークンを予測するモデルである" class="slide level2">
-<h2>LLMはトークンを予測するモデルである</h2>
-<p><a href="https://perplexity.vercel.app/" class="uri">https://perplexity.vercel.app/</a></p>
-</section>
-<section id="llmは必ずもっともらしい言葉を自信満々で返す" class="slide level2">
-<h2>LLMは必ず「もっともらしい」言葉を自信満々で返す</h2>
-<p>・・けど、それが正解とは<strong>限らない</strong></p>
-<ul>
-<li>平気な顔で<strong>嘘をつく</strong></li>
-</ul>
-</section>
-<section id="llmは妄想しがち" class="slide level2">
-<h2>LLMは「妄想」しがち</h2>
-<p><a href="https://chat.openai.com/share/dcee3278-0f51-4bc2-8051-849ef1b0b072" class="uri">https://chat.openai.com/share/dcee3278-0f51-4bc2-8051-849ef1b0b072</a></p>
-<ul>
-<li>LLMが返した言葉を信用できるかどうか判断するのが<strong>あなたの責任</strong></li>
-</ul>
-</section>
-<section id="じゃどうやって使ったら良いのか" class="slide level2">
-<h2>じゃ、どうやって使ったら良いのか？</h2>
-<ul>
-<li>返ってきた答えを<strong>確かめる</strong>
-<ul>
-<li>コードを走らせてみる</li>
-<li>内容を他のソースで確認する</li>
-<li>裏付けとなっている文献を出すように指示する（ChatGPT 4.0に限る）</li>
-</ul></li>
-<li><strong>必ず批判的なスタンスを持つこと</strong></li>
-</ul>
-</section>
-<section id="コピペしないこと" class="slide level2">
-<h2>コピペしないこと</h2>
-<ul>
-<li>大学とは自分で考えることを身につける場である</li>
-<li>「言葉の計算機」だと思えば良い
-<ul>
-<li>計算機があるからといって、算数を全く勉強しなくていいわけではない</li>
-</ul></li>
-<li>LLMは色々な作業を手伝う（よく嘘をつく）アシスタントであるが、自分の代わりに考えるものではない！</li>
-</ul>
-</section>
-<section id="宿題" class="slide level2">
-<h2>宿題</h2>
-<ul>
-<li>自分が得意（詳しい）分野についてChatGPTに質問して、しばらく会話をしてください
-<ul>
-<li>嘘を見つけたら、それをメモってください</li>
-</ul></li>
-<li>提出はしなくていいけど、次回の授業でディスカッションがある</li>
-</ul>
-</section></section>
+
+<img data-src="https://r4ds.hadley.nz/diagrams/data-science/base.png" class="r-stretch"></section></section>
 <section>
-<section id="rとrstudioのインストール" class="title-slide slide level1 center">
-<h1>RとRStudioのインストール</h1>
+<section id="再現性とは" class="title-slide slide level1 center">
+<h1>再現性とは？</h1>
 
 </section>
-<section id="なぜr" class="slide level2">
-<h2>なぜR?</h2>
+<section id="再現性とは-1" class="slide level2">
+<h2>再現性とは？</h2>
+<ul>
+<li><p>他の人（<strong>将来の自分</strong>を含めて）があなたの解析を<br><strong>再度行って、同じ結果</strong>を得ることができること</p></li>
+<li><p>データサイエンスにおいて、<strong>とても重要</strong>。再現性がなければ、「サイエンス」にならない！</p></li>
+</ul>
+</section>
+<section id="再現可能にするには" class="slide level2">
+<h2>再現可能にするには・・</h2>
+<ul>
+<li><strong>コード</strong>が必要
+<ul>
+<li>自分が何をやったのか、記録が残る</li>
+<li>将来、同じ解析ができる</li>
+</ul></li>
+<li>コードとして残らない方法はよろしくない（エクセル、SPSSなど）</li>
+</ul>
+</section>
+<section id="本授業ではrを使う" class="slide level2">
+<h2>本授業では、Rを使う</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
 <ul>
@@ -491,18 +451,6 @@
 <p><img data-src="https://posit.co/wp-content/uploads/2022/10/thumbnail-3.jpg"></p>
 </div>
 </div>
-</section>
-<section id="rのインストール" class="slide level2">
-<h2>Rのインストール</h2>
-<p><a href="https://cloud.r-project.org/" class="uri">https://cloud.r-project.org/</a>から自分のOSに合ったファイルをダウンロードして、インストール</p>
-</section>
-<section id="rstudioのインストール" class="slide level2">
-<h2>RStudioのインストール</h2>
-<p><a href="https://posit.co/download/rstudio-desktop/" class="uri">https://posit.co/download/rstudio-desktop/</a>から自分のOSに合ったファイルをダウンロードして、インストール</p>
-</section>
-<section id="困ったら" class="slide level2">
-<h2>困ったら・・</h2>
-<p>ご連絡下さい（<a href="mailto:joelnitta@chiba-u.jp" class="email">joelnitta@chiba-u.jp</a>）</p>
 
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">

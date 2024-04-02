@@ -1,0 +1,128 @@
+---
+format:
+  revealjs:
+    incremental: false
+    css: ../styles.css
+execute: 
+  echo: true
+---
+
+# 第一回：なぜコードを使うのか？再現可能なデータ解析とは？
+
+2024-04-09
+
+<https://data-science-chiba-2024.github.io/day2/>
+
+## ニッタ ジョエル
+
+:::: {.columns}
+
+::: {.column}
+- 研究テーマその１：**シダ植物の進化と生態学**
+
+- 研究テーマその２：**データサイエンス**用ソフトの開発
+
+- <https://www.joelnitta.com>
+:::
+
+::: {.column}
+![](https://github.com/joelnitta/joelnitta-site/blob/master/static/media/headers/research_img2.jpg?raw=true){fig-alt="Image of Joel Nitta in field" height="450"}
+:::
+
+::::
+
+# データサイエンスとは？
+
+## データサイエンスとは？
+
+- **データ**から**洞察**（インサイト）を得ること
+
+## データサイエンスとは？
+
+- 他の特徴
+  - 大量のデータを扱う（**「ビッグデータ」**）
+    - **統計学**を使う
+  - **プログラミング**を使う（python、R、など）
+  - 様々な用がある（学術研究、治療、産業、など）
+
+## データ解析の循環
+
+![](https://r4ds.hadley.nz/diagrams/data-science/base.png)
+
+[<https://r4ds.hadley.nz/diagrams/data-science/base.png>]{.small}
+
+---
+
+- Import: データを入力する
+- Tidy and Transform: データを整える
+- Visualize: データを可視化する
+- Model: モデルを構築する（予測する）
+- Communicate: 結果を伝える
+
+![](https://r4ds.hadley.nz/diagrams/data-science/base.png)
+
+# 再現性とは？
+
+## 再現性とは？
+
+- 他の人（**将来の自分**を含めて）があなたの解析を<br>**再度行って、同じ結果**を得ることができること
+
+- データサイエンスにおいて、**とても重要**。再現性がなければ、「サイエンス」にならない！
+
+## 再現可能にするには・・
+
+- **コード**が必要
+  - 自分が何をやったのか、記録が残る
+  - 将来、同じ解析ができる
+
+- コードとして残らない方法はよろしくない（エクセル、SPSSなど）
+
+## 本授業では、Rを使う
+
+:::: {.columns}
+
+::: {.column width="50%"}
+- 無料
+- データ解析の機能が豊富
+- 多様なニーズに応えるパッケージ
+- コミュニティー
+:::
+
+::: {.column width="50%"}
+![](../images/r_uses_crop.png)
+
+[<https://www.linkedin.com/pulse/why-r-4-reason-learn-programming-language-business-corporate>]{.tiny}
+:::
+
+::::
+
+## RとRStudioについて
+
+:::: {.columns}
+
+::: {.column width="50%"}
+- Rとは「R Project for Statistical Computing」という組織が提供しているオープンソース（タダの）プログラミング言語
+:::
+
+::: {.column width="50%"}
+![](https://www.r-project.org/logo/Rlogo.svg)
+:::
+
+::::
+
+## RとRStudioについて
+
+:::: {.columns}
+
+::: {.column width="50%"}
+- Rのコードを書く・実行する最適なソフト（タダ）
+- RStudioなしでもRは一応使えるけど、不便
+- **この授業ではRStudioを介してRを使う。**
+:::
+
+::: {.column width="50%"}
+![](https://posit.co/wp-content/uploads/2022/10/thumbnail-3.jpg)
+:::
+
+::::
+

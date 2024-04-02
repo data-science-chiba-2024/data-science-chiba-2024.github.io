@@ -46,7 +46,7 @@ execute:
 :::
 
 ::: {.column}
-![](images/chatgpt.png)
+![](../images/chatgpt.png)
 
 <https://chat.openai.com/>
 :::
@@ -127,7 +127,7 @@ execute:
 :::
 
 ::: {.column width="50%"}
-![](images/r_uses_crop.png)
+![](../images/r_uses_crop.png)
 
 [<https://www.linkedin.com/pulse/why-r-4-reason-learn-programming-language-business-corporate>]{.tiny}
 :::

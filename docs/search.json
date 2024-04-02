@@ -233,23 +233,23 @@
   {
     "objectID": "day2/index.html#ニッタ-ジョエル",
     "href": "day2/index.html#ニッタ-ジョエル",
-    "title": "第一回：なぜコードを使うのか？再現可能なデータ解析とは？",
-    "section": "",
-    "text": "研究テーマその１：シダ植物の進化と生態学\n研究テーマその２：データサイエンス用ソフトの開発\nhttps://www.joelnitta.com"
+    "title": "データサイエンス",
+    "section": "ニッタ ジョエル",
+    "text": "ニッタ ジョエル\n\n\n\n研究テーマその１：シダ植物の進化と生態学\n研究テーマその２：データサイエンス用ソフトの開発\nhttps://www.joelnitta.com"
   },
   {
     "objectID": "day2/index.html#データサイエンスとは-1",
     "href": "day2/index.html#データサイエンスとは-1",
-    "title": "第一回：なぜコードを使うのか？再現可能なデータ解析とは？",
+    "title": "データサイエンス",
     "section": "データサイエンスとは？",
-    "text": "データサイエンスとは？\n\nデータから洞察（インサイト）を得ること\n他の特徴\n\n大量のデータを使う（「ビッグデータ」）\nプログラミングを使う（python、R、など）\n多様な用途（学術研究、治療、産業、など）"
+    "text": "データサイエンスとは？\n\nデータから洞察（インサイト）を得ること"
   },
   {
     "objectID": "day2/index.html#データ解析の循環",
     "href": "day2/index.html#データ解析の循環",
-    "title": "第一回：なぜコードを使うのか？再現可能なデータ解析とは？",
+    "title": "データサイエンス",
     "section": "データ解析の循環",
-    "text": "データ解析の循環\n\nhttps://r4ds.hadley.nz/diagrams/data-science/base.png\n\n\nImport: データを入力する\nTidy and Transform: データを整える\nVisualize: データを可視化する\nModel: モデルを構築する（予測する）\nCommunicate: 結果を伝える"
+    "text": "データ解析の循環\n\nhttps://r4ds.hadley.nz/diagrams/data-science/base.png"
   },
   {
     "objectID": "day2/index.html#データ解析の循環-1",
@@ -264,5 +264,47 @@
     "title": "第一回：なぜコードを使うのか？再現可能なデータ解析とは？",
     "section": "",
     "text": "2024-04-09\nhttps://data-science-chiba-2024.github.io/day2/\n\n\n\n\n\n研究テーマその１：シダ植物の進化と生態学\n研究テーマその２：データサイエンス用ソフトの開発\nhttps://www.joelnitta.com"
+  },
+  {
+    "objectID": "day2/index.html#データサイエンスとは-2",
+    "href": "day2/index.html#データサイエンスとは-2",
+    "title": "データサイエンス",
+    "section": "データサイエンスとは？",
+    "text": "データサイエンスとは？\n\n他の特徴\n\n大量のデータを扱う（「ビッグデータ」）\n\n統計学を使う\n\nプログラミングを使う（python、R、など）\n様々な用がある（学術研究、治療、産業、など）"
+  },
+  {
+    "objectID": "day2/index.html#再現性とは-1",
+    "href": "day2/index.html#再現性とは-1",
+    "title": "データサイエンス",
+    "section": "再現性とは？",
+    "text": "再現性とは？\n\n他の人（将来の自分を含めて）があなたの解析を再度行って、同じ結果を得ることができること\nデータサイエンスにおいて、とても重要。再現性がなければ、「サイエンス」にならない！"
+  },
+  {
+    "objectID": "day2/index.html#再現可能にするには",
+    "href": "day2/index.html#再現可能にするには",
+    "title": "データサイエンス",
+    "section": "再現可能にするには・・",
+    "text": "再現可能にするには・・\n\nコードが必要\n\n自分が何をやったのか、記録が残る\n将来、同じ解析ができる\n\nコードとして残らない方法はよろしくない（エクセル、SPSSなど）"
+  },
+  {
+    "objectID": "day2/index.html#本授業ではrを使う",
+    "href": "day2/index.html#本授業ではrを使う",
+    "title": "データサイエンス",
+    "section": "本授業では、Rを使う",
+    "text": "本授業では、Rを使う\n\n\n\n無料\nデータ解析の機能が豊富\n多様なニーズに応えるパッケージ\nコミュニティー\n\n\n\nhttps://www.linkedin.com/pulse/why-r-4-reason-learn-programming-language-business-corporate"
+  },
+  {
+    "objectID": "day2/index.html#rとrstudioについて",
+    "href": "day2/index.html#rとrstudioについて",
+    "title": "データサイエンス",
+    "section": "RとRStudioについて",
+    "text": "RとRStudioについて\n\n\n\nRとは「R Project for Statistical Computing」という組織が提供しているオープンソース（タダの）プログラミング言語"
+  },
+  {
+    "objectID": "day2/index.html#rとrstudioについて-1",
+    "href": "day2/index.html#rとrstudioについて-1",
+    "title": "データサイエンス",
+    "section": "RとRStudioについて",
+    "text": "RとRStudioについて\n\n\n\nRのコードを書く・実行する最適なソフト（タダ）\nRStudioなしでもRは一応使えるけど、不便\nこの授業ではRStudioを介してRを使う。"
   }
 ]
