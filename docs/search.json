@@ -229,5 +229,40 @@
     "title": "データサイエンス",
     "section": "リンク",
     "text": "リンク\n\nシラバス"
+  },
+  {
+    "objectID": "day2/index.html#ニッタ-ジョエル",
+    "href": "day2/index.html#ニッタ-ジョエル",
+    "title": "第一回：なぜコードを使うのか？再現可能なデータ解析とは？",
+    "section": "",
+    "text": "研究テーマその１：シダ植物の進化と生態学\n研究テーマその２：データサイエンス用ソフトの開発\nhttps://www.joelnitta.com"
+  },
+  {
+    "objectID": "day2/index.html#データサイエンスとは-1",
+    "href": "day2/index.html#データサイエンスとは-1",
+    "title": "第一回：なぜコードを使うのか？再現可能なデータ解析とは？",
+    "section": "データサイエンスとは？",
+    "text": "データサイエンスとは？\n\nデータから洞察（インサイト）を得ること\n他の特徴\n\n大量のデータを使う（「ビッグデータ」）\nプログラミングを使う（python、R、など）\n多様な用途（学術研究、治療、産業、など）"
+  },
+  {
+    "objectID": "day2/index.html#データ解析の循環",
+    "href": "day2/index.html#データ解析の循環",
+    "title": "第一回：なぜコードを使うのか？再現可能なデータ解析とは？",
+    "section": "データ解析の循環",
+    "text": "データ解析の循環\n\nhttps://r4ds.hadley.nz/diagrams/data-science/base.png\n\n\nImport: データを入力する\nTidy and Transform: データを整える\nVisualize: データを可視化する\nModel: モデルを構築する（予測する）\nCommunicate: 結果を伝える"
+  },
+  {
+    "objectID": "day2/index.html#データ解析の循環-1",
+    "href": "day2/index.html#データ解析の循環-1",
+    "title": "データサイエンス",
+    "section": "データ解析の循環",
+    "text": "データ解析の循環\n\nImport: データを入力する\nTidy and Transform: データを整える\nVisualize: データを可視化する\nModel: モデルを構築する（予測する）\nCommunicate: 結果を伝える"
+  },
+  {
+    "objectID": "day2/index.html",
+    "href": "day2/index.html",
+    "title": "第一回：なぜコードを使うのか？再現可能なデータ解析とは？",
+    "section": "",
+    "text": "2024-04-09\nhttps://data-science-chiba-2024.github.io/day2/\n\n\n\n\n\n研究テーマその１：シダ植物の進化と生態学\n研究テーマその２：データサイエンス用ソフトの開発\nhttps://www.joelnitta.com"
   }
 ]
