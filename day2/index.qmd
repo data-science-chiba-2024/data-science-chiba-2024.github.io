@@ -126,3 +126,170 @@ execute:
 
 ::::
 
+## 教科書
+
+:::: {.columns}
+
+::: {.column width="50%"}
+- R for Data Science
+  - 英語版はオンラインで無料 [https://r4ds.had.co.nz/](https://r4ds.had.co.nz/)
+  - 日本語版は[アマゾン](https://www.amazon.co.jp/R%E3%81%A7%E3%81%AF%E3%81%98%E3%82%81%E3%82%8B%E3%83%87%E3%83%BC%E3%82%BF%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%82%B9-Hadley-Wickham/dp/487311814X)などから 
+:::
+
+::: {.column width="50%"}
+![](https://m.media-amazon.com/images/I/91WTLn1DrBL.jpg)
+:::
+
+::::
+
+## RStudioについて
+
+- 主に四つの**パネル**がある
+  - Source（コードを書く）
+  - Environment（今のRのセッションに入っているオブジェクトが表示される）
+  - R Console（Rに直接コマンドをする）
+  - Files and Plots（ファイルと図）
+
+---
+
+![](../images/rstudio_labeled.png)
+
+## Rを計算機として使う
+
+- RStudioのコンソール（左下のパネル）にカーソルを置いて、簡単な計算をしてみましょう：
+
+::: large
+
+```{r}
+2 * 20
+```
+
+:::
+
+おめでとうございます！Rプログラミングができました！
+
+## オブジェクト（変数）について
+
+- 次に、Rの中のデータを変数（Rでは、「オブジェクト Object」と呼ぶ）として保存しよう：
+
+::: large
+
+```{r}
+age <- 2 * 20
+```
+
+:::
+
+## オブジェクト（変数）について
+
+これだけでは何も返ってこない。
+
+変数の内容を確認するには、コンソールにその変数の名前を打てば良い：
+
+::: large
+
+```{r}
+age
+```
+
+:::
+
+## 関数とは
+
+何かの値（インプット）を受けて、処理して、計算結果（アウトプット）を返すもの
+
+::: center-x
+
+<img src="https://manamina.valuesccg.com/uploads/content/image/12292/__.png" alt="drawing" height="100">
+
+::: small
+<https://manamina.valuesccg.com/articles/756>
+:::
+
+:::
+
+## 関数とは
+
+関数の書き方：
+
+- 関数名(引数)
+
+例えば
+
+::: large
+
+```{r}
+round(3.1415, digits = 1)
+```
+
+:::
+
+## 関数とは
+
+関数の使い方を確認したい時は`?関数名`と打って、ヘルプファイルを参照すれば良い
+
+::: large
+
+```{r}
+#| eval: false
+?round
+```
+
+:::
+
+## パッケージとは
+
+- Rパッケージとは、Rが出来ることを大幅に増やす「追加」のソフト（関数のまとまり）
+  - 現在、**２万**近くのパッケージがある！
+
+## パッケージのインストール
+
+Rパッケージのインストールを行うには、`install.packages()`を使う：
+
+```{r}
+#| label: install
+#| echo: true
+#| eval: false
+install.packages("ggplot2")
+```
+
+一回インストールしたら、次回からはしなくて良いので、これはコードとして保存しない
+
+## パッケージのロード
+
+- パッケージをインストールしたら、使える状態するにはロードすることが必要
+  - インストールは一回でいい
+  - ロードは毎回必要
+
+`library()`関数でロードする：
+
+::: large
+
+```{r}
+library(ggplot2)
+```
+
+:::
+
+## tidyverse
+
+- `tidyverse`はデータサイエンス用パッケー**ジの集まり**のパッケージ
+  - `ggplot2`（可視化）
+  - `dplyr`（データの整理）
+  - `stringr`（文字データを扱う）
+  - など
+
+これからよく使うので、インストールしましょう。一気に出来るから、楽。
+
+```{r}
+#| label: install-tidyverse
+#| echo: true
+#| eval: false
+install.packages("tidyverse")
+```
+
+## `install.packages()`と`library()`の違い
+
+- `install.packages()`は一回だけで良い（パソコンにパッケージをダウンロードする）
+
+- `library()`はRを使う毎にしないといけない（パッケージを今回のRのセッションで使えるようにする）

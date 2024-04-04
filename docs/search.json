@@ -221,7 +221,7 @@
     "href": "index.html#スケジュール",
     "title": "データサイエンス",
     "section": "スケジュール",
-    "text": "スケジュール\n（全ての講義の録画はありません）\n\n第１回（2024-04-02）: 生成AIの基本、RとRStudioのインストール（オンデマンド）\n\nスライド\n録画\n\n第２回（2024-04-09）: なぜコードを使うのか？再現可能なデータ解析とは？\n第３回（2024-04-16）: GitとGitHub\n第４回（2024-04-23）: データの読み込みと整理\n第５回（2024-05-07）: データの可視化\n第６回（2024-05-14）: 再現可能な文書の書き方\n第７回（2024-05-21）: レポートの発表\n第８回（2024-05-28）: 再現性を高めるツール（オンデマンド）"
+    "text": "スケジュール\n（全ての講義の録画はありません）\n\n第１回（2024-04-02）: 生成AIの基本、RとRStudioのインストール（オンデマンド）\n\nスライド\n録画\n\n第２回（2024-04-09）: なぜコードを使うのか？再現可能なデータ解析とは？\n\nスライド\n\n第３回（2024-04-16）: GitとGitHub\n第４回（2024-04-23）: データの読み込みと整理\n第５回（2024-05-07）: データの可視化\n第６回（2024-05-14）: 再現可能な文書の書き方\n第７回（2024-05-21）: レポートの発表\n第８回（2024-05-28）: 再現性を高めるツール（オンデマンド）"
   },
   {
     "objectID": "index.html#リンク",
@@ -306,5 +306,103 @@
     "title": "データサイエンス",
     "section": "RとRStudioについて",
     "text": "RとRStudioについて\n\n\n\nRのコードを書く・実行する最適なソフト（タダ）\nRStudioなしでもRは一応使えるけど、不便\nこの授業ではRStudioを介してRを使う。"
+  },
+  {
+    "objectID": "day2/index.html#資料",
+    "href": "day2/index.html#資料",
+    "title": "データサイエンス",
+    "section": "資料",
+    "text": "資料\n\n\n\nR for Reproducible Scientific Analysis（日本語）\nR for Data Science\n\n英語版はオンラインで無料 https://r4ds.had.co.nz/\n日本語版はアマゾンなどから"
+  },
+  {
+    "objectID": "day2/index.html#rstudioについて",
+    "href": "day2/index.html#rstudioについて",
+    "title": "データサイエンス",
+    "section": "RStudioについて",
+    "text": "RStudioについて\n\n主に四つのパネルがある\n\nSource（コードを書く）\nEnvironment（今のRのセッションに入っているオブジェクトが表示される）\nR Console（Rに直接コマンドをする）\nFiles and Plots（ファイルと図）"
+  },
+  {
+    "objectID": "day2/index.html#rを計算機として使う",
+    "href": "day2/index.html#rを計算機として使う",
+    "title": "データサイエンス",
+    "section": "Rを計算機として使う",
+    "text": "Rを計算機として使う\n\nRStudioのコンソール（左下のパネル）にカーソルを置いて、簡単な計算をしてみましょう：\n\n\n\n2 * 20\n\n[1] 40\n\n\n\nおめでとうございます！Rプログラミングができました！"
+  },
+  {
+    "objectID": "day2/index.html#オブジェクト変数について",
+    "href": "day2/index.html#オブジェクト変数について",
+    "title": "データサイエンス",
+    "section": "オブジェクト（変数）について",
+    "text": "オブジェクト（変数）について\n\n次に、Rの中のデータを変数（Rでは、「オブジェクト Object」と呼ぶ）として保存しよう：\n\n\n\nage &lt;- 2 * 20"
+  },
+  {
+    "objectID": "day2/index.html#オブジェクト変数について-1",
+    "href": "day2/index.html#オブジェクト変数について-1",
+    "title": "データサイエンス",
+    "section": "オブジェクト（変数）について",
+    "text": "オブジェクト（変数）について\nこれだけでは何も返ってこない。\n変数の内容を確認するには、コンソールにその変数の名前を打てば良い：\n\n\nage\n\n[1] 40"
+  },
+  {
+    "objectID": "day2/index.html#関数とは",
+    "href": "day2/index.html#関数とは",
+    "title": "データサイエンス",
+    "section": "関数とは",
+    "text": "関数とは\n何かの値（インプット）を受けて、処理して、計算結果（アウトプット）を返すもの\n\n\n\nhttps://manamina.valuesccg.com/articles/756"
+  },
+  {
+    "objectID": "day2/index.html#関数とは-1",
+    "href": "day2/index.html#関数とは-1",
+    "title": "データサイエンス",
+    "section": "関数とは",
+    "text": "関数とは\n関数の書き方：\n\n関数名(引数)\n\n例えば\n\n\nround(3.1415, digits = 1)\n\n[1] 3.1"
+  },
+  {
+    "objectID": "day2/index.html#関数とは-2",
+    "href": "day2/index.html#関数とは-2",
+    "title": "データサイエンス",
+    "section": "関数とは",
+    "text": "関数とは\n関数の使い方を確認したい時は?関数名と打って、ヘルプファイルを参照すれば良い\n\n\n?round"
+  },
+  {
+    "objectID": "day2/index.html#パッケージとは",
+    "href": "day2/index.html#パッケージとは",
+    "title": "データサイエンス",
+    "section": "パッケージとは",
+    "text": "パッケージとは\n\nRパッケージとは、Rが出来ることを大幅に増やす「追加」のソフト（関数のまとまり）\n\n現在、２万近くのパッケージがある！"
+  },
+  {
+    "objectID": "day2/index.html#パッケージのインストール",
+    "href": "day2/index.html#パッケージのインストール",
+    "title": "データサイエンス",
+    "section": "パッケージのインストール",
+    "text": "パッケージのインストール\nRパッケージのインストールを行うには、install.packages()を使う：\n\ninstall.packages(\"ggplot2\")\n\n一回インストールしたら、次回からはしなくて良いので、これはコードとして保存しない"
+  },
+  {
+    "objectID": "day2/index.html#パッケージのロード",
+    "href": "day2/index.html#パッケージのロード",
+    "title": "データサイエンス",
+    "section": "パッケージのロード",
+    "text": "パッケージのロード\n\nパッケージをインストールしたら、使える状態するにはロードすることが必要\n\nインストールは一回でいい\nロードは毎回必要\n\n\nlibrary()関数でロードする：\n\n\nlibrary(ggplot2)"
+  },
+  {
+    "objectID": "day2/index.html#tidyverse",
+    "href": "day2/index.html#tidyverse",
+    "title": "データサイエンス",
+    "section": "tidyverse",
+    "text": "tidyverse\n\ntidyverseはデータサイエンス用パッケージの集まりのパッケージ\n\nggplot2（可視化）\ndplyr（データの整理）\nstringr（文字データを扱う）\nなど\n\n\nこれからよく使うので、インストールしましょう。一気に出来るから、楽。\n\ninstall.packages(\"tidyverse\")"
+  },
+  {
+    "objectID": "day2/index.html#install.packagesとlibraryの違い",
+    "href": "day2/index.html#install.packagesとlibraryの違い",
+    "title": "データサイエンス",
+    "section": "install.packages()とlibrary()の違い",
+    "text": "install.packages()とlibrary()の違い\n\ninstall.packages()は一回だけで良い（パソコンにパッケージをダウンロードする）\nlibrary()はRを使う毎にしないといけない（パッケージを今回のRのセッションで使えるようにする）"
+  },
+  {
+    "objectID": "day2/index.html#教科書",
+    "href": "day2/index.html#教科書",
+    "title": "データサイエンス",
+    "section": "教科書",
+    "text": "教科書\n\n\n\nR for Data Science\n\n英語版はオンラインで無料 https://r4ds.had.co.nz/\n日本語版はアマゾンなどから"
   }
 ]
