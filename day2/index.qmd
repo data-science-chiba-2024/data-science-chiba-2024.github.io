@@ -13,6 +13,8 @@ execute:
 
 <https://data-science-chiba-2024.github.io/day2/>
 
+# ガイダンス
+
 ## ニッタ ジョエル
 
 :::: {.columns}
@@ -31,7 +33,38 @@ execute:
 
 ::::
 
+## スケジュール（仮） {.smaller}
+
+1. RとRStudioのインストール、生成AIの基本（オンデマンド）
+2. **なぜコードを使うのか？再現可能なデータ解析とは？**
+3. コードの共有と再現性にに必須なツール「Git」について学ぶ。
+4. データの読み込みと整理
+5. データの可視化
+6. 再現可能な文書の書き方
+7. レポートの発表
+8. 再現性を高めるツール（オンデマンド）
+
+[内容は**ニーズに合わせる**]{.medlarge}
+
+## サイト
+
+<https://data-science-chiba-2024.github.io/>
+
+スライドと動画のリンクが掲載されている
+
+## オフィスアワー
+
+予約制（<joelnitta@chiba-u.jp>までメールにて連絡ください）。対面・非対面での相談、ご希望とご都合に合わせて対応いたします。
+
+## 課題
+
+- 授業のディスカッションに参加する
+- Rを使って、**自分の研究に関する**レポートを書く
+
 # データサイエンスとは？
+
+<!-- icebreaker: write ideas about "what is data science?" on stickies, collect
+them, and discuss -->
 
 ## データサイエンスとは？
 
@@ -62,6 +95,9 @@ execute:
 ![](https://r4ds.hadley.nz/diagrams/data-science/base.png)
 
 # 再現性とは？
+
+<!-- another activity, similar to the first: discuss "what is reproducibility?"
+-->
 
 ## 再現性とは？
 

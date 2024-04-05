@@ -404,5 +404,40 @@
     "title": "データサイエンス",
     "section": "教科書",
     "text": "教科書\n\n\n\nR for Data Science\n\n英語版はオンラインで無料 https://r4ds.had.co.nz/\n日本語版はアマゾンなどから"
+  },
+  {
+    "objectID": "day2/index.html#スケジュール",
+    "href": "day2/index.html#スケジュール",
+    "title": "データサイエンス",
+    "section": "スケジュール",
+    "text": "スケジュール\n\nRとRStudioのインストール、生成AIの基本（オンデマンド）\nなぜコードを使うのか？再現可能なデータ解析とは？\nコードの共有と再現性にに必須なツール「Git」について学ぶ。\nデータの読み込みと整理\nデータの可視化\n再現可能な文書の書き方\nレポートの発表\n再現性を高めるツール（オンデマンド）\n\n内容はニーズに合わせる"
+  },
+  {
+    "objectID": "day2/index.html#サイト",
+    "href": "day2/index.html#サイト",
+    "title": "データサイエンス",
+    "section": "サイト",
+    "text": "サイト\nhttps://data-science-chiba-2024.github.io/\nスライドと動画のリンクが掲載されている"
+  },
+  {
+    "objectID": "day2/index.html#オフィスアワー",
+    "href": "day2/index.html#オフィスアワー",
+    "title": "データサイエンス",
+    "section": "オフィスアワー",
+    "text": "オフィスアワー\n予約制（joelnitta@chiba-u.jpまでメールにて連絡ください）。対面・非対面での相談、ご希望とご都合に合わせて対応いたします。"
+  },
+  {
+    "objectID": "day2/index.html#課題",
+    "href": "day2/index.html#課題",
+    "title": "データサイエンス",
+    "section": "課題",
+    "text": "課題\n\n授業のディスカッションに参加する\nRを使って、自分の研究に関するレポートを書く"
+  },
+  {
+    "objectID": "day2/index.html#スケジュール仮",
+    "href": "day2/index.html#スケジュール仮",
+    "title": "データサイエンス",
+    "section": "スケジュール（仮）",
+    "text": "スケジュール（仮）\n\nRとRStudioのインストール、生成AIの基本（オンデマンド）\nなぜコードを使うのか？再現可能なデータ解析とは？\nコードの共有と再現性にに必須なツール「Git」について学ぶ。\nデータの読み込みと整理\nデータの可視化\n再現可能な文書の書き方\nレポートの発表\n再現性を高めるツール（オンデマンド）\n\n内容はニーズに合わせる"
   }
 ]
