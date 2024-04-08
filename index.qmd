@@ -11,21 +11,41 @@ toc: false
 
 データ解析は、理系だけではなく、文系も含めた多くの学問分野で使われるようになっている。本授業では、特に大学院生の研究に応用できるようにデータサイエンスの基本的なスキルとツールを学ぶ。主に「R」プログラミング言語を使用するが、大学院生のニーズに合わせて、必要なツールがあれば適宜授業の内容に加える。
 
+## 教科書
+
+- [R for Data Science (2nd Edition) by Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund](https://r4ds.hadley.nz)
+  - アマゾンには[第１エディションの翻訳](https://www.amazon.co.jp/Data-Science-Transform-Visualize-Model/dp/1491910399/ref=sr_1_2?crid=1LT40JGBKBE7B&dib=eyJ2IjoiMSJ9.Z1c-Zpi4mNudjpLRyuLhducKMb-YhxP24EK3mPHAaT5H6I_YQpDy0ZiscWF82DKAikv-M7lwWejexO95nHjrlzYnimhuR5TsrxMqJ3xzzyKt-MpXmv7F4blKBfY6qX0DfUN_PQ-4bl6CejwCLucudSL95GZMCfZGbLEHNQzcCtIwaeIVUebyC3vIlTf1_GfvpTEAISm-kZsSQBfO17vhW1IJe4k7PVF8dZBIg34EoKM7QPySNJp31Yfe3RXF3H_OJPWCLD9Dey5YK2b6F4TRs1xOFYECtZv25z83hy9-2fc.rr3weMHRTFsoSsue9htecVJLWPkGRlrwYtOb_p6g5Pg&dib_tag=se&keywords=r+for+data+science+2e&qid=1712609538&sprefix=R+for+data+science%2Caps%2C495&sr=8-2)がある
+
 ## スケジュール
+
+毎週のリーディングを講義の**前に**読んでください。
 
 （全ての講義の録画はありません）
 
-- 第１回（2024-04-02）: 生成AIの基本、RとRStudioのインストール（オンデマンド）
+- 第１回（2024-04-02）: **生成AIの基本、RとRStudioのインストール（オンデマンド）**
   - [スライド](day1/index.qmd)
   - [録画](https://youtu.be/PVTgdrTJKyM)
-- 第２回（2024-04-09）: なぜコードを使うのか？再現可能なデータ解析とは？
+- 第２回（2024-04-09）: **ガイダンス、データサイエンスとR入門**
   - [スライド](day2/index.qmd)
-- 第３回（2024-04-16）: GitとGitHub
-- 第４回（2024-04-23）: データの読み込みと整理
-- 第５回（2024-05-07）: データの可視化
-- 第６回（2024-05-14）: 再現可能な文書の書き方
-- 第７回（2024-05-21）: レポートの発表
-- 第８回（2024-05-28）: 再現性を高めるツール（オンデマンド）
+  - リーディング
+    - [R4DS Introduction](https://r4ds.hadley.nz/intro)
+    - [R4DS Chapter 2 (Workflow: Basics)](https://r4ds.hadley.nz/workflow-basics)
+- 第３回（2024-04-16）: **プロジェクトの整理とデータの読み込み**
+  - リーディング
+    - [R4DS Chapter 6 (Workflow: Scripts and Projects)](https://r4ds.hadley.nz/workflow-scripts)
+    - [R4DS Chapter 7 (Data Import)](https://r4ds.hadley.nz/data-import)
+- 第４回（2024-04-23）: **データの読み込みと整理**
+  - リーディング
+    - [R4DS Chapter 3 (Data Transformation)](https://r4ds.hadley.nz/data-transform)
+    - [R4DS Chapter 5 (Data Tidying)](https://r4ds.hadley.nz/data-tidy)
+- 第５回（2024-05-07）: **データの可視化**
+  - リーディング
+    - [R4DS Chapter 1 (Data Visualization)](https://r4ds.hadley.nz/data-visualize)
+- 第６回（2024-05-14）: **再現可能な文書の書き方**
+  - リーディング
+    - [R4DS Chapter 28 (Quarto)](https://r4ds.hadley.nz/quarto)
+- 第７回（2024-05-21）: **レポートの発表**
+- 第８回（2024-05-28）: **再現性を高めるツール（オンデマンド）**
 
 ## オフィスアワー
 

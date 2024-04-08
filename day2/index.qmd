@@ -33,12 +33,12 @@ execute:
 
 ::::
 
-## スケジュール（仮） {.smaller}
+## スケジュール {.smaller}
 
-1. RとRStudioのインストール、生成AIの基本（オンデマンド）
-2. **なぜコードを使うのか？再現可能なデータ解析とは？**
-3. コードの共有と再現性にに必須なツール「Git」について学ぶ。
-4. データの読み込みと整理
+1. 生成AIの基本、RとRStudioのインストール（オンデマンド）
+2. **ガイダンス、データサイエンスとR入門**
+3. プロジェクトの整理とデータの読み込み
+4. データの整理
 5. データの可視化
 6. 再現可能な文書の書き方
 7. レポートの発表
@@ -56,10 +56,48 @@ execute:
 
 予約制（<joelnitta@chiba-u.jp>までメールにて連絡ください）。対面・非対面での相談、ご希望とご都合に合わせて対応いたします。
 
-## 課題
+## 教科書
 
-- 授業のディスカッションに参加する
-- Rを使って、**自分の研究に関する**レポートを書く
+:::: {.columns}
+
+::: {.column width="50%"}
+- R for Data Science
+  - 英語版はオンラインで無料 [https://r4ds.had.co.nz/](https://r4ds.had.co.nz/)
+  - 日本語版（第１エディションのみ）は[アマゾン](https://www.amazon.co.jp/R%E3%81%A7%E3%81%AF%E3%81%98%E3%82%81%E3%82%8B%E3%83%87%E3%83%BC%E3%82%BF%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%82%B9-Hadley-Wickham/dp/487311814X)などから 
+:::
+
+::: {.column width="50%"}
+![](https://m.media-amazon.com/images/I/91ZTHIjueHL._SL1500_.jpg)
+:::
+
+::::
+
+## リーディング
+
+毎週のリーディングを講義の**前に**読んでください。
+
+- 第２回（2024-04-09）: ガイダンス、データサイエンスとR入門
+  - [R4DS Introduction](https://r4ds.hadley.nz/intro)
+  - [R4DS Chapter 2 (Workflow: Basics)](https://r4ds.hadley.nz/workflow-basics)
+- 第３回（2024-04-16）: プロジェクトの整理とデータの読み込み
+  - [R4DS Chapter 6 (Workflow: Scripts and Projects)](https://r4ds.hadley.nz/workflow-scripts)
+  - [R4DS Chapter 7 (Data Import)](https://r4ds.hadley.nz/data-import)
+- 第４回（2024-04-23）: データの読み込みと整理
+  - [R4DS Chapter 3 (Data Transformation)](https://r4ds.hadley.nz/data-transform)
+  - [R4DS Chapter 5 (Data Tidying)](https://r4ds.hadley.nz/data-tidy)
+- 第５回（2024-05-07）: データの可視化
+  - [R4DS Chapter 1 (Data Visualization)](https://r4ds.hadley.nz/data-visualize)
+- 第６回（2024-05-14）: 再現可能な文書の書き方
+  - [R4DS Chapter 28 (Quarto)](https://r4ds.hadley.nz/quarto)
+
+## 課題と評価
+
+- 宿題（25%）
+  - Moodleからダウンロード、提出
+  - 締め切り：次の週の授業まで
+- リーディング
+- 授業のディスカッションに参加する（25%）
+- Rを使って、**自分の研究に関する**レポートを書く（50%）
 
 # データサイエンスとは？
 
@@ -158,22 +196,6 @@ them, and discuss -->
 
 ::: {.column width="50%"}
 ![](https://posit.co/wp-content/uploads/2022/10/thumbnail-3.jpg)
-:::
-
-::::
-
-## 教科書
-
-:::: {.columns}
-
-::: {.column width="50%"}
-- R for Data Science
-  - 英語版はオンラインで無料 [https://r4ds.had.co.nz/](https://r4ds.had.co.nz/)
-  - 日本語版は[アマゾン](https://www.amazon.co.jp/R%E3%81%A7%E3%81%AF%E3%81%98%E3%82%81%E3%82%8B%E3%83%87%E3%83%BC%E3%82%BF%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%82%B9-Hadley-Wickham/dp/487311814X)などから 
-:::
-
-::: {.column width="50%"}
-![](https://m.media-amazon.com/images/I/91WTLn1DrBL.jpg)
 :::
 
 ::::

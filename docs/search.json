@@ -221,7 +221,7 @@
     "href": "index.html#スケジュール",
     "title": "データサイエンス",
     "section": "スケジュール",
-    "text": "スケジュール\n（全ての講義の録画はありません）\n\n第１回（2024-04-02）: 生成AIの基本、RとRStudioのインストール（オンデマンド）\n\nスライド\n録画\n\n第２回（2024-04-09）: なぜコードを使うのか？再現可能なデータ解析とは？\n\nスライド\n\n第３回（2024-04-16）: GitとGitHub\n第４回（2024-04-23）: データの読み込みと整理\n第５回（2024-05-07）: データの可視化\n第６回（2024-05-14）: 再現可能な文書の書き方\n第７回（2024-05-21）: レポートの発表\n第８回（2024-05-28）: 再現性を高めるツール（オンデマンド）"
+    "text": "スケジュール\n毎週のリーディングを講義の前に読んでください。\n（全ての講義の録画はありません）\n\n第１回（2024-04-02）: 生成AIの基本、RとRStudioのインストール（オンデマンド）\n\nスライド\n録画\n\n第２回（2024-04-09）: ガイダンス、データサイエンスとR入門\n\nスライド\nリーディング\n\nR4DS Introduction\nR4DS Chapter 2 (Workflow: Basics)\n\n\n第３回（2024-04-16）: プロジェクトの整理とデータの読み込み\n\nリーディング\n\nR4DS Chapter 6 (Workflow: Scripts and Projects)\nR4DS Chapter 7 (Data Import)\n\n\n第４回（2024-04-23）: データの読み込みと整理\n\nリーディング\n\nR4DS Chapter 3 (Data Transformation)\nR4DS Chapter 5 (Data Tidying)\n\n\n第５回（2024-05-07）: データの可視化\n\nリーディング\n\nR4DS Chapter 1 (Data Visualization)\n\n\n第６回（2024-05-14）: 再現可能な文書の書き方\n\nリーディング\n\nR4DS Chapter 28 (Quarto)\n\n\n第７回（2024-05-21）: レポートの発表\n第８回（2024-05-28）: 再現性を高めるツール（オンデマンド）"
   },
   {
     "objectID": "index.html#リンク",
@@ -403,14 +403,14 @@
     "href": "day2/index.html#教科書",
     "title": "データサイエンス",
     "section": "教科書",
-    "text": "教科書\n\n\n\nR for Data Science\n\n英語版はオンラインで無料 https://r4ds.had.co.nz/\n日本語版はアマゾンなどから"
+    "text": "教科書\n\n\n\nR for Data Science\n\n英語版はオンラインで無料 https://r4ds.had.co.nz/\n日本語版（第１エディションのみ）はアマゾンなどから"
   },
   {
     "objectID": "day2/index.html#スケジュール",
     "href": "day2/index.html#スケジュール",
     "title": "データサイエンス",
     "section": "スケジュール",
-    "text": "スケジュール\n\nRとRStudioのインストール、生成AIの基本（オンデマンド）\nなぜコードを使うのか？再現可能なデータ解析とは？\nコードの共有と再現性にに必須なツール「Git」について学ぶ。\nデータの読み込みと整理\nデータの可視化\n再現可能な文書の書き方\nレポートの発表\n再現性を高めるツール（オンデマンド）\n\n内容はニーズに合わせる"
+    "text": "スケジュール\n\n生成AIの基本、RとRStudioのインストール（オンデマンド）\nガイダンス、データサイエンスとR入門\nプロジェクトの整理とデータの読み込み\nデータの整理\nデータの可視化\n再現可能な文書の書き方\nレポートの発表\n再現性を高めるツール（オンデマンド）\n\n内容はニーズに合わせる"
   },
   {
     "objectID": "day2/index.html#サイト",
@@ -439,5 +439,26 @@
     "title": "データサイエンス",
     "section": "スケジュール（仮）",
     "text": "スケジュール（仮）\n\nRとRStudioのインストール、生成AIの基本（オンデマンド）\nなぜコードを使うのか？再現可能なデータ解析とは？\nコードの共有と再現性にに必須なツール「Git」について学ぶ。\nデータの読み込みと整理\nデータの可視化\n再現可能な文書の書き方\nレポートの発表\n再現性を高めるツール（オンデマンド）\n\n内容はニーズに合わせる"
+  },
+  {
+    "objectID": "day2/index.html#リーディング",
+    "href": "day2/index.html#リーディング",
+    "title": "データサイエンス",
+    "section": "リーディング",
+    "text": "リーディング\n毎週のリーディングを講義の前に読んでください。\n\n第２回（2024-04-09）: ガイダンス、データサイエンスとR入門\n\nR4DS Introduction\nR4DS Chapter 2 (Workflow: Basics)\n\n第３回（2024-04-16）: プロジェクトの整理とデータの読み込み\n\nR4DS Chapter 6 (Workflow: Scripts and Projects)\nR4DS Chapter 7 (Data Import)\n\n第４回（2024-04-23）: データの読み込みと整理\n\nR4DS Chapter 3 (Data Transformation)\nR4DS Chapter 5 (Data Tidying)\n\n第５回（2024-05-07）: データの可視化\n\nR4DS Chapter 1 (Data Visualization)\n\n第６回（2024-05-14）: 再現可能な文書の書き方\n\nR4DS Chapter 28 (Quarto)"
+  },
+  {
+    "objectID": "day2/index.html#課題と評価",
+    "href": "day2/index.html#課題と評価",
+    "title": "データサイエンス",
+    "section": "課題と評価",
+    "text": "課題と評価\n\n宿題（25%）\n\nMoodleからダウンロード、提出\n締め切り：次の週の授業まで\n\nリーディング\n授業のディスカッションに参加する（25%）\nRを使って、自分の研究に関するレポートを書く（50%）"
+  },
+  {
+    "objectID": "index.html#教科書",
+    "href": "index.html#教科書",
+    "title": "データサイエンス",
+    "section": "教科書",
+    "text": "教科書\n\nR for Data Science (2nd Edition) by Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund\n\nアマゾンには第１エディションの翻訳がある"
   }
 ]
