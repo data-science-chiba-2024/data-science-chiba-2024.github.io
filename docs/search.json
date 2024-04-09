@@ -298,14 +298,14 @@
     "href": "day2/index.html#rとrstudioについて",
     "title": "データサイエンス",
     "section": "RとRStudioについて",
-    "text": "RとRStudioについて\n\n\n\nRとは「R Project for Statistical Computing」という組織が提供しているオープンソース（タダの）プログラミング言語"
+    "text": "RとRStudioについて\n\n\n\nRとは「R Project for Statistical Computing」という組織が提供しているオープンソースプログラミング言語"
   },
   {
     "objectID": "day2/index.html#rとrstudioについて-1",
     "href": "day2/index.html#rとrstudioについて-1",
     "title": "データサイエンス",
     "section": "RとRStudioについて",
-    "text": "RとRStudioについて\n\n\n\nRのコードを書く・実行する最適なソフト（タダ）\nRStudioなしでもRは一応使えるけど、不便\nこの授業ではRStudioを介してRを使う。"
+    "text": "RとRStudioについて\n\n\n\nRのコードを書く・実行する最適なソフト（無料）\nRStudioなしでもRは一応使えるけど、不便\nこの授業ではRStudioを介してRを使う。"
   },
   {
     "objectID": "day2/index.html#資料",
@@ -445,7 +445,7 @@
     "href": "day2/index.html#リーディング",
     "title": "データサイエンス",
     "section": "リーディング",
-    "text": "リーディング\n毎週のリーディングを講義の前に読んでください。\n\n第２回（2024-04-09）: ガイダンス、データサイエンスとR入門\n\nR4DS Introduction\nR4DS Chapter 2 (Workflow: Basics)\n\n第３回（2024-04-16）: プロジェクトの整理とデータの読み込み\n\nR4DS Chapter 6 (Workflow: Scripts and Projects)\nR4DS Chapter 7 (Data Import)\n\n第４回（2024-04-23）: データの読み込みと整理\n\nR4DS Chapter 3 (Data Transformation)\nR4DS Chapter 5 (Data Tidying)\n\n第５回（2024-05-07）: データの可視化\n\nR4DS Chapter 1 (Data Visualization)\n\n第６回（2024-05-14）: 再現可能な文書の書き方\n\nR4DS Chapter 28 (Quarto)"
+    "text": "リーディング\n毎週のリーディングを講義の前に読んでください。\n\n第２回（2024-04-09）: ガイダンス、データサイエンスとR入門\n\nR4DS Introduction\nR4DS Chapter 2 (Workflow: Basics)\n\n第３回（2024-04-16）: プロジェクトの整理とデータの読み込み\n\nR4DS Chapter 6 (Workflow: Scripts and Projects)\nR4DS Chapter 7 (Data Import)"
   },
   {
     "objectID": "day2/index.html#課題と評価",
@@ -460,5 +460,12 @@
     "title": "データサイエンス",
     "section": "教科書",
     "text": "教科書\n\nR for Data Science (2nd Edition) by Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund\n\nアマゾンには第１エディションの翻訳がある"
+  },
+  {
+    "objectID": "day2/index.html#リーディング-1",
+    "href": "day2/index.html#リーディング-1",
+    "title": "データサイエンス",
+    "section": "リーディング",
+    "text": "リーディング\n\n第４回（2024-04-23）: データの読み込みと整理\n\nR4DS Chapter 3 (Data Transformation)\nR4DS Chapter 5 (Data Tidying)\n\n第５回（2024-05-07）: データの可視化\n\nR4DS Chapter 1 (Data Visualization)\n\n第６回（2024-05-14）: 再現可能な文書の書き方\n\nR4DS Chapter 28 (Quarto)"
   }
 ]

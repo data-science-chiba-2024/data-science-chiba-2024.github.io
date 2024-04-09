@@ -7,7 +7,7 @@ execute:
   echo: true
 ---
 
-# 第一回：なぜコードを使うのか？再現可能なデータ解析とは？
+# 第一回：ガイダンス、データサイエンスとR入門
 
 2024-04-09
 
@@ -67,12 +67,12 @@ execute:
 :::
 
 ::: {.column width="50%"}
-![](https://m.media-amazon.com/images/I/91ZTHIjueHL._SL1500_.jpg)
+![](https://m.media-amazon.com/images/I/91ZTHIjueHL._SL1500_.jpg){height=400px}
 :::
 
 ::::
 
-## リーディング
+## リーディング {.smaller}
 
 毎週のリーディングを講義の**前に**読んでください。
 
@@ -82,6 +82,9 @@ execute:
 - 第３回（2024-04-16）: プロジェクトの整理とデータの読み込み
   - [R4DS Chapter 6 (Workflow: Scripts and Projects)](https://r4ds.hadley.nz/workflow-scripts)
   - [R4DS Chapter 7 (Data Import)](https://r4ds.hadley.nz/data-import)
+
+## リーディング {.smaller}
+
 - 第４回（2024-04-23）: データの読み込みと整理
   - [R4DS Chapter 3 (Data Transformation)](https://r4ds.hadley.nz/data-transform)
   - [R4DS Chapter 5 (Data Tidying)](https://r4ds.hadley.nz/data-tidy)
@@ -175,7 +178,7 @@ them, and discuss -->
 :::: {.columns}
 
 ::: {.column width="50%"}
-- Rとは「R Project for Statistical Computing」という組織が提供しているオープンソース（タダの）プログラミング言語
+- Rとは「R Project for Statistical Computing」という組織が提供しているオープンソースプログラミング言語
 :::
 
 ::: {.column width="50%"}
@@ -189,7 +192,7 @@ them, and discuss -->
 :::: {.columns}
 
 ::: {.column width="50%"}
-- Rのコードを書く・実行する最適なソフト（タダ）
+- Rのコードを書く・実行する最適なソフト（無料）
 - RStudioなしでもRは一応使えるけど、不便
 - **この授業ではRStudioを介してRを使う。**
 :::
