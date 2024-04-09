@@ -403,7 +403,7 @@
     "href": "day2/index.html#教科書",
     "title": "データサイエンス",
     "section": "教科書",
-    "text": "教科書\n\n\n\nR for Data Science\n\n英語版はオンラインで無料 https://r4ds.had.co.nz/\n日本語版（第１エディションのみ）はアマゾンなどから"
+    "text": "教科書\n\n\n\nR for Data Science (2nd edition)\n\n英語版はオンラインで無料 https://r4ds.hadley.nz/\n日本語版（第１エディションのみ）はアマゾンなどから"
   },
   {
     "objectID": "day2/index.html#スケジュール",
@@ -466,6 +466,6 @@
     "href": "day2/index.html#リーディング-1",
     "title": "データサイエンス",
     "section": "リーディング",
-    "text": "リーディング\n\n第４回（2024-04-23）: データの読み込みと整理\n\nR4DS Chapter 3 (Data Transformation)\nR4DS Chapter 5 (Data Tidying)\n\n第５回（2024-05-07）: データの可視化\n\nR4DS Chapter 1 (Data Visualization)\n\n第６回（2024-05-14）: 再現可能な文書の書き方\n\nR4DS Chapter 28 (Quarto)"
+    "text": "リーディング\n\n第４回（2024-04-23）: データの整理\n\nR4DS Chapter 3 (Data Transformation)\nR4DS Chapter 5 (Data Tidying)\n\n第５回（2024-05-07）: データの可視化\n\nR4DS Chapter 1 (Data Visualization)\n\n第６回（2024-05-14）: 再現可能な文書の書き方\n\nR4DS Chapter 28 (Quarto)"
   }
 ]
