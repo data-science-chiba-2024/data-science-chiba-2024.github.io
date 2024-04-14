@@ -1,0 +1,119 @@
+---
+format:
+  revealjs:
+    incremental: false
+    css: ../styles.css
+execute: 
+  echo: true
+---
+
+<link rel="stylesheet" href="https://unpkg.com/keyboard-css@1.2.4/dist/css/main.min.css" />
+
+# 第３回：プロジェクトの整理とデータの読み込み
+
+2024-04-16
+
+<https://data-science-chiba-2024.github.io/day3/>
+
+## スクリプトについて
+
+- 今までは直接Rにコマンドを出していたけど、毎回そうするのは効率が良くない。
+
+- 作業を繰り返す場合や再現する場合は**スクリプト**(テキストファイル)が必要。
+
+- Rスクリプトの拡張は`.R`か`.r`。
+
+## スクリプトの作成と保存
+
+- 作成
+  - `File` ➡︎ `New File` ➡︎ `R Script`をクリック
+
+- 保存
+  - `File` ➡︎ `Save As...`をクリックかファイルのアイコンをクリック。
+
+- スクリプトの名前はなるべくローマ字を使うように（あとあと公開する時のため）
+
+## スクリプトからコードを使う
+
+以下のコードをスクリプトに書いて、`script.R`としてデスクトップに保存しましょう（コードの詳細はまた後で学ぶ）。
+
+```r
+library(tidyverse)
+
+ggplot(diamonds, aes(x = carat, y = price)) + 
+  geom_hex()
+```
+
+## スクリプトからコードを使う
+
+- カーソルが現在位置している行をコンソールに送る：<kbd class="kbc-button">Ctrl</kbd>（あるいは<kbd class="kbc-button">⌘</kbd>） + <kbd class="kbc-button">Enter</kbd>
+
+- 今開いているスクリプトの行を**全て**コンソールに送る：<kbd class="kbc-button">Ctrl</kbd>（あるいは<kbd class="kbc-button">⌘</kbd>） + <kbd class="kbc-button">Shift</kbd>+ <kbd class="kbc-button">Enter</kbd>
+
+## RStudioによる警告
+
+スクリプトに間違いが入っている場合、RStudioはそれを教えてくれる（バツマークと赤い線）：
+
+![](https://r4ds.hadley.nz/screenshots/rstudio-diagnostic.png){height="200"}
+
+## スクリプトの書き方
+
+- **読みやすさ**と**覚えやすさ**を優先しましょう。
+
+- Rは大文字と小文字を区別するので、小文字に揃えた方が覚えやく、間違いが少ない（例えば、`Data`ではなく、`data`）。
+
+- 変数名にはスペースが使えないので、`_`を使いましょう（例えば、`data_set_1`など）。
+
+## スクリプトの書き方
+
+- コメント（Rが無視する場所）を`#`で書く
+  - 例えば、`# this is a comment`
+
+- コメントは**自分用のメモ**
+  - 未来の自分が、今の自分が何をやったのか、分かるように書く。
+  - まだ慣れていないうちには特にたくさん書きましょう。
+
+## ファイル名も整えましょう
+
+::: {.columns}
+::: {.column}
+
+NG ❌
+
+```
+alternative model.R
+code for exploratory analysis.r
+finalreport.qmd
+FinalReport.qmd
+fig 1.png
+Figure_02.png
+model_first_try.R
+run-first.r
+temp.txt
+```
+
+:::
+::: {.column}
+
+OK ✅
+
+```
+01_load_data.R
+02_exploratory_analysis.R
+03_model_approach_1.R
+04_model_approach_2.R
+fig_01.png
+fig_02.png
+report_2022_03_20.qmd
+report_2022_04_02.qmd
+report_draft_notes.txt
+```
+
+:::
+:::
+
+## プロジェクトについて
+
+- スクリプトとしてコードを保存をするのはいいけど、解析が進むと複数のスクリプトとデータを整理する必要が生じる
+
+- RStudioには「Project」機能がある

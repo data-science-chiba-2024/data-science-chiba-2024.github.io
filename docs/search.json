@@ -467,5 +467,68 @@
     "title": "データサイエンス",
     "section": "リーディング",
     "text": "リーディング\n\n第４回（2024-04-23）: データの整理\n\nR4DS Chapter 3 (Data Transformation)\nR4DS Chapter 5 (Data Tidying)\n\n第５回（2024-05-07）: データの可視化\n\nR4DS Chapter 1 (Data Visualization)\n\n第６回（2024-05-14）: 再現可能な文書の書き方\n\nR4DS Chapter 28 (Quarto)"
+  },
+  {
+    "objectID": "day3/index.html#スクリプトについて",
+    "href": "day3/index.html#スクリプトについて",
+    "title": "データサイエンス",
+    "section": "スクリプトについて",
+    "text": "スクリプトについて\n\n今までは直接Rにコマンドを出していたけど、毎回そうするのは効率が良くない。\n作業を繰り返す場合や再現する場合はスクリプト(テキストファイル)が必要。\nRスクリプトの拡張は.Rか.r。"
+  },
+  {
+    "objectID": "day3/index.html#スクリプトの作成と保存",
+    "href": "day3/index.html#スクリプトの作成と保存",
+    "title": "データサイエンス",
+    "section": "スクリプトの作成と保存",
+    "text": "スクリプトの作成と保存\n\n作成\n\nFile ➡︎ New File ➡︎ R Scriptをクリック\n\n保存\n\nFile ➡︎ Save As...をクリックかファイルのアイコンをクリック。\n\nスクリプトの名前はなるべくローマ字を使うように（あとあと公開する時のため）"
+  },
+  {
+    "objectID": "day3/index.html#スクリプトからコードを使う",
+    "href": "day3/index.html#スクリプトからコードを使う",
+    "title": "データサイエンス",
+    "section": "スクリプトからコードを使う",
+    "text": "スクリプトからコードを使う\n以下のコードをスクリプトに書いて、script.Rとしてデスクトップに保存しましょう（コードの詳細はまた後で学ぶ）。\nlibrary(tidyverse)\n\nggplot(diamonds, aes(x = carat, y = price)) + \n  geom_hex()"
+  },
+  {
+    "objectID": "day3/index.html#スクリプトからコードを使う-1",
+    "href": "day3/index.html#スクリプトからコードを使う-1",
+    "title": "データサイエンス",
+    "section": "スクリプトからコードを使う",
+    "text": "スクリプトからコードを使う\n\nカーソルが現在位置している行をコンソールに送る：Ctrl（あるいは⌘） + Enter\n今開いているスクリプトの行を全てコンソールに送る：Ctrl（あるいは⌘） + Shift+ Enter"
+  },
+  {
+    "objectID": "day3/index.html#スクリプトの書き方",
+    "href": "day3/index.html#スクリプトの書き方",
+    "title": "データサイエンス",
+    "section": "スクリプトの書き方",
+    "text": "スクリプトの書き方\n\n読みやすさと覚えやすさを優先しましょう。\nRは大文字と小文字を区別するので、小文字に揃えた方が覚えやく、間違いが少ない（例えば、Dataではなく、data）。\n変数名にはスペースが使えないので、_を使いましょう（例えば、data_set_1など）。"
+  },
+  {
+    "objectID": "day3/index.html#rstudioによる警告",
+    "href": "day3/index.html#rstudioによる警告",
+    "title": "データサイエンス",
+    "section": "RStudioによる警告",
+    "text": "RStudioによる警告\nスクリプトに間違いが入っている場合、RStudioはそれを教えてくれる（バツマークと赤い線）："
+  },
+  {
+    "objectID": "day3/index.html#ファイル名も整えましょう",
+    "href": "day3/index.html#ファイル名も整えましょう",
+    "title": "データサイエンス",
+    "section": "ファイル名も整えましょう",
+    "text": "ファイル名も整えましょう\n\n\nNG ❌\nalternative model.R\ncode for exploratory analysis.r\nfinalreport.qmd\nFinalReport.qmd\nfig 1.png\nFigure_02.png\nmodel_first_try.R\nrun-first.r\ntemp.txt\n\nOK ✅\n01_load_data.R\n02_exploratory_analysis.R\n03_model_approach_1.R\n04_model_approach_2.R\nfig_01.png\nfig_02.png\nreport_2022_03_20.qmd\nreport_2022_04_02.qmd\nreport_draft_notes.txt"
+  },
+  {
+    "objectID": "day3/index.html#スクリプトの書き方-1",
+    "href": "day3/index.html#スクリプトの書き方-1",
+    "title": "データサイエンス",
+    "section": "スクリプトの書き方",
+    "text": "スクリプトの書き方\n\nコメント（Rが無視する場所）を#で書く\n\n例えば、# this is a comment\n\nコメントは自分用のメモ\n\n未来の自分が、今の自分が何をやったのか、分かるように書く。\nまだ慣れていないうちには特にたくさん書きましょう。"
+  },
+  {
+    "objectID": "day3/index.html#プロジェクトについて",
+    "href": "day3/index.html#プロジェクトについて",
+    "title": "データサイエンス",
+    "section": "プロジェクトについて",
+    "text": "プロジェクトについて\n\nスクリプトとしてコードを保存をするのはいいけど、解析が進むと複数のスクリプトとデータを整理する必要が生じる\nRStudioには「Project」機能がある"
   }
 ]
