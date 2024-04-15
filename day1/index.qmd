@@ -7,7 +7,7 @@ execute:
   echo: true
 ---
 
-# 第一回：生成AIの基本、RとRStudioのインストール
+# 第１回：生成AIの基本、RとRStudioのインストール
 
 2024-04-02
 
