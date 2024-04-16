@@ -8,9 +8,9 @@
 <link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.4.549">
+  <meta name="generator" content="quarto-1.3.450">
 
-  <title>データサイエンス</title>
+  <title>データサイエンス – index</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -30,7 +30,7 @@
     }
     /* CSS for syntax highlighting */
     pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { line-height: 1.25; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
     pre > code.sourceCode > span:empty { height: 1.2em; }
     .sourceCode { overflow: visible; }
     code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -221,8 +221,7 @@
   }
 
   .callout.callout-titled .callout-body > .callout-content > :last-child {
-    padding-bottom: 0.5rem;
-    margin-bottom: 0;
+    margin-bottom: 0.5rem;
   }
 
   .callout.callout-titled .callout-icon::before {
@@ -391,15 +390,12 @@
     <div class="slides">
 
 
-<section class="slide level2">
-
-<p><link rel="stylesheet" href="https://unpkg.com/keyboard-css@1.2.4/dist/css/main.min.css"></p>
-</section>
 <section>
 <section id="第３回プロジェクトの整理とデータの読み込み" class="title-slide slide level1 center">
 <h1>第３回：プロジェクトの整理とデータの読み込み</h1>
 <p>2024-04-16</p>
 <p><a href="https://data-science-chiba-2024.github.io/day3/" class="uri">https://data-science-chiba-2024.github.io/day3/</a></p>
+<p><link rel="stylesheet" href="https://unpkg.com/keyboard-css@1.2.4/dist/css/main.min.css"></p>
 </section>
 <section id="スクリプトについて" class="slide level2">
 <h2>スクリプトについて</h2>
@@ -426,10 +422,10 @@
 <section id="スクリプトからコードを使う" class="slide level2">
 <h2>スクリプトからコードを使う</h2>
 <p>以下のコードをスクリプトに書いて、<code>script.R</code>としてデスクトップに保存しましょう（コードの詳細はまた後で学ぶ）。</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a><span class="fu">library</span>(tidyverse)</span>
-<span id="cb1-2"><a></a></span>
-<span id="cb1-3"><a></a><span class="fu">ggplot</span>(diamonds, <span class="fu">aes</span>(<span class="at">x =</span> carat, <span class="at">y =</span> price)) <span class="sc">+</span> </span>
-<span id="cb1-4"><a></a>  <span class="fu">geom_hex</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb1-2"><a href="#cb1-2"></a></span>
+<span id="cb1-3"><a href="#cb1-3"></a><span class="fu">ggplot</span>(diamonds, <span class="fu">aes</span>(<span class="at">x =</span> carat, <span class="at">y =</span> price)) <span class="sc">+</span> </span>
+<span id="cb1-4"><a href="#cb1-4"></a>  <span class="fu">geom_hex</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="スクリプトからコードを使う-1" class="slide level2">
 <h2>スクリプトからコードを使う</h2>
@@ -496,14 +492,363 @@ report_draft_notes.txt</code></pre>
 <section id="プロジェクトについて" class="slide level2">
 <h2>プロジェクトについて</h2>
 <ul>
-<li><p>スクリプトとしてコードを保存をするのはいいけど、解析が進むと複数のスクリプトとデータを整理する必要が生じる</p></li>
-<li><p>RStudioには「Project」機能がある</p></li>
+<li><p>スクリプトとしてコードを保存をするのはいいけど、解析が進むと複数のスクリプトとデータを<strong>整理する必要が生じる</strong></p></li>
+<li><p>RStudioの<strong>「Project」機能</strong>によって、スクリプトとデータ（など）の整理ができる</p></li>
+</ul>
+</section>
+<section id="新しいプロジェクトを作る" class="slide level2">
+<h2>新しいプロジェクトを作る</h2>
+<ul>
+<li><code>File</code> ➡︎ <code>New Project</code> ➡︎ <code>New Directory</code> ➡︎ <code>New Project</code> をクリック
+<ul>
+<li><strong>プロジェクト名</strong>と<strong>場所</strong>を入力（今回は<code>r4ds</code>にしましょう）</li>
+<li>分かりやすい場所がおすすめ（デスクトップにしましょう）</li>
+</ul></li>
+<li>今回は”Create a git repository”をクリックしないけど、本当はgitも使った方がいい（またあとで説明します）</li>
+</ul>
+</section>
+<section class="slide level2">
+
+
+<img data-src="../images/new_project.png" class="r-stretch"></section>
+<section id="新しいプロジェクトを作る-1" class="slide level2">
+<h2>新しいプロジェクトを作る</h2>
+<ul>
+<li><p>プロジェクト名の入力が終わると、RStudioが再度立ち上がる</p></li>
+<li><p>ファイルパネル（右下）をよく見てください。今はRがどこに「います」か？</p></li>
+</ul>
+</section>
+<section id="新しいプロジェクトを作る-2" class="slide level2">
+<h2>新しいプロジェクトを作る</h2>
+<ul>
+<li>右下の「ファイル」パネルを使って、<code>data</code>というフォルダーを作りましょう
+<ul>
+<li>あとで、このフォルダーにこれから解析するデータを置く</li>
+</ul></li>
 </ul>
 
-<div class="quarto-auto-generated-content">
+<img data-src="../images/new_folder.png" class="r-stretch"></section>
+<section id="rprojファイルについて" class="slide level2">
+<h2>.Rprojファイルについて</h2>
+<ul>
+<li><p>新しいプロジェクトには、<code>r4ds.Rproj</code>ファイルが入っている</p></li>
+<li><p><code>.Rproj</code>ファイルの中身はは基本的にを<strong>触らない</strong></p>
+<ul>
+<li>再度プロジェクトを開く時に使う（ダブルクリック）</li>
+</ul></li>
+</ul>
+
+<img data-src="../images/rproj_icon.png" class="r-stretch"></section>
+<section id="作業ディレクトリについて" class="slide level2">
+<h2>作業ディレクトリについて</h2>
+<ul>
+<li><p>「作業ディレクトリ」（“working directory”）というのは、今Rが今「いる」場所のこと</p></li>
+<li><p><code>getwd()</code>で確認できる：</p></li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1"></a><span class="fu">getwd</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "/Users/joelnitta/Desktop/r4ds"</code></pre>
+</div>
+</div>
+</section>
+<section id="作業ディレクトリについて-1" class="slide level2">
+<h2>作業ディレクトリについて</h2>
+<ul>
+<li>時々、他のスクリプトを見ると、<code>set.wd()</code>という関数を目にする
+<ul>
+<li>例：<code>set.wd("/Users/joelnitta/analysis/")</code></li>
+<li>後ろの部分は「パス」と言う（パソコンの中の住所のような物）</li>
+</ul></li>
+</ul>
+</section>
+<section id="作業ディレクトリについて-2" class="slide level2">
+<h2>作業ディレクトリについて</h2>
+<ul>
+<li>でも、多くの場合、<strong>他の人のパソコンにあるパスは自分のパソコンに存在しない</strong>
+<ul>
+<li><code>.Rproj</code>を使えば、<code>set.wd()</code>を使う必要がない</li>
+</ul></li>
+<li>なので、<strong><code>set.wd()</code>は使わないようにしましょう。</strong></li>
+</ul>
+</section>
+<section id="プロジェクトにスクリプトを置きましょう" class="slide level2">
+<h2>プロジェクトにスクリプトを置きましょう</h2>
+<p>以下のコードを書いて、スクリプトを<code>diamonds.R</code>として<code>r4ds</code>プロジェクトに保存して、実行しましょう：</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb6-2"><a href="#cb6-2"></a></span>
+<span id="cb6-3"><a href="#cb6-3"></a><span class="fu">ggplot</span>(diamonds, <span class="fu">aes</span>(<span class="at">x =</span> carat, <span class="at">y =</span> price)) <span class="sc">+</span> </span>
+<span id="cb6-4"><a href="#cb6-4"></a>  <span class="fu">geom_hex</span>()</span>
+<span id="cb6-5"><a href="#cb6-5"></a><span class="fu">ggsave</span>(<span class="st">"diamonds.png"</span>)</span>
+<span id="cb6-6"><a href="#cb6-6"></a></span>
+<span id="cb6-7"><a href="#cb6-7"></a><span class="fu">write_csv</span>(diamonds, <span class="st">"data/diamonds.csv"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>このスクリプトは何をするのでしょうか？</p>
+</section>
+<section id="コードによる再現性" class="slide level2">
+<h2>コードによる再現性</h2>
+<ul>
+<li><p><code>diamonds.R</code>は<code>diamonds.png</code>というグラフを作る。</p></li>
+<li><p><code>diamonds.png</code>を消しましょう。</p>
+<ul>
+<li>解析結果が消えてしまった！どうしよう！？</li>
+</ul></li>
+</ul>
+</section>
+<section id="コードによる再現性-1" class="slide level2">
+<h2>コードによる再現性</h2>
+<ul>
+<li>ご心配なく！
+<ul>
+<li>再度<code>diamonds.R</code>を実行してください（<kbd class="kbc-button">Ctrl</kbd>（あるいは<kbd class="kbc-button">⌘</kbd>） + <kbd class="kbc-button">Shift</kbd>+ <kbd class="kbc-button">Enter</kbd>）</li>
+</ul></li>
+<li>全く同じグラフが再度できた！つまり、<strong>再現</strong>しました。</li>
+</ul>
+<div class="fragment">
+<ul>
+<li><strong>コードとデータがあれば、解析結果はいつでも再現できる</strong></li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>絶対に必要なのは、<strong>コード</strong>と<strong>データ</strong>。結果は「使い捨て」と考えて良い。</li>
+</ul>
+</div>
+</section>
+<section id="ディスカッション" class="slide level2">
+<h2>ディスカッション</h2>
+<p><br></p>
+<p>データ整理やプロジェクトの管理はどうしていますか？</p>
+</section>
+<section id="データの読み込み" class="slide level2">
+<h2>データの読み込み</h2>
+<ul>
+<li><p>Moodleから<code>students.csv</code>をダウンロードして、<code>data/</code>に置きましょう。</p></li>
+<li><p><code>.csv</code>は<strong>c</strong>omma <strong>s</strong>eparated <strong>v</strong>aluesの略です</p>
+<ul>
+<li>エクセルで扱うようなデータ形式（エクセルでも開くことができる）</li>
+<li><code>.xslx</code>との違いは、<code>.csv</code>はそのままどのテキストエディターでも開ける（エクセルがいらない）</li>
+</ul></li>
+</ul>
+</section>
+<section id="データの読み込み-1" class="slide level2">
+<h2>データの読み込み</h2>
+<ul>
+<li><code>read_csv()</code>関数で読み込む</li>
+</ul>
+<p>まずは、読み込んでから直接に中身を見てみましょう：</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1"></a><span class="fu">read_csv</span>(<span class="st">"data/students.csv"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 6 × 5
+  `Student ID` `Full Name`      favourite.food     mealPlan            AGE  
+         &lt;dbl&gt; &lt;chr&gt;            &lt;chr&gt;              &lt;chr&gt;               &lt;chr&gt;
+1            1 Sunil Huffmann   Strawberry yoghurt Lunch only          4    
+2            2 Barclay Lynn     French fries       Lunch only          5    
+3            3 Jayendra Lyne    N/A                Breakfast and lunch 7    
+4            4 Leon Rossini     Anchovies          Lunch only          &lt;NA&gt; 
+5            5 Chidiegwu Dunkel Pizza              Breakfast and lunch five 
+6            6 Güvenç Attila    Ice cream          Lunch only          6    </code></pre>
+</div>
+</div>
+</section>
+<section id="読み込んだデータの保存" class="slide level2">
+<h2>読み込んだデータの保存</h2>
+<ul>
+<li><p>でも、これだけではRの環境にそのデータが<strong>入っていません</strong></p></li>
+<li><p>変数（オブジェクト）として保存する必要がある：</p></li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1"></a>students <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"data/students.csv"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section class="slide level2">
+
+
+<img data-src="../images/students_data_in_env.png" class="r-stretch"></section>
+<section class="slide level2">
+
+<ul>
+<li>このようにRに読み込んだデータを<strong>データフレーム</strong>（“dataframe”）、あるいは「tibble」と呼ぶ
+<ul>
+<li>２次元データ。エクセルのデータシートみたいな物。</li>
+</ul></li>
+</ul>
+</section>
+<section id="読み込んだデータの中身の確認１" class="slide level2">
+<h2>読み込んだデータの中身の確認（１）</h2>
+<ul>
+<li><p>変数として保存する時は中身が見えない（オブジェクトに渡された）</p></li>
+<li><p>中身を見たい時は<strong>変数名を直接コンソールに入力</strong>すればいい</p></li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1"></a>students</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 6 × 5
+  `Student ID` `Full Name`      favourite.food     mealPlan            AGE  
+         &lt;dbl&gt; &lt;chr&gt;            &lt;chr&gt;              &lt;chr&gt;               &lt;chr&gt;
+1            1 Sunil Huffmann   Strawberry yoghurt Lunch only          4    
+2            2 Barclay Lynn     French fries       Lunch only          5    
+3            3 Jayendra Lyne    N/A                Breakfast and lunch 7    
+4            4 Leon Rossini     Anchovies          Lunch only          &lt;NA&gt; 
+5            5 Chidiegwu Dunkel Pizza              Breakfast and lunch five 
+6            6 Güvenç Attila    Ice cream          Lunch only          6    </code></pre>
+</div>
+</div>
+</section>
+<section id="コンソールの使い方使うとき" class="slide level2">
+<h2>コンソールの使い方（使うとき）</h2>
+<ul>
+<li><p>このような時に使う：データの中身を確認したい、ヘルプファイルを開きたい、など。</p></li>
+<li><p>つまり、<strong>データ解析に必要ではない</strong>（関係のない）コマンド。</p></li>
+</ul>
+</section>
+<section id="読み込んだデータの中身の確認２" class="slide level2">
+<h2>読み込んだデータの中身の確認（２）</h2>
+<ul>
+<li><p>もう一つのデータの確認の仕方がある：「Environment」パネルでそのオブジェクトをクリック</p></li>
+<li><p>すると、エクセルのようなレイアウトになる</p>
+<ul>
+<li>エクセルと大きな違い：直接にデータをいじることができない！</li>
+</ul></li>
+</ul>
+<div class="fragment">
+<ul>
+<li><strong>エクセルはデータ入力に使う。Rはデータ解析に使う</strong></li>
+</ul>
+</div>
+</section>
+<section class="slide level2">
+
+
+<img data-src="../images/students_data_view.png" class="r-stretch"></section>
+<section id="データの種類型について" class="slide level2">
+<h2>データの種類（型）について</h2>
+<ul>
+<li><p><code>students</code>をコンソール（左下のパネル）でもう一回打ってみてください</p></li>
+<li><p>データの上に<code>&lt;dbl&gt;</code>とか<code>&lt;chr&gt;</code>とかと出ているけど、これは何でしょうか？</p></li>
+</ul>
+<div class="fragment">
+<ul>
+<li>A: データの<strong>種類</strong>です</li>
+</ul>
+</div>
+</section>
+<section id="データの種類型について-1" class="slide level2">
+<h2>データの種類（型）について</h2>
+<ul>
+<li><code>dbl</code>: 数字（“double”の略。なぜ”double”でしょう・・）</li>
+<li><code>chr</code>: 文字（“character”の略。この方がしっくり来るね）</li>
+</ul>
+<p>このほかに、</p>
+<ul>
+<li><code>lgl</code>：ロジカル（<code>TRUE</code>か<code>FALSE</code>か、そのどっちか）</li>
+<li><code>int</code>：整数（“integer”の略）</li>
+</ul>
+<p>がある</p>
+</section>
+<section id="ベクトルについて" class="slide level2">
+<h2>ベクトルについて</h2>
+<ul>
+<li><p><strong>ベクトル</strong>（vector）とは、<strong>同じ型を持つ一</strong>連のデータの集まり（一次元の配列）</p></li>
+<li><p>ベクトルに含まれている一つ一つのデータを<strong>要素</strong>（element）という</p></li>
+<li><p>例えば、<code>letters</code></p>
+<ul>
+<li><code>"a"</code>が<code>letters</code>の１個目の要素</li>
+</ul></li>
+</ul>
+</section>
+<section id="ベクトルの作り方" class="slide level2">
+<h2>ベクトルの作り方</h2>
+<ul>
+<li>ベクトルを関数は<code>c()</code>
+<ul>
+<li>“concatenate”（「くっつける」）の略</li>
+</ul></li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1"></a><span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 1 2 3</code></pre>
+</div>
+</div>
+</section>
+<section id="ベクトルの作り方-1" class="slide level2">
+<h2>ベクトルの作り方</h2>
+<ul>
+<li>文字列（文字でできているベクトル）を作るときは、引用符をつけないといけない</li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1"></a><span class="fu">c</span>(<span class="st">"a"</span>, <span class="st">"b"</span>, <span class="st">"c"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "a" "b" "c"</code></pre>
+</div>
+</div>
+</section>
+<section id="ベクトルの型の確認" class="slide level2">
+<h2>ベクトルの型の確認</h2>
+<ul>
+<li><code>typeof()</code>関数でベクトルの型を確認することができる</li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1"></a><span class="fu">typeof</span>(letters)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "character"</code></pre>
+</div>
+</div>
+</section>
+<section id="チャレンジ" class="slide level2">
+<h2>チャレンジ</h2>
+<ul>
+<li>以下のコードでベクトルを作ると、そのベクトルの型は何でしょうか？</li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1"></a><span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="st">"c"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="ベクトル変換" class="slide level2">
+<h2>ベクトル変換</h2>
+<ul>
+<li><p>先も言いましたが、あるベクトルの要素は全て同じ型を持たないといけない</p></li>
+<li><p>なので、入力が複数の型を含む場合、Rはそれを同じ型に合わせる</p></li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1"></a>x <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="st">"c"</span>)</span>
+<span id="cb19-2"><a href="#cb19-2"></a><span class="fu">typeof</span>(x)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "character"</code></pre>
+</div>
+</div>
+<ul>
+<li>先のベクトルは<strong>文字</strong>に変換された</li>
+</ul>
+</section>
+<section id="ベクトル型とデータフレーム" class="slide level2">
+<h2>ベクトル型とデータフレーム</h2>
+<ul>
+<li><p>データフレームの列は、本当は<strong>ベクトル</strong>になっている</p></li>
+<li><p>なので、データフレームの列はそれぞれ、<strong>型が決まっている</strong></p>
+<ul>
+<li>これはエクセルと大きな違い</li>
+</ul></li>
+</ul>
+
+<img data-src="../images/dataframe.png" class="r-stretch"></section>
+<section id="まとめ" class="slide level2">
+<h2>まとめ</h2>
+<ul>
+<li><p>スクリプト（.Rファイル）に解析に必要な<strong>コードを書く</strong></p></li>
+<li><p>スクリプトとデータがあれば、解析結果を再現できる</p></li>
+<li><p><strong>プロジェクト</strong>を使うと、解析の管理が大幅にやりやすくなる</p></li>
+<li><p><strong>データフレーム</strong>はベクトルからなっている</p></li>
+<li><p><strong>ベクトル</strong>は一つの型しか持てない</p></li>
+</ul>
+
 <div class="footer footer-default">
 
-</div>
 </div>
 </section></section>
     </div>
@@ -532,6 +877,7 @@ report_draft_notes.txt</code></pre>
       Reveal.initialize({
 'controlsAuto': true,
 'previewLinksAuto': false,
+'smaller': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
@@ -716,6 +1062,44 @@ report_draft_notes.txt</code></pre>
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {
@@ -792,9 +1176,10 @@ report_draft_notes.txt</code></pre>
         // clear code selection
         e.clearSelection();
       });
-      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      function tippyHover(el, contentFn) {
         const config = {
           allowHTML: true,
+          content: contentFn,
           maxWidth: 500,
           delay: 100,
           arrow: false,
@@ -804,17 +1189,8 @@ report_draft_notes.txt</code></pre>
           interactive: true,
           interactiveBorder: 10,
           theme: 'light-border',
-          placement: 'bottom-start',
+          placement: 'bottom-start'
         };
-        if (contentFn) {
-          config.content = contentFn;
-        }
-        if (onTriggerFn) {
-          config.onTrigger = onTriggerFn;
-        }
-        if (onUntriggerFn) {
-          config.onUntrigger = onUntriggerFn;
-        }
           config['offset'] = [0,0];
           config['maxWidth'] = 700;
         window.tippy(el, config); 

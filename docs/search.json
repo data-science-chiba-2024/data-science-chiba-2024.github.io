@@ -529,6 +529,216 @@
     "href": "day3/index.html#プロジェクトについて",
     "title": "データサイエンス",
     "section": "プロジェクトについて",
-    "text": "プロジェクトについて\n\nスクリプトとしてコードを保存をするのはいいけど、解析が進むと複数のスクリプトとデータを整理する必要が生じる\nRStudioには「Project」機能がある"
+    "text": "プロジェクトについて\n\nスクリプトとしてコードを保存をするのはいいけど、解析が進むと複数のスクリプトとデータを整理する必要が生じる\nRStudioの「Project」機能によって、スクリプトとデータ（など）の整理ができる"
+  },
+  {
+    "objectID": "day3/index.html#新しいプロジェクトを作る",
+    "href": "day3/index.html#新しいプロジェクトを作る",
+    "title": "データサイエンス",
+    "section": "新しいプロジェクトを作る",
+    "text": "新しいプロジェクトを作る\n\nFile ➡︎ New Project ➡︎ New Directory ➡︎ New Project をクリック\n\nプロジェクト名と場所を入力（今回はr4dsにしましょう）\n分かりやすい場所がおすすめ（デスクトップにしましょう）\n\n今回は”Create a git repository”をクリックしないけど、本当はgitも使った方がいい（またあとで説明します）"
+  },
+  {
+    "objectID": "day3/index.html#新しいプロジェクトを作る-1",
+    "href": "day3/index.html#新しいプロジェクトを作る-1",
+    "title": "データサイエンス",
+    "section": "新しいプロジェクトを作る",
+    "text": "新しいプロジェクトを作る\n\nプロジェクト名の入力が終わると、RStudioが再度立ち上がる\nファイルパネル（右下）をよく見てください。今はRがどこに「います」か？"
+  },
+  {
+    "objectID": "day3/index.html#rprojファイルについて",
+    "href": "day3/index.html#rprojファイルについて",
+    "title": "データサイエンス",
+    "section": ".Rprojファイルについて",
+    "text": ".Rprojファイルについて\n\n新しいプロジェクトには、r4ds.Rprojファイルが入っている\n.Rprojファイルの中身はは基本的にを触らない\n\n再度プロジェクトを開く時に使う（ダブルクリック）"
+  },
+  {
+    "objectID": "day3/index.html#作業ディレクトリについて",
+    "href": "day3/index.html#作業ディレクトリについて",
+    "title": "データサイエンス",
+    "section": "作業ディレクトリについて",
+    "text": "作業ディレクトリについて\n\n「作業ディレクトリ」（“working directory”）というのは、今Rが今「いる」場所のこと\ngetwd()で確認できる：\n\n\ngetwd()\n\n\n\n[1] \"/Users/joelnitta/Desktop/r4ds\""
+  },
+  {
+    "objectID": "day3/index.html#作業ディレクトリについて-1",
+    "href": "day3/index.html#作業ディレクトリについて-1",
+    "title": "データサイエンス",
+    "section": "作業ディレクトリについて",
+    "text": "作業ディレクトリについて\n\n時々、他のスクリプトを見ると、set.wd()という関数を目にする\n\n例：set.wd(\"/Users/joelnitta/analysis/\")\n後ろの部分は「パス」と言う（パソコンの中の住所のような物）"
+  },
+  {
+    "objectID": "day3/index.html#作業ディレクトリについて-2",
+    "href": "day3/index.html#作業ディレクトリについて-2",
+    "title": "データサイエンス",
+    "section": "作業ディレクトリについて",
+    "text": "作業ディレクトリについて\n\nでも、多くの場合、他の人のパソコンにあるパスは自分のパソコンに存在しない\n\n.Rprojを使えば、set.wd()を使う必要がない\n\nなので、set.wd()は使わないようにしましょう。"
+  },
+  {
+    "objectID": "day3/index.html#新しいプロジェクトを作る-2",
+    "href": "day3/index.html#新しいプロジェクトを作る-2",
+    "title": "データサイエンス",
+    "section": "新しいプロジェクトを作る",
+    "text": "新しいプロジェクトを作る\n\n右下の「ファイル」パネルを使って、dataというフォルダーを作りましょう\n\nあとで、このフォルダーにこれから解析するデータを置く"
+  },
+  {
+    "objectID": "day3/index.html#プロジェクトにスクリプトを置きましょう",
+    "href": "day3/index.html#プロジェクトにスクリプトを置きましょう",
+    "title": "データサイエンス",
+    "section": "プロジェクトにスクリプトを置きましょう",
+    "text": "プロジェクトにスクリプトを置きましょう\n以下のコードを書いて、スクリプトをdiamonds.Rとしてr4dsプロジェクトに保存して、実行しましょう：\n\nlibrary(tidyverse)\n\nggplot(diamonds, aes(x = carat, y = price)) + \n  geom_hex()\nggsave(\"diamonds.png\")\n\nwrite_csv(diamonds, \"data/diamonds.csv\")\n\nこのスクリプトは何をするのでしょうか？"
+  },
+  {
+    "objectID": "day3/index.html#コードによる再現性",
+    "href": "day3/index.html#コードによる再現性",
+    "title": "データサイエンス",
+    "section": "コードによる再現性",
+    "text": "コードによる再現性\n\ndiamonds.Rはdiamonds.pngというグラフを作る。\ndiamonds.pngを消しましょう。\n\n解析結果が消えてしまった！どうしよう！？"
+  },
+  {
+    "objectID": "day3/index.html#コードによる再現性-1",
+    "href": "day3/index.html#コードによる再現性-1",
+    "title": "データサイエンス",
+    "section": "コードによる再現性",
+    "text": "コードによる再現性\n\nご心配なく！\n\n再度diamonds.Rを実行してください（Ctrl（あるいは⌘） + Shift+ Enter）\n\n全く同じグラフが再度できた！つまり、再現しました。\n\n\n\nコードとデータがあれば、解析結果はいつでも再現できる\n\n\n\n\n絶対に必要なのは、コードとデータ。結果は「使い捨て」と考えて良い。"
+  },
+  {
+    "objectID": "day3/index.html#ディスカッション",
+    "href": "day3/index.html#ディスカッション",
+    "title": "データサイエンス",
+    "section": "ディスカッション",
+    "text": "ディスカッション\n\nデータ整理やプロジェクトの管理はどうしていますか？"
+  },
+  {
+    "objectID": "day3/index.html#データの読み込み",
+    "href": "day3/index.html#データの読み込み",
+    "title": "データサイエンス",
+    "section": "データの読み込み",
+    "text": "データの読み込み\n\nMoodleからstudents.csvをダウンロードして、data/に置きましょう。\n.csvはcomma separated valuesの略です\n\nエクセルで扱うようなデータ形式（エクセルでも開くことができる）\n.xslxとの違いは、.csvはそのままどのテキストエディターでも開ける（エクセルがいらない）"
+  },
+  {
+    "objectID": "day3/index.html#データの読み込み-1",
+    "href": "day3/index.html#データの読み込み-1",
+    "title": "データサイエンス",
+    "section": "データの読み込み",
+    "text": "データの読み込み\n\nread_csv()関数で読み込む\n\nまずは、読み込んでから直接に中身を見てみましょう：\n\nread_csv(\"data/students.csv\")\n\n# A tibble: 6 × 5\n  `Student ID` `Full Name`      favourite.food     mealPlan            AGE  \n         &lt;dbl&gt; &lt;chr&gt;            &lt;chr&gt;              &lt;chr&gt;               &lt;chr&gt;\n1            1 Sunil Huffmann   Strawberry yoghurt Lunch only          4    \n2            2 Barclay Lynn     French fries       Lunch only          5    \n3            3 Jayendra Lyne    N/A                Breakfast and lunch 7    \n4            4 Leon Rossini     Anchovies          Lunch only          &lt;NA&gt; \n5            5 Chidiegwu Dunkel Pizza              Breakfast and lunch five \n6            6 Güvenç Attila    Ice cream          Lunch only          6"
+  },
+  {
+    "objectID": "day3/index.html#データの読み込み-2",
+    "href": "day3/index.html#データの読み込み-2",
+    "title": "データサイエンス",
+    "section": "データの読み込み",
+    "text": "データの読み込み\n\nでも、これだけではRの環境にそのデータが入っていません\n変数（オブジェクト）として保存する必要がある：\n\n\nstudents &lt;- read_csv(\"data/students.csv\")"
+  },
+  {
+    "objectID": "day3/index.html#読み込んだデータの保存",
+    "href": "day3/index.html#読み込んだデータの保存",
+    "title": "データサイエンス",
+    "section": "読み込んだデータの保存",
+    "text": "読み込んだデータの保存\n\nでも、これだけではRの環境にそのデータが入っていません\n変数（オブジェクト）として保存する必要がある：\n\n\nstudents &lt;- read_csv(\"data/students.csv\")"
+  },
+  {
+    "objectID": "day3/index.html#読み込んだデータの中身の確認１",
+    "href": "day3/index.html#読み込んだデータの中身の確認１",
+    "title": "データサイエンス",
+    "section": "読み込んだデータの中身の確認（１）",
+    "text": "読み込んだデータの中身の確認（１）\n\n変数として保存する時は中身が見えない（オブジェクトに渡された）\n中身を見たい時は変数名を直接コンソールに入力すればいい\n\n\nstudents\n\n# A tibble: 6 × 5\n  `Student ID` `Full Name`      favourite.food     mealPlan            AGE  \n         &lt;dbl&gt; &lt;chr&gt;            &lt;chr&gt;              &lt;chr&gt;               &lt;chr&gt;\n1            1 Sunil Huffmann   Strawberry yoghurt Lunch only          4    \n2            2 Barclay Lynn     French fries       Lunch only          5    \n3            3 Jayendra Lyne    N/A                Breakfast and lunch 7    \n4            4 Leon Rossini     Anchovies          Lunch only          &lt;NA&gt; \n5            5 Chidiegwu Dunkel Pizza              Breakfast and lunch five \n6            6 Güvenç Attila    Ice cream          Lunch only          6"
+  },
+  {
+    "objectID": "day3/index.html#読み込んだデータの中身の確認２",
+    "href": "day3/index.html#読み込んだデータの中身の確認２",
+    "title": "データサイエンス",
+    "section": "読み込んだデータの中身の確認（２）",
+    "text": "読み込んだデータの中身の確認（２）\n\nもう一つのデータの確認の仕方がある：「Environment」パネルでそのオブジェクトをクリック\nすると、エクセルのようなレイアウトになる\n\nエクセルと大きな違い：直接にデータをいじることができない！\n\n\n\n\nエクセルはデータ入力に使う。Rはデータ解析に使う"
+  },
+  {
+    "objectID": "day3/index.html#コンソールの使い方使うとき",
+    "href": "day3/index.html#コンソールの使い方使うとき",
+    "title": "データサイエンス",
+    "section": "コンソールの使い方（使うとき）",
+    "text": "コンソールの使い方（使うとき）\n\nこのような時に使う：データの中身を確認したい、ヘルプファイルを開きたい、など。\nつまり、データ解析に必要ではない（関係のない）コマンド。"
+  },
+  {
+    "objectID": "day3/index.html#データの種類について",
+    "href": "day3/index.html#データの種類について",
+    "title": "データサイエンス",
+    "section": "データの種類について",
+    "text": "データの種類について\n\nstudentsをコンソール（左下のパネル）でもう一回打ってみてください\nデータの上に&lt;dbl&gt;とか&lt;chr&gt;とかと出ているけど、これは何でしょうか？\n\n\n\nA: データの種類です"
+  },
+  {
+    "objectID": "day3/index.html#データの種類について-1",
+    "href": "day3/index.html#データの種類について-1",
+    "title": "データサイエンス",
+    "section": "データの種類について",
+    "text": "データの種類について\n\ndbl: 数字（“double”の略。なぜ”double”でしょう・・）\nchr: 文字（“character”の略。この方がしっくり来るね）\n\nこのほかに、\n\nlgl：ロジカル（TRUEかFALSEか、そのどっちか）\nint：整数（“integer”の略）\n\nがある"
+  },
+  {
+    "objectID": "day3/index.html#データの種類型について",
+    "href": "day3/index.html#データの種類型について",
+    "title": "データサイエンス",
+    "section": "データの種類（型）について",
+    "text": "データの種類（型）について\n\nstudentsをコンソール（左下のパネル）でもう一回打ってみてください\nデータの上に&lt;dbl&gt;とか&lt;chr&gt;とかと出ているけど、これは何でしょうか？\n\n\n\nA: データの種類です"
+  },
+  {
+    "objectID": "day3/index.html#データの種類型について-1",
+    "href": "day3/index.html#データの種類型について-1",
+    "title": "データサイエンス",
+    "section": "データの種類（型）について",
+    "text": "データの種類（型）について\n\ndbl: 数字（“double”の略。なぜ”double”でしょう・・）\nchr: 文字（“character”の略。この方がしっくり来るね）\n\nこのほかに、\n\nlgl：ロジカル（TRUEかFALSEか、そのどっちか）\nint：整数（“integer”の略）\n\nがある"
+  },
+  {
+    "objectID": "day3/index.html#ベクトルについて",
+    "href": "day3/index.html#ベクトルについて",
+    "title": "データサイエンス",
+    "section": "ベクトルについて",
+    "text": "ベクトルについて\n\nベクトル（vector）とは、同じ型を持つ一連のデータの集まり（一次元の配列）\nベクトルに含まれている一つ一つのデータを要素（element）という\n例えば、letters\n\n\"a\"がlettersの１個目の要素"
+  },
+  {
+    "objectID": "day3/index.html#ベクトルの作り方",
+    "href": "day3/index.html#ベクトルの作り方",
+    "title": "データサイエンス",
+    "section": "ベクトルの作り方",
+    "text": "ベクトルの作り方\n\nベクトルを関数はc()\n\n“concatenate”（「くっつける」）の略\n\n\n\nc(1, 2, 3)\n\n[1] 1 2 3"
+  },
+  {
+    "objectID": "day3/index.html#ベクトルの作り方-1",
+    "href": "day3/index.html#ベクトルの作り方-1",
+    "title": "データサイエンス",
+    "section": "ベクトルの作り方",
+    "text": "ベクトルの作り方\n\n文字列（文字でできているベクトル）を作るときは、引用符をつけないといけない\n\n\nc(\"a\", \"b\", \"c\")\n\n[1] \"a\" \"b\" \"c\""
+  },
+  {
+    "objectID": "day3/index.html#ベクトルの型の確認",
+    "href": "day3/index.html#ベクトルの型の確認",
+    "title": "データサイエンス",
+    "section": "ベクトルの型の確認",
+    "text": "ベクトルの型の確認\n\ntypeof()関数でベクトルの型を確認することができる\n\n\ntypeof(letters)\n\n[1] \"character\""
+  },
+  {
+    "objectID": "day3/index.html#チャレンジ",
+    "href": "day3/index.html#チャレンジ",
+    "title": "データサイエンス",
+    "section": "チャレンジ",
+    "text": "チャレンジ\n\n以下のコードでベクトルを作ると、そのベクトルの型は何でしょうか？\n\n\nc(1, 2, \"c\")"
+  },
+  {
+    "objectID": "day3/index.html#ベクトル変換",
+    "href": "day3/index.html#ベクトル変換",
+    "title": "データサイエンス",
+    "section": "ベクトル変換",
+    "text": "ベクトル変換\n\n先も言いましたが、あるベクトルの要素は全て同じ型を持たないといけない\nなので、入力が複数の型を含む場合、Rはそれを同じ型に合わせる\n\n\nx &lt;- c(1, 2, \"c\")\ntypeof(x)\n\n[1] \"character\"\n\n\n\n先のベクトルは文字に変換された"
+  },
+  {
+    "objectID": "day3/index.html#ベクトル型とデータフレーム",
+    "href": "day3/index.html#ベクトル型とデータフレーム",
+    "title": "データサイエンス",
+    "section": "ベクトル型とデータフレーム",
+    "text": "ベクトル型とデータフレーム\n\nデータフレームの列は、本当はベクトルになっている\nなので、データフレームの列はそれぞれ、型が決まっている\n\nこれはエクセルと大きな違い"
+  },
+  {
+    "objectID": "day3/index.html#まとめ",
+    "href": "day3/index.html#まとめ",
+    "title": "データサイエンス",
+    "section": "まとめ",
+    "text": "まとめ\n\nスクリプト（.Rファイル）に解析に必要なコードを書く\nスクリプトとデータがあれば、解析結果を再現できる\nプロジェクトを使うと、解析の管理が大幅にやりやすくなる\nデータフレームはベクトルからなっている\nベクトルは一つの型しか持てない"
   }
 ]
