@@ -523,7 +523,7 @@ report_draft_notes.txt</code></pre>
 <ul>
 <li>右下の「ファイル」パネルを使って、<code>data</code>というフォルダーを作りましょう
 <ul>
-<li>あとで、このフォルダーにこれから解析するデータを置く</li>
+<li>あとで、このフォルダーに<strong>これから解析するデータを置く</strong></li>
 </ul></li>
 </ul>
 
@@ -532,8 +532,9 @@ report_draft_notes.txt</code></pre>
 <h2>.Rprojファイルについて</h2>
 <ul>
 <li><p>新しいプロジェクトには、<code>r4ds.Rproj</code>ファイルが入っている</p></li>
-<li><p><code>.Rproj</code>ファイルの中身はは基本的にを<strong>触らない</strong></p>
+<li><p><code>.Rproj</code>ファイルの中身はは基本的に<strong>触らない</strong></p>
 <ul>
+<li>中身はRStudioの設定（RStudioに任せましょう）</li>
 <li>再度プロジェクトを開く時に使う（ダブルクリック）</li>
 </ul></li>
 </ul>
@@ -591,12 +592,18 @@ report_draft_notes.txt</code></pre>
 <section id="コードによる再現性" class="slide level2">
 <h2>コードによる再現性</h2>
 <ul>
-<li><p><code>diamonds.R</code>は<code>diamonds.png</code>というグラフを作る。</p></li>
-<li><p><code>diamonds.png</code>を消しましょう。</p>
+<li><code>diamonds.R</code>は<code>diamonds.png</code>というグラフを作る。</li>
+</ul>
+<div class="fragment">
+<ul>
+<li><code>diamonds.png</code>を消しましょう。</li>
+</ul>
+</div>
+<div class="fragment">
 <ul>
 <li>解析結果が消えてしまった！どうしよう！？</li>
-</ul></li>
 </ul>
+</div>
 </section>
 <section id="コードによる再現性-1" class="slide level2">
 <h2>コードによる再現性</h2>
@@ -841,10 +848,24 @@ report_draft_notes.txt</code></pre>
 <h2>まとめ</h2>
 <ul>
 <li><p>スクリプト（.Rファイル）に解析に必要な<strong>コードを書く</strong></p></li>
-<li><p>スクリプトとデータがあれば、解析結果を再現できる</p></li>
+<li><p>スクリプトとデータがあれば、解析結果を<strong>再現できる</strong></p></li>
 <li><p><strong>プロジェクト</strong>を使うと、解析の管理が大幅にやりやすくなる</p></li>
 <li><p><strong>データフレーム</strong>はベクトルからなっている</p></li>
 <li><p><strong>ベクトル</strong>は一つの型しか持てない</p></li>
+</ul>
+</section>
+<section id="宿題" class="slide level2">
+<h2>宿題</h2>
+<p><strong>締め切り：2024-04-23 12:50</strong></p>
+<ul>
+<li><strong>クイズ</strong>（moodle）</li>
+<li>自分のデータを読み込む。<br>
+二つのファイルmoodleにアップロード：
+<ul>
+<li><strong>データのファイル</strong>（csv）</li>
+<li><strong>読み込むスクリプト</strong></li>
+</ul></li>
+<li>もしcsvではないファイルを読み込みたければ、連絡してください</li>
 </ul>
 
 <div class="footer footer-default">

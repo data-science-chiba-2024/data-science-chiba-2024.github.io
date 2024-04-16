@@ -31,6 +31,7 @@ toc: false
     - [R4DS Introduction](https://r4ds.hadley.nz/intro)
     - [R4DS Chapter 2 (Workflow: Basics)](https://r4ds.hadley.nz/workflow-basics)
 - 第３回（2024-04-16）: **プロジェクトの整理とデータの読み込み**
+  - [スライド](day3/index.qmd)
   - リーディング
     - [R4DS Chapter 6 (Workflow: Scripts and Projects)](https://r4ds.hadley.nz/workflow-scripts)
     - [R4DS Chapter 7 (Data Import)](https://r4ds.hadley.nz/data-import)
