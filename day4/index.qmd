@@ -1,0 +1,389 @@
+---
+format:
+  revealjs:
+    incremental: false
+    css: ../styles.css
+execute: 
+  echo: true
+  code-overflow: scroll
+---
+
+# 第4回：データの整理
+
+```{r}
+#| echo: false
+options(width = 80)
+```
+
+2024-04-23
+
+<https://data-science-chiba-2024.github.io/day4/>
+
+## RStudioのデフォルト設定を<br>変えましょう
+
+前のセッションのデータが残っていることは<br>再現的に**ダメ**！
+
+. . . 
+
+Tools → Global Options → General → Workspace
+
+- "Restore .RData into workspace at startup" → **外す**
+- "Save workspace to .RData on exit:" → **"Never"**
+
+## RStudioのデフォルト設定を<br>変えましょう
+
+前のセッションのデータが残っていることは再現の観点<br>からダメ！
+
+![](../images/settings_change.png){fig-alt="Screenshot showing how to change Rstudio settings for .RData"}
+
+## データの整理（Data Wrangling）
+
+- データが手に入る時、まだ解析に使いえない状態が多い
+
+- データの整理（「wrangling」）は**解析に使えるように整えるプロセス**
+  - 元々はカウボーイが**牛を扱う技術**から来る
+
+---
+
+![Getty Images](https://media.istockphoto.com/id/172342607/photo/cattle-drive.jpg?s=612x612&w=0&k=20&c=Fz--vTqe2gMWKxbHvgdLCgfUveH_Y3-k0js5H1m9Snc=)
+
+---
+
+![Image by Allison Horst](https://datasciencecampus.github.io/DSCA_data_wrangling_with_r/slides/images/data_cowboy.png){fig-alt="data wrangling monsters"}
+
+## 今日のデータセット
+
+- R4DS第３章で使われているデータは２０１３年にニューヨーク市発着のフライト
+
+- このデータは`ncyflights13`というパッケージに入っている
+
+## チャレンジ
+
+`ncyflights13`パッケージをインストールして、`nycflights.R`というスクリプトでパッケージをロードしてください
+
+---
+
+```{r}
+#| eval: false
+install.packages("ncyflights13")
+```
+
+---
+
+```{r}
+#| filename: nycflights.R
+library(nycflights13)
+```
+
+## 今日のデータセット
+
+データは`flights`というデータフレームに入っている：
+
+```{r}
+#| message: false
+#| warning: false
+
+library(nycflights13)
+library(tidyverse)
+
+flights
+```
+
+---
+
+- `flights`にはいくつの列（変数）がある？
+
+- `flights`にはいくつの行（観察）がある？
+
+## データ整理の関数
+
+これから学ぶ関数の共通点：
+
+- データフレームをインプットとし、データフレームを返す
+- 最初の引数がインプットのデータフレーム
+- 他の引数は詳細（行の名前に引用符を使わない）
+
+## `filter()`で行を絞り込む
+
+- 生データが必要以上に多い場合がよくある（特に、「ビッグデータ」を扱っているとき）
+
+- `filter()`で条件を定めて、その行だけに絞り込む
+
+---
+
+```{r}
+# 出発が２時間以上遅れたフライトに絞り込む
+filter(flights, dep_delay > 120)
+```
+
+- 行の数がどれくらい変わった？
+
+## `filter()`で行を絞り込む
+
+- 元のデータは変わっていない
+
+- `filter()`の出力を保存したい時は`<-`を使う
+
+---
+
+```{r}
+flights_delay_120 <- filter(flights, dep_delay > 120)
+```
+
+## データの比較
+
+データの比較を行う主な記号：
+
+- `>` より大きい
+- `<` より小さい
+- `==` イコール （`=`ではない！）
+- `|` あるいは
+- `&` そして（複数条件の指定）
+
+比較の記号のアウトプットは**論理ベクトル**
+
+---
+
+```{r}
+11 > 10
+```
+
+---
+
+```{r}
+c(11, 6) > c(10, 6)
+```
+
+---
+
+```{r}
+c(11, 6) == c(10, 6)
+```
+
+---
+
+```{r}
+#| error: TRUE
+c(5, 6) = c(10, 6)
+```
+
+## チャレンジ
+
+何故`11 = 10`がエラーになってしまう？
+
+## チャレンジ
+
+- １月のフライトに絞っとください
+
+. . .
+
+```{r}
+filter(flights, month == 1)
+```
+
+## チャレンジ
+
+- １月１日のフライトに絞っとください
+
+. . .
+
+```{r}
+filter(flights, month == 1 & day == 1)
+```
+
+## `filter()`で行を絞り込む
+
+もう一つの複数条件を設定方法：`,`で条件を加える（`filter()`だけ）
+
+```{r}
+filter(flights, month == 1, day == 1)
+```
+
+## `arrange()`で行を並べ替える
+
+```{r}
+# 出発の日と時間で並べ替える
+arrange(flights, year, month, day, dep_time)
+```
+
+## `arrange()`で行を並べ替える
+
+- `arrange()`はデフォルトで小さい方からの順になっている
+
+- 大きい方から並べたい時は`desc()`（「descend」、「降りる」）を使う：
+
+```{r}
+# 大きく遅れた順で並べる
+arrange(flights, desc(dep_delay))
+```
+
+## チャレンジ
+
+- `filter()`と`arrange()`を使って、**12月のフライト**に絞ってから、**遠く飛んだ**順に並べ替えてください
+
+## パイプにつて
+
+- `filter(データ, 条件)`というような書き方をしてきたが、また別の書き方がある：
+
+`データ |> filter(条件)`
+
+## パイプにつて
+
+- `|>`は「パイプ」と呼ばれる
+
+- 左にある物を右の方に渡す
+
+- 「それから」と読む
+
+## いつパイプを使う？
+
+- **複数の作業**を施すに便利
+  - 「パイプライン」
+
+```{r}
+# flightsから始まって、12月のデータに絞ってから、遠く飛んだ距離の順で並べる
+flights |>
+  filter(month == 12) |>
+  arrange(desc(distance))
+```
+
+## `mutate()`で新しい列を計算する
+
+- 新しい列は右側から追加される
+  - 列が多い場合は見えないことも
+
+```{r}
+flights |> 
+  mutate(speed = distance / air_time * 60)
+```
+
+## `mutate()`で新しい列を計算する
+
+- `.before`を使うと、新しい列が入る場所を指定できる
+
+```{r}
+flights |> 
+  mutate(
+    speed = distance / air_time * 60,
+    .before = 1)
+```
+
+## `mutate()`で新しい列を計算する
+
+- `filter()`（と他のデータ整理用関数と同じように）、`mutate()`の出力は元のデータを触らない
+
+- 解析結果を保存したい時は`<-`を使う
+
+## `select()`で列を絞る
+
+- 生データにたくさんの列が入っている場合がよくある。解析に必要な列だけに絞った方が解析がやりやすい
+
+- 基本的な使い方：列名で選択する
+
+```{r}
+flights |> 
+  select(year, month, day)
+```
+
+## `select()`で列を絞る
+
+- 選択したい列が多い場合は、`:`を使ってどこから〜どこまでというふうに書くと便利：
+
+```{r}
+flights |> 
+  select(year:day)
+```
+
+## チャレンジ
+
+`JFK`から出発したフライトに絞ってから、速度を計算してから、早い速度の順に並べ替えてください
+
+## データの集計
+
+`summarize()`でデータの**集計**ができる：
+
+```{r}
+summarize(flights, mean_sched_dep_time = mean(sched_dep_time))
+```
+
+
+## グループ化
+
+しかし、全体の平均だけを計算してもあまり意味はない。
+
+それよりも、何か**毎に**データの集計を行いたい方が多い。
+
+それには`group_by()`関数を使う。例えば、種ごと。まずはデータのグループを指定する：
+
+---
+
+```{r}
+flights %>%
+  group_by(month)
+```
+
+## グループ化
+
+次に、集計する：
+
+```{r}
+flights |> 
+  group_by(month) |> 
+  summarize(
+    avg_delay = mean(dep_delay)
+  )
+```
+
+---
+
+あれ？なんで`NA`になってしまった？
+
+. . . 
+
+`NA`(「Not Applicable」、「該当しない」)はデータが欠けていることを示す。
+
+このようなミッシングなデータを無視して平均を計算するには、`na.rm = TRUE`を指定しないといけない
+
+---
+
+```{r}
+flights |> 
+  group_by(month) |> 
+  summarize(
+    avg_delay = mean(dep_delay, na.rm = TRUE)
+  )
+```
+
+## グループ化
+
+グループ毎の計算が終わったら、`ungroup()`でグループの解除をする必要がある場合がある。
+
+（以下のコードでは自動的にグループが解除されるので本当はいらないけど、必要な場合もある）
+
+```{r}
+flights |> 
+  group_by(month) |> 
+  summarize(
+    avg_delay = mean(dep_delay, na.rm = TRUE)
+  ) |>
+  ungroup()
+```
+
+## まとめ：今日学んだ関数（動詞）
+
+- 行を扱う関数
+  - `filter()`
+  - `arrange()`
+- 列を扱う関数
+  - `mutate()`
+  - `select()`
+- 集計の関数
+  - `summarize()`
+  - `group_by()`
+  - `ungroup()`
+
+## まとめ
+
+- `|>`とデータ整理用の関数を組み合わせることによって、すぐにでもかなり高度なデータ解析のパイプラインができるようなる。
+
+- 初めての方にはとてもコードの量が多いように思えるでしょうが、このようなツールを毎日使うって、慣れていくとそのうちどのようなデータでもRで扱えるようになる！

@@ -747,5 +747,236 @@
     "title": "データサイエンス",
     "section": "宿題",
     "text": "宿題\n締め切り：2024-04-23 12:50\n\nクイズ（moodle）\n自分のデータを読み込む。\n二つのファイルmoodleにアップロード：\n\nデータのファイル（csv）\n読み込むスクリプト\n\nもしcsvではないファイルを読み込みたければ、連絡してください"
+  },
+  {
+    "objectID": "day4/index.html#今日のデータセット",
+    "href": "day4/index.html#今日のデータセット",
+    "title": "データサイエンス",
+    "section": "今日のデータセット",
+    "text": "今日のデータセット\n\nR4DS第３章で使われているデータは２０１３年にニューヨーク市発着のフライト\nこのデータはncyflights13というパッケージに入っている"
+  },
+  {
+    "objectID": "day4/index.html#rstudioのデフォルト設定を-変えましょう",
+    "href": "day4/index.html#rstudioのデフォルト設定を-変えましょう",
+    "title": "データサイエンス",
+    "section": "RStudioのデフォルト設定を変えましょう",
+    "text": "RStudioのデフォルト設定を変えましょう\n前のセッションのデータが残っていることは再現的にダメ！\n\nTools → Global Options → General → Workspace\n\n“Restore .RData into workspace at startup” → 外す\n“Save workspace to .RData on exit:” → “Never”"
+  },
+  {
+    "objectID": "day4/index.html#rstudioのデフォルト設定を-変えましょう-1",
+    "href": "day4/index.html#rstudioのデフォルト設定を-変えましょう-1",
+    "title": "データサイエンス",
+    "section": "RStudioのデフォルト設定を変えましょう",
+    "text": "RStudioのデフォルト設定を変えましょう\n前のセッションのデータが残っていることは再現の観点からダメ！"
+  },
+  {
+    "objectID": "day4/index.html#データの整理data-wrangling",
+    "href": "day4/index.html#データの整理data-wrangling",
+    "title": "データサイエンス",
+    "section": "データの整理（Data Wrangling）",
+    "text": "データの整理（Data Wrangling）\n\nデータが手に入る時、まだ解析に使いえない状態が多い\nデータの整理（「wrangling」）は解析に使えるように整えるプロセス\n\n元々はカウボーイが牛を扱う技術から来る"
+  },
+  {
+    "objectID": "day4/index.html#データ整理の関数",
+    "href": "day4/index.html#データ整理の関数",
+    "title": "データサイエンス",
+    "section": "データ整理の関数",
+    "text": "データ整理の関数\nこれから学ぶ関数の共通点：\n\nデータフレームをインプットとし、データフレームを返す\n最初の引数がインプットのデータフレーム\n他の引数は詳細（行の名前に引用符を使わない）"
+  },
+  {
+    "objectID": "day4/index.html#パイプにつて",
+    "href": "day4/index.html#パイプにつて",
+    "title": "データサイエンス",
+    "section": "パイプにつて",
+    "text": "パイプにつて\n\nfilter(データ, 条件)というような書き方をしてきたが、また別の書き方がある：\n\nデータ |&gt; filter(条件)"
+  },
+  {
+    "objectID": "day4/index.html#今日のデータセット-1",
+    "href": "day4/index.html#今日のデータセット-1",
+    "title": "データサイエンス",
+    "section": "今日のデータセット",
+    "text": "今日のデータセット\nデータはflightsというデータフレームに入っている：\n\nlibrary(nycflights13)\nlibrary(tidyverse)\n\nflights\n\n# A tibble: 336,776 × 19\n    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;\n 1  2013     1     1      517            515         2      830            819\n 2  2013     1     1      533            529         4      850            830\n 3  2013     1     1      542            540         2      923            850\n 4  2013     1     1      544            545        -1     1004           1022\n 5  2013     1     1      554            600        -6      812            837\n 6  2013     1     1      554            558        -4      740            728\n 7  2013     1     1      555            600        -5      913            854\n 8  2013     1     1      557            600        -3      709            723\n 9  2013     1     1      557            600        -3      838            846\n10  2013     1     1      558            600        -2      753            745\n# ℹ 336,766 more rows\n# ℹ 11 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,\n#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,\n#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;"
+  },
+  {
+    "objectID": "day4/index.html#filterで行を絞り込む",
+    "href": "day4/index.html#filterで行を絞り込む",
+    "title": "データサイエンス",
+    "section": "filter()で行を絞り込む",
+    "text": "filter()で行を絞り込む\n\n生データが必要以上に多い場合がよくある（特に、「ビッグデータ」を扱っているとき）\nfilter()で条件を定めて、その行だけに絞り込む"
+  },
+  {
+    "objectID": "day4/index.html#比較に使う",
+    "href": "day4/index.html#比較に使う",
+    "title": "データサイエンス",
+    "section": "比較に使う==",
+    "text": "比較に使う==\n\n何かのデータが同じかどうかを確認したい時は=ではなく、==を使わないといけない\n\n\n1 = 2\n\nError in 1 = 2: invalid (do_set) left-hand side to assignment\n\n1 == 2\n\n[1] FALSE"
+  },
+  {
+    "objectID": "day4/index.html#チャレンジ",
+    "href": "day4/index.html#チャレンジ",
+    "title": "データサイエンス",
+    "section": "チャレンジ",
+    "text": "チャレンジ\nncyflights13パッケージをインストールして、nycflights.Rというスクリプトでパッケージをロードしてください"
+  },
+  {
+    "objectID": "day4/index.html#データの比較",
+    "href": "day4/index.html#データの比較",
+    "title": "データサイエンス",
+    "section": "データの比較",
+    "text": "データの比較\nデータの比較を行う主な記号：\n\n&gt; より大きい\n&lt; より小さい\n== イコール （=ではない！）\n| あるいは\n& そして（複数条件の指定）\n\n比較の記号のアウトプットは論理ベクトル"
+  },
+  {
+    "objectID": "day4/index.html#チャレンジ-1",
+    "href": "day4/index.html#チャレンジ-1",
+    "title": "データサイエンス",
+    "section": "チャレンジ",
+    "text": "チャレンジ\n何故11 = 10がエラーになってしまう？"
+  },
+  {
+    "objectID": "day4/index.html#チャレンジ-2",
+    "href": "day4/index.html#チャレンジ-2",
+    "title": "データサイエンス",
+    "section": "チャレンジ",
+    "text": "チャレンジ\n\n１月のフライトに絞っとください\n\n\n\nfilter(flights, month == 1)\n\n# A tibble: 27,004 × 19\n    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;\n 1  2013     1     1      517            515         2      830            819\n 2  2013     1     1      533            529         4      850            830\n 3  2013     1     1      542            540         2      923            850\n 4  2013     1     1      544            545        -1     1004           1022\n 5  2013     1     1      554            600        -6      812            837\n 6  2013     1     1      554            558        -4      740            728\n 7  2013     1     1      555            600        -5      913            854\n 8  2013     1     1      557            600        -3      709            723\n 9  2013     1     1      557            600        -3      838            846\n10  2013     1     1      558            600        -2      753            745\n# ℹ 26,994 more rows\n# ℹ 11 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,\n#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,\n#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;"
+  },
+  {
+    "objectID": "day4/index.html#チャレンジ-3",
+    "href": "day4/index.html#チャレンジ-3",
+    "title": "データサイエンス",
+    "section": "チャレンジ",
+    "text": "チャレンジ\n\n１月１日のフライトに絞っとください\n\n\n\nfilter(flights, month == 1 & day == 1)\n\n# A tibble: 842 × 19\n    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;\n 1  2013     1     1      517            515         2      830            819\n 2  2013     1     1      533            529         4      850            830\n 3  2013     1     1      542            540         2      923            850\n 4  2013     1     1      544            545        -1     1004           1022\n 5  2013     1     1      554            600        -6      812            837\n 6  2013     1     1      554            558        -4      740            728\n 7  2013     1     1      555            600        -5      913            854\n 8  2013     1     1      557            600        -3      709            723\n 9  2013     1     1      557            600        -3      838            846\n10  2013     1     1      558            600        -2      753            745\n# ℹ 832 more rows\n# ℹ 11 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,\n#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,\n#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;"
+  },
+  {
+    "objectID": "day4/index.html#filterで行を絞り込む-1",
+    "href": "day4/index.html#filterで行を絞り込む-1",
+    "title": "データサイエンス",
+    "section": "filter()で行を絞り込む",
+    "text": "filter()で行を絞り込む\n\n元のデータは変わっていない\nfilter()の出力を保存したい時は&lt;-を使う"
+  },
+  {
+    "objectID": "day4/index.html#filterで行を絞り込む-2",
+    "href": "day4/index.html#filterで行を絞り込む-2",
+    "title": "データサイエンス",
+    "section": "filter()で行を絞り込む",
+    "text": "filter()で行を絞り込む\nもう一つの複数条件を設定方法：,で条件を加える（filter()だけ）\n\nfilter(flights, month == 1, day == 1)\n\n# A tibble: 842 × 19\n    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;\n 1  2013     1     1      517            515         2      830            819\n 2  2013     1     1      533            529         4      850            830\n 3  2013     1     1      542            540         2      923            850\n 4  2013     1     1      544            545        -1     1004           1022\n 5  2013     1     1      554            600        -6      812            837\n 6  2013     1     1      554            558        -4      740            728\n 7  2013     1     1      555            600        -5      913            854\n 8  2013     1     1      557            600        -3      709            723\n 9  2013     1     1      557            600        -3      838            846\n10  2013     1     1      558            600        -2      753            745\n# ℹ 832 more rows\n# ℹ 11 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,\n#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,\n#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;"
+  },
+  {
+    "objectID": "day4/index.html#arrangeで行を並べ替える",
+    "href": "day4/index.html#arrangeで行を並べ替える",
+    "title": "データサイエンス",
+    "section": "arrange()で行を並べ替える",
+    "text": "arrange()で行を並べ替える\n\n# 出発の日と時間で並べ替える\narrange(flights, year, month, day, dep_time)\n\n# A tibble: 336,776 × 19\n    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;\n 1  2013     1     1      517            515         2      830            819\n 2  2013     1     1      533            529         4      850            830\n 3  2013     1     1      542            540         2      923            850\n 4  2013     1     1      544            545        -1     1004           1022\n 5  2013     1     1      554            600        -6      812            837\n 6  2013     1     1      554            558        -4      740            728\n 7  2013     1     1      555            600        -5      913            854\n 8  2013     1     1      557            600        -3      709            723\n 9  2013     1     1      557            600        -3      838            846\n10  2013     1     1      558            600        -2      753            745\n# ℹ 336,766 more rows\n# ℹ 11 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,\n#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,\n#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;"
+  },
+  {
+    "objectID": "day4/index.html#arrangeで行を並べ替える-1",
+    "href": "day4/index.html#arrangeで行を並べ替える-1",
+    "title": "データサイエンス",
+    "section": "arrange()で行を並べ替える",
+    "text": "arrange()で行を並べ替える\n\narrange()はデフォルトで小さい方からの順になっている\n大きい方から並べたい時はdesc()（「descend」、「降りる」）を使う：\n\n\n# 大きく遅れた順で並べる\narrange(flights, desc(dep_delay))\n\n# A tibble: 336,776 × 19\n    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;\n 1  2013     1     9      641            900      1301     1242           1530\n 2  2013     6    15     1432           1935      1137     1607           2120\n 3  2013     1    10     1121           1635      1126     1239           1810\n 4  2013     9    20     1139           1845      1014     1457           2210\n 5  2013     7    22      845           1600      1005     1044           1815\n 6  2013     4    10     1100           1900       960     1342           2211\n 7  2013     3    17     2321            810       911      135           1020\n 8  2013     6    27      959           1900       899     1236           2226\n 9  2013     7    22     2257            759       898      121           1026\n10  2013    12     5      756           1700       896     1058           2020\n# ℹ 336,766 more rows\n# ℹ 11 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,\n#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,\n#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;"
+  },
+  {
+    "objectID": "day4/index.html#チャレンジ-4",
+    "href": "day4/index.html#チャレンジ-4",
+    "title": "データサイエンス",
+    "section": "チャレンジ",
+    "text": "チャレンジ\n\nfilter()とarrange()を使って、12月のフライトに絞ってから、遠く飛んだ順に並べ替えてください"
+  },
+  {
+    "objectID": "day4/index.html#パイプにつて-1",
+    "href": "day4/index.html#パイプにつて-1",
+    "title": "データサイエンス",
+    "section": "パイプにつて",
+    "text": "パイプにつて\n\n|&gt;は「パイプ」と呼ばれる\n左にある物を右の方に渡す\n「それから」と読む"
+  },
+  {
+    "objectID": "day4/index.html#いつパイプを使う",
+    "href": "day4/index.html#いつパイプを使う",
+    "title": "データサイエンス",
+    "section": "いつパイプを使う？",
+    "text": "いつパイプを使う？\n\n複数の作業を施すに便利\n\n「パイプライン」\n\n\n\n# flightsから始まって、12月のデータに絞ってから、遠く飛んだ距離の順で並べる\nflights |&gt;\n  filter(month == 12) |&gt;\n  arrange(desc(distance))\n\n# A tibble: 28,135 × 19\n    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;\n 1  2013    12     1      928            930        -2     1532           1535\n 2  2013    12     2      920            930       -10     1525           1535\n 3  2013    12     4      933            930         3     1519           1535\n 4  2013    12     5      920            930       -10     1609           1535\n 5  2013    12     6      924            930        -6     1545           1535\n 6  2013    12     7      927            930        -3     1549           1535\n 7  2013    12     8      935            930         5     1520           1535\n 8  2013    12     9      928            930        -2     1528           1535\n 9  2013    12    11      930            930         0     1539           1535\n10  2013    12    13      929            930        -1     1527           1535\n# ℹ 28,125 more rows\n# ℹ 11 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,\n#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,\n#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;"
+  },
+  {
+    "objectID": "day4/index.html#mutateで新しい列を計算する",
+    "href": "day4/index.html#mutateで新しい列を計算する",
+    "title": "データサイエンス",
+    "section": "mutate()で新しい列を計算する",
+    "text": "mutate()で新しい列を計算する\n\n新しい列は右側から追加される\n\n列が多い場合は見えないことも\n\n\n\nflights |&gt; \n  mutate(speed = distance / air_time * 60)\n\n# A tibble: 336,776 × 20\n    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;\n 1  2013     1     1      517            515         2      830            819\n 2  2013     1     1      533            529         4      850            830\n 3  2013     1     1      542            540         2      923            850\n 4  2013     1     1      544            545        -1     1004           1022\n 5  2013     1     1      554            600        -6      812            837\n 6  2013     1     1      554            558        -4      740            728\n 7  2013     1     1      555            600        -5      913            854\n 8  2013     1     1      557            600        -3      709            723\n 9  2013     1     1      557            600        -3      838            846\n10  2013     1     1      558            600        -2      753            745\n# ℹ 336,766 more rows\n# ℹ 12 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,\n#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,\n#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;, speed &lt;dbl&gt;"
+  },
+  {
+    "objectID": "day4/index.html#mutateで新しい列を計算する-1",
+    "href": "day4/index.html#mutateで新しい列を計算する-1",
+    "title": "データサイエンス",
+    "section": "mutate()で新しい列を計算する",
+    "text": "mutate()で新しい列を計算する\n\n.beforeを使うと、新しい列が入る場所を指定できる\n\n\nflights |&gt; \n  mutate(\n    speed = distance / air_time * 60,\n    .before = 1)\n\n# A tibble: 336,776 × 20\n   speed  year month   day dep_time sched_dep_time dep_delay arr_time\n   &lt;dbl&gt; &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;\n 1  370.  2013     1     1      517            515         2      830\n 2  374.  2013     1     1      533            529         4      850\n 3  408.  2013     1     1      542            540         2      923\n 4  517.  2013     1     1      544            545        -1     1004\n 5  394.  2013     1     1      554            600        -6      812\n 6  288.  2013     1     1      554            558        -4      740\n 7  404.  2013     1     1      555            600        -5      913\n 8  259.  2013     1     1      557            600        -3      709\n 9  405.  2013     1     1      557            600        -3      838\n10  319.  2013     1     1      558            600        -2      753\n# ℹ 336,766 more rows\n# ℹ 12 more variables: sched_arr_time &lt;int&gt;, arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;,\n#   flight &lt;int&gt;, tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;,\n#   distance &lt;dbl&gt;, hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;"
+  },
+  {
+    "objectID": "day4/index.html#mutateで新しい列を計算する-2",
+    "href": "day4/index.html#mutateで新しい列を計算する-2",
+    "title": "データサイエンス",
+    "section": "mutate()で新しい列を計算する",
+    "text": "mutate()で新しい列を計算する\n\nfilter()（と他のデータ整理用関数と同じように）、mutate()の出力は元のデータを触らない\n解析結果を保存したい時は&lt;-を使う"
+  },
+  {
+    "objectID": "day4/index.html#selectで列を絞る",
+    "href": "day4/index.html#selectで列を絞る",
+    "title": "データサイエンス",
+    "section": "select()で列を絞る",
+    "text": "select()で列を絞る\n\n生データにたくさんの列が入っている場合がよくある。解析に必要な列だけに絞った方が解析がやりやすい\n基本的な使い方：列名で選択する\n\n\nflights |&gt; \n  select(year, month, day)\n\n# A tibble: 336,776 × 3\n    year month   day\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;\n 1  2013     1     1\n 2  2013     1     1\n 3  2013     1     1\n 4  2013     1     1\n 5  2013     1     1\n 6  2013     1     1\n 7  2013     1     1\n 8  2013     1     1\n 9  2013     1     1\n10  2013     1     1\n# ℹ 336,766 more rows"
+  },
+  {
+    "objectID": "day4/index.html#selectで列を絞る-1",
+    "href": "day4/index.html#selectで列を絞る-1",
+    "title": "データサイエンス",
+    "section": "select()で列を絞る",
+    "text": "select()で列を絞る\n\n選択したい列が多い場合は、:を使ってどこから〜どこまでというふうに書くと便利：\n\n\nflights |&gt; \n  select(year:day)\n\n# A tibble: 336,776 × 3\n    year month   day\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;\n 1  2013     1     1\n 2  2013     1     1\n 3  2013     1     1\n 4  2013     1     1\n 5  2013     1     1\n 6  2013     1     1\n 7  2013     1     1\n 8  2013     1     1\n 9  2013     1     1\n10  2013     1     1\n# ℹ 336,766 more rows"
+  },
+  {
+    "objectID": "day4/index.html#チャレンジ-5",
+    "href": "day4/index.html#チャレンジ-5",
+    "title": "データサイエンス",
+    "section": "チャレンジ",
+    "text": "チャレンジ\nJFKから出発したフライトに絞ってから、速度を計算してから、早い速度の順に並べ替えてください"
+  },
+  {
+    "objectID": "day4/index.html#データの集計",
+    "href": "day4/index.html#データの集計",
+    "title": "データサイエンス",
+    "section": "データの集計",
+    "text": "データの集計\nsummarize()でデータの集計ができる：\n\nsummarize(flights, mean_sched_dep_time = mean(sched_dep_time))\n\n# A tibble: 1 × 1\n  mean_sched_dep_time\n                &lt;dbl&gt;\n1               1344."
+  },
+  {
+    "objectID": "day4/index.html#グループ化",
+    "href": "day4/index.html#グループ化",
+    "title": "データサイエンス",
+    "section": "グループ化",
+    "text": "グループ化\nしかし、全体の平均だけを計算してもあまり意味はない。\nそれよりも、何か毎にデータの集計を行いたい方が多い。\nそれにはgroup_by()関数を使う。例えば、種ごと。まずはデータのグループを指定する："
+  },
+  {
+    "objectID": "day4/index.html#グループ化-1",
+    "href": "day4/index.html#グループ化-1",
+    "title": "データサイエンス",
+    "section": "グループ化",
+    "text": "グループ化\n次に、集計する：\n\nflights |&gt; \n  group_by(month) |&gt; \n  summarize(\n    avg_delay = mean(dep_delay)\n  )\n\n# A tibble: 12 × 2\n   month avg_delay\n   &lt;int&gt;     &lt;dbl&gt;\n 1     1        NA\n 2     2        NA\n 3     3        NA\n 4     4        NA\n 5     5        NA\n 6     6        NA\n 7     7        NA\n 8     8        NA\n 9     9        NA\n10    10        NA\n11    11        NA\n12    12        NA"
+  },
+  {
+    "objectID": "day4/index.html#グループ化-2",
+    "href": "day4/index.html#グループ化-2",
+    "title": "データサイエンス",
+    "section": "グループ化",
+    "text": "グループ化\nグループ毎の計算が終わったら、ungroup()でグループの解除をする必要がある場合がある。\n（以下のコードでは自動的にグループが解除されるので本当はいらないけど、必要な場合もある）\n\nflights |&gt; \n  group_by(month) |&gt; \n  summarize(\n    avg_delay = mean(dep_delay, na.rm = TRUE)\n  ) |&gt;\n  ungroup()\n\n# A tibble: 12 × 2\n   month avg_delay\n   &lt;int&gt;     &lt;dbl&gt;\n 1     1     10.0 \n 2     2     10.8 \n 3     3     13.2 \n 4     4     13.9 \n 5     5     13.0 \n 6     6     20.8 \n 7     7     21.7 \n 8     8     12.6 \n 9     9      6.72\n10    10      6.24\n11    11      5.44\n12    12     16.6"
+  },
+  {
+    "objectID": "day4/index.html#まとめ今日学んだ関数動詞",
+    "href": "day4/index.html#まとめ今日学んだ関数動詞",
+    "title": "データサイエンス",
+    "section": "まとめ：今日学んだ関数（動詞）",
+    "text": "まとめ：今日学んだ関数（動詞）\n\n行を扱う関数\n\nfilter()\narrange()\n\n列を扱う関数\n\nmutate()\nselect()\n\n集計の関数\n\nsummarize()\ngroup_by()\nungroup()"
+  },
+  {
+    "objectID": "day4/index.html#まとめ",
+    "href": "day4/index.html#まとめ",
+    "title": "データサイエンス",
+    "section": "まとめ",
+    "text": "まとめ\n\n|&gt;とデータ整理用の関数を組み合わせることによって、すぐにでもかなり高度なデータ解析のパイプラインができるようなる。\n初めての方にはとてもコードの量が多いように思えるでしょうが、このようなツールを毎日使うって、慣れていくとそのうちどのようなデータでもRで扱えるようになる！"
   }
 ]
