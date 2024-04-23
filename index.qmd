@@ -35,7 +35,8 @@ toc: false
   - リーディング
     - [R4DS Chapter 6 (Workflow: Scripts and Projects)](https://r4ds.hadley.nz/workflow-scripts)
     - [R4DS Chapter 7 (Data Import)](https://r4ds.hadley.nz/data-import)
-- 第４回（2024-04-23）: **データの読み込みと整理**
+- 第４回（2024-04-23）: **データの整理**
+  - [スライド](day4/index.qmd)
   - リーディング
     - [R4DS Chapter 3 (Data Transformation)](https://r4ds.hadley.nz/data-transform)
     - [R4DS Chapter 5 (Data Tidying)](https://r4ds.hadley.nz/data-tidy)

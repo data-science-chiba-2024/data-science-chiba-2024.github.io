@@ -221,7 +221,7 @@
     "href": "index.html#スケジュール",
     "title": "データサイエンス",
     "section": "スケジュール",
-    "text": "スケジュール\n毎週のリーディングを講義の前に読んでください。\n（全ての講義の録画はありません）\n\n第１回（2024-04-02）: 生成AIの基本、RとRStudioのインストール（オンデマンド）\n\nスライド\n録画\n\n第２回（2024-04-09）: ガイダンス、データサイエンスとR入門\n\nスライド\nリーディング\n\nR4DS Introduction\nR4DS Chapter 2 (Workflow: Basics)\n\n\n第３回（2024-04-16）: プロジェクトの整理とデータの読み込み\n\nスライド\nリーディング\n\nR4DS Chapter 6 (Workflow: Scripts and Projects)\nR4DS Chapter 7 (Data Import)\n\n\n第４回（2024-04-23）: データの読み込みと整理\n\nリーディング\n\nR4DS Chapter 3 (Data Transformation)\nR4DS Chapter 5 (Data Tidying)\n\n\n第５回（2024-05-07）: データの可視化\n\nリーディング\n\nR4DS Chapter 1 (Data Visualization)\n\n\n第６回（2024-05-14）: 再現可能な文書の書き方\n\nリーディング\n\nR4DS Chapter 28 (Quarto)\n\n\n第７回（2024-05-21）: レポートの発表\n第８回（2024-05-28）: 再現性を高めるツール（オンデマンド）"
+    "text": "スケジュール\n毎週のリーディングを講義の前に読んでください。\n（全ての講義の録画はありません）\n\n第１回（2024-04-02）: 生成AIの基本、RとRStudioのインストール（オンデマンド）\n\nスライド\n録画\n\n第２回（2024-04-09）: ガイダンス、データサイエンスとR入門\n\nスライド\nリーディング\n\nR4DS Introduction\nR4DS Chapter 2 (Workflow: Basics)\n\n\n第３回（2024-04-16）: プロジェクトの整理とデータの読み込み\n\nスライド\nリーディング\n\nR4DS Chapter 6 (Workflow: Scripts and Projects)\nR4DS Chapter 7 (Data Import)\n\n\n第４回（2024-04-23）: データの整理\n\nスライド\nリーディング\n\nR4DS Chapter 3 (Data Transformation)\nR4DS Chapter 5 (Data Tidying)\n\n\n第５回（2024-05-07）: データの可視化\n\nリーディング\n\nR4DS Chapter 1 (Data Visualization)\n\n\n第６回（2024-05-14）: 再現可能な文書の書き方\n\nリーディング\n\nR4DS Chapter 28 (Quarto)\n\n\n第７回（2024-05-21）: レポートの発表\n第８回（2024-05-28）: 再現性を高めるツール（オンデマンド）"
   },
   {
     "objectID": "index.html#リンク",
@@ -471,156 +471,156 @@
   {
     "objectID": "day3/index.html#スクリプトについて",
     "href": "day3/index.html#スクリプトについて",
-    "title": "データサイエンス",
-    "section": "スクリプトについて",
-    "text": "スクリプトについて\n\n今までは直接Rにコマンドを出していたけど、毎回そうするのは効率が良くない。\n作業を繰り返す場合や再現する場合はスクリプト(テキストファイル)が必要。\nRスクリプトの拡張は.Rか.r。"
+    "title": "第３回：プロジェクトの整理とデータの読み込み",
+    "section": "",
+    "text": "今までは直接Rにコマンドを出していたけど、毎回そうするのは効率が良くない。\n作業を繰り返す場合や再現する場合はスクリプト(テキストファイル)が必要。\nRスクリプトの拡張は.Rか.r。"
   },
   {
     "objectID": "day3/index.html#スクリプトの作成と保存",
     "href": "day3/index.html#スクリプトの作成と保存",
-    "title": "データサイエンス",
-    "section": "スクリプトの作成と保存",
-    "text": "スクリプトの作成と保存\n\n作成\n\nFile ➡︎ New File ➡︎ R Scriptをクリック\n\n保存\n\nFile ➡︎ Save As...をクリックかファイルのアイコンをクリック。\n\nスクリプトの名前はなるべくローマ字を使うように（あとあと公開する時のため）"
+    "title": "第３回：プロジェクトの整理とデータの読み込み",
+    "section": "",
+    "text": "作成\n\nFile ➡︎ New File ➡︎ R Scriptをクリック\n\n保存\n\nFile ➡︎ Save As...をクリックかファイルのアイコンをクリック。\n\nスクリプトの名前はなるべくローマ字を使うように（あとあと公開する時のため）"
   },
   {
     "objectID": "day3/index.html#スクリプトからコードを使う",
     "href": "day3/index.html#スクリプトからコードを使う",
-    "title": "データサイエンス",
-    "section": "スクリプトからコードを使う",
-    "text": "スクリプトからコードを使う\n以下のコードをスクリプトに書いて、script.Rとしてデスクトップに保存しましょう（コードの詳細はまた後で学ぶ）。\nlibrary(tidyverse)\n\nggplot(diamonds, aes(x = carat, y = price)) + \n  geom_hex()"
+    "title": "第３回：プロジェクトの整理とデータの読み込み",
+    "section": "",
+    "text": "以下のコードをスクリプトに書いて、script.Rとしてデスクトップに保存しましょう（コードの詳細はまた後で学ぶ）。\nlibrary(tidyverse)\n\nggplot(diamonds, aes(x = carat, y = price)) + \n  geom_hex()"
   },
   {
     "objectID": "day3/index.html#スクリプトからコードを使う-1",
     "href": "day3/index.html#スクリプトからコードを使う-1",
-    "title": "データサイエンス",
-    "section": "スクリプトからコードを使う",
-    "text": "スクリプトからコードを使う\n\nカーソルが現在位置している行をコンソールに送る：Ctrl（あるいは⌘） + Enter\n今開いているスクリプトの行を全てコンソールに送る：Ctrl（あるいは⌘） + Shift+ Enter"
+    "title": "第３回：プロジェクトの整理とデータの読み込み",
+    "section": "",
+    "text": "カーソルが現在位置している行をコンソールに送る：Ctrl（あるいは⌘） + Enter\n今開いているスクリプトの行を全てコンソールに送る：Ctrl（あるいは⌘） + Shift+ Enter"
   },
   {
     "objectID": "day3/index.html#スクリプトの書き方",
     "href": "day3/index.html#スクリプトの書き方",
-    "title": "データサイエンス",
-    "section": "スクリプトの書き方",
-    "text": "スクリプトの書き方\n\n読みやすさと覚えやすさを優先しましょう。\nRは大文字と小文字を区別するので、小文字に揃えた方が覚えやく、間違いが少ない（例えば、Dataではなく、data）。\n変数名にはスペースが使えないので、_を使いましょう（例えば、data_set_1など）。"
+    "title": "第３回：プロジェクトの整理とデータの読み込み",
+    "section": "",
+    "text": "読みやすさと覚えやすさを優先しましょう。\nRは大文字と小文字を区別するので、小文字に揃えた方が覚えやく、間違いが少ない（例えば、Dataではなく、data）。\n変数名にはスペースが使えないので、_を使いましょう（例えば、data_set_1など）。"
   },
   {
     "objectID": "day3/index.html#rstudioによる警告",
     "href": "day3/index.html#rstudioによる警告",
-    "title": "データサイエンス",
-    "section": "RStudioによる警告",
-    "text": "RStudioによる警告\nスクリプトに間違いが入っている場合、RStudioはそれを教えてくれる（バツマークと赤い線）："
+    "title": "第３回：プロジェクトの整理とデータの読み込み",
+    "section": "",
+    "text": "スクリプトに間違いが入っている場合、RStudioはそれを教えてくれる（バツマークと赤い線）："
   },
   {
     "objectID": "day3/index.html#ファイル名も整えましょう",
     "href": "day3/index.html#ファイル名も整えましょう",
-    "title": "データサイエンス",
-    "section": "ファイル名も整えましょう",
-    "text": "ファイル名も整えましょう\n\n\nNG ❌\nalternative model.R\ncode for exploratory analysis.r\nfinalreport.qmd\nFinalReport.qmd\nfig 1.png\nFigure_02.png\nmodel_first_try.R\nrun-first.r\ntemp.txt\n\nOK ✅\n01_load_data.R\n02_exploratory_analysis.R\n03_model_approach_1.R\n04_model_approach_2.R\nfig_01.png\nfig_02.png\nreport_2022_03_20.qmd\nreport_2022_04_02.qmd\nreport_draft_notes.txt"
+    "title": "第３回：プロジェクトの整理とデータの読み込み",
+    "section": "",
+    "text": "NG ❌\nalternative model.R\ncode for exploratory analysis.r\nfinalreport.qmd\nFinalReport.qmd\nfig 1.png\nFigure_02.png\nmodel_first_try.R\nrun-first.r\ntemp.txt\n\nOK ✅\n01_load_data.R\n02_exploratory_analysis.R\n03_model_approach_1.R\n04_model_approach_2.R\nfig_01.png\nfig_02.png\nreport_2022_03_20.qmd\nreport_2022_04_02.qmd\nreport_draft_notes.txt"
   },
   {
     "objectID": "day3/index.html#スクリプトの書き方-1",
     "href": "day3/index.html#スクリプトの書き方-1",
-    "title": "データサイエンス",
-    "section": "スクリプトの書き方",
-    "text": "スクリプトの書き方\n\nコメント（Rが無視する場所）を#で書く\n\n例えば、# this is a comment\n\nコメントは自分用のメモ\n\n未来の自分が、今の自分が何をやったのか、分かるように書く。\nまだ慣れていないうちには特にたくさん書きましょう。"
+    "title": "第３回：プロジェクトの整理とデータの読み込み",
+    "section": "",
+    "text": "コメント（Rが無視する場所）を#で書く\n\n例えば、# this is a comment\n\nコメントは自分用のメモ\n\n未来の自分が、今の自分が何をやったのか、分かるように書く。\nまだ慣れていないうちには特にたくさん書きましょう。"
   },
   {
     "objectID": "day3/index.html#プロジェクトについて",
     "href": "day3/index.html#プロジェクトについて",
-    "title": "データサイエンス",
-    "section": "プロジェクトについて",
-    "text": "プロジェクトについて\n\nスクリプトとしてコードを保存をするのはいいけど、解析が進むと複数のスクリプトとデータを整理する必要が生じる\nRStudioの「Project」機能によって、スクリプトとデータ（など）の整理ができる"
+    "title": "第３回：プロジェクトの整理とデータの読み込み",
+    "section": "",
+    "text": "スクリプトとしてコードを保存をするのはいいけど、解析が進むと複数のスクリプトとデータを整理する必要が生じる\nRStudioの「Project」機能によって、スクリプトとデータ（など）の整理ができる"
   },
   {
     "objectID": "day3/index.html#新しいプロジェクトを作る",
     "href": "day3/index.html#新しいプロジェクトを作る",
-    "title": "データサイエンス",
-    "section": "新しいプロジェクトを作る",
-    "text": "新しいプロジェクトを作る\n\nFile ➡︎ New Project ➡︎ New Directory ➡︎ New Project をクリック\n\nプロジェクト名と場所を入力（今回はr4dsにしましょう）\n分かりやすい場所がおすすめ（デスクトップにしましょう）\n\n今回は”Create a git repository”をクリックしないけど、本当はgitも使った方がいい（またあとで説明します）"
+    "title": "第３回：プロジェクトの整理とデータの読み込み",
+    "section": "",
+    "text": "File ➡︎ New Project ➡︎ New Directory ➡︎ New Project をクリック\n\nプロジェクト名と場所を入力（今回はr4dsにしましょう）\n分かりやすい場所がおすすめ（デスクトップにしましょう）\n\n今回は”Create a git repository”をクリックしないけど、本当はgitも使った方がいい（またあとで説明します）"
   },
   {
     "objectID": "day3/index.html#新しいプロジェクトを作る-1",
     "href": "day3/index.html#新しいプロジェクトを作る-1",
-    "title": "データサイエンス",
-    "section": "新しいプロジェクトを作る",
-    "text": "新しいプロジェクトを作る\n\nプロジェクト名の入力が終わると、RStudioが再度立ち上がる\nファイルパネル（右下）をよく見てください。今はRがどこに「います」か？"
+    "title": "第３回：プロジェクトの整理とデータの読み込み",
+    "section": "",
+    "text": "プロジェクト名の入力が終わると、RStudioが再度立ち上がる\nファイルパネル（右下）をよく見てください。今はRがどこに「います」か？"
   },
   {
     "objectID": "day3/index.html#rprojファイルについて",
     "href": "day3/index.html#rprojファイルについて",
-    "title": "データサイエンス",
-    "section": ".Rprojファイルについて",
-    "text": ".Rprojファイルについて\n\n新しいプロジェクトには、r4ds.Rprojファイルが入っている\n.Rprojファイルの中身はは基本的に触らない\n\n中身はRStudioの設定（RStudioに任せましょう）\n再度プロジェクトを開く時に使う（ダブルクリック）"
+    "title": "第３回：プロジェクトの整理とデータの読み込み",
+    "section": "",
+    "text": "新しいプロジェクトには、r4ds.Rprojファイルが入っている\n.Rprojファイルの中身はは基本的に触らない\n\n中身はRStudioの設定（RStudioに任せましょう）\n再度プロジェクトを開く時に使う（ダブルクリック）"
   },
   {
     "objectID": "day3/index.html#作業ディレクトリについて",
     "href": "day3/index.html#作業ディレクトリについて",
-    "title": "データサイエンス",
-    "section": "作業ディレクトリについて",
-    "text": "作業ディレクトリについて\n\n「作業ディレクトリ」（“working directory”）というのは、今Rが今「いる」場所のこと\ngetwd()で確認できる：\n\n\ngetwd()\n\n\n\n[1] \"/Users/joelnitta/Desktop/r4ds\""
+    "title": "第３回：プロジェクトの整理とデータの読み込み",
+    "section": "",
+    "text": "「作業ディレクトリ」（“working directory”）というのは、今Rが今「いる」場所のこと\ngetwd()で確認できる：\n\n\ngetwd()\n\n\n\n[1] \"/Users/joelnitta/Desktop/r4ds\""
   },
   {
     "objectID": "day3/index.html#作業ディレクトリについて-1",
     "href": "day3/index.html#作業ディレクトリについて-1",
-    "title": "データサイエンス",
-    "section": "作業ディレクトリについて",
-    "text": "作業ディレクトリについて\n\n時々、他のスクリプトを見ると、set.wd()という関数を目にする\n\n例：set.wd(\"/Users/joelnitta/analysis/\")\n後ろの部分は「パス」と言う（パソコンの中の住所のような物）"
+    "title": "第３回：プロジェクトの整理とデータの読み込み",
+    "section": "",
+    "text": "時々、他のスクリプトを見ると、set.wd()という関数を目にする\n\n例：set.wd(\"/Users/joelnitta/analysis/\")\n後ろの部分は「パス」と言う（パソコンの中の住所のような物）"
   },
   {
     "objectID": "day3/index.html#作業ディレクトリについて-2",
     "href": "day3/index.html#作業ディレクトリについて-2",
-    "title": "データサイエンス",
-    "section": "作業ディレクトリについて",
-    "text": "作業ディレクトリについて\n\nでも、多くの場合、他の人のパソコンにあるパスは自分のパソコンに存在しない\n\n.Rprojを使えば、set.wd()を使う必要がない\n\nなので、set.wd()は使わないようにしましょう。"
+    "title": "第３回：プロジェクトの整理とデータの読み込み",
+    "section": "",
+    "text": "でも、多くの場合、他の人のパソコンにあるパスは自分のパソコンに存在しない\n\n.Rprojを使えば、set.wd()を使う必要がない\n\nなので、set.wd()は使わないようにしましょう。"
   },
   {
     "objectID": "day3/index.html#新しいプロジェクトを作る-2",
     "href": "day3/index.html#新しいプロジェクトを作る-2",
-    "title": "データサイエンス",
-    "section": "新しいプロジェクトを作る",
-    "text": "新しいプロジェクトを作る\n\n右下の「ファイル」パネルを使って、dataというフォルダーを作りましょう\n\nあとで、このフォルダーにこれから解析するデータを置く"
+    "title": "第３回：プロジェクトの整理とデータの読み込み",
+    "section": "",
+    "text": "右下の「ファイル」パネルを使って、dataというフォルダーを作りましょう\n\nあとで、このフォルダーにこれから解析するデータを置く"
   },
   {
     "objectID": "day3/index.html#プロジェクトにスクリプトを置きましょう",
     "href": "day3/index.html#プロジェクトにスクリプトを置きましょう",
-    "title": "データサイエンス",
-    "section": "プロジェクトにスクリプトを置きましょう",
-    "text": "プロジェクトにスクリプトを置きましょう\n以下のコードを書いて、スクリプトをdiamonds.Rとしてr4dsプロジェクトに保存して、実行しましょう：\n\nlibrary(tidyverse)\n\nggplot(diamonds, aes(x = carat, y = price)) + \n  geom_hex()\nggsave(\"diamonds.png\")\n\nwrite_csv(diamonds, \"data/diamonds.csv\")\n\nこのスクリプトは何をするのでしょうか？"
+    "title": "第３回：プロジェクトの整理とデータの読み込み",
+    "section": "",
+    "text": "以下のコードを書いて、スクリプトをdiamonds.Rとしてr4dsプロジェクトに保存して、実行しましょう：\n\nlibrary(tidyverse)\n\nggplot(diamonds, aes(x = carat, y = price)) + \n  geom_hex()\nggsave(\"diamonds.png\")\n\nwrite_csv(diamonds, \"data/diamonds.csv\")\n\nこのスクリプトは何をするのでしょうか？"
   },
   {
     "objectID": "day3/index.html#コードによる再現性",
     "href": "day3/index.html#コードによる再現性",
-    "title": "データサイエンス",
-    "section": "コードによる再現性",
-    "text": "コードによる再現性\n\ndiamonds.Rはdiamonds.pngというグラフを作る。\n\n\n\ndiamonds.pngを消しましょう。\n\n\n\n\n解析結果が消えてしまった！どうしよう！？"
+    "title": "第３回：プロジェクトの整理とデータの読み込み",
+    "section": "",
+    "text": "diamonds.Rはdiamonds.pngというグラフを作る。\n\n. . .\n\ndiamonds.pngを消しましょう。\n\n. . .\n\n解析結果が消えてしまった！どうしよう！？"
   },
   {
     "objectID": "day3/index.html#コードによる再現性-1",
     "href": "day3/index.html#コードによる再現性-1",
-    "title": "データサイエンス",
-    "section": "コードによる再現性",
-    "text": "コードによる再現性\n\nご心配なく！\n\n再度diamonds.Rを実行してください（Ctrl（あるいは⌘） + Shift+ Enter）\n\n全く同じグラフが再度できた！つまり、再現しました。\n\n\n\nコードとデータがあれば、解析結果はいつでも再現できる\n\n\n\n\n絶対に必要なのは、コードとデータ。結果は「使い捨て」と考えて良い。"
+    "title": "第３回：プロジェクトの整理とデータの読み込み",
+    "section": "",
+    "text": "ご心配なく！\n\n再度diamonds.Rを実行してください（Ctrl（あるいは⌘） + Shift+ Enter）\n\n全く同じグラフが再度できた！つまり、再現しました。\n\n. . .\n\nコードとデータがあれば、解析結果はいつでも再現できる\n\n. . .\n\n絶対に必要なのは、コードとデータ。結果は「使い捨て」と考えて良い。"
   },
   {
     "objectID": "day3/index.html#ディスカッション",
     "href": "day3/index.html#ディスカッション",
-    "title": "データサイエンス",
-    "section": "ディスカッション",
-    "text": "ディスカッション\n\nデータ整理やプロジェクトの管理はどうしていますか？"
+    "title": "第３回：プロジェクトの整理とデータの読み込み",
+    "section": "",
+    "text": "データ整理やプロジェクトの管理はどうしていますか？"
   },
   {
     "objectID": "day3/index.html#データの読み込み",
     "href": "day3/index.html#データの読み込み",
-    "title": "データサイエンス",
-    "section": "データの読み込み",
-    "text": "データの読み込み\n\nMoodleからstudents.csvをダウンロードして、data/に置きましょう。\n.csvはcomma separated valuesの略です\n\nエクセルで扱うようなデータ形式（エクセルでも開くことができる）\n.xslxとの違いは、.csvはそのままどのテキストエディターでも開ける（エクセルがいらない）"
+    "title": "第３回：プロジェクトの整理とデータの読み込み",
+    "section": "",
+    "text": "Moodleからstudents.csvをダウンロードして、data/に置きましょう。\n.csvはcomma separated valuesの略です\n\nエクセルで扱うようなデータ形式（エクセルでも開くことができる）\n.xslxとの違いは、.csvはそのままどのテキストエディターでも開ける（エクセルがいらない）"
   },
   {
     "objectID": "day3/index.html#データの読み込み-1",
     "href": "day3/index.html#データの読み込み-1",
-    "title": "データサイエンス",
-    "section": "データの読み込み",
-    "text": "データの読み込み\n\nread_csv()関数で読み込む\n\nまずは、読み込んでから直接に中身を見てみましょう：\n\nread_csv(\"data/students.csv\")\n\n# A tibble: 6 × 5\n  `Student ID` `Full Name`      favourite.food     mealPlan            AGE  \n         &lt;dbl&gt; &lt;chr&gt;            &lt;chr&gt;              &lt;chr&gt;               &lt;chr&gt;\n1            1 Sunil Huffmann   Strawberry yoghurt Lunch only          4    \n2            2 Barclay Lynn     French fries       Lunch only          5    \n3            3 Jayendra Lyne    N/A                Breakfast and lunch 7    \n4            4 Leon Rossini     Anchovies          Lunch only          &lt;NA&gt; \n5            5 Chidiegwu Dunkel Pizza              Breakfast and lunch five \n6            6 Güvenç Attila    Ice cream          Lunch only          6"
+    "title": "第３回：プロジェクトの整理とデータの読み込み",
+    "section": "",
+    "text": "read_csv()関数で読み込む\n\nまずは、読み込んでから直接に中身を見てみましょう：\n\nread_csv(\"data/students.csv\")\n\nRows: 6 Columns: 5\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (4): Full Name, favourite.food, mealPlan, AGE\ndbl (1): Student ID\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n\n\n# A tibble: 6 × 5\n  `Student ID` `Full Name`      favourite.food     mealPlan            AGE  \n         &lt;dbl&gt; &lt;chr&gt;            &lt;chr&gt;              &lt;chr&gt;               &lt;chr&gt;\n1            1 Sunil Huffmann   Strawberry yoghurt Lunch only          4    \n2            2 Barclay Lynn     French fries       Lunch only          5    \n3            3 Jayendra Lyne    N/A                Breakfast and lunch 7    \n4            4 Leon Rossini     Anchovies          Lunch only          &lt;NA&gt; \n5            5 Chidiegwu Dunkel Pizza              Breakfast and lunch five \n6            6 Güvenç Attila    Ice cream          Lunch only          6"
   },
   {
     "objectID": "day3/index.html#データの読み込み-2",
@@ -632,30 +632,30 @@
   {
     "objectID": "day3/index.html#読み込んだデータの保存",
     "href": "day3/index.html#読み込んだデータの保存",
-    "title": "データサイエンス",
-    "section": "読み込んだデータの保存",
-    "text": "読み込んだデータの保存\n\nでも、これだけではRの環境にそのデータが入っていません\n変数（オブジェクト）として保存する必要がある：\n\n\nstudents &lt;- read_csv(\"data/students.csv\")"
+    "title": "第３回：プロジェクトの整理とデータの読み込み",
+    "section": "",
+    "text": "でも、これだけではRの環境にそのデータが入っていません\n変数（オブジェクト）として保存する必要がある：\n\n\nstudents &lt;- read_csv(\"data/students.csv\")\n\nRows: 6 Columns: 5\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (4): Full Name, favourite.food, mealPlan, AGE\ndbl (1): Student ID\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n\n\n\n\n\n\nこのようにRに読み込んだデータをデータフレーム（“dataframe”）、あるいは「tibble」と呼ぶ\n\n２次元データ。エクセルのデータシートみたいな物。"
   },
   {
     "objectID": "day3/index.html#読み込んだデータの中身の確認１",
     "href": "day3/index.html#読み込んだデータの中身の確認１",
-    "title": "データサイエンス",
-    "section": "読み込んだデータの中身の確認（１）",
-    "text": "読み込んだデータの中身の確認（１）\n\n変数として保存する時は中身が見えない（オブジェクトに渡された）\n中身を見たい時は変数名を直接コンソールに入力すればいい\n\n\nstudents\n\n# A tibble: 6 × 5\n  `Student ID` `Full Name`      favourite.food     mealPlan            AGE  \n         &lt;dbl&gt; &lt;chr&gt;            &lt;chr&gt;              &lt;chr&gt;               &lt;chr&gt;\n1            1 Sunil Huffmann   Strawberry yoghurt Lunch only          4    \n2            2 Barclay Lynn     French fries       Lunch only          5    \n3            3 Jayendra Lyne    N/A                Breakfast and lunch 7    \n4            4 Leon Rossini     Anchovies          Lunch only          &lt;NA&gt; \n5            5 Chidiegwu Dunkel Pizza              Breakfast and lunch five \n6            6 Güvenç Attila    Ice cream          Lunch only          6"
+    "title": "第３回：プロジェクトの整理とデータの読み込み",
+    "section": "",
+    "text": "変数として保存する時は中身が見えない（オブジェクトに渡された）\n中身を見たい時は変数名を直接コンソールに入力すればいい\n\n\nstudents\n\n# A tibble: 6 × 5\n  `Student ID` `Full Name`      favourite.food     mealPlan            AGE  \n         &lt;dbl&gt; &lt;chr&gt;            &lt;chr&gt;              &lt;chr&gt;               &lt;chr&gt;\n1            1 Sunil Huffmann   Strawberry yoghurt Lunch only          4    \n2            2 Barclay Lynn     French fries       Lunch only          5    \n3            3 Jayendra Lyne    N/A                Breakfast and lunch 7    \n4            4 Leon Rossini     Anchovies          Lunch only          &lt;NA&gt; \n5            5 Chidiegwu Dunkel Pizza              Breakfast and lunch five \n6            6 Güvenç Attila    Ice cream          Lunch only          6"
   },
   {
     "objectID": "day3/index.html#読み込んだデータの中身の確認２",
     "href": "day3/index.html#読み込んだデータの中身の確認２",
-    "title": "データサイエンス",
-    "section": "読み込んだデータの中身の確認（２）",
-    "text": "読み込んだデータの中身の確認（２）\n\nもう一つのデータの確認の仕方がある：「Environment」パネルでそのオブジェクトをクリック\nすると、エクセルのようなレイアウトになる\n\nエクセルと大きな違い：直接にデータをいじることができない！\n\n\n\n\nエクセルはデータ入力に使う。Rはデータ解析に使う"
+    "title": "第３回：プロジェクトの整理とデータの読み込み",
+    "section": "",
+    "text": "もう一つのデータの確認の仕方がある：「Environment」パネルでそのオブジェクトをクリック\nすると、エクセルのようなレイアウトになる\n\nエクセルと大きな違い：直接にデータをいじることができない！\n\n\n. . .\n\nエクセルはデータ入力に使う。Rはデータ解析に使う"
   },
   {
     "objectID": "day3/index.html#コンソールの使い方使うとき",
     "href": "day3/index.html#コンソールの使い方使うとき",
-    "title": "データサイエンス",
-    "section": "コンソールの使い方（使うとき）",
-    "text": "コンソールの使い方（使うとき）\n\nこのような時に使う：データの中身を確認したい、ヘルプファイルを開きたい、など。\nつまり、データ解析に必要ではない（関係のない）コマンド。"
+    "title": "第３回：プロジェクトの整理とデータの読み込み",
+    "section": "",
+    "text": "このような時に使う：データの中身を確認したい、ヘルプファイルを開きたい、など。\nつまり、データ解析に必要ではない（関係のない）コマンド。"
   },
   {
     "objectID": "day3/index.html#データの種類について",
@@ -674,79 +674,79 @@
   {
     "objectID": "day3/index.html#データの種類型について",
     "href": "day3/index.html#データの種類型について",
-    "title": "データサイエンス",
-    "section": "データの種類（型）について",
-    "text": "データの種類（型）について\n\nstudentsをコンソール（左下のパネル）でもう一回打ってみてください\nデータの上に&lt;dbl&gt;とか&lt;chr&gt;とかと出ているけど、これは何でしょうか？\n\n\n\nA: データの種類です"
+    "title": "第３回：プロジェクトの整理とデータの読み込み",
+    "section": "",
+    "text": "studentsをコンソール（左下のパネル）でもう一回打ってみてください\nデータの上に&lt;dbl&gt;とか&lt;chr&gt;とかと出ているけど、これは何でしょうか？\n\n. . .\n\nA: データの種類です"
   },
   {
     "objectID": "day3/index.html#データの種類型について-1",
     "href": "day3/index.html#データの種類型について-1",
-    "title": "データサイエンス",
-    "section": "データの種類（型）について",
-    "text": "データの種類（型）について\n\ndbl: 数字（“double”の略。なぜ”double”でしょう・・）\nchr: 文字（“character”の略。この方がしっくり来るね）\n\nこのほかに、\n\nlgl：ロジカル（TRUEかFALSEか、そのどっちか）\nint：整数（“integer”の略）\n\nがある"
+    "title": "第３回：プロジェクトの整理とデータの読み込み",
+    "section": "",
+    "text": "dbl: 数字（“double”の略。なぜ”double”でしょう・・）\nchr: 文字（“character”の略。この方がしっくり来るね）\n\nこのほかに、\n\nlgl：ロジカル（TRUEかFALSEか、そのどっちか）\nint：整数（“integer”の略）\n\nがある"
   },
   {
     "objectID": "day3/index.html#ベクトルについて",
     "href": "day3/index.html#ベクトルについて",
-    "title": "データサイエンス",
-    "section": "ベクトルについて",
-    "text": "ベクトルについて\n\nベクトル（vector）とは、同じ型を持つ一連のデータの集まり（一次元の配列）\nベクトルに含まれている一つ一つのデータを要素（element）という\n例えば、letters\n\n\"a\"がlettersの１個目の要素"
+    "title": "第３回：プロジェクトの整理とデータの読み込み",
+    "section": "",
+    "text": "ベクトル（vector）とは、同じ型を持つ一連のデータの集まり（一次元の配列）\nベクトルに含まれている一つ一つのデータを要素（element）という\n例えば、letters\n\n\"a\"がlettersの１個目の要素"
   },
   {
     "objectID": "day3/index.html#ベクトルの作り方",
     "href": "day3/index.html#ベクトルの作り方",
-    "title": "データサイエンス",
-    "section": "ベクトルの作り方",
-    "text": "ベクトルの作り方\n\nベクトルを関数はc()\n\n“concatenate”（「くっつける」）の略\n\n\n\nc(1, 2, 3)\n\n[1] 1 2 3"
+    "title": "第３回：プロジェクトの整理とデータの読み込み",
+    "section": "",
+    "text": "ベクトルを関数はc()\n\n“combine”（「くっつける」）の略\n\n\n\nc(1, 2, 3)\n\n[1] 1 2 3"
   },
   {
     "objectID": "day3/index.html#ベクトルの作り方-1",
     "href": "day3/index.html#ベクトルの作り方-1",
-    "title": "データサイエンス",
-    "section": "ベクトルの作り方",
-    "text": "ベクトルの作り方\n\n文字列（文字でできているベクトル）を作るときは、引用符をつけないといけない\n\n\nc(\"a\", \"b\", \"c\")\n\n[1] \"a\" \"b\" \"c\""
+    "title": "第３回：プロジェクトの整理とデータの読み込み",
+    "section": "",
+    "text": "文字列（文字でできているベクトル）を作るときは、引用符をつけないといけない\n\n\nc(\"a\", \"b\", \"c\")\n\n[1] \"a\" \"b\" \"c\""
   },
   {
     "objectID": "day3/index.html#ベクトルの型の確認",
     "href": "day3/index.html#ベクトルの型の確認",
-    "title": "データサイエンス",
-    "section": "ベクトルの型の確認",
-    "text": "ベクトルの型の確認\n\ntypeof()関数でベクトルの型を確認することができる\n\n\ntypeof(letters)\n\n[1] \"character\""
+    "title": "第３回：プロジェクトの整理とデータの読み込み",
+    "section": "",
+    "text": "typeof()関数でベクトルの型を確認することができる\n\n\ntypeof(letters)\n\n[1] \"character\""
   },
   {
     "objectID": "day3/index.html#チャレンジ",
     "href": "day3/index.html#チャレンジ",
-    "title": "データサイエンス",
-    "section": "チャレンジ",
-    "text": "チャレンジ\n\n以下のコードでベクトルを作ると、そのベクトルの型は何でしょうか？\n\n\nc(1, 2, \"c\")"
+    "title": "第３回：プロジェクトの整理とデータの読み込み",
+    "section": "",
+    "text": "以下のコードでベクトルを作ると、そのベクトルの型は何でしょうか？\n\n\nc(1, 2, \"c\")"
   },
   {
     "objectID": "day3/index.html#ベクトル変換",
     "href": "day3/index.html#ベクトル変換",
-    "title": "データサイエンス",
-    "section": "ベクトル変換",
-    "text": "ベクトル変換\n\n先も言いましたが、あるベクトルの要素は全て同じ型を持たないといけない\nなので、入力が複数の型を含む場合、Rはそれを同じ型に合わせる\n\n\nx &lt;- c(1, 2, \"c\")\ntypeof(x)\n\n[1] \"character\"\n\n\n\n先のベクトルは文字に変換された"
+    "title": "第３回：プロジェクトの整理とデータの読み込み",
+    "section": "",
+    "text": "先も言いましたが、あるベクトルの要素は全て同じ型を持たないといけない\nなので、入力が複数の型を含む場合、Rはそれを同じ型に合わせる\n\n\nx &lt;- c(1, 2, \"c\")\ntypeof(x)\n\n[1] \"character\"\n\n\n\n先のベクトルは文字に変換された"
   },
   {
     "objectID": "day3/index.html#ベクトル型とデータフレーム",
     "href": "day3/index.html#ベクトル型とデータフレーム",
-    "title": "データサイエンス",
-    "section": "ベクトル型とデータフレーム",
-    "text": "ベクトル型とデータフレーム\n\nデータフレームの列は、本当はベクトルになっている\nなので、データフレームの列はそれぞれ、型が決まっている\n\nこれはエクセルと大きな違い"
+    "title": "第３回：プロジェクトの整理とデータの読み込み",
+    "section": "",
+    "text": "データフレームの列は、本当はベクトルになっている\nなので、データフレームの列はそれぞれ、型が決まっている\n\nこれはエクセルと大きな違い"
   },
   {
     "objectID": "day3/index.html#まとめ",
     "href": "day3/index.html#まとめ",
-    "title": "データサイエンス",
-    "section": "まとめ",
-    "text": "まとめ\n\nスクリプト（.Rファイル）に解析に必要なコードを書く\nスクリプトとデータがあれば、解析結果を再現できる\nプロジェクトを使うと、解析の管理が大幅にやりやすくなる\nデータフレームはベクトルからなっている\nベクトルは一つの型しか持てない"
+    "title": "第３回：プロジェクトの整理とデータの読み込み",
+    "section": "",
+    "text": "スクリプト（.Rファイル）に解析に必要なコードを書く\nスクリプトとデータがあれば、解析結果を再現できる\nプロジェクトを使うと、解析の管理が大幅にやりやすくなる\nデータフレームはベクトルからなっている\nベクトルは一つの型しか持てない"
   },
   {
     "objectID": "day3/index.html#宿題",
     "href": "day3/index.html#宿題",
-    "title": "データサイエンス",
-    "section": "宿題",
-    "text": "宿題\n締め切り：2024-04-23 12:50\n\nクイズ（moodle）\n自分のデータを読み込む。\n二つのファイルmoodleにアップロード：\n\nデータのファイル（csv）\n読み込むスクリプト\n\nもしcsvではないファイルを読み込みたければ、連絡してください"
+    "title": "第３回：プロジェクトの整理とデータの読み込み",
+    "section": "",
+    "text": "締め切り：2024-04-23 12:50\n\nクイズ（moodle）\n自分のデータを読み込む。\n二つのファイルmoodleにアップロード：\n\nデータのファイル（csv）\n読み込むスクリプト\n\nもしcsvではないファイルを読み込みたければ、連絡してください"
   },
   {
     "objectID": "day4/index.html#今日のデータセット",
@@ -978,5 +978,12 @@
     "title": "データサイエンス",
     "section": "まとめ",
     "text": "まとめ\n\n|&gt;とデータ整理用の関数を組み合わせることによって、すぐにでもかなり高度なデータ解析のパイプラインができるようなる。\n初めての方にはとてもコードの量が多いように思えるでしょうが、このようなツールを毎日使うって、慣れていくとそのうちどのようなデータでもRで扱えるようになる！"
+  },
+  {
+    "objectID": "day3/index.html",
+    "href": "day3/index.html",
+    "title": "第３回：プロジェクトの整理とデータの読み込み",
+    "section": "",
+    "text": "2024-04-16\nhttps://data-science-chiba-2024.github.io/day3/\n\n\n\n\n今までは直接Rにコマンドを出していたけど、毎回そうするのは効率が良くない。\n作業を繰り返す場合や再現する場合はスクリプト(テキストファイル)が必要。\nRスクリプトの拡張は.Rか.r。\n\n\n\n\n\n作成\n\nFile ➡︎ New File ➡︎ R Scriptをクリック\n\n保存\n\nFile ➡︎ Save As...をクリックかファイルのアイコンをクリック。\n\nスクリプトの名前はなるべくローマ字を使うように（あとあと公開する時のため）\n\n\n\n\n以下のコードをスクリプトに書いて、script.Rとしてデスクトップに保存しましょう（コードの詳細はまた後で学ぶ）。\nlibrary(tidyverse)\n\nggplot(diamonds, aes(x = carat, y = price)) + \n  geom_hex()\n\n\n\n\nカーソルが現在位置している行をコンソールに送る：Ctrl（あるいは⌘） + Enter\n今開いているスクリプトの行を全てコンソールに送る：Ctrl（あるいは⌘） + Shift+ Enter\n\n\n\n\nスクリプトに間違いが入っている場合、RStudioはそれを教えてくれる（バツマークと赤い線）：\n\n\n\n\n\n読みやすさと覚えやすさを優先しましょう。\nRは大文字と小文字を区別するので、小文字に揃えた方が覚えやく、間違いが少ない（例えば、Dataではなく、data）。\n変数名にはスペースが使えないので、_を使いましょう（例えば、data_set_1など）。\n\n\n\n\n\nコメント（Rが無視する場所）を#で書く\n\n例えば、# this is a comment\n\nコメントは自分用のメモ\n\n未来の自分が、今の自分が何をやったのか、分かるように書く。\nまだ慣れていないうちには特にたくさん書きましょう。\n\n\n\n\n\n\n\nNG ❌\nalternative model.R\ncode for exploratory analysis.r\nfinalreport.qmd\nFinalReport.qmd\nfig 1.png\nFigure_02.png\nmodel_first_try.R\nrun-first.r\ntemp.txt\n\nOK ✅\n01_load_data.R\n02_exploratory_analysis.R\n03_model_approach_1.R\n04_model_approach_2.R\nfig_01.png\nfig_02.png\nreport_2022_03_20.qmd\nreport_2022_04_02.qmd\nreport_draft_notes.txt\n\n\n\n\n\n\nスクリプトとしてコードを保存をするのはいいけど、解析が進むと複数のスクリプトとデータを整理する必要が生じる\nRStudioの「Project」機能によって、スクリプトとデータ（など）の整理ができる\n\n\n\n\n\nFile ➡︎ New Project ➡︎ New Directory ➡︎ New Project をクリック\n\nプロジェクト名と場所を入力（今回はr4dsにしましょう）\n分かりやすい場所がおすすめ（デスクトップにしましょう）\n\n今回は”Create a git repository”をクリックしないけど、本当はgitも使った方がいい（またあとで説明します）\n\n\n\n\n\n\n\nプロジェクト名の入力が終わると、RStudioが再度立ち上がる\nファイルパネル（右下）をよく見てください。今はRがどこに「います」か？\n\n\n\n\n\n右下の「ファイル」パネルを使って、dataというフォルダーを作りましょう\n\nあとで、このフォルダーにこれから解析するデータを置く\n\n\n\n\n\n\n\n新しいプロジェクトには、r4ds.Rprojファイルが入っている\n.Rprojファイルの中身はは基本的に触らない\n\n中身はRStudioの設定（RStudioに任せましょう）\n再度プロジェクトを開く時に使う（ダブルクリック）\n\n\n\n\n\n\n\n「作業ディレクトリ」（“working directory”）というのは、今Rが今「いる」場所のこと\ngetwd()で確認できる：\n\n\ngetwd()\n\n\n\n[1] \"/Users/joelnitta/Desktop/r4ds\"\n\n\n\n\n\n\n時々、他のスクリプトを見ると、set.wd()という関数を目にする\n\n例：set.wd(\"/Users/joelnitta/analysis/\")\n後ろの部分は「パス」と言う（パソコンの中の住所のような物）\n\n\n\n\n\n\nでも、多くの場合、他の人のパソコンにあるパスは自分のパソコンに存在しない\n\n.Rprojを使えば、set.wd()を使う必要がない\n\nなので、set.wd()は使わないようにしましょう。\n\n\n\n\n以下のコードを書いて、スクリプトをdiamonds.Rとしてr4dsプロジェクトに保存して、実行しましょう：\n\nlibrary(tidyverse)\n\nggplot(diamonds, aes(x = carat, y = price)) + \n  geom_hex()\nggsave(\"diamonds.png\")\n\nwrite_csv(diamonds, \"data/diamonds.csv\")\n\nこのスクリプトは何をするのでしょうか？\n\n\n\n\ndiamonds.Rはdiamonds.pngというグラフを作る。\n\n. . .\n\ndiamonds.pngを消しましょう。\n\n. . .\n\n解析結果が消えてしまった！どうしよう！？\n\n\n\n\n\nご心配なく！\n\n再度diamonds.Rを実行してください（Ctrl（あるいは⌘） + Shift+ Enter）\n\n全く同じグラフが再度できた！つまり、再現しました。\n\n. . .\n\nコードとデータがあれば、解析結果はいつでも再現できる\n\n. . .\n\n絶対に必要なのは、コードとデータ。結果は「使い捨て」と考えて良い。\n\n\n\n\n\nデータ整理やプロジェクトの管理はどうしていますか？\n\n\n\n\nMoodleからstudents.csvをダウンロードして、data/に置きましょう。\n.csvはcomma separated valuesの略です\n\nエクセルで扱うようなデータ形式（エクセルでも開くことができる）\n.xslxとの違いは、.csvはそのままどのテキストエディターでも開ける（エクセルがいらない）\n\n\n\n\n\n\nread_csv()関数で読み込む\n\nまずは、読み込んでから直接に中身を見てみましょう：\n\nread_csv(\"data/students.csv\")\n\nRows: 6 Columns: 5\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (4): Full Name, favourite.food, mealPlan, AGE\ndbl (1): Student ID\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n\n\n# A tibble: 6 × 5\n  `Student ID` `Full Name`      favourite.food     mealPlan            AGE  \n         &lt;dbl&gt; &lt;chr&gt;            &lt;chr&gt;              &lt;chr&gt;               &lt;chr&gt;\n1            1 Sunil Huffmann   Strawberry yoghurt Lunch only          4    \n2            2 Barclay Lynn     French fries       Lunch only          5    \n3            3 Jayendra Lyne    N/A                Breakfast and lunch 7    \n4            4 Leon Rossini     Anchovies          Lunch only          &lt;NA&gt; \n5            5 Chidiegwu Dunkel Pizza              Breakfast and lunch five \n6            6 Güvenç Attila    Ice cream          Lunch only          6    \n\n\n\n\n\n\nでも、これだけではRの環境にそのデータが入っていません\n変数（オブジェクト）として保存する必要がある：\n\n\nstudents &lt;- read_csv(\"data/students.csv\")\n\nRows: 6 Columns: 5\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (4): Full Name, favourite.food, mealPlan, AGE\ndbl (1): Student ID\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n\n\n\n\n\n\nこのようにRに読み込んだデータをデータフレーム（“dataframe”）、あるいは「tibble」と呼ぶ\n\n２次元データ。エクセルのデータシートみたいな物。\n\n\n\n\n\n\n変数として保存する時は中身が見えない（オブジェクトに渡された）\n中身を見たい時は変数名を直接コンソールに入力すればいい\n\n\nstudents\n\n# A tibble: 6 × 5\n  `Student ID` `Full Name`      favourite.food     mealPlan            AGE  \n         &lt;dbl&gt; &lt;chr&gt;            &lt;chr&gt;              &lt;chr&gt;               &lt;chr&gt;\n1            1 Sunil Huffmann   Strawberry yoghurt Lunch only          4    \n2            2 Barclay Lynn     French fries       Lunch only          5    \n3            3 Jayendra Lyne    N/A                Breakfast and lunch 7    \n4            4 Leon Rossini     Anchovies          Lunch only          &lt;NA&gt; \n5            5 Chidiegwu Dunkel Pizza              Breakfast and lunch five \n6            6 Güvenç Attila    Ice cream          Lunch only          6    \n\n\n\n\n\n\nこのような時に使う：データの中身を確認したい、ヘルプファイルを開きたい、など。\nつまり、データ解析に必要ではない（関係のない）コマンド。\n\n\n\n\n\nもう一つのデータの確認の仕方がある：「Environment」パネルでそのオブジェクトをクリック\nすると、エクセルのようなレイアウトになる\n\nエクセルと大きな違い：直接にデータをいじることができない！\n\n\n. . .\n\nエクセルはデータ入力に使う。Rはデータ解析に使う\n\n\n\n\n\n\n\nstudentsをコンソール（左下のパネル）でもう一回打ってみてください\nデータの上に&lt;dbl&gt;とか&lt;chr&gt;とかと出ているけど、これは何でしょうか？\n\n. . .\n\nA: データの種類です\n\n\n\n\n\ndbl: 数字（“double”の略。なぜ”double”でしょう・・）\nchr: 文字（“character”の略。この方がしっくり来るね）\n\nこのほかに、\n\nlgl：ロジカル（TRUEかFALSEか、そのどっちか）\nint：整数（“integer”の略）\n\nがある\n\n\n\n\nベクトル（vector）とは、同じ型を持つ一連のデータの集まり（一次元の配列）\nベクトルに含まれている一つ一つのデータを要素（element）という\n例えば、letters\n\n\"a\"がlettersの１個目の要素\n\n\n\n\n\n\nベクトルを関数はc()\n\n“combine”（「くっつける」）の略\n\n\n\nc(1, 2, 3)\n\n[1] 1 2 3\n\n\n\n\n\n\n文字列（文字でできているベクトル）を作るときは、引用符をつけないといけない\n\n\nc(\"a\", \"b\", \"c\")\n\n[1] \"a\" \"b\" \"c\"\n\n\n\n\n\n\ntypeof()関数でベクトルの型を確認することができる\n\n\ntypeof(letters)\n\n[1] \"character\"\n\n\n\n\n\n\n以下のコードでベクトルを作ると、そのベクトルの型は何でしょうか？\n\n\nc(1, 2, \"c\")\n\n\n\n\n\n先も言いましたが、あるベクトルの要素は全て同じ型を持たないといけない\nなので、入力が複数の型を含む場合、Rはそれを同じ型に合わせる\n\n\nx &lt;- c(1, 2, \"c\")\ntypeof(x)\n\n[1] \"character\"\n\n\n\n先のベクトルは文字に変換された\n\n\n\n\n\nデータフレームの列は、本当はベクトルになっている\nなので、データフレームの列はそれぞれ、型が決まっている\n\nこれはエクセルと大きな違い\n\n\n\n\n\n\n\nスクリプト（.Rファイル）に解析に必要なコードを書く\nスクリプトとデータがあれば、解析結果を再現できる\nプロジェクトを使うと、解析の管理が大幅にやりやすくなる\nデータフレームはベクトルからなっている\nベクトルは一つの型しか持てない\n\n\n\n\n締め切り：2024-04-23 12:50\n\nクイズ（moodle）\n自分のデータを読み込む。\n二つのファイルmoodleにアップロード：\n\nデータのファイル（csv）\n読み込むスクリプト\n\nもしcsvではないファイルを読み込みたければ、連絡してください"
   }
 ]
