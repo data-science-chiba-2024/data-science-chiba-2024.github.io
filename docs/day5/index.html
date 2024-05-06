@@ -455,22 +455,23 @@
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 336,776 × 19
 # Groups:   month [12]
-    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time
-   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;
- 1  2013     1     1      517            515         2      830            819
- 2  2013     1     1      533            529         4      850            830
- 3  2013     1     1      542            540         2      923            850
- 4  2013     1     1      544            545        -1     1004           1022
- 5  2013     1     1      554            600        -6      812            837
- 6  2013     1     1      554            558        -4      740            728
- 7  2013     1     1      555            600        -5      913            854
- 8  2013     1     1      557            600        -3      709            723
- 9  2013     1     1      557            600        -3      838            846
-10  2013     1     1      558            600        -2      753            745
+    year month   day dep_time sched_dep_time dep_delay arr_time
+   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;
+ 1  2013     1     1      517            515         2      830
+ 2  2013     1     1      533            529         4      850
+ 3  2013     1     1      542            540         2      923
+ 4  2013     1     1      544            545        -1     1004
+ 5  2013     1     1      554            600        -6      812
+ 6  2013     1     1      554            558        -4      740
+ 7  2013     1     1      555            600        -5      913
+ 8  2013     1     1      557            600        -3      709
+ 9  2013     1     1      557            600        -3      838
+10  2013     1     1      558            600        -2      753
 # ℹ 336,766 more rows
-# ℹ 11 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,
-#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,
-#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;</code></pre>
+# ℹ 12 more variables: sched_arr_time &lt;int&gt;, arr_delay &lt;dbl&gt;,
+#   carrier &lt;chr&gt;, flight &lt;int&gt;, tailnum &lt;chr&gt;, origin &lt;chr&gt;,
+#   dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;, hour &lt;dbl&gt;,
+#   minute &lt;dbl&gt;, time_hour &lt;dttm&gt;</code></pre>
 </div>
 </div>
 </section>
@@ -508,7 +509,7 @@
 <div class="fragment">
 <ul>
 <li><code>NA</code>(「Not Applicable」、「該当しない」)はデータが<strong>欠けている</strong>ことを示す。</li>
-<li><code>mean()</code>は<strong>一つでもデータが欠けていることがあると、結果は全部</strong>が<code>NA</code>になってしまう。</li>
+<li><code>mean()</code>は<strong>一つでもデータが欠けていることがあると、結果は全部</strong><code>NA</code>になってしまう。</li>
 <li>欠けているデータを無視して平均を計算するには、<code>na.rm = TRUE</code>を指定しないといけない</li>
 </ul>
 </div>
@@ -547,22 +548,23 @@
 <span id="cb9-2"><a></a>  <span class="fu">filter</span>(<span class="fu">is.na</span>(dep_delay))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 8,255 × 19
-    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time
-   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;
- 1  2013     1     1       NA           1630        NA       NA           1815
- 2  2013     1     1       NA           1935        NA       NA           2240
- 3  2013     1     1       NA           1500        NA       NA           1825
- 4  2013     1     1       NA            600        NA       NA            901
- 5  2013     1     2       NA           1540        NA       NA           1747
- 6  2013     1     2       NA           1620        NA       NA           1746
- 7  2013     1     2       NA           1355        NA       NA           1459
- 8  2013     1     2       NA           1420        NA       NA           1644
- 9  2013     1     2       NA           1321        NA       NA           1536
-10  2013     1     2       NA           1545        NA       NA           1910
+    year month   day dep_time sched_dep_time dep_delay arr_time
+   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;
+ 1  2013     1     1       NA           1630        NA       NA
+ 2  2013     1     1       NA           1935        NA       NA
+ 3  2013     1     1       NA           1500        NA       NA
+ 4  2013     1     1       NA            600        NA       NA
+ 5  2013     1     2       NA           1540        NA       NA
+ 6  2013     1     2       NA           1620        NA       NA
+ 7  2013     1     2       NA           1355        NA       NA
+ 8  2013     1     2       NA           1420        NA       NA
+ 9  2013     1     2       NA           1321        NA       NA
+10  2013     1     2       NA           1545        NA       NA
 # ℹ 8,245 more rows
-# ℹ 11 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,
-#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,
-#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;</code></pre>
+# ℹ 12 more variables: sched_arr_time &lt;int&gt;, arr_delay &lt;dbl&gt;,
+#   carrier &lt;chr&gt;, flight &lt;int&gt;, tailnum &lt;chr&gt;, origin &lt;chr&gt;,
+#   dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;, hour &lt;dbl&gt;,
+#   minute &lt;dbl&gt;, time_hour &lt;dttm&gt;</code></pre>
 </div>
 </div>
 </section>
@@ -719,7 +721,7 @@
 <h2>データの形を変える</h2>
 <ul>
 <li><p>元々のデータが同じであることは確認できましたか？</p></li>
-<li><p>でも、<code>table1</code>と<code>table2</code>は<strong>大事な違い</strong>がある：</p>
+<li><p>でも、<code>table1</code>と<code>table2</code>には<strong>大事な違い</strong>がある：</p>
 <ul>
 <li><code>table1</code>だけが<strong>tidy</strong>（すぐに解析できるように整っている）になっている</li>
 </ul></li>
@@ -774,25 +776,25 @@
 <div class="sourceCode cell-code" id="cb27"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a></a>billboard</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 317 × 79
-   artist     track date.entered   wk1   wk2   wk3   wk4   wk5   wk6   wk7   wk8
-   &lt;chr&gt;      &lt;chr&gt; &lt;date&gt;       &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
- 1 2 Pac      Baby… 2000-02-26      87    82    72    77    87    94    99    NA
- 2 2Ge+her    The … 2000-09-02      91    87    92    NA    NA    NA    NA    NA
- 3 3 Doors D… Kryp… 2000-04-08      81    70    68    67    66    57    54    53
- 4 3 Doors D… Loser 2000-10-21      76    76    72    69    67    65    55    59
- 5 504 Boyz   Wobb… 2000-04-15      57    34    25    17    17    31    36    49
- 6 98^0       Give… 2000-08-19      51    39    34    26    26    19     2     2
- 7 A*Teens    Danc… 2000-07-08      97    97    96    95   100    NA    NA    NA
- 8 Aaliyah    I Do… 2000-01-29      84    62    51    41    38    35    35    38
- 9 Aaliyah    Try … 2000-03-18      59    53    38    28    21    18    16    14
-10 Adams, Yo… Open… 2000-08-26      76    76    74    69    68    67    61    58
+   artist track date.entered   wk1   wk2   wk3   wk4   wk5   wk6   wk7
+   &lt;chr&gt;  &lt;chr&gt; &lt;date&gt;       &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
+ 1 2 Pac  Baby… 2000-02-26      87    82    72    77    87    94    99
+ 2 2Ge+h… The … 2000-09-02      91    87    92    NA    NA    NA    NA
+ 3 3 Doo… Kryp… 2000-04-08      81    70    68    67    66    57    54
+ 4 3 Doo… Loser 2000-10-21      76    76    72    69    67    65    55
+ 5 504 B… Wobb… 2000-04-15      57    34    25    17    17    31    36
+ 6 98^0   Give… 2000-08-19      51    39    34    26    26    19     2
+ 7 A*Tee… Danc… 2000-07-08      97    97    96    95   100    NA    NA
+ 8 Aaliy… I Do… 2000-01-29      84    62    51    41    38    35    35
+ 9 Aaliy… Try … 2000-03-18      59    53    38    28    21    18    16
+10 Adams… Open… 2000-08-26      76    76    74    69    68    67    61
 # ℹ 307 more rows
-# ℹ 68 more variables: wk9 &lt;dbl&gt;, wk10 &lt;dbl&gt;, wk11 &lt;dbl&gt;, wk12 &lt;dbl&gt;,
-#   wk13 &lt;dbl&gt;, wk14 &lt;dbl&gt;, wk15 &lt;dbl&gt;, wk16 &lt;dbl&gt;, wk17 &lt;dbl&gt;, wk18 &lt;dbl&gt;,
-#   wk19 &lt;dbl&gt;, wk20 &lt;dbl&gt;, wk21 &lt;dbl&gt;, wk22 &lt;dbl&gt;, wk23 &lt;dbl&gt;, wk24 &lt;dbl&gt;,
-#   wk25 &lt;dbl&gt;, wk26 &lt;dbl&gt;, wk27 &lt;dbl&gt;, wk28 &lt;dbl&gt;, wk29 &lt;dbl&gt;, wk30 &lt;dbl&gt;,
-#   wk31 &lt;dbl&gt;, wk32 &lt;dbl&gt;, wk33 &lt;dbl&gt;, wk34 &lt;dbl&gt;, wk35 &lt;dbl&gt;, wk36 &lt;dbl&gt;,
-#   wk37 &lt;dbl&gt;, wk38 &lt;dbl&gt;, wk39 &lt;dbl&gt;, wk40 &lt;dbl&gt;, wk41 &lt;dbl&gt;, wk42 &lt;dbl&gt;, …</code></pre>
+# ℹ 69 more variables: wk8 &lt;dbl&gt;, wk9 &lt;dbl&gt;, wk10 &lt;dbl&gt;, wk11 &lt;dbl&gt;,
+#   wk12 &lt;dbl&gt;, wk13 &lt;dbl&gt;, wk14 &lt;dbl&gt;, wk15 &lt;dbl&gt;, wk16 &lt;dbl&gt;,
+#   wk17 &lt;dbl&gt;, wk18 &lt;dbl&gt;, wk19 &lt;dbl&gt;, wk20 &lt;dbl&gt;, wk21 &lt;dbl&gt;,
+#   wk22 &lt;dbl&gt;, wk23 &lt;dbl&gt;, wk24 &lt;dbl&gt;, wk25 &lt;dbl&gt;, wk26 &lt;dbl&gt;,
+#   wk27 &lt;dbl&gt;, wk28 &lt;dbl&gt;, wk29 &lt;dbl&gt;, wk30 &lt;dbl&gt;, wk31 &lt;dbl&gt;,
+#   wk32 &lt;dbl&gt;, wk33 &lt;dbl&gt;, wk34 &lt;dbl&gt;, wk35 &lt;dbl&gt;, wk36 &lt;dbl&gt;, …</code></pre>
 </div>
 </div>
 </section>
@@ -815,7 +817,7 @@
 <li><code>pivot_longer()</code>の主な引数：
 <ul>
 <li><code>cols</code> どの列を使う（ロングにする）</li>
-<li><code>names_to</code> ロング形式に変換された新しい列の名前</li>
+<li><code>names_to</code> ロング形式に変換される新しい列の名前</li>
 <li><code>values_to</code> 新しい値の列の名前</li>
 </ul></li>
 </ul>
@@ -856,18 +858,18 @@
 <div class="sourceCode cell-code" id="cb31"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a></a>cms_patient_experience</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 500 × 5
-   org_pac_id org_nm                           measure_cd measure_title prf_rate
-   &lt;chr&gt;      &lt;chr&gt;                            &lt;chr&gt;      &lt;chr&gt;            &lt;dbl&gt;
- 1 0446157747 USC CARE MEDICAL GROUP INC       CAHPS_GRP… CAHPS for MI…       63
- 2 0446157747 USC CARE MEDICAL GROUP INC       CAHPS_GRP… CAHPS for MI…       87
- 3 0446157747 USC CARE MEDICAL GROUP INC       CAHPS_GRP… CAHPS for MI…       86
- 4 0446157747 USC CARE MEDICAL GROUP INC       CAHPS_GRP… CAHPS for MI…       57
- 5 0446157747 USC CARE MEDICAL GROUP INC       CAHPS_GRP… CAHPS for MI…       85
- 6 0446157747 USC CARE MEDICAL GROUP INC       CAHPS_GRP… CAHPS for MI…       24
- 7 0446162697 ASSOCIATION OF UNIVERSITY PHYSI… CAHPS_GRP… CAHPS for MI…       59
- 8 0446162697 ASSOCIATION OF UNIVERSITY PHYSI… CAHPS_GRP… CAHPS for MI…       85
- 9 0446162697 ASSOCIATION OF UNIVERSITY PHYSI… CAHPS_GRP… CAHPS for MI…       83
-10 0446162697 ASSOCIATION OF UNIVERSITY PHYSI… CAHPS_GRP… CAHPS for MI…       63
+   org_pac_id org_nm                 measure_cd measure_title prf_rate
+   &lt;chr&gt;      &lt;chr&gt;                  &lt;chr&gt;      &lt;chr&gt;            &lt;dbl&gt;
+ 1 0446157747 USC CARE MEDICAL GROU… CAHPS_GRP… CAHPS for MI…       63
+ 2 0446157747 USC CARE MEDICAL GROU… CAHPS_GRP… CAHPS for MI…       87
+ 3 0446157747 USC CARE MEDICAL GROU… CAHPS_GRP… CAHPS for MI…       86
+ 4 0446157747 USC CARE MEDICAL GROU… CAHPS_GRP… CAHPS for MI…       57
+ 5 0446157747 USC CARE MEDICAL GROU… CAHPS_GRP… CAHPS for MI…       85
+ 6 0446157747 USC CARE MEDICAL GROU… CAHPS_GRP… CAHPS for MI…       24
+ 7 0446162697 ASSOCIATION OF UNIVER… CAHPS_GRP… CAHPS for MI…       59
+ 8 0446162697 ASSOCIATION OF UNIVER… CAHPS_GRP… CAHPS for MI…       85
+ 9 0446162697 ASSOCIATION OF UNIVER… CAHPS_GRP… CAHPS for MI…       83
+10 0446162697 ASSOCIATION OF UNIVER… CAHPS_GRP… CAHPS for MI…       63
 # ℹ 490 more rows</code></pre>
 </div>
 </div>
@@ -901,20 +903,21 @@
 <span id="cb33-5"><a></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 500 × 9
-   org_pac_id org_nm           measure_title CAHPS_GRP_1 CAHPS_GRP_2 CAHPS_GRP_3
-   &lt;chr&gt;      &lt;chr&gt;            &lt;chr&gt;               &lt;dbl&gt;       &lt;dbl&gt;       &lt;dbl&gt;
- 1 0446157747 USC CARE MEDICA… CAHPS for MI…          63          NA          NA
- 2 0446157747 USC CARE MEDICA… CAHPS for MI…          NA          87          NA
- 3 0446157747 USC CARE MEDICA… CAHPS for MI…          NA          NA          86
- 4 0446157747 USC CARE MEDICA… CAHPS for MI…          NA          NA          NA
- 5 0446157747 USC CARE MEDICA… CAHPS for MI…          NA          NA          NA
- 6 0446157747 USC CARE MEDICA… CAHPS for MI…          NA          NA          NA
- 7 0446162697 ASSOCIATION OF … CAHPS for MI…          59          NA          NA
- 8 0446162697 ASSOCIATION OF … CAHPS for MI…          NA          85          NA
- 9 0446162697 ASSOCIATION OF … CAHPS for MI…          NA          NA          83
-10 0446162697 ASSOCIATION OF … CAHPS for MI…          NA          NA          NA
+   org_pac_id org_nm measure_title CAHPS_GRP_1 CAHPS_GRP_2 CAHPS_GRP_3
+   &lt;chr&gt;      &lt;chr&gt;  &lt;chr&gt;               &lt;dbl&gt;       &lt;dbl&gt;       &lt;dbl&gt;
+ 1 0446157747 USC C… CAHPS for MI…          63          NA          NA
+ 2 0446157747 USC C… CAHPS for MI…          NA          87          NA
+ 3 0446157747 USC C… CAHPS for MI…          NA          NA          86
+ 4 0446157747 USC C… CAHPS for MI…          NA          NA          NA
+ 5 0446157747 USC C… CAHPS for MI…          NA          NA          NA
+ 6 0446157747 USC C… CAHPS for MI…          NA          NA          NA
+ 7 0446162697 ASSOC… CAHPS for MI…          59          NA          NA
+ 8 0446162697 ASSOC… CAHPS for MI…          NA          85          NA
+ 9 0446162697 ASSOC… CAHPS for MI…          NA          NA          83
+10 0446162697 ASSOC… CAHPS for MI…          NA          NA          NA
 # ℹ 490 more rows
-# ℹ 3 more variables: CAHPS_GRP_5 &lt;dbl&gt;, CAHPS_GRP_8 &lt;dbl&gt;, CAHPS_GRP_12 &lt;dbl&gt;</code></pre>
+# ℹ 3 more variables: CAHPS_GRP_5 &lt;dbl&gt;, CAHPS_GRP_8 &lt;dbl&gt;,
+#   CAHPS_GRP_12 &lt;dbl&gt;</code></pre>
 </div>
 </div>
 </section>
@@ -933,20 +936,20 @@
 <span id="cb35-6"><a></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 95 × 8
-   org_pac_id org_nm CAHPS_GRP_1 CAHPS_GRP_2 CAHPS_GRP_3 CAHPS_GRP_5 CAHPS_GRP_8
-   &lt;chr&gt;      &lt;chr&gt;        &lt;dbl&gt;       &lt;dbl&gt;       &lt;dbl&gt;       &lt;dbl&gt;       &lt;dbl&gt;
- 1 0446157747 USC C…          63          87          86          57          85
- 2 0446162697 ASSOC…          59          85          83          63          88
- 3 0547164295 BEAVE…          49          NA          75          44          73
- 4 0749333730 CAPE …          67          84          85          65          82
- 5 0840104360 ALLIA…          66          87          87          64          87
- 6 0840109864 REX H…          73          87          84          67          91
- 7 0840513552 SCL H…          58          83          76          58          78
- 8 0941545784 GRITM…          46          86          81          54          NA
- 9 1052612785 COMMU…          65          84          80          58          87
-10 1254237779 OUR L…          61          NA          NA          65          NA
+   org_pac_id org_nm   CAHPS_GRP_1 CAHPS_GRP_2 CAHPS_GRP_3 CAHPS_GRP_5
+   &lt;chr&gt;      &lt;chr&gt;          &lt;dbl&gt;       &lt;dbl&gt;       &lt;dbl&gt;       &lt;dbl&gt;
+ 1 0446157747 USC CAR…          63          87          86          57
+ 2 0446162697 ASSOCIA…          59          85          83          63
+ 3 0547164295 BEAVER …          49          NA          75          44
+ 4 0749333730 CAPE PH…          67          84          85          65
+ 5 0840104360 ALLIANC…          66          87          87          64
+ 6 0840109864 REX HOS…          73          87          84          67
+ 7 0840513552 SCL HEA…          58          83          76          58
+ 8 0941545784 GRITMAN…          46          86          81          54
+ 9 1052612785 COMMUNI…          65          84          80          58
+10 1254237779 OUR LAD…          61          NA          NA          65
 # ℹ 85 more rows
-# ℹ 1 more variable: CAHPS_GRP_12 &lt;dbl&gt;</code></pre>
+# ℹ 2 more variables: CAHPS_GRP_8 &lt;dbl&gt;, CAHPS_GRP_12 &lt;dbl&gt;</code></pre>
 </div>
 </div>
 </section>
@@ -1008,18 +1011,18 @@
 <span id="cb40-2"><a></a>  <span class="fu">left_join</span>(airlines)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 336,776 × 7
-    year time_hour           origin dest  tailnum carrier name                  
-   &lt;int&gt; &lt;dttm&gt;              &lt;chr&gt;  &lt;chr&gt; &lt;chr&gt;   &lt;chr&gt;   &lt;chr&gt;                 
- 1  2013 2013-01-01 05:00:00 EWR    IAH   N14228  UA      United Air Lines Inc. 
- 2  2013 2013-01-01 05:00:00 LGA    IAH   N24211  UA      United Air Lines Inc. 
- 3  2013 2013-01-01 05:00:00 JFK    MIA   N619AA  AA      American Airlines Inc.
- 4  2013 2013-01-01 05:00:00 JFK    BQN   N804JB  B6      JetBlue Airways       
- 5  2013 2013-01-01 06:00:00 LGA    ATL   N668DN  DL      Delta Air Lines Inc.  
- 6  2013 2013-01-01 05:00:00 EWR    ORD   N39463  UA      United Air Lines Inc. 
- 7  2013 2013-01-01 06:00:00 EWR    FLL   N516JB  B6      JetBlue Airways       
- 8  2013 2013-01-01 06:00:00 LGA    IAD   N829AS  EV      ExpressJet Airlines I…
- 9  2013 2013-01-01 06:00:00 JFK    MCO   N593JB  B6      JetBlue Airways       
-10  2013 2013-01-01 06:00:00 LGA    ORD   N3ALAA  AA      American Airlines Inc.
+    year time_hour           origin dest  tailnum carrier name        
+   &lt;int&gt; &lt;dttm&gt;              &lt;chr&gt;  &lt;chr&gt; &lt;chr&gt;   &lt;chr&gt;   &lt;chr&gt;       
+ 1  2013 2013-01-01 05:00:00 EWR    IAH   N14228  UA      United Air …
+ 2  2013 2013-01-01 05:00:00 LGA    IAH   N24211  UA      United Air …
+ 3  2013 2013-01-01 05:00:00 JFK    MIA   N619AA  AA      American Ai…
+ 4  2013 2013-01-01 05:00:00 JFK    BQN   N804JB  B6      JetBlue Air…
+ 5  2013 2013-01-01 06:00:00 LGA    ATL   N668DN  DL      Delta Air L…
+ 6  2013 2013-01-01 05:00:00 EWR    ORD   N39463  UA      United Air …
+ 7  2013 2013-01-01 06:00:00 EWR    FLL   N516JB  B6      JetBlue Air…
+ 8  2013 2013-01-01 06:00:00 LGA    IAD   N829AS  EV      ExpressJet …
+ 9  2013 2013-01-01 06:00:00 JFK    MCO   N593JB  B6      JetBlue Air…
+10  2013 2013-01-01 06:00:00 LGA    ORD   N3ALAA  AA      American Ai…
 # ℹ 336,766 more rows</code></pre>
 </div>
 </div>
@@ -1043,18 +1046,18 @@
 <span id="cb43-4"><a></a>    <span class="at">by =</span> <span class="fu">join_by</span>(carrier))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 336,776 × 7
-    year time_hour           origin dest  tailnum carrier name                  
-   &lt;int&gt; &lt;dttm&gt;              &lt;chr&gt;  &lt;chr&gt; &lt;chr&gt;   &lt;chr&gt;   &lt;chr&gt;                 
- 1  2013 2013-01-01 05:00:00 EWR    IAH   N14228  UA      United Air Lines Inc. 
- 2  2013 2013-01-01 05:00:00 LGA    IAH   N24211  UA      United Air Lines Inc. 
- 3  2013 2013-01-01 05:00:00 JFK    MIA   N619AA  AA      American Airlines Inc.
- 4  2013 2013-01-01 05:00:00 JFK    BQN   N804JB  B6      JetBlue Airways       
- 5  2013 2013-01-01 06:00:00 LGA    ATL   N668DN  DL      Delta Air Lines Inc.  
- 6  2013 2013-01-01 05:00:00 EWR    ORD   N39463  UA      United Air Lines Inc. 
- 7  2013 2013-01-01 06:00:00 EWR    FLL   N516JB  B6      JetBlue Airways       
- 8  2013 2013-01-01 06:00:00 LGA    IAD   N829AS  EV      ExpressJet Airlines I…
- 9  2013 2013-01-01 06:00:00 JFK    MCO   N593JB  B6      JetBlue Airways       
-10  2013 2013-01-01 06:00:00 LGA    ORD   N3ALAA  AA      American Airlines Inc.
+    year time_hour           origin dest  tailnum carrier name        
+   &lt;int&gt; &lt;dttm&gt;              &lt;chr&gt;  &lt;chr&gt; &lt;chr&gt;   &lt;chr&gt;   &lt;chr&gt;       
+ 1  2013 2013-01-01 05:00:00 EWR    IAH   N14228  UA      United Air …
+ 2  2013 2013-01-01 05:00:00 LGA    IAH   N24211  UA      United Air …
+ 3  2013 2013-01-01 05:00:00 JFK    MIA   N619AA  AA      American Ai…
+ 4  2013 2013-01-01 05:00:00 JFK    BQN   N804JB  B6      JetBlue Air…
+ 5  2013 2013-01-01 06:00:00 LGA    ATL   N668DN  DL      Delta Air L…
+ 6  2013 2013-01-01 05:00:00 EWR    ORD   N39463  UA      United Air …
+ 7  2013 2013-01-01 06:00:00 EWR    FLL   N516JB  B6      JetBlue Air…
+ 8  2013 2013-01-01 06:00:00 LGA    IAD   N829AS  EV      ExpressJet …
+ 9  2013 2013-01-01 06:00:00 JFK    MCO   N593JB  B6      JetBlue Air…
+10  2013 2013-01-01 06:00:00 LGA    ORD   N3ALAA  AA      American Ai…
 # ℹ 336,766 more rows</code></pre>
 </div>
 </div>
