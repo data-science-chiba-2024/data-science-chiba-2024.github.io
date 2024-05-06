@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.549">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>データサイエンス – index</title>
+<title>データサイエンス</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,7 +22,7 @@ ul.task-list li input[type="checkbox"] {
 }
 /* CSS for syntax highlighting */
 pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span { line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -79,7 +79,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -88,6 +94,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -102,9 +109,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">データサイエンス</span>
     </a>
@@ -116,13 +123,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html" rel="" target="">
- <span class="menu-text">ホーム</span></a>
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">ホーム</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools ms-auto">
-</div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -183,11 +190,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
+
 <section id="第３回プロジェクトの整理とデータの読み込み" class="level1">
 <h1>第３回：プロジェクトの整理とデータの読み込み</h1>
 <p>2024-04-16</p>
 <p><a href="https://data-science-chiba-2024.github.io/day3/" class="uri">https://data-science-chiba-2024.github.io/day3/</a></p>
 <p><link rel="stylesheet" href="https://unpkg.com/keyboard-css@1.2.4/dist/css/main.min.css"></p>
+<section id="スクリプトについて" class="level2">
+<h2 class="anchored" data-anchor-id="スクリプトについて">スクリプトについて</h2>
 <section id="スクリプトについて" class="level2">
 <h2 class="anchored" data-anchor-id="スクリプトについて">スクリプトについて</h2>
 <ul>
@@ -196,6 +206,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><p>Rスクリプトの拡張は<code>.R</code>か<code>.r</code>。</p></li>
 </ul>
 </section>
+<section id="スクリプトの作成と保存" class="level2">
+<h2 class="anchored" data-anchor-id="スクリプトの作成と保存">スクリプトの作成と保存</h2>
 <section id="スクリプトの作成と保存" class="level2">
 <h2 class="anchored" data-anchor-id="スクリプトの作成と保存">スクリプトの作成と保存</h2>
 <ul>
@@ -212,12 +224,20 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="スクリプトからコードを使う" class="level2">
 <h2 class="anchored" data-anchor-id="スクリプトからコードを使う">スクリプトからコードを使う</h2>
+<section id="スクリプトからコードを使う" class="level2">
+<h2 class="anchored" data-anchor-id="スクリプトからコードを使う">スクリプトからコードを使う</h2>
 <p>以下のコードをスクリプトに書いて、<code>script.R</code>としてデスクトップに保存しましょう（コードの詳細はまた後で学ぶ）。</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(diamonds, <span class="fu">aes</span>(<span class="at">x =</span> carat, <span class="at">y =</span> price)) <span class="sc">+</span> </span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_hex</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(diamonds, <span class="fu">aes</span>(<span class="at">x =</span> carat, <span class="at">y =</span> price)) <span class="sc">+</span> </span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_hex</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
+<section id="スクリプトからコードを使う-1" class="level2">
+<h2 class="anchored" data-anchor-id="スクリプトからコードを使う-1">スクリプトからコードを使う</h2>
 <section id="スクリプトからコードを使う-1" class="level2">
 <h2 class="anchored" data-anchor-id="スクリプトからコードを使う-1">スクリプトからコードを使う</h2>
 <ul>
@@ -227,9 +247,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="rstudioによる警告" class="level2">
 <h2 class="anchored" data-anchor-id="rstudioによる警告">RStudioによる警告</h2>
+<section id="rstudioによる警告" class="level2">
+<h2 class="anchored" data-anchor-id="rstudioによる警告">RStudioによる警告</h2>
 <p>スクリプトに間違いが入っている場合、RStudioはそれを教えてくれる（バツマークと赤い線）：</p>
 <p><img src="https://r4ds.hadley.nz/screenshots/rstudio-diagnostic.png" height="200"></p>
+<p><img src="https://r4ds.hadley.nz/screenshots/rstudio-diagnostic.png" height="200"></p>
 </section>
+<section id="スクリプトの書き方" class="level2">
+<h2 class="anchored" data-anchor-id="スクリプトの書き方">スクリプトの書き方</h2>
 <section id="スクリプトの書き方" class="level2">
 <h2 class="anchored" data-anchor-id="スクリプトの書き方">スクリプトの書き方</h2>
 <ul>
@@ -238,6 +263,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><p>変数名にはスペースが使えないので、<code>_</code>を使いましょう（例えば、<code>data_set_1</code>など）。</p></li>
 </ul>
 </section>
+<section id="スクリプトの書き方-1" class="level2">
+<h2 class="anchored" data-anchor-id="スクリプトの書き方-1">スクリプトの書き方</h2>
 <section id="スクリプトの書き方-1" class="level2">
 <h2 class="anchored" data-anchor-id="スクリプトの書き方-1">スクリプトの書き方</h2>
 <ul>
@@ -252,6 +279,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ul></li>
 </ul>
 </section>
+<section id="ファイル名も整えましょう" class="level2">
+<h2 class="anchored" data-anchor-id="ファイル名も整えましょう">ファイル名も整えましょう</h2>
 <section id="ファイル名も整えましょう" class="level2">
 <h2 class="anchored" data-anchor-id="ファイル名も整えましょう">ファイル名も整えましょう</h2>
 <div class="columns">
@@ -282,11 +311,15 @@ report_draft_notes.txt</code></pre>
 </section>
 <section id="プロジェクトについて" class="level2">
 <h2 class="anchored" data-anchor-id="プロジェクトについて">プロジェクトについて</h2>
+<section id="プロジェクトについて" class="level2">
+<h2 class="anchored" data-anchor-id="プロジェクトについて">プロジェクトについて</h2>
 <ul>
 <li><p>スクリプトとしてコードを保存をするのはいいけど、解析が進むと複数のスクリプトとデータを<strong>整理する必要が生じる</strong></p></li>
 <li><p>RStudioの<strong>「Project」機能</strong>によって、スクリプトとデータ（など）の整理ができる</p></li>
 </ul>
 </section>
+<section id="新しいプロジェクトを作る" class="level2">
+<h2 class="anchored" data-anchor-id="新しいプロジェクトを作る">新しいプロジェクトを作る</h2>
 <section id="新しいプロジェクトを作る" class="level2">
 <h2 class="anchored" data-anchor-id="新しいプロジェクトを作る">新しいプロジェクトを作る</h2>
 <ul>
@@ -299,7 +332,11 @@ report_draft_notes.txt</code></pre>
 </ul>
 <hr>
 <p><img src="../images/new_project.png" class="img-fluid"></p>
+<hr>
+<p><img src="../images/new_project.png" class="img-fluid"></p>
 </section>
+<section id="新しいプロジェクトを作る-1" class="level2">
+<h2 class="anchored" data-anchor-id="新しいプロジェクトを作る-1">新しいプロジェクトを作る</h2>
 <section id="新しいプロジェクトを作る-1" class="level2">
 <h2 class="anchored" data-anchor-id="新しいプロジェクトを作る-1">新しいプロジェクトを作る</h2>
 <ul>
@@ -309,12 +346,18 @@ report_draft_notes.txt</code></pre>
 </section>
 <section id="新しいプロジェクトを作る-2" class="level2">
 <h2 class="anchored" data-anchor-id="新しいプロジェクトを作る-2">新しいプロジェクトを作る</h2>
+<section id="新しいプロジェクトを作る-2" class="level2">
+<h2 class="anchored" data-anchor-id="新しいプロジェクトを作る-2">新しいプロジェクトを作る</h2>
 <ul>
 <li>右下の「ファイル」パネルを使って、<code>data</code>というフォルダーを作りましょう
 <ul>
 <li>あとで、このフォルダーに<strong>これから解析するデータを置く</strong></li>
 </ul></li>
 </ul>
+<p><img src="../images/new_folder.png" class="img-fluid"></p>
+</section>
+<section id="rprojファイルについて" class="level2">
+<h2 class="anchored" data-anchor-id="rprojファイルについて">.Rprojファイルについて</h2>
 <p><img src="../images/new_folder.png" class="img-fluid"></p>
 </section>
 <section id="rprojファイルについて" class="level2">
@@ -331,11 +374,16 @@ report_draft_notes.txt</code></pre>
 </section>
 <section id="作業ディレクトリについて" class="level2">
 <h2 class="anchored" data-anchor-id="作業ディレクトリについて">作業ディレクトリについて</h2>
+<p><img src="../images/rproj_icon.png" class="img-fluid"></p>
+</section>
+<section id="作業ディレクトリについて" class="level2">
+<h2 class="anchored" data-anchor-id="作業ディレクトリについて">作業ディレクトリについて</h2>
 <ul>
 <li><p>「作業ディレクトリ」（“working directory”）というのは、今Rが今「いる」場所のこと</p></li>
 <li><p><code>getwd()</code>で確認できる：</p></li>
 </ul>
 <div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">getwd</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">getwd</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell">
@@ -344,6 +392,8 @@ report_draft_notes.txt</code></pre>
 </div>
 </div>
 </section>
+<section id="作業ディレクトリについて-1" class="level2">
+<h2 class="anchored" data-anchor-id="作業ディレクトリについて-1">作業ディレクトリについて</h2>
 <section id="作業ディレクトリについて-1" class="level2">
 <h2 class="anchored" data-anchor-id="作業ディレクトリについて-1">作業ディレクトリについて</h2>
 <ul>
@@ -356,6 +406,8 @@ report_draft_notes.txt</code></pre>
 </section>
 <section id="作業ディレクトリについて-2" class="level2">
 <h2 class="anchored" data-anchor-id="作業ディレクトリについて-2">作業ディレクトリについて</h2>
+<section id="作業ディレクトリについて-2" class="level2">
+<h2 class="anchored" data-anchor-id="作業ディレクトリについて-2">作業ディレクトリについて</h2>
 <ul>
 <li>でも、多くの場合、<strong>他の人のパソコンにあるパスは自分のパソコンに存在しない</strong>
 <ul>
@@ -366,8 +418,17 @@ report_draft_notes.txt</code></pre>
 </section>
 <section id="プロジェクトにスクリプトを置きましょう" class="level2">
 <h2 class="anchored" data-anchor-id="プロジェクトにスクリプトを置きましょう">プロジェクトにスクリプトを置きましょう</h2>
+<section id="プロジェクトにスクリプトを置きましょう" class="level2">
+<h2 class="anchored" data-anchor-id="プロジェクトにスクリプトを置きましょう">プロジェクトにスクリプトを置きましょう</h2>
 <p>以下のコードを書いて、スクリプトを<code>diamonds.R</code>として<code>r4ds</code>プロジェクトに保存して、実行しましょう：</p>
 <div class="cell">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(diamonds, <span class="fu">aes</span>(<span class="at">x =</span> carat, <span class="at">y =</span> price)) <span class="sc">+</span> </span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_hex</span>()</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="fu">ggsave</span>(<span class="st">"diamonds.png"</span>)</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="fu">write_csv</span>(diamonds, <span class="st">"data/diamonds.csv"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(diamonds, <span class="fu">aes</span>(<span class="at">x =</span> carat, <span class="at">y =</span> price)) <span class="sc">+</span> </span>
@@ -380,18 +441,24 @@ report_draft_notes.txt</code></pre>
 </section>
 <section id="コードによる再現性" class="level2">
 <h2 class="anchored" data-anchor-id="コードによる再現性">コードによる再現性</h2>
+<section id="コードによる再現性" class="level2">
+<h2 class="anchored" data-anchor-id="コードによる再現性">コードによる再現性</h2>
 <ul>
 <li><code>diamonds.R</code>は<code>diamonds.png</code>というグラフを作る。</li>
 </ul>
+<p>. . .</p>
 <p>. . .</p>
 <ul>
 <li><code>diamonds.png</code>を消しましょう。</li>
 </ul>
 <p>. . .</p>
+<p>. . .</p>
 <ul>
 <li>解析結果が消えてしまった！どうしよう！？</li>
 </ul>
 </section>
+<section id="コードによる再現性-1" class="level2">
+<h2 class="anchored" data-anchor-id="コードによる再現性-1">コードによる再現性</h2>
 <section id="コードによる再現性-1" class="level2">
 <h2 class="anchored" data-anchor-id="コードによる再現性-1">コードによる再現性</h2>
 <ul>
@@ -402,9 +469,11 @@ report_draft_notes.txt</code></pre>
 <li>全く同じグラフが再度できた！つまり、<strong>再現</strong>しました。</li>
 </ul>
 <p>. . .</p>
+<p>. . .</p>
 <ul>
 <li><strong>コードとデータがあれば、解析結果はいつでも再現できる</strong></li>
 </ul>
+<p>. . .</p>
 <p>. . .</p>
 <ul>
 <li>絶対に必要なのは、<strong>コード</strong>と<strong>データ</strong>。結果は「使い捨て」と考えて良い。</li>
@@ -412,9 +481,13 @@ report_draft_notes.txt</code></pre>
 </section>
 <section id="ディスカッション" class="level2">
 <h2 class="anchored" data-anchor-id="ディスカッション">ディスカッション</h2>
+<section id="ディスカッション" class="level2">
+<h2 class="anchored" data-anchor-id="ディスカッション">ディスカッション</h2>
 <p><br></p>
 <p>データ整理やプロジェクトの管理はどうしていますか？</p>
 </section>
+<section id="データの読み込み" class="level2">
+<h2 class="anchored" data-anchor-id="データの読み込み">データの読み込み</h2>
 <section id="データの読み込み" class="level2">
 <h2 class="anchored" data-anchor-id="データの読み込み">データの読み込み</h2>
 <ul>
@@ -428,6 +501,8 @@ report_draft_notes.txt</code></pre>
 </section>
 <section id="データの読み込み-1" class="level2">
 <h2 class="anchored" data-anchor-id="データの読み込み-1">データの読み込み</h2>
+<section id="データの読み込み-1" class="level2">
+<h2 class="anchored" data-anchor-id="データの読み込み-1">データの読み込み</h2>
 <ul>
 <li><code>read_csv()</code>関数で読み込む</li>
 </ul>
@@ -436,7 +511,7 @@ report_draft_notes.txt</code></pre>
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">read_csv</span>(<span class="st">"data/students.csv"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
 <pre><code>Rows: 6 Columns: 5
-── Column specification ────────────────────────────────────────────────────────
+── Column specification ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 Delimiter: ","
 chr (4): Full Name, favourite.food, mealPlan, AGE
 dbl (1): Student ID
@@ -459,6 +534,8 @@ dbl (1): Student ID
 </section>
 <section id="読み込んだデータの保存" class="level2">
 <h2 class="anchored" data-anchor-id="読み込んだデータの保存">読み込んだデータの保存</h2>
+<section id="読み込んだデータの保存" class="level2">
+<h2 class="anchored" data-anchor-id="読み込んだデータの保存">読み込んだデータの保存</h2>
 <ul>
 <li><p>でも、これだけではRの環境にそのデータが<strong>入っていません</strong></p></li>
 <li><p>変数（オブジェクト）として保存する必要がある：</p></li>
@@ -467,7 +544,7 @@ dbl (1): Student ID
 <div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>students <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"data/students.csv"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
 <pre><code>Rows: 6 Columns: 5
-── Column specification ────────────────────────────────────────────────────────
+── Column specification ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 Delimiter: ","
 chr (4): Full Name, favourite.food, mealPlan, AGE
 dbl (1): Student ID
@@ -488,11 +565,14 @@ dbl (1): Student ID
 </section>
 <section id="読み込んだデータの中身の確認１" class="level2">
 <h2 class="anchored" data-anchor-id="読み込んだデータの中身の確認１">読み込んだデータの中身の確認（１）</h2>
+<section id="読み込んだデータの中身の確認１" class="level2">
+<h2 class="anchored" data-anchor-id="読み込んだデータの中身の確認１">読み込んだデータの中身の確認（１）</h2>
 <ul>
 <li><p>変数として保存する時は中身が見えない（オブジェクトに渡された）</p></li>
 <li><p>中身を見たい時は<strong>変数名を直接コンソールに入力</strong>すればいい</p></li>
 </ul>
 <div class="cell">
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>students</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>students</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 6 × 5
@@ -509,11 +589,15 @@ dbl (1): Student ID
 </section>
 <section id="コンソールの使い方使うとき" class="level2">
 <h2 class="anchored" data-anchor-id="コンソールの使い方使うとき">コンソールの使い方（使うとき）</h2>
+<section id="コンソールの使い方使うとき" class="level2">
+<h2 class="anchored" data-anchor-id="コンソールの使い方使うとき">コンソールの使い方（使うとき）</h2>
 <ul>
 <li><p>このような時に使う：データの中身を確認したい、ヘルプファイルを開きたい、など。</p></li>
 <li><p>つまり、<strong>データ解析に必要ではない</strong>（関係のない）コマンド。</p></li>
 </ul>
 </section>
+<section id="読み込んだデータの中身の確認２" class="level2">
+<h2 class="anchored" data-anchor-id="読み込んだデータの中身の確認２">読み込んだデータの中身の確認（２）</h2>
 <section id="読み込んだデータの中身の確認２" class="level2">
 <h2 class="anchored" data-anchor-id="読み込んだデータの中身の確認２">読み込んだデータの中身の確認（２）</h2>
 <ul>
@@ -524,12 +608,17 @@ dbl (1): Student ID
 </ul></li>
 </ul>
 <p>. . .</p>
+<p>. . .</p>
 <ul>
 <li><strong>エクセルはデータ入力に使う。Rはデータ解析に使う</strong></li>
 </ul>
 <hr>
 <p><img src="../images/students_data_view.png" class="img-fluid"></p>
+<hr>
+<p><img src="../images/students_data_view.png" class="img-fluid"></p>
 </section>
+<section id="データの種類型について" class="level2">
+<h2 class="anchored" data-anchor-id="データの種類型について">データの種類（型）について</h2>
 <section id="データの種類型について" class="level2">
 <h2 class="anchored" data-anchor-id="データの種類型について">データの種類（型）について</h2>
 <ul>
@@ -537,10 +626,13 @@ dbl (1): Student ID
 <li><p>データの上に<code>&lt;dbl&gt;</code>とか<code>&lt;chr&gt;</code>とかと出ているけど、これは何でしょうか？</p></li>
 </ul>
 <p>. . .</p>
+<p>. . .</p>
 <ul>
 <li>A: データの<strong>種類</strong>です</li>
 </ul>
 </section>
+<section id="データの種類型について-1" class="level2">
+<h2 class="anchored" data-anchor-id="データの種類型について-1">データの種類（型）について</h2>
 <section id="データの種類型について-1" class="level2">
 <h2 class="anchored" data-anchor-id="データの種類型について-1">データの種類（型）について</h2>
 <ul>
@@ -556,6 +648,8 @@ dbl (1): Student ID
 </section>
 <section id="ベクトルについて" class="level2">
 <h2 class="anchored" data-anchor-id="ベクトルについて">ベクトルについて</h2>
+<section id="ベクトルについて" class="level2">
+<h2 class="anchored" data-anchor-id="ベクトルについて">ベクトルについて</h2>
 <ul>
 <li><p><strong>ベクトル</strong>（vector）とは、<strong>同じ型を持つ一</strong>連のデータの集まり（一次元の配列）</p></li>
 <li><p>ベクトルに含まれている一つ一つのデータを<strong>要素</strong>（element）という</p></li>
@@ -567,13 +661,17 @@ dbl (1): Student ID
 </section>
 <section id="ベクトルの作り方" class="level2">
 <h2 class="anchored" data-anchor-id="ベクトルの作り方">ベクトルの作り方</h2>
+<section id="ベクトルの作り方" class="level2">
+<h2 class="anchored" data-anchor-id="ベクトルの作り方">ベクトルの作り方</h2>
 <ul>
 <li>ベクトルを関数は<code>c()</code>
 <ul>
 <li>“combine”（「くっつける」）の略</li>
+<li>“combine”（「くっつける」）の略</li>
 </ul></li>
 </ul>
 <div class="cell">
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 1 2 3</code></pre>
@@ -582,10 +680,13 @@ dbl (1): Student ID
 </section>
 <section id="ベクトルの作り方-1" class="level2">
 <h2 class="anchored" data-anchor-id="ベクトルの作り方-1">ベクトルの作り方</h2>
+<section id="ベクトルの作り方-1" class="level2">
+<h2 class="anchored" data-anchor-id="ベクトルの作り方-1">ベクトルの作り方</h2>
 <ul>
 <li>文字列（文字でできているベクトル）を作るときは、引用符をつけないといけない</li>
 </ul>
 <div class="cell">
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="fu">c</span>(<span class="st">"a"</span>, <span class="st">"b"</span>, <span class="st">"c"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="fu">c</span>(<span class="st">"a"</span>, <span class="st">"b"</span>, <span class="st">"c"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "a" "b" "c"</code></pre>
@@ -594,10 +695,13 @@ dbl (1): Student ID
 </section>
 <section id="ベクトルの型の確認" class="level2">
 <h2 class="anchored" data-anchor-id="ベクトルの型の確認">ベクトルの型の確認</h2>
+<section id="ベクトルの型の確認" class="level2">
+<h2 class="anchored" data-anchor-id="ベクトルの型の確認">ベクトルの型の確認</h2>
 <ul>
 <li><code>typeof()</code>関数でベクトルの型を確認することができる</li>
 </ul>
 <div class="cell">
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="fu">typeof</span>(letters)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="fu">typeof</span>(letters)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "character"</code></pre>
@@ -606,13 +710,18 @@ dbl (1): Student ID
 </section>
 <section id="チャレンジ" class="level2">
 <h2 class="anchored" data-anchor-id="チャレンジ">チャレンジ</h2>
+<section id="チャレンジ" class="level2">
+<h2 class="anchored" data-anchor-id="チャレンジ">チャレンジ</h2>
 <ul>
 <li>以下のコードでベクトルを作ると、そのベクトルの型は何でしょうか？</li>
 </ul>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="st">"c"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="st">"c"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
+<section id="ベクトル変換" class="level2">
+<h2 class="anchored" data-anchor-id="ベクトル変換">ベクトル変換</h2>
 <section id="ベクトル変換" class="level2">
 <h2 class="anchored" data-anchor-id="ベクトル変換">ベクトル変換</h2>
 <ul>
@@ -620,6 +729,8 @@ dbl (1): Student ID
 <li><p>なので、入力が複数の型を含む場合、Rはそれを同じ型に合わせる</p></li>
 </ul>
 <div class="cell">
+<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="st">"c"</span>)</span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a><span class="fu">typeof</span>(x)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="st">"c"</span>)</span>
 <span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a><span class="fu">typeof</span>(x)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -630,6 +741,8 @@ dbl (1): Student ID
 <li>先のベクトルは<strong>文字</strong>に変換された</li>
 </ul>
 </section>
+<section id="ベクトル型とデータフレーム" class="level2">
+<h2 class="anchored" data-anchor-id="ベクトル型とデータフレーム">ベクトル型とデータフレーム</h2>
 <section id="ベクトル型とデータフレーム" class="level2">
 <h2 class="anchored" data-anchor-id="ベクトル型とデータフレーム">ベクトル型とデータフレーム</h2>
 <ul>
@@ -643,6 +756,10 @@ dbl (1): Student ID
 </section>
 <section id="まとめ" class="level2">
 <h2 class="anchored" data-anchor-id="まとめ">まとめ</h2>
+<p><img src="../images/dataframe.png" class="img-fluid"></p>
+</section>
+<section id="まとめ" class="level2">
+<h2 class="anchored" data-anchor-id="まとめ">まとめ</h2>
 <ul>
 <li><p>スクリプト（.Rファイル）に解析に必要な<strong>コードを書く</strong></p></li>
 <li><p>スクリプトとデータがあれば、解析結果を<strong>再現できる</strong></p></li>
@@ -651,6 +768,8 @@ dbl (1): Student ID
 <li><p><strong>ベクトル</strong>は一つの型しか持てない</p></li>
 </ul>
 </section>
+<section id="宿題" class="level2">
+<h2 class="anchored" data-anchor-id="宿題">宿題</h2>
 <section id="宿題" class="level2">
 <h2 class="anchored" data-anchor-id="宿題">宿題</h2>
 <p><strong>締め切り：2024-04-23 12:50</strong></p>
@@ -749,10 +868,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -762,8 +880,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -776,6 +903,125 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -819,6 +1065,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -844,6 +1091,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -904,6 +1177,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+
 
 
 

@@ -1,0 +1,382 @@
+---
+format:
+  revealjs:
+    incremental: false
+    css: ../styles.css
+execute: 
+  echo: true
+---
+
+# 第５回：データの整理（２）
+
+```{r}
+#| echo: false
+options(width = 80)
+```
+
+
+2024-05-07
+
+<https://data-science-chiba-2024.github.io/day5/>
+
+## データの整理（Data Wrangling）
+
+- データが手に入る時、まだ解析に使いえない状態が多い
+
+- データの整理（「wrangling」）は**解析に使えるように整えるプロセス**
+  - 元々はカウボーイが**牛を扱う技術**から来る
+
+---
+
+![Getty Images](https://media.istockphoto.com/id/172342607/photo/cattle-drive.jpg?s=612x612&w=0&k=20&c=Fz--vTqe2gMWKxbHvgdLCgfUveH_Y3-k0js5H1m9Snc=)
+
+---
+
+![Image by Allison Horst](https://datasciencecampus.github.io/DSCA_data_wrangling_with_r/slides/images/data_cowboy.png){fig-alt="data wrangling monsters"}
+
+## 今日学ぶこと
+
+- データの集計
+- データの形の変え方（縦長いから横広いとその逆）
+- データの結合
+
+## データの集計
+
+`summarize()`でデータの**集計**ができる：
+
+```{r}
+#| message: false
+#| warning: false
+
+library(nycflights13)
+library(tidyverse)
+
+summarize(flights, mean_sched_dep_time = mean(sched_dep_time))
+```
+
+## グループ化
+
+- しかし、全体の平均だけを計算してもあまり意味はない。
+
+- それよりも、何か**毎に**データの集計を行いたい方が多い。
+
+- それには`group_by()`関数を使う。例えば、**月ごと**。まずはデータのグループを指定する：
+
+---
+
+```{r}
+flights %>%
+  group_by(month)
+```
+
+## グループ化してから、集計する
+
+次に、集計する：
+
+```{r}
+flights |> 
+  group_by(month) |> 
+  summarize(
+    avg_delay = mean(dep_delay)
+  )
+```
+
+---
+
+あれ？なんで`NA`になってしまった？
+
+. . . 
+
+- `NA`(「Not Applicable」、「該当しない」)はデータが**欠けている**ことを示す。
+- `mean()`は**一つでもデータが欠けていることがあると、結果は全部**が`NA`になってしまう。
+- 欠けているデータを無視して平均を計算するには、`na.rm = TRUE`を指定しないといけない
+
+---
+
+```{r}
+flights |> 
+  group_by(month) |> 
+  summarize(
+    avg_delay = mean(dep_delay, na.rm = TRUE)
+  )
+```
+
+## どこが`NA`だったのかを`filter()`で確かめる
+
+```{r}
+flights |>
+  filter(is.na(dep_delay))
+```
+
+## `n()`でグループの件数を数える
+
+```{r}
+flights |> 
+  group_by(month) |> 
+  summarize(
+    avg_delay = mean(dep_delay, na.rm = TRUE),
+    n = n()
+  )
+```
+
+## `ungroup()`でグループを解除する
+
+- グループ毎の計算が終わったら、`ungroup()`でグループの解除をする必要がある場合がある。
+
+（以下のコードでは自動的にグループが解除されるので本当はいらないけど、必要な場合もある）
+
+```{r}
+flights |> 
+  group_by(month) |> 
+  summarize(
+    avg_delay = mean(dep_delay, na.rm = TRUE)
+  ) |>
+  ungroup()
+```
+
+## 複数条件でグループ分けする
+
+```{r}
+daily <-
+  flights |>
+  group_by(year, month, day)
+```
+
+```{r}
+summarize(daily, n = n())
+```
+
+## `ungroup()`でグループを解除する
+
+```{r}
+daily |>
+  ungroup() |>
+  summarize(
+    avg_delay = mean(dep_delay, na.rm = TRUE),
+    n = n()
+  )
+```
+
+## データの形を変える
+
+- 同じデータを様々な形で表すことができる。
+
+- 例えば、以下の結核のデータを見ましょう（`tidyverse`の`tidyr`パッケージに入っている例のデータセット）：
+
+```{r}
+table1
+```
+
+---
+
+```{r}
+table2
+```
+
+## データの形を変える
+
+- 元々のデータが同じであることは確認できましたか？
+
+- でも、`table1`と`table2`は**大事な違い**がある：
+  - `table1`だけが**tidy**（すぐに解析できるように整っている）になっている
+
+## tidyなデータの定義
+
+- 各列が変数を表している
+- 各行が観察を表している
+- 各セルが一つの値を表している
+
+![](https://r4ds.hadley.nz/images/tidy-1.png)
+
+## tidyなデータの利点
+
+- 今まで学んできた関数（`mutate()`、`filter()`など）はtidyなデータの方が使いやすい
+- グラフを作成する際も、tidyなデータの方が使いやすいです
+
+例えば：
+
+```{r}
+# 1万人あたりの病気の発生率を計算する
+table1 |>
+  mutate(rate = cases / population * 10000)
+```
+
+---
+
+```{r}
+ggplot(table1, aes(x = year, y = cases)) +
+  geom_line(aes(group = country)) +
+  geom_point(aes(shape = country, color = country), size = 4)
+```
+
+## ワイド（横広い）データを縦長（ロング）に変える
+
+`billboard`というデータセットには２０００年の歌のランキングが入っている：
+
+```{r}
+billboard
+```
+
+## ワイドなデータの例：`billboard`
+
+- 列：
+  - `artist` アーティスト（演奏者）
+  - `track` 曲名
+  - `date.entered` 最初にランキングに入った日付
+  - `wk1` .. `wk76` それぞれの種のランキング
+
+列がやたらある。そして、**列の名前にデータがある**（周目）。これをどうやって別の変数にできるのでしょうか？
+
+## ワイドからロングにするのは`pivot_longer()`
+
+- `pivot_longer()`の主な引数：
+  - `cols` どの列を使う（ロングにする）
+  - `names_to` ロング形式に変換された新しい列の名前
+  - `values_to` 新しい値の列の名前
+
+でや、やって見ましょう
+
+---
+
+```{r}
+billboard |>
+  pivot_longer(
+    cols = starts_with("wk"),
+    names_to = "week",
+    values_to = "rank"
+  )
+```
+
+列の数が大幅に減り、行の数が増えたことが分かりますか？
+
+## ロングなデータをワイドに変える
+
+`cms_patient_experience`というデータセットには患者の経験のデータが入っている
+
+```{r}
+cms_patient_experience
+```
+
+## cms_patient_experienceの特徴
+
+- 研究の対象となっているのは**組織**だけど、各組織のデータは６つの行を跨いでいる。
+
+- どうやって一つの組織を一つの列にできる？
+
+## ロングからワイドにするのは`pivot_wider()`
+
+- `pivot_wider()`の主な引数：
+  - `cols` どの列を使う（ワイドにする）
+  - `names_from` 列名として使用するロング形式の列名
+  - `values_from` 新しい列に配置される値を持つロング形式の列
+
+でや、やって見ましょう
+
+---
+
+```{r}
+cms_patient_experience |>
+  pivot_wider(
+    names_from = measure_cd,
+    values_from = prf_rate
+  )
+```
+
+---
+
+ふむ、`NA`が多い、行の数がまだ変わっていない。どうすれば良い・・
+
+---
+
+## id_colsで行を識別する列を指定する
+
+```{r}
+cms_patient_experience |>
+  pivot_wider(
+    names_from = measure_cd,
+    values_from = prf_rate,
+    id_cols = starts_with("org")
+  )
+```
+
+## データの結合
+
+- 多くの場合、使いたいデータが複数のデータセット（データフレーム、あるいはファイル）に跨いで入っている
+
+- したがって、**データの結合**（join）を行う必要がある
+
+## 複数のデータセットの例：飛行機のデータ
+
+`airlines`には航空会社の名前のデータが入っている：
+
+```{r}
+airlines
+```
+
+---
+
+どうやってこのデータを`nycflights13`と結合させることができるのでしょうか？
+
+## 付け加えたデータが右の方に入る
+
+`nycflights13`は列の数が多いことを覚えていますか？
+
+- これから新しいデータと結合しても、付け加えたデータが右の方に入るため、結果が見えないので、説明するために小さいバージョンを用意する
+
+```{r}
+flights2 <- flights |>
+  select(year, time_hour, origin, dest, tailnum, carrier)
+```
+
+## 別のデータフレームからデータを加える：`left_join()`
+
+航空会社の名前を追加しましょう：
+
+```{r}
+flights2 |>
+  left_join(airlines)
+```
+
+## 結合する時は「鍵」が大事
+
+上のコードを走らせた際、このメッセージがありました：
+
+```
+Joining with `by = join_by(carrier)`
+```
+
+- つまり、それぞれのデータフレームが**共通に持っている列**です。これ「鍵」（Key）と呼ぶ。
+
+- 共通に持っている列がないと、結合ができない。
+
+## 結合する時は「鍵」が大事
+
+上のコードは自動的に共通する列を鍵として使ったけど、手動で指定することもできる：
+
+```{r}
+flights2 |>
+  left_join(
+    airlines,
+    by = join_by(carrier))
+```
+
+## 鍵となる列の条件
+
+- 右側のデータの鍵が行を**識別できる**必要がある。それぞれの`carrier`はデータに一回だけ出てくる
+
+- `count()`で確かめる（`n`が全て`1`になっている）
+
+```{r}
+airlines |>
+  count(carrier)
+```
+
+## 他のデータに結合してみる
+
+`nycflights13`パッケージに他のデータフレームがいくつかある：
+
+![](https://r4ds.hadley.nz/diagrams/relational.png)
+
+## チャレンジ：他のデータに結合してみる
+
+`planes`のデータを`flights2`に結合することができますか？
