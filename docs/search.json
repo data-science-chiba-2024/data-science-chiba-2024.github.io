@@ -1,10 +1,17 @@
 [
   {
-    "objectID": "day1/index.html#生成aiが何をやっているのか",
-    "href": "day1/index.html#生成aiが何をやっているのか",
+    "objectID": "day1/index.html#ニッタ-ジョエル",
+    "href": "day1/index.html#ニッタ-ジョエル",
     "title": "データサイエンス",
-    "section": "生成AIが何をやっているのか？",
-    "text": "生成AIが何をやっているのか？\n\n\n\nみなさん、生成AI（ChatGPT、DeepLなど）って使っていますか？\n私も使っています\nでも、そもそもAIって何か、分かりますか？"
+    "section": "ニッタ ジョエル",
+    "text": "ニッタ ジョエル\n\n\n\n研究テーマその１：シダ植物の進化と生態学\n研究テーマその２：データサイエンス用ソフトの開発\nhttps://www.joelnitta.com"
+  },
+  {
+    "objectID": "day1/index.html#みなさん生成aichatgptdeeplなどを使っていますか",
+    "href": "day1/index.html#みなさん生成aichatgptdeeplなどを使っていますか",
+    "title": "データサイエンス",
+    "section": "みなさん、生成AI（ChatGPT、DeepLなど）を使っていますか？",
+    "text": "みなさん、生成AI（ChatGPT、DeepLなど）を使っていますか？\n\n\n\n私も使っています\nデータサイエンスのみならず、様々な場面において大事なツール\nでも、そもそもAIが何をしているのか、分かりますか？\n\n\n\nhttps://chat.openai.com/"
   },
   {
     "objectID": "day1/index.html#artificial-intelligenceという名前は嘘",
@@ -49,34 +56,6 @@
     "text": "LLMは「妄想」しがち\nhttps://chat.openai.com/share/dcee3278-0f51-4bc2-8051-849ef1b0b072\n\nLLMが返した言葉を信用できるかどうか判断するのがあなたの責任"
   },
   {
-    "objectID": "day1/index.html#じゃどうやって使ったら良いのかdo",
-    "href": "day1/index.html#じゃどうやって使ったら良いのかdo",
-    "title": "データサイエンス",
-    "section": "じゃ、どうやって使ったら良いのか？（DO）",
-    "text": "じゃ、どうやって使ったら良いのか？（DO）\n\n返ってきた答えを確かめる\n\nコードを走らせてみる\n内容を他のソースで確認する\n裏付けとなっている文献を出すように指示する（ChatGPT 4.0に限る）\n\n必ず批判的なスタンスを持つこと"
-  },
-  {
-    "objectID": "day1/index.html#コピペしないことdo-not",
-    "href": "day1/index.html#コピペしないことdo-not",
-    "title": "データサイエンス",
-    "section": "コピペしないこと（DO NOT）",
-    "text": "コピペしないこと（DO NOT）\n\n大学とは自分で考えることを身につける場である\n「言葉の計算機」だと思えば良い\n\n計算機があるからといって、算数を全く勉強しなくていいわけではない\n\nLLMは色々な作業を手伝う（よく嘘をつく）アシスタントであるが、自分の代わりに考えるものではない！"
-  },
-  {
-    "objectID": "day1/index.html#宿題",
-    "href": "day1/index.html#宿題",
-    "title": "データサイエンス",
-    "section": "宿題",
-    "text": "宿題\n\n自分が得意（詳しい）分野についてChatGPTに質問して、しばらく会話をしてください\n\n嘘を見つけたら、それをメモってください\n\n提出はしなくていいけど、次回の授業でディスカッションがある"
-  },
-  {
-    "objectID": "day1/index.html#みなさん生成aichatgptdeeplなどを使っていますか",
-    "href": "day1/index.html#みなさん生成aichatgptdeeplなどを使っていますか",
-    "title": "データサイエンス",
-    "section": "みなさん、生成AI（ChatGPT、DeepLなど）を使っていますか？",
-    "text": "みなさん、生成AI（ChatGPT、DeepLなど）を使っていますか？\n\n\n\n私も使っています\nデータサイエンスのみならず、様々な場面において大事なツール\nでも、そもそもAIが何をしているのか、分かりますか？\n\n\n\nhttps://chat.openai.com/"
-  },
-  {
     "objectID": "day1/index.html#じゃどうやって使ったら良いのか",
     "href": "day1/index.html#じゃどうやって使ったら良いのか",
     "title": "データサイエンス",
@@ -91,60 +70,18 @@
     "text": "コピペしないこと\n\n大学とは自分で考えることを身につける場である\n「言葉の計算機」だと思えば良い\n\n計算機があるからといって、算数を全く勉強しなくていいわけではない\n\nLLMは色々な作業を手伝う（よく嘘をつく）アシスタントであるが、自分の代わりに考えるものではない！"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
+    "objectID": "day1/index.html#宿題",
+    "href": "day1/index.html#宿題",
     "title": "データサイエンス",
-    "section": "",
-    "text": "千葉大学 総合国際学位プログラムの授業\n担当教員：ニッタ ジョエル"
+    "section": "宿題",
+    "text": "宿題\n\n自分が得意（詳しい）分野についてChatGPTに質問して、しばらく会話をしてください\n\n嘘を見つけたら、それをメモってください\n\n提出はしなくていいけど、次回の授業でディスカッションがある"
   },
   {
-    "objectID": "index.html#slides",
-    "href": "index.html#slides",
-    "title": "Reproducible Data Analysis",
-    "section": "",
-    "text": "Day 1 (2023-10-03): Introduction: Why code? Why reproducibility?"
-  },
-  {
-    "objectID": "index.html#recordings",
-    "href": "index.html#recordings",
-    "title": "Reproducible Data Analysis",
-    "section": "Recordings",
-    "text": "Recordings\n(video recordings are not available for all lectures)\n\nDay 4: Tidyverse\nDay 5: ggplot2"
-  },
-  {
-    "objectID": "index.html#materials",
-    "href": "index.html#materials",
-    "title": "Reproducible Data Analysis",
-    "section": "Materials",
-    "text": "Materials\n\nDay 2: Git and GitHub"
-  },
-  {
-    "objectID": "index.html#office-hours",
-    "href": "index.html#office-hours",
-    "title": "Reproducible Data Analysis",
-    "section": "Office Hours",
-    "text": "Office Hours\nBy appointment, please send an email to joelnitta@chiba-u.jp"
-  },
-  {
-    "objectID": "index.html#syllabus",
-    "href": "index.html#syllabus",
-    "title": "Reproducible Data Analysis",
-    "section": "Syllabus",
-    "text": "Syllabus\nSyllabus"
-  },
-  {
-    "objectID": "day1/index.html",
-    "href": "day1/index.html",
-    "title": "１日目：AIとソフトのインストール",
-    "section": "",
-    "text": "2024-04-02\n\n\n\n研究テーマその１：シダ植物の進化と生態学\n研究テーマその２：データサイエンス用ソフトの開発\nhttps://www.joelnitta.com"
-  },
-  {
-    "objectID": "day1/index.html#ニッタ-ジョエル",
-    "href": "day1/index.html#ニッタ-ジョエル",
+    "objectID": "day1/index.html#なぜr",
+    "href": "day1/index.html#なぜr",
     "title": "データサイエンス",
-    "section": "ニッタ ジョエル",
-    "text": "ニッタ ジョエル\n\n\n\n研究テーマその１：シダ植物の進化と生態学\n研究テーマその２：データサイエンス用ソフトの開発\nhttps://www.joelnitta.com"
+    "section": "なぜR?",
+    "text": "なぜR?\n\n\n\n無料\nデータ解析の機能が豊富\n多様なニーズに応えるパッケージ\nコミュニティー\n\n\n\nhttps://www.linkedin.com/pulse/why-r-4-reason-learn-programming-language-business-corporate"
   },
   {
     "objectID": "day1/index.html#rとrstudioについて",
@@ -175,914 +112,11 @@
     "text": "RStudioのインストール\nhttps://posit.co/download/rstudio-desktop/から自分のOSに合ったファイルをダウンロードして、インストール"
   },
   {
-    "objectID": "day1/index.html#なぜr",
-    "href": "day1/index.html#なぜr",
-    "title": "データサイエンス",
-    "section": "なぜR?",
-    "text": "なぜR?\n\n\n\n無料\nデータ解析の機能が豊富\n多様なニーズに応えるパッケージ\nコミュニティー\n\n\n\nhttps://www.linkedin.com/pulse/why-r-4-reason-learn-programming-language-business-corporate"
-  },
-  {
     "objectID": "day1/index.html#困ったら",
     "href": "day1/index.html#困ったら",
     "title": "データサイエンス",
     "section": "困ったら・・",
     "text": "困ったら・・\nご連絡下さい（joelnitta@chiba-u.jp）"
-  },
-  {
-    "objectID": "index.html#講義",
-    "href": "index.html#講義",
-    "title": "データサイエンス",
-    "section": "",
-    "text": "（全ての講義の録画はありません）\n\n第１回（2024-04-02）: RとRStudioのインストール、生成AIの基本（オンデマンド）\n\nスライド\n録画\n\n第２回（2024-04-09）: なぜコードを使うのか？再現可能なデータ解析とは？\n第３回（2024-04-16）: GitとGitHub\n第４回（2024-04-23）: データの読み込みと整理\n第５回（2024-05-07）: データの可視化\n第６回（2024-05-14）: 再現可能な文書の書き方\n第７回（2024-05-21）: レポートの発表\n第８回（2024-05-28）: 再現性を高めるツール（オンデマンド）"
-  },
-  {
-    "objectID": "index.html#オフィスアワー",
-    "href": "index.html#オフィスアワー",
-    "title": "データサイエンス",
-    "section": "オフィスアワー",
-    "text": "オフィスアワー\n予約制（joelnitta@chiba-u.jpまでメールにて連絡ください）。対面・非対面での相談、ご希望とご都合に合わせて対応いたします。"
-  },
-  {
-    "objectID": "index.html#シラバス",
-    "href": "index.html#シラバス",
-    "title": "データサイエンス",
-    "section": "シラバス",
-    "text": "シラバス\nシラバス"
-  },
-  {
-    "objectID": "index.html#概要",
-    "href": "index.html#概要",
-    "title": "データサイエンス",
-    "section": "概要",
-    "text": "概要\nデータ解析は、理系だけではなく、文系も含めた多くの学問分野で使われるようになっている。本授業では、特に大学院生の研究に応用できるようにデータサイエンスの基本的なスキルとツールを学ぶ。主に「R」プログラミング言語を使用するが、大学院生のニーズに合わせて、必要なツールがあれば適宜授業の内容に加える。"
-  },
-  {
-    "objectID": "index.html#スケジュール",
-    "href": "index.html#スケジュール",
-    "title": "データサイエンス",
-    "section": "スケジュール",
-    "text": "スケジュール\n毎週のリーディングを講義の前に読んでください。\n（全ての講義の録画はありません）\n\n第１回（2024-04-02）: 生成AIの基本、RとRStudioのインストール（オンデマンド）\n\nスライド\n録画\n\n第２回（2024-04-09）: ガイダンス、データサイエンスとR入門\n\nスライド\nリーディング\n\nR4DS Introduction\nR4DS Chapter 2 (Workflow: Basics)\n\n\n第３回（2024-04-16）: プロジェクトの整理とデータの読み込み\n\nスライド\nリーディング\n\nR4DS Chapter 6 (Workflow: Scripts and Projects)\nR4DS Chapter 7 (Data Import)\n\n\n第４回（2024-04-23）: データの整理（１）\n\nスライド\nリーディング\n\nR4DS Chapter 3 (Data Transformation)\n\n\n第５回（2024-05-07）: データの整理（２）\n\nスライド\nリーディング\n\nR4DS Chapter 5 (Data Tidying)\nR4DS Chapter 19 (Joins)\n\n\n第６回（2024-05-14）: データの可視化\n\nリーディング\n\nR4DS Chapter 1 (Data Visualization)\n\n\n第７回（2024-05-21）: 再現可能な文書の書き方\n\nリーディング\n\nR4DS Chapter 28 (Quarto)\n\n\n第８回（2024-05-28）: レポートの発表"
-  },
-  {
-    "objectID": "index.html#リンク",
-    "href": "index.html#リンク",
-    "title": "データサイエンス",
-    "section": "リンク",
-    "text": "リンク\n\nシラバス"
-  },
-  {
-    "objectID": "day2/index.html#ニッタ-ジョエル",
-    "href": "day2/index.html#ニッタ-ジョエル",
-    "title": "第２回：ガイダンス、データサイエンスとR入門",
-    "section": "ニッタ ジョエル",
-    "text": "ニッタ ジョエル\n\n\n\n研究テーマその１：シダ植物の進化と生態学\n研究テーマその２：データサイエンス用ソフトの開発\nhttps://www.joelnitta.com"
-  },
-  {
-    "objectID": "day2/index.html#データサイエンスとは-1",
-    "href": "day2/index.html#データサイエンスとは-1",
-    "title": "第２回：ガイダンス、データサイエンスとR入門",
-    "section": "データサイエンスとは？",
-    "text": "データサイエンスとは？\n\nデータから洞察（インサイト）を得ること"
-  },
-  {
-    "objectID": "day2/index.html#データ解析の循環",
-    "href": "day2/index.html#データ解析の循環",
-    "title": "第２回：ガイダンス、データサイエンスとR入門",
-    "section": "データ解析の循環",
-    "text": "データ解析の循環\n\nhttps://r4ds.hadley.nz/diagrams/data-science/base.png\n\n\nImport: データを入力する\nTidy and Transform: データを整える\nVisualize: データを可視化する\nModel: モデルを構築する（予測する）\nCommunicate: 結果を伝える"
-  },
-  {
-    "objectID": "day2/index.html#データ解析の循環-1",
-    "href": "day2/index.html#データ解析の循環-1",
-    "title": "データサイエンス",
-    "section": "データ解析の循環",
-    "text": "データ解析の循環\n\nImport: データを入力する\nTidy and Transform: データを整える\nVisualize: データを可視化する\nModel: モデルを構築する（予測する）\nCommunicate: 結果を伝える"
-  },
-  {
-    "objectID": "day2/index.html",
-    "href": "day2/index.html",
-    "title": "第２回：ガイダンス、データサイエンスとR入門",
-    "section": "",
-    "text": "2024-04-09\nhttps://data-science-chiba-2024.github.io/day2/"
-  },
-  {
-    "objectID": "day2/index.html#データサイエンスとは-2",
-    "href": "day2/index.html#データサイエンスとは-2",
-    "title": "第２回：ガイダンス、データサイエンスとR入門",
-    "section": "データサイエンスとは？",
-    "text": "データサイエンスとは？\n\n他の特徴\n\n大量のデータを扱う（「ビッグデータ」）\n\n統計学を使う\n\nプログラミングを使う（python、R、など）\n様々な用がある（学術研究、治療、産業、など）"
-  },
-  {
-    "objectID": "day2/index.html#再現性とは-1",
-    "href": "day2/index.html#再現性とは-1",
-    "title": "第２回：ガイダンス、データサイエンスとR入門",
-    "section": "再現性とは？",
-    "text": "再現性とは？\n\n他の人（将来の自分を含めて）があなたの解析を再度行って、同じ結果を得ることができること\nデータサイエンスにおいて、とても重要。再現性がなければ、「サイエンス」にならない！"
-  },
-  {
-    "objectID": "day2/index.html#再現可能にするには",
-    "href": "day2/index.html#再現可能にするには",
-    "title": "第２回：ガイダンス、データサイエンスとR入門",
-    "section": "再現可能にするには・・",
-    "text": "再現可能にするには・・\n\nコードが必要\n\n自分が何をやったのか、記録が残る\n将来、同じ解析ができる\n\nコードとして残らない方法はよろしくない（エクセル、SPSSなど）"
-  },
-  {
-    "objectID": "day2/index.html#本授業ではrを使う",
-    "href": "day2/index.html#本授業ではrを使う",
-    "title": "第２回：ガイダンス、データサイエンスとR入門",
-    "section": "本授業では、Rを使う",
-    "text": "本授業では、Rを使う\n\n\n\n無料\nデータ解析の機能が豊富\n多様なニーズに応えるパッケージ\nコミュニティー\n\n\n\nhttps://www.linkedin.com/pulse/why-r-4-reason-learn-programming-language-business-corporate"
-  },
-  {
-    "objectID": "day2/index.html#rとrstudioについて",
-    "href": "day2/index.html#rとrstudioについて",
-    "title": "第２回：ガイダンス、データサイエンスとR入門",
-    "section": "RとRStudioについて",
-    "text": "RとRStudioについて\n\n\n\nRとは「R Project for Statistical Computing」という組織が提供しているオープンソースプログラミング言語"
-  },
-  {
-    "objectID": "day2/index.html#rとrstudioについて-1",
-    "href": "day2/index.html#rとrstudioについて-1",
-    "title": "第２回：ガイダンス、データサイエンスとR入門",
-    "section": "RとRStudioについて",
-    "text": "RとRStudioについて\n\n\n\nRのコードを書く・実行する最適なソフト（無料）\nRStudioなしでもRは一応使えるけど、不便\nこの授業ではRStudioを介してRを使う。"
-  },
-  {
-    "objectID": "day2/index.html#資料",
-    "href": "day2/index.html#資料",
-    "title": "データサイエンス",
-    "section": "資料",
-    "text": "資料\n\n\n\nR for Reproducible Scientific Analysis（日本語）\nR for Data Science\n\n英語版はオンラインで無料 https://r4ds.had.co.nz/\n日本語版はアマゾンなどから"
-  },
-  {
-    "objectID": "day2/index.html#rstudioについて",
-    "href": "day2/index.html#rstudioについて",
-    "title": "第２回：ガイダンス、データサイエンスとR入門",
-    "section": "RStudioについて",
-    "text": "RStudioについて\n\n主に四つのパネルがある\n\nSource（コードを書く）\nEnvironment（今のRのセッションに入っているオブジェクトが表示される）\nR Console（Rに直接コマンドをする）\nFiles and Plots（ファイルと図）"
-  },
-  {
-    "objectID": "day2/index.html#rを計算機として使う",
-    "href": "day2/index.html#rを計算機として使う",
-    "title": "第２回：ガイダンス、データサイエンスとR入門",
-    "section": "Rを計算機として使う",
-    "text": "Rを計算機として使う\n\nRStudioのコンソール（左下のパネル）にカーソルを置いて、簡単な計算をしてみましょう：\n\n\n\n2 * 20\n\n[1] 40\n\n\n\nおめでとうございます！Rプログラミングができました！"
-  },
-  {
-    "objectID": "day2/index.html#オブジェクト変数について",
-    "href": "day2/index.html#オブジェクト変数について",
-    "title": "第２回：ガイダンス、データサイエンスとR入門",
-    "section": "オブジェクト（変数）について",
-    "text": "オブジェクト（変数）について\n\n次に、Rの中のデータを変数（Rでは、「オブジェクト Object」と呼ぶ）として保存しよう：\n\n\n\nage &lt;- 2 * 20"
-  },
-  {
-    "objectID": "day2/index.html#オブジェクト変数について-1",
-    "href": "day2/index.html#オブジェクト変数について-1",
-    "title": "第２回：ガイダンス、データサイエンスとR入門",
-    "section": "オブジェクト（変数）について",
-    "text": "オブジェクト（変数）について\nこれだけでは何も返ってこない。\n変数の内容を確認するには、コンソールにその変数の名前を打てば良い：\n\n\nage\n\n[1] 40"
-  },
-  {
-    "objectID": "day2/index.html#関数とは",
-    "href": "day2/index.html#関数とは",
-    "title": "第２回：ガイダンス、データサイエンスとR入門",
-    "section": "関数とは",
-    "text": "関数とは\n何かの値（インプット）を受けて、処理して、計算結果（アウトプット）を返すもの\n\n\n\nhttps://manamina.valuesccg.com/articles/756"
-  },
-  {
-    "objectID": "day2/index.html#関数とは-1",
-    "href": "day2/index.html#関数とは-1",
-    "title": "第２回：ガイダンス、データサイエンスとR入門",
-    "section": "関数とは",
-    "text": "関数とは\n関数の書き方：\n\n関数名(引数)\n\n例えば\n\n\nround(3.1415, digits = 1)\n\n[1] 3.1"
-  },
-  {
-    "objectID": "day2/index.html#関数とは-2",
-    "href": "day2/index.html#関数とは-2",
-    "title": "第２回：ガイダンス、データサイエンスとR入門",
-    "section": "関数とは",
-    "text": "関数とは\n関数の使い方を確認したい時は?関数名と打って、ヘルプファイルを参照すれば良い\n\n\n?round"
-  },
-  {
-    "objectID": "day2/index.html#パッケージとは",
-    "href": "day2/index.html#パッケージとは",
-    "title": "第２回：ガイダンス、データサイエンスとR入門",
-    "section": "パッケージとは",
-    "text": "パッケージとは\n\nRパッケージとは、Rが出来ることを大幅に増やす「追加」のソフト（関数のまとまり）\n\n現在、２万近くのパッケージがある！"
-  },
-  {
-    "objectID": "day2/index.html#パッケージのインストール",
-    "href": "day2/index.html#パッケージのインストール",
-    "title": "第２回：ガイダンス、データサイエンスとR入門",
-    "section": "パッケージのインストール",
-    "text": "パッケージのインストール\nRパッケージのインストールを行うには、install.packages()を使う：\n\ninstall.packages(\"ggplot2\")\n\n一回インストールしたら、次回からはしなくて良いので、これはコードとして保存しない"
-  },
-  {
-    "objectID": "day2/index.html#パッケージのロード",
-    "href": "day2/index.html#パッケージのロード",
-    "title": "第２回：ガイダンス、データサイエンスとR入門",
-    "section": "パッケージのロード",
-    "text": "パッケージのロード\n\nパッケージをインストールしたら、使える状態するにはロードすることが必要\n\nインストールは一回でいい\nロードは毎回必要\n\n\nlibrary()関数でロードする：\n\n\nlibrary(ggplot2)"
-  },
-  {
-    "objectID": "day2/index.html#tidyverse",
-    "href": "day2/index.html#tidyverse",
-    "title": "第２回：ガイダンス、データサイエンスとR入門",
-    "section": "tidyverse",
-    "text": "tidyverse\n\ntidyverseはデータサイエンス用パッケージの集まりのパッケージ\n\nggplot2（可視化）\ndplyr（データの整理）\nstringr（文字データを扱う）\nなど\n\n\nこれからよく使うので、インストールしましょう。一気に出来るから、楽。\n\ninstall.packages(\"tidyverse\")"
-  },
-  {
-    "objectID": "day2/index.html#install.packagesとlibraryの違い",
-    "href": "day2/index.html#install.packagesとlibraryの違い",
-    "title": "第２回：ガイダンス、データサイエンスとR入門",
-    "section": "install.packages()とlibrary()の違い",
-    "text": "install.packages()とlibrary()の違い\n\ninstall.packages()は一回だけで良い（パソコンにパッケージをダウンロードする）\nlibrary()はRを使う毎にしないといけない（パッケージを今回のRのセッションで使えるようにする）"
-  },
-  {
-    "objectID": "day2/index.html#教科書",
-    "href": "day2/index.html#教科書",
-    "title": "第２回：ガイダンス、データサイエンスとR入門",
-    "section": "教科書",
-    "text": "教科書\n\n\n\nR for Data Science (2nd edition)\n\n英語版はオンラインで無料 https://r4ds.hadley.nz/\n日本語版（第１エディションのみ）はアマゾンなどから"
-  },
-  {
-    "objectID": "day2/index.html#スケジュール",
-    "href": "day2/index.html#スケジュール",
-    "title": "第２回：ガイダンス、データサイエンスとR入門",
-    "section": "スケジュール",
-    "text": "スケジュール\n\n生成AIの基本、RとRStudioのインストール（オンデマンド）\nガイダンス、データサイエンスとR入門\nプロジェクトの整理とデータの読み込み\nデータの整理\nデータの可視化\n再現可能な文書の書き方\nレポートの発表\n再現性を高めるツール（オンデマンド）\n\n内容はニーズに合わせる"
-  },
-  {
-    "objectID": "day2/index.html#サイト",
-    "href": "day2/index.html#サイト",
-    "title": "第２回：ガイダンス、データサイエンスとR入門",
-    "section": "サイト",
-    "text": "サイト\nhttps://data-science-chiba-2024.github.io/\nスライドと動画のリンクが掲載されている"
-  },
-  {
-    "objectID": "day2/index.html#オフィスアワー",
-    "href": "day2/index.html#オフィスアワー",
-    "title": "第２回：ガイダンス、データサイエンスとR入門",
-    "section": "オフィスアワー",
-    "text": "オフィスアワー\n予約制（joelnitta@chiba-u.jpまでメールにて連絡ください）。対面・非対面での相談、ご希望とご都合に合わせて対応いたします。"
-  },
-  {
-    "objectID": "day2/index.html#課題",
-    "href": "day2/index.html#課題",
-    "title": "データサイエンス",
-    "section": "課題",
-    "text": "課題\n\n授業のディスカッションに参加する\nRを使って、自分の研究に関するレポートを書く"
-  },
-  {
-    "objectID": "day2/index.html#スケジュール仮",
-    "href": "day2/index.html#スケジュール仮",
-    "title": "データサイエンス",
-    "section": "スケジュール（仮）",
-    "text": "スケジュール（仮）\n\nRとRStudioのインストール、生成AIの基本（オンデマンド）\nなぜコードを使うのか？再現可能なデータ解析とは？\nコードの共有と再現性にに必須なツール「Git」について学ぶ。\nデータの読み込みと整理\nデータの可視化\n再現可能な文書の書き方\nレポートの発表\n再現性を高めるツール（オンデマンド）\n\n内容はニーズに合わせる"
-  },
-  {
-    "objectID": "day2/index.html#リーディング",
-    "href": "day2/index.html#リーディング",
-    "title": "第２回：ガイダンス、データサイエンスとR入門",
-    "section": "リーディング",
-    "text": "リーディング\n毎週のリーディングを講義の前に読んでください。\n\n第２回（2024-04-09）: ガイダンス、データサイエンスとR入門\n\nR4DS Introduction\nR4DS Chapter 2 (Workflow: Basics)\n\n第３回（2024-04-16）: プロジェクトの整理とデータの読み込み\n\nR4DS Chapter 6 (Workflow: Scripts and Projects)\nR4DS Chapter 7 (Data Import)"
-  },
-  {
-    "objectID": "day2/index.html#課題と評価",
-    "href": "day2/index.html#課題と評価",
-    "title": "第２回：ガイダンス、データサイエンスとR入門",
-    "section": "課題と評価",
-    "text": "課題と評価\n\n宿題（25%）\n\nMoodleからダウンロード、提出\n締め切り：次の週の授業まで\n\nリーディング\n授業のディスカッションに参加する（25%）\nRを使って、自分の研究に関するレポートを書く（50%）"
-  },
-  {
-    "objectID": "index.html#教科書",
-    "href": "index.html#教科書",
-    "title": "データサイエンス",
-    "section": "教科書",
-    "text": "教科書\n\nR for Data Science (2nd Edition) by Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund\n\nアマゾンには第１エディションの翻訳がある"
-  },
-  {
-    "objectID": "day2/index.html#リーディング-1",
-    "href": "day2/index.html#リーディング-1",
-    "title": "第２回：ガイダンス、データサイエンスとR入門",
-    "section": "リーディング",
-    "text": "リーディング\n\n第４回（2024-04-23）: データの整理\n\nR4DS Chapter 3 (Data Transformation)\nR4DS Chapter 5 (Data Tidying)\n\n第５回（2024-05-07）: データの可視化\n\nR4DS Chapter 1 (Data Visualization)\n\n第６回（2024-05-14）: 再現可能な文書の書き方\n\nR4DS Chapter 28 (Quarto)"
-  },
-  {
-    "objectID": "day3/index.html#スクリプトについて",
-    "href": "day3/index.html#スクリプトについて",
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "今までは直接Rにコマンドを出していたけど、毎回そうするのは効率が良くない。\n作業を繰り返す場合や再現する場合はスクリプト(テキストファイル)が必要。\nRスクリプトの拡張は.Rか.r。"
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "今までは直接Rにコマンドを出していたけど、毎回そうするのは効率が良くない。\n作業を繰り返す場合や再現する場合はスクリプト(テキストファイル)が必要。\nRスクリプトの拡張は.Rか.r。"
-  },
-  {
-    "objectID": "day3/index.html#スクリプトの作成と保存",
-    "href": "day3/index.html#スクリプトの作成と保存",
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "作成\n\nFile ➡︎ New File ➡︎ R Scriptをクリック\n\n保存\n\nFile ➡︎ Save As...をクリックかファイルのアイコンをクリック。\n\nスクリプトの名前はなるべくローマ字を使うように（あとあと公開する時のため）"
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "作成\n\nFile ➡︎ New File ➡︎ R Scriptをクリック\n\n保存\n\nFile ➡︎ Save As...をクリックかファイルのアイコンをクリック。\n\nスクリプトの名前はなるべくローマ字を使うように（あとあと公開する時のため）"
-  },
-  {
-    "objectID": "day3/index.html#スクリプトからコードを使う",
-    "href": "day3/index.html#スクリプトからコードを使う",
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "以下のコードをスクリプトに書いて、script.Rとしてデスクトップに保存しましょう（コードの詳細はまた後で学ぶ）。\nlibrary(tidyverse)\n\nggplot(diamonds, aes(x = carat, y = price)) + \n  geom_hex()"
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "以下のコードをスクリプトに書いて、script.Rとしてデスクトップに保存しましょう（コードの詳細はまた後で学ぶ）。\nlibrary(tidyverse)\n\nggplot(diamonds, aes(x = carat, y = price)) + \n  geom_hex()"
-  },
-  {
-    "objectID": "day3/index.html#スクリプトからコードを使う-1",
-    "href": "day3/index.html#スクリプトからコードを使う-1",
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "カーソルが現在位置している行をコンソールに送る：Ctrl（あるいは⌘） + Enter\n今開いているスクリプトの行を全てコンソールに送る：Ctrl（あるいは⌘） + Shift+ Enter"
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "カーソルが現在位置している行をコンソールに送る：Ctrl（あるいは⌘） + Enter\n今開いているスクリプトの行を全てコンソールに送る：Ctrl（あるいは⌘） + Shift+ Enter"
-  },
-  {
-    "objectID": "day3/index.html#スクリプトの書き方",
-    "href": "day3/index.html#スクリプトの書き方",
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "読みやすさと覚えやすさを優先しましょう。\nRは大文字と小文字を区別するので、小文字に揃えた方が覚えやく、間違いが少ない（例えば、Dataではなく、data）。\n変数名にはスペースが使えないので、_を使いましょう（例えば、data_set_1など）。"
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "読みやすさと覚えやすさを優先しましょう。\nRは大文字と小文字を区別するので、小文字に揃えた方が覚えやく、間違いが少ない（例えば、Dataではなく、data）。\n変数名にはスペースが使えないので、_を使いましょう（例えば、data_set_1など）。"
-  },
-  {
-    "objectID": "day3/index.html#rstudioによる警告",
-    "href": "day3/index.html#rstudioによる警告",
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "スクリプトに間違いが入っている場合、RStudioはそれを教えてくれる（バツマークと赤い線）："
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "スクリプトに間違いが入っている場合、RStudioはそれを教えてくれる（バツマークと赤い線）："
-  },
-  {
-    "objectID": "day3/index.html#ファイル名も整えましょう",
-    "href": "day3/index.html#ファイル名も整えましょう",
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "NG ❌\nalternative model.R\ncode for exploratory analysis.r\nfinalreport.qmd\nFinalReport.qmd\nfig 1.png\nFigure_02.png\nmodel_first_try.R\nrun-first.r\ntemp.txt\n\nOK ✅\n01_load_data.R\n02_exploratory_analysis.R\n03_model_approach_1.R\n04_model_approach_2.R\nfig_01.png\nfig_02.png\nreport_2022_03_20.qmd\nreport_2022_04_02.qmd\nreport_draft_notes.txt"
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "NG ❌\nalternative model.R\ncode for exploratory analysis.r\nfinalreport.qmd\nFinalReport.qmd\nfig 1.png\nFigure_02.png\nmodel_first_try.R\nrun-first.r\ntemp.txt\n\nOK ✅\n01_load_data.R\n02_exploratory_analysis.R\n03_model_approach_1.R\n04_model_approach_2.R\nfig_01.png\nfig_02.png\nreport_2022_03_20.qmd\nreport_2022_04_02.qmd\nreport_draft_notes.txt"
-  },
-  {
-    "objectID": "day3/index.html#スクリプトの書き方-1",
-    "href": "day3/index.html#スクリプトの書き方-1",
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "コメント（Rが無視する場所）を#で書く\n\n例えば、# this is a comment\n\nコメントは自分用のメモ\n\n未来の自分が、今の自分が何をやったのか、分かるように書く。\nまだ慣れていないうちには特にたくさん書きましょう。"
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "コメント（Rが無視する場所）を#で書く\n\n例えば、# this is a comment\n\nコメントは自分用のメモ\n\n未来の自分が、今の自分が何をやったのか、分かるように書く。\nまだ慣れていないうちには特にたくさん書きましょう。"
-  },
-  {
-    "objectID": "day3/index.html#プロジェクトについて",
-    "href": "day3/index.html#プロジェクトについて",
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "スクリプトとしてコードを保存をするのはいいけど、解析が進むと複数のスクリプトとデータを整理する必要が生じる\nRStudioの「Project」機能によって、スクリプトとデータ（など）の整理ができる"
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "スクリプトとしてコードを保存をするのはいいけど、解析が進むと複数のスクリプトとデータを整理する必要が生じる\nRStudioの「Project」機能によって、スクリプトとデータ（など）の整理ができる"
-  },
-  {
-    "objectID": "day3/index.html#新しいプロジェクトを作る",
-    "href": "day3/index.html#新しいプロジェクトを作る",
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "File ➡︎ New Project ➡︎ New Directory ➡︎ New Project をクリック\n\nプロジェクト名と場所を入力（今回はr4dsにしましょう）\n分かりやすい場所がおすすめ（デスクトップにしましょう）\n\n今回は”Create a git repository”をクリックしないけど、本当はgitも使った方がいい（またあとで説明します）"
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "File ➡︎ New Project ➡︎ New Directory ➡︎ New Project をクリック\n\nプロジェクト名と場所を入力（今回はr4dsにしましょう）\n分かりやすい場所がおすすめ（デスクトップにしましょう）\n\n今回は”Create a git repository”をクリックしないけど、本当はgitも使った方がいい（またあとで説明します）"
-  },
-  {
-    "objectID": "day3/index.html#新しいプロジェクトを作る-1",
-    "href": "day3/index.html#新しいプロジェクトを作る-1",
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "プロジェクト名の入力が終わると、RStudioが再度立ち上がる\nファイルパネル（右下）をよく見てください。今はRがどこに「います」か？"
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "プロジェクト名の入力が終わると、RStudioが再度立ち上がる\nファイルパネル（右下）をよく見てください。今はRがどこに「います」か？"
-  },
-  {
-    "objectID": "day3/index.html#rprojファイルについて",
-    "href": "day3/index.html#rprojファイルについて",
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "新しいプロジェクトには、r4ds.Rprojファイルが入っている\n.Rprojファイルの中身はは基本的に触らない\n\n中身はRStudioの設定（RStudioに任せましょう）\n再度プロジェクトを開く時に使う（ダブルクリック）"
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "新しいプロジェクトには、r4ds.Rprojファイルが入っている\n.Rprojファイルの中身はは基本的に触らない\n\n中身はRStudioの設定（RStudioに任せましょう）\n再度プロジェクトを開く時に使う（ダブルクリック）"
-  },
-  {
-    "objectID": "day3/index.html#作業ディレクトリについて",
-    "href": "day3/index.html#作業ディレクトリについて",
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "「作業ディレクトリ」（“working directory”）というのは、今Rが今「いる」場所のこと\ngetwd()で確認できる：\n\n\ngetwd()\n\n\n\n[1] \"/Users/joelnitta/Desktop/r4ds\""
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "「作業ディレクトリ」（“working directory”）というのは、今Rが今「いる」場所のこと\ngetwd()で確認できる：\n\n\ngetwd()\n\n\n\n[1] \"/Users/joelnitta/Desktop/r4ds\""
-  },
-  {
-    "objectID": "day3/index.html#作業ディレクトリについて-1",
-    "href": "day3/index.html#作業ディレクトリについて-1",
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "時々、他のスクリプトを見ると、set.wd()という関数を目にする\n\n例：set.wd(\"/Users/joelnitta/analysis/\")\n後ろの部分は「パス」と言う（パソコンの中の住所のような物）"
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "時々、他のスクリプトを見ると、set.wd()という関数を目にする\n\n例：set.wd(\"/Users/joelnitta/analysis/\")\n後ろの部分は「パス」と言う（パソコンの中の住所のような物）"
-  },
-  {
-    "objectID": "day3/index.html#作業ディレクトリについて-2",
-    "href": "day3/index.html#作業ディレクトリについて-2",
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "でも、多くの場合、他の人のパソコンにあるパスは自分のパソコンに存在しない\n\n.Rprojを使えば、set.wd()を使う必要がない\n\nなので、set.wd()は使わないようにしましょう。"
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "でも、多くの場合、他の人のパソコンにあるパスは自分のパソコンに存在しない\n\n.Rprojを使えば、set.wd()を使う必要がない\n\nなので、set.wd()は使わないようにしましょう。"
-  },
-  {
-    "objectID": "day3/index.html#新しいプロジェクトを作る-2",
-    "href": "day3/index.html#新しいプロジェクトを作る-2",
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "右下の「ファイル」パネルを使って、dataというフォルダーを作りましょう\n\nあとで、このフォルダーにこれから解析するデータを置く"
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "右下の「ファイル」パネルを使って、dataというフォルダーを作りましょう\n\nあとで、このフォルダーにこれから解析するデータを置く"
-  },
-  {
-    "objectID": "day3/index.html#プロジェクトにスクリプトを置きましょう",
-    "href": "day3/index.html#プロジェクトにスクリプトを置きましょう",
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "以下のコードを書いて、スクリプトをdiamonds.Rとしてr4dsプロジェクトに保存して、実行しましょう：\n\nlibrary(tidyverse)\n\nggplot(diamonds, aes(x = carat, y = price)) + \n  geom_hex()\nggsave(\"diamonds.png\")\n\nwrite_csv(diamonds, \"data/diamonds.csv\")\n\nこのスクリプトは何をするのでしょうか？"
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "以下のコードを書いて、スクリプトをdiamonds.Rとしてr4dsプロジェクトに保存して、実行しましょう：\n\nlibrary(tidyverse)\n\nggplot(diamonds, aes(x = carat, y = price)) + \n  geom_hex()\nggsave(\"diamonds.png\")\n\nwrite_csv(diamonds, \"data/diamonds.csv\")\n\nこのスクリプトは何をするのでしょうか？"
-  },
-  {
-    "objectID": "day3/index.html#コードによる再現性",
-    "href": "day3/index.html#コードによる再現性",
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "diamonds.Rはdiamonds.pngというグラフを作る。\n\n. . .\n\ndiamonds.pngを消しましょう。\n\n. . .\n\n解析結果が消えてしまった！どうしよう！？"
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "diamonds.Rはdiamonds.pngというグラフを作る。\n\n. . .\n\ndiamonds.pngを消しましょう。\n\n. . .\n\n解析結果が消えてしまった！どうしよう！？"
-  },
-  {
-    "objectID": "day3/index.html#コードによる再現性-1",
-    "href": "day3/index.html#コードによる再現性-1",
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "ご心配なく！\n\n再度diamonds.Rを実行してください（Ctrl（あるいは⌘） + Shift+ Enter）\n\n全く同じグラフが再度できた！つまり、再現しました。\n\n. . .\n\nコードとデータがあれば、解析結果はいつでも再現できる\n\n. . .\n\n絶対に必要なのは、コードとデータ。結果は「使い捨て」と考えて良い。"
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "ご心配なく！\n\n再度diamonds.Rを実行してください（Ctrl（あるいは⌘） + Shift+ Enter）\n\n全く同じグラフが再度できた！つまり、再現しました。\n\n. . .\n\nコードとデータがあれば、解析結果はいつでも再現できる\n\n. . .\n\n絶対に必要なのは、コードとデータ。結果は「使い捨て」と考えて良い。"
-  },
-  {
-    "objectID": "day3/index.html#ディスカッション",
-    "href": "day3/index.html#ディスカッション",
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "データ整理やプロジェクトの管理はどうしていますか？"
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "データ整理やプロジェクトの管理はどうしていますか？"
-  },
-  {
-    "objectID": "day3/index.html#データの読み込み",
-    "href": "day3/index.html#データの読み込み",
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "Moodleからstudents.csvをダウンロードして、data/に置きましょう。\n.csvはcomma separated valuesの略です\n\nエクセルで扱うようなデータ形式（エクセルでも開くことができる）\n.xslxとの違いは、.csvはそのままどのテキストエディターでも開ける（エクセルがいらない）"
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "Moodleからstudents.csvをダウンロードして、data/に置きましょう。\n.csvはcomma separated valuesの略です\n\nエクセルで扱うようなデータ形式（エクセルでも開くことができる）\n.xslxとの違いは、.csvはそのままどのテキストエディターでも開ける（エクセルがいらない）"
-  },
-  {
-    "objectID": "day3/index.html#データの読み込み-1",
-    "href": "day3/index.html#データの読み込み-1",
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "read_csv()関数で読み込む\n\nまずは、読み込んでから直接に中身を見てみましょう：\n\nread_csv(\"data/students.csv\")\n\nRows: 6 Columns: 5\n── Column specification ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (4): Full Name, favourite.food, mealPlan, AGE\ndbl (1): Student ID\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n\n\n# A tibble: 6 × 5\n  `Student ID` `Full Name`      favourite.food     mealPlan            AGE  \n         &lt;dbl&gt; &lt;chr&gt;            &lt;chr&gt;              &lt;chr&gt;               &lt;chr&gt;\n1            1 Sunil Huffmann   Strawberry yoghurt Lunch only          4    \n2            2 Barclay Lynn     French fries       Lunch only          5    \n3            3 Jayendra Lyne    N/A                Breakfast and lunch 7    \n4            4 Leon Rossini     Anchovies          Lunch only          &lt;NA&gt; \n5            5 Chidiegwu Dunkel Pizza              Breakfast and lunch five \n6            6 Güvenç Attila    Ice cream          Lunch only          6"
-  },
-  {
-    "objectID": "day3/index.html#データの読み込み-2",
-    "href": "day3/index.html#データの読み込み-2",
-    "title": "データサイエンス",
-    "section": "データの読み込み",
-    "text": "データの読み込み\n\nでも、これだけではRの環境にそのデータが入っていません\n変数（オブジェクト）として保存する必要がある：\n\n\nstudents &lt;- read_csv(\"data/students.csv\")"
-  },
-  {
-    "objectID": "day3/index.html#読み込んだデータの保存",
-    "href": "day3/index.html#読み込んだデータの保存",
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "でも、これだけではRの環境にそのデータが入っていません\n変数（オブジェクト）として保存する必要がある：\n\n\nstudents &lt;- read_csv(\"data/students.csv\")\n\nRows: 6 Columns: 5\n── Column specification ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (4): Full Name, favourite.food, mealPlan, AGE\ndbl (1): Student ID\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n\n\n\n\n\n\nこのようにRに読み込んだデータをデータフレーム（“dataframe”）、あるいは「tibble」と呼ぶ\n\n２次元データ。エクセルのデータシートみたいな物。"
-  },
-  {
-    "objectID": "day3/index.html#読み込んだデータの中身の確認１",
-    "href": "day3/index.html#読み込んだデータの中身の確認１",
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "変数として保存する時は中身が見えない（オブジェクトに渡された）\n中身を見たい時は変数名を直接コンソールに入力すればいい\n\n\nstudents\n\n# A tibble: 6 × 5\n  `Student ID` `Full Name`      favourite.food     mealPlan            AGE  \n         &lt;dbl&gt; &lt;chr&gt;            &lt;chr&gt;              &lt;chr&gt;               &lt;chr&gt;\n1            1 Sunil Huffmann   Strawberry yoghurt Lunch only          4    \n2            2 Barclay Lynn     French fries       Lunch only          5    \n3            3 Jayendra Lyne    N/A                Breakfast and lunch 7    \n4            4 Leon Rossini     Anchovies          Lunch only          &lt;NA&gt; \n5            5 Chidiegwu Dunkel Pizza              Breakfast and lunch five \n6            6 Güvenç Attila    Ice cream          Lunch only          6"
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "変数として保存する時は中身が見えない（オブジェクトに渡された）\n中身を見たい時は変数名を直接コンソールに入力すればいい\n\n\nstudents\n\n# A tibble: 6 × 5\n  `Student ID` `Full Name`      favourite.food     mealPlan            AGE  \n         &lt;dbl&gt; &lt;chr&gt;            &lt;chr&gt;              &lt;chr&gt;               &lt;chr&gt;\n1            1 Sunil Huffmann   Strawberry yoghurt Lunch only          4    \n2            2 Barclay Lynn     French fries       Lunch only          5    \n3            3 Jayendra Lyne    N/A                Breakfast and lunch 7    \n4            4 Leon Rossini     Anchovies          Lunch only          &lt;NA&gt; \n5            5 Chidiegwu Dunkel Pizza              Breakfast and lunch five \n6            6 Güvenç Attila    Ice cream          Lunch only          6"
-  },
-  {
-    "objectID": "day3/index.html#読み込んだデータの中身の確認２",
-    "href": "day3/index.html#読み込んだデータの中身の確認２",
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "もう一つのデータの確認の仕方がある：「Environment」パネルでそのオブジェクトをクリック\nすると、エクセルのようなレイアウトになる\n\nエクセルと大きな違い：直接にデータをいじることができない！\n\n\n. . .\n\nエクセルはデータ入力に使う。Rはデータ解析に使う"
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "もう一つのデータの確認の仕方がある：「Environment」パネルでそのオブジェクトをクリック\nすると、エクセルのようなレイアウトになる\n\nエクセルと大きな違い：直接にデータをいじることができない！\n\n\n. . .\n\nエクセルはデータ入力に使う。Rはデータ解析に使う"
-  },
-  {
-    "objectID": "day3/index.html#コンソールの使い方使うとき",
-    "href": "day3/index.html#コンソールの使い方使うとき",
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "このような時に使う：データの中身を確認したい、ヘルプファイルを開きたい、など。\nつまり、データ解析に必要ではない（関係のない）コマンド。"
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "このような時に使う：データの中身を確認したい、ヘルプファイルを開きたい、など。\nつまり、データ解析に必要ではない（関係のない）コマンド。"
-  },
-  {
-    "objectID": "day3/index.html#データの種類について",
-    "href": "day3/index.html#データの種類について",
-    "title": "データサイエンス",
-    "section": "データの種類について",
-    "text": "データの種類について\n\nstudentsをコンソール（左下のパネル）でもう一回打ってみてください\nデータの上に&lt;dbl&gt;とか&lt;chr&gt;とかと出ているけど、これは何でしょうか？\n\n\n\nA: データの種類です"
-  },
-  {
-    "objectID": "day3/index.html#データの種類について-1",
-    "href": "day3/index.html#データの種類について-1",
-    "title": "データサイエンス",
-    "section": "データの種類について",
-    "text": "データの種類について\n\ndbl: 数字（“double”の略。なぜ”double”でしょう・・）\nchr: 文字（“character”の略。この方がしっくり来るね）\n\nこのほかに、\n\nlgl：ロジカル（TRUEかFALSEか、そのどっちか）\nint：整数（“integer”の略）\n\nがある"
-  },
-  {
-    "objectID": "day3/index.html#データの種類型について",
-    "href": "day3/index.html#データの種類型について",
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "studentsをコンソール（左下のパネル）でもう一回打ってみてください\nデータの上に&lt;dbl&gt;とか&lt;chr&gt;とかと出ているけど、これは何でしょうか？\n\n. . .\n\nA: データの種類です"
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "studentsをコンソール（左下のパネル）でもう一回打ってみてください\nデータの上に&lt;dbl&gt;とか&lt;chr&gt;とかと出ているけど、これは何でしょうか？\n\n. . .\n\nA: データの種類です"
-  },
-  {
-    "objectID": "day3/index.html#データの種類型について-1",
-    "href": "day3/index.html#データの種類型について-1",
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "dbl: 数字（“double”の略。なぜ”double”でしょう・・）\nchr: 文字（“character”の略。この方がしっくり来るね）\n\nこのほかに、\n\nlgl：ロジカル（TRUEかFALSEか、そのどっちか）\nint：整数（“integer”の略）\n\nがある"
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "dbl: 数字（“double”の略。なぜ”double”でしょう・・）\nchr: 文字（“character”の略。この方がしっくり来るね）\n\nこのほかに、\n\nlgl：ロジカル（TRUEかFALSEか、そのどっちか）\nint：整数（“integer”の略）\n\nがある"
-  },
-  {
-    "objectID": "day3/index.html#ベクトルについて",
-    "href": "day3/index.html#ベクトルについて",
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "ベクトル（vector）とは、同じ型を持つ一連のデータの集まり（一次元の配列）\nベクトルに含まれている一つ一つのデータを要素（element）という\n例えば、letters\n\n\"a\"がlettersの１個目の要素"
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "ベクトル（vector）とは、同じ型を持つ一連のデータの集まり（一次元の配列）\nベクトルに含まれている一つ一つのデータを要素（element）という\n例えば、letters\n\n\"a\"がlettersの１個目の要素"
-  },
-  {
-    "objectID": "day3/index.html#ベクトルの作り方",
-    "href": "day3/index.html#ベクトルの作り方",
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "ベクトルを関数はc()\n\n“combine”（「くっつける」）の略\n\n\n\nc(1, 2, 3)\n\n[1] 1 2 3"
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "ベクトルを関数はc()\n\n“combine”（「くっつける」）の略\n\n\n\nc(1, 2, 3)\n\n[1] 1 2 3"
-  },
-  {
-    "objectID": "day3/index.html#ベクトルの作り方-1",
-    "href": "day3/index.html#ベクトルの作り方-1",
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "文字列（文字でできているベクトル）を作るときは、引用符をつけないといけない\n\n\nc(\"a\", \"b\", \"c\")\n\n[1] \"a\" \"b\" \"c\""
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "文字列（文字でできているベクトル）を作るときは、引用符をつけないといけない\n\n\nc(\"a\", \"b\", \"c\")\n\n[1] \"a\" \"b\" \"c\""
-  },
-  {
-    "objectID": "day3/index.html#ベクトルの型の確認",
-    "href": "day3/index.html#ベクトルの型の確認",
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "typeof()関数でベクトルの型を確認することができる\n\n\ntypeof(letters)\n\n[1] \"character\""
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "typeof()関数でベクトルの型を確認することができる\n\n\ntypeof(letters)\n\n[1] \"character\""
-  },
-  {
-    "objectID": "day3/index.html#チャレンジ",
-    "href": "day3/index.html#チャレンジ",
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "以下のコードでベクトルを作ると、そのベクトルの型は何でしょうか？\n\n\nc(1, 2, \"c\")"
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "以下のコードでベクトルを作ると、そのベクトルの型は何でしょうか？\n\n\nc(1, 2, \"c\")"
-  },
-  {
-    "objectID": "day3/index.html#ベクトル変換",
-    "href": "day3/index.html#ベクトル変換",
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "先も言いましたが、あるベクトルの要素は全て同じ型を持たないといけない\nなので、入力が複数の型を含む場合、Rはそれを同じ型に合わせる\n\n\nx &lt;- c(1, 2, \"c\")\ntypeof(x)\n\n[1] \"character\"\n\n\n\n先のベクトルは文字に変換された"
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "先も言いましたが、あるベクトルの要素は全て同じ型を持たないといけない\nなので、入力が複数の型を含む場合、Rはそれを同じ型に合わせる\n\n\nx &lt;- c(1, 2, \"c\")\ntypeof(x)\n\n[1] \"character\"\n\n\n\n先のベクトルは文字に変換された"
-  },
-  {
-    "objectID": "day3/index.html#ベクトル型とデータフレーム",
-    "href": "day3/index.html#ベクトル型とデータフレーム",
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "データフレームの列は、本当はベクトルになっている\nなので、データフレームの列はそれぞれ、型が決まっている\n\nこれはエクセルと大きな違い"
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "データフレームの列は、本当はベクトルになっている\nなので、データフレームの列はそれぞれ、型が決まっている\n\nこれはエクセルと大きな違い"
-  },
-  {
-    "objectID": "day3/index.html#まとめ",
-    "href": "day3/index.html#まとめ",
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "スクリプト（.Rファイル）に解析に必要なコードを書く\nスクリプトとデータがあれば、解析結果を再現できる\nプロジェクトを使うと、解析の管理が大幅にやりやすくなる\nデータフレームはベクトルからなっている\nベクトルは一つの型しか持てない"
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "スクリプト（.Rファイル）に解析に必要なコードを書く\nスクリプトとデータがあれば、解析結果を再現できる\nプロジェクトを使うと、解析の管理が大幅にやりやすくなる\nデータフレームはベクトルからなっている\nベクトルは一つの型しか持てない"
-  },
-  {
-    "objectID": "day3/index.html#宿題",
-    "href": "day3/index.html#宿題",
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "締め切り：2024-04-23 12:50\n\nクイズ（moodle）\n自分のデータを読み込む。\n二つのファイルmoodleにアップロード：\n\nデータのファイル（csv）\n読み込むスクリプト\n\nもしcsvではないファイルを読み込みたければ、連絡してください"
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "締め切り：2024-04-23 12:50\n\nクイズ（moodle）\n自分のデータを読み込む。\n二つのファイルmoodleにアップロード：\n\nデータのファイル（csv）\n読み込むスクリプト\n\nもしcsvではないファイルを読み込みたければ、連絡してください"
-  },
-  {
-    "objectID": "day4/index.html#今日のデータセット",
-    "href": "day4/index.html#今日のデータセット",
-    "title": "第4回：データの整理",
-    "section": "",
-    "text": "R4DS第３章で使われているデータは２０１３年にニューヨーク市発着のフライト\nこのデータはncyflights13というパッケージに入っている"
-  },
-  {
-    "objectID": "day4/index.html#rstudioのデフォルト設定を-変えましょう",
-    "href": "day4/index.html#rstudioのデフォルト設定を-変えましょう",
-    "title": "第4回：データの整理",
-    "section": "",
-    "text": "前のセッションのデータが残っていることは再現的にダメ！\n. . .\nTools → Global Options → General → Workspace\n\n“Restore .RData into workspace at startup” → 外す\n“Save workspace to .RData on exit:” → “Never”"
-  },
-  {
-    "objectID": "day4/index.html#rstudioのデフォルト設定を-変えましょう-1",
-    "href": "day4/index.html#rstudioのデフォルト設定を-変えましょう-1",
-    "title": "第4回：データの整理",
-    "section": "",
-    "text": "前のセッションのデータが残っていることは再現の観点からダメ！"
-  },
-  {
-    "objectID": "day4/index.html#データの整理data-wrangling",
-    "href": "day4/index.html#データの整理data-wrangling",
-    "title": "第4回：データの整理",
-    "section": "",
-    "text": "データが手に入る時、まだ解析に使いえない状態が多い\nデータの整理（「wrangling」）は解析に使えるように整えるプロセス\n\n元々はカウボーイが牛を扱う技術から来る\n\n\n\n\n\n\nGetty Images\n\n\n\n\n\n\nImage by Allison Horst"
-  },
-  {
-    "objectID": "day4/index.html#データ整理の関数",
-    "href": "day4/index.html#データ整理の関数",
-    "title": "第4回：データの整理",
-    "section": "",
-    "text": "これから学ぶ関数の共通点：\n\nデータフレームをインプットとし、データフレームを返す\n最初の引数がインプットのデータフレーム\n他の引数は詳細（行の名前に引用符を使わない）"
-  },
-  {
-    "objectID": "day4/index.html#パイプにつて",
-    "href": "day4/index.html#パイプにつて",
-    "title": "第4回：データの整理",
-    "section": "",
-    "text": "filter(データ, 条件)というような書き方をしてきたが、また別の書き方がある：\n\nデータ |&gt; filter(条件)"
-  },
-  {
-    "objectID": "day4/index.html#今日のデータセット-1",
-    "href": "day4/index.html#今日のデータセット-1",
-    "title": "第4回：データの整理",
-    "section": "",
-    "text": "データはflightsというデータフレームに入っている：\n\nlibrary(nycflights13)\nlibrary(tidyverse)\n\nflights\n\n# A tibble: 336,776 × 19\n    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;\n 1  2013     1     1      517            515         2      830            819\n 2  2013     1     1      533            529         4      850            830\n 3  2013     1     1      542            540         2      923            850\n 4  2013     1     1      544            545        -1     1004           1022\n 5  2013     1     1      554            600        -6      812            837\n 6  2013     1     1      554            558        -4      740            728\n 7  2013     1     1      555            600        -5      913            854\n 8  2013     1     1      557            600        -3      709            723\n 9  2013     1     1      557            600        -3      838            846\n10  2013     1     1      558            600        -2      753            745\n# ℹ 336,766 more rows\n# ℹ 11 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,\n#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,\n#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;\n\n\n\n\nflightsにはいくつの列（変数）がある？\nflightsにはいくつの行（観察）がある？"
-  },
-  {
-    "objectID": "day4/index.html#filterで行を絞り込む",
-    "href": "day4/index.html#filterで行を絞り込む",
-    "title": "第4回：データの整理",
-    "section": "",
-    "text": "生データが必要以上に多い場合がよくある（特に、「ビッグデータ」を扱っているとき）\nfilter()で条件を定めて、その行だけに絞り込む\n\n\n\n# 出発が２時間以上遅れたフライトに絞り込む\nfilter(flights, dep_delay &gt; 120)\n\n# A tibble: 9,723 × 19\n    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;\n 1  2013     1     1      848           1835       853     1001           1950\n 2  2013     1     1      957            733       144     1056            853\n 3  2013     1     1     1114            900       134     1447           1222\n 4  2013     1     1     1540           1338       122     2020           1825\n 5  2013     1     1     1815           1325       290     2120           1542\n 6  2013     1     1     1842           1422       260     1958           1535\n 7  2013     1     1     1856           1645       131     2212           2005\n 8  2013     1     1     1934           1725       129     2126           1855\n 9  2013     1     1     1938           1703       155     2109           1823\n10  2013     1     1     1942           1705       157     2124           1830\n# ℹ 9,713 more rows\n# ℹ 11 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,\n#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,\n#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;\n\n\n\n行の数がどれくらい変わった？"
-  },
-  {
-    "objectID": "day4/index.html#比較に使う",
-    "href": "day4/index.html#比較に使う",
-    "title": "データサイエンス",
-    "section": "比較に使う==",
-    "text": "比較に使う==\n\n何かのデータが同じかどうかを確認したい時は=ではなく、==を使わないといけない\n\n\n1 = 2\n\nError in 1 = 2: invalid (do_set) left-hand side to assignment\n\n1 == 2\n\n[1] FALSE"
-  },
-  {
-    "objectID": "day4/index.html#チャレンジ",
-    "href": "day4/index.html#チャレンジ",
-    "title": "第4回：データの整理",
-    "section": "",
-    "text": "ncyflights13パッケージをインストールして、nycflights.Rというスクリプトでパッケージをロードしてください\n\n\ninstall.packages(\"ncyflights13\")\n\n\n\n\n\nnycflights.R\n\nlibrary(nycflights13)"
-  },
-  {
-    "objectID": "day4/index.html#データの比較",
-    "href": "day4/index.html#データの比較",
-    "title": "第4回：データの整理",
-    "section": "",
-    "text": "データの比較を行う主な記号：\n\n&gt; より大きい\n&lt; より小さい\n== イコール （=ではない！）\n| あるいは\n& そして（複数条件の指定）\n\n比較の記号のアウトプットは論理ベクトル\n\n\n11 &gt; 10\n\n[1] TRUE\n\n\n\n\nc(11, 6) &gt; c(10, 6)\n\n[1]  TRUE FALSE\n\n\n\n\nc(11, 6) == c(10, 6)\n\n[1] FALSE  TRUE\n\n\n\n\nc(5, 6) = c(10, 6)\n\nError in c(5, 6) = c(10, 6): target of assignment expands to non-language object"
-  },
-  {
-    "objectID": "day4/index.html#チャレンジ-1",
-    "href": "day4/index.html#チャレンジ-1",
-    "title": "第4回：データの整理",
-    "section": "",
-    "text": "何故11 = 10がエラーになってしまう？"
-  },
-  {
-    "objectID": "day4/index.html#チャレンジ-2",
-    "href": "day4/index.html#チャレンジ-2",
-    "title": "第4回：データの整理",
-    "section": "",
-    "text": "１月のフライトに絞っとください\n\n. . .\n\nfilter(flights, month == 1)\n\n# A tibble: 27,004 × 19\n    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;\n 1  2013     1     1      517            515         2      830            819\n 2  2013     1     1      533            529         4      850            830\n 3  2013     1     1      542            540         2      923            850\n 4  2013     1     1      544            545        -1     1004           1022\n 5  2013     1     1      554            600        -6      812            837\n 6  2013     1     1      554            558        -4      740            728\n 7  2013     1     1      555            600        -5      913            854\n 8  2013     1     1      557            600        -3      709            723\n 9  2013     1     1      557            600        -3      838            846\n10  2013     1     1      558            600        -2      753            745\n# ℹ 26,994 more rows\n# ℹ 11 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,\n#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,\n#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;"
-  },
-  {
-    "objectID": "day4/index.html#チャレンジ-3",
-    "href": "day4/index.html#チャレンジ-3",
-    "title": "第4回：データの整理",
-    "section": "",
-    "text": "１月１日のフライトに絞っとください\n\n. . .\n\nfilter(flights, month == 1 & day == 1)\n\n# A tibble: 842 × 19\n    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;\n 1  2013     1     1      517            515         2      830            819\n 2  2013     1     1      533            529         4      850            830\n 3  2013     1     1      542            540         2      923            850\n 4  2013     1     1      544            545        -1     1004           1022\n 5  2013     1     1      554            600        -6      812            837\n 6  2013     1     1      554            558        -4      740            728\n 7  2013     1     1      555            600        -5      913            854\n 8  2013     1     1      557            600        -3      709            723\n 9  2013     1     1      557            600        -3      838            846\n10  2013     1     1      558            600        -2      753            745\n# ℹ 832 more rows\n# ℹ 11 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,\n#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,\n#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;"
-  },
-  {
-    "objectID": "day4/index.html#filterで行を絞り込む-1",
-    "href": "day4/index.html#filterで行を絞り込む-1",
-    "title": "第4回：データの整理",
-    "section": "",
-    "text": "元のデータは変わっていない\nfilter()の出力を保存したい時は&lt;-を使う\n\n\n\nflights_delay_120 &lt;- filter(flights, dep_delay &gt; 120)"
-  },
-  {
-    "objectID": "day4/index.html#filterで行を絞り込む-2",
-    "href": "day4/index.html#filterで行を絞り込む-2",
-    "title": "第4回：データの整理",
-    "section": "",
-    "text": "もう一つの複数条件を設定方法：,で条件を加える（filter()だけ）\n\nfilter(flights, month == 1, day == 1)\n\n# A tibble: 842 × 19\n    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;\n 1  2013     1     1      517            515         2      830            819\n 2  2013     1     1      533            529         4      850            830\n 3  2013     1     1      542            540         2      923            850\n 4  2013     1     1      544            545        -1     1004           1022\n 5  2013     1     1      554            600        -6      812            837\n 6  2013     1     1      554            558        -4      740            728\n 7  2013     1     1      555            600        -5      913            854\n 8  2013     1     1      557            600        -3      709            723\n 9  2013     1     1      557            600        -3      838            846\n10  2013     1     1      558            600        -2      753            745\n# ℹ 832 more rows\n# ℹ 11 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,\n#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,\n#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;"
-  },
-  {
-    "objectID": "day4/index.html#arrangeで行を並べ替える",
-    "href": "day4/index.html#arrangeで行を並べ替える",
-    "title": "第4回：データの整理",
-    "section": "",
-    "text": "# 出発の日と時間で並べ替える\narrange(flights, year, month, day, dep_time)\n\n# A tibble: 336,776 × 19\n    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;\n 1  2013     1     1      517            515         2      830            819\n 2  2013     1     1      533            529         4      850            830\n 3  2013     1     1      542            540         2      923            850\n 4  2013     1     1      544            545        -1     1004           1022\n 5  2013     1     1      554            600        -6      812            837\n 6  2013     1     1      554            558        -4      740            728\n 7  2013     1     1      555            600        -5      913            854\n 8  2013     1     1      557            600        -3      709            723\n 9  2013     1     1      557            600        -3      838            846\n10  2013     1     1      558            600        -2      753            745\n# ℹ 336,766 more rows\n# ℹ 11 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,\n#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,\n#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;"
-  },
-  {
-    "objectID": "day4/index.html#arrangeで行を並べ替える-1",
-    "href": "day4/index.html#arrangeで行を並べ替える-1",
-    "title": "第4回：データの整理",
-    "section": "",
-    "text": "arrange()はデフォルトで小さい方からの順になっている\n大きい方から並べたい時はdesc()（「descend」、「降りる」）を使う：\n\n\n# 大きく遅れた順で並べる\narrange(flights, desc(dep_delay))\n\n# A tibble: 336,776 × 19\n    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;\n 1  2013     1     9      641            900      1301     1242           1530\n 2  2013     6    15     1432           1935      1137     1607           2120\n 3  2013     1    10     1121           1635      1126     1239           1810\n 4  2013     9    20     1139           1845      1014     1457           2210\n 5  2013     7    22      845           1600      1005     1044           1815\n 6  2013     4    10     1100           1900       960     1342           2211\n 7  2013     3    17     2321            810       911      135           1020\n 8  2013     6    27      959           1900       899     1236           2226\n 9  2013     7    22     2257            759       898      121           1026\n10  2013    12     5      756           1700       896     1058           2020\n# ℹ 336,766 more rows\n# ℹ 11 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,\n#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,\n#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;"
-  },
-  {
-    "objectID": "day4/index.html#チャレンジ-4",
-    "href": "day4/index.html#チャレンジ-4",
-    "title": "第4回：データの整理",
-    "section": "",
-    "text": "filter()とarrange()を使って、12月のフライトに絞ってから、遠く飛んだ順に並べ替えてください"
-  },
-  {
-    "objectID": "day4/index.html#パイプにつて-1",
-    "href": "day4/index.html#パイプにつて-1",
-    "title": "第4回：データの整理",
-    "section": "",
-    "text": "|&gt;は「パイプ」と呼ばれる\n左にある物を右の方に渡す\n「それから」と読む"
-  },
-  {
-    "objectID": "day4/index.html#いつパイプを使う",
-    "href": "day4/index.html#いつパイプを使う",
-    "title": "第4回：データの整理",
-    "section": "",
-    "text": "複数の作業を施すに便利\n\n「パイプライン」\n\n\n\n# flightsから始まって、12月のデータに絞ってから、遠く飛んだ距離の順で並べる\nflights |&gt;\n  filter(month == 12) |&gt;\n  arrange(desc(distance))\n\n# A tibble: 28,135 × 19\n    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;\n 1  2013    12     1      928            930        -2     1532           1535\n 2  2013    12     2      920            930       -10     1525           1535\n 3  2013    12     4      933            930         3     1519           1535\n 4  2013    12     5      920            930       -10     1609           1535\n 5  2013    12     6      924            930        -6     1545           1535\n 6  2013    12     7      927            930        -3     1549           1535\n 7  2013    12     8      935            930         5     1520           1535\n 8  2013    12     9      928            930        -2     1528           1535\n 9  2013    12    11      930            930         0     1539           1535\n10  2013    12    13      929            930        -1     1527           1535\n# ℹ 28,125 more rows\n# ℹ 11 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,\n#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,\n#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;"
-  },
-  {
-    "objectID": "day4/index.html#mutateで新しい列を計算する",
-    "href": "day4/index.html#mutateで新しい列を計算する",
-    "title": "第4回：データの整理",
-    "section": "",
-    "text": "新しい列は右側から追加される\n\n列が多い場合は見えないことも\n\n\n\nflights |&gt; \n  mutate(speed = distance / air_time * 60)\n\n# A tibble: 336,776 × 20\n    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;\n 1  2013     1     1      517            515         2      830            819\n 2  2013     1     1      533            529         4      850            830\n 3  2013     1     1      542            540         2      923            850\n 4  2013     1     1      544            545        -1     1004           1022\n 5  2013     1     1      554            600        -6      812            837\n 6  2013     1     1      554            558        -4      740            728\n 7  2013     1     1      555            600        -5      913            854\n 8  2013     1     1      557            600        -3      709            723\n 9  2013     1     1      557            600        -3      838            846\n10  2013     1     1      558            600        -2      753            745\n# ℹ 336,766 more rows\n# ℹ 12 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,\n#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,\n#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;, speed &lt;dbl&gt;"
-  },
-  {
-    "objectID": "day4/index.html#mutateで新しい列を計算する-1",
-    "href": "day4/index.html#mutateで新しい列を計算する-1",
-    "title": "第4回：データの整理",
-    "section": "",
-    "text": ".beforeを使うと、新しい列が入る場所を指定できる\n\n\nflights |&gt; \n  mutate(\n    speed = distance / air_time * 60,\n    .before = 1)\n\n# A tibble: 336,776 × 20\n   speed  year month   day dep_time sched_dep_time dep_delay arr_time\n   &lt;dbl&gt; &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;\n 1  370.  2013     1     1      517            515         2      830\n 2  374.  2013     1     1      533            529         4      850\n 3  408.  2013     1     1      542            540         2      923\n 4  517.  2013     1     1      544            545        -1     1004\n 5  394.  2013     1     1      554            600        -6      812\n 6  288.  2013     1     1      554            558        -4      740\n 7  404.  2013     1     1      555            600        -5      913\n 8  259.  2013     1     1      557            600        -3      709\n 9  405.  2013     1     1      557            600        -3      838\n10  319.  2013     1     1      558            600        -2      753\n# ℹ 336,766 more rows\n# ℹ 12 more variables: sched_arr_time &lt;int&gt;, arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;,\n#   flight &lt;int&gt;, tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;,\n#   distance &lt;dbl&gt;, hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;"
-  },
-  {
-    "objectID": "day4/index.html#mutateで新しい列を計算する-2",
-    "href": "day4/index.html#mutateで新しい列を計算する-2",
-    "title": "第4回：データの整理",
-    "section": "",
-    "text": "filter()（と他のデータ整理用関数と同じように）、mutate()の出力は元のデータを触らない\n解析結果を保存したい時は&lt;-を使う"
-  },
-  {
-    "objectID": "day4/index.html#selectで列を絞る",
-    "href": "day4/index.html#selectで列を絞る",
-    "title": "第4回：データの整理",
-    "section": "",
-    "text": "生データにたくさんの列が入っている場合がよくある。解析に必要な列だけに絞った方が解析がやりやすい\n基本的な使い方：列名で選択する\n\n\nflights |&gt; \n  select(year, month, day)\n\n# A tibble: 336,776 × 3\n    year month   day\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;\n 1  2013     1     1\n 2  2013     1     1\n 3  2013     1     1\n 4  2013     1     1\n 5  2013     1     1\n 6  2013     1     1\n 7  2013     1     1\n 8  2013     1     1\n 9  2013     1     1\n10  2013     1     1\n# ℹ 336,766 more rows"
-  },
-  {
-    "objectID": "day4/index.html#selectで列を絞る-1",
-    "href": "day4/index.html#selectで列を絞る-1",
-    "title": "第4回：データの整理",
-    "section": "",
-    "text": "選択したい列が多い場合は、:を使ってどこから〜どこまでというふうに書くと便利：\n\n\nflights |&gt; \n  select(year:day)\n\n# A tibble: 336,776 × 3\n    year month   day\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;\n 1  2013     1     1\n 2  2013     1     1\n 3  2013     1     1\n 4  2013     1     1\n 5  2013     1     1\n 6  2013     1     1\n 7  2013     1     1\n 8  2013     1     1\n 9  2013     1     1\n10  2013     1     1\n# ℹ 336,766 more rows"
-  },
-  {
-    "objectID": "day4/index.html#チャレンジ-5",
-    "href": "day4/index.html#チャレンジ-5",
-    "title": "第4回：データの整理",
-    "section": "",
-    "text": "JFKから出発したフライトに絞ってから、速度を計算してから、早い速度の順に並べ替えてください"
-  },
-  {
-    "objectID": "day4/index.html#データの集計",
-    "href": "day4/index.html#データの集計",
-    "title": "データサイエンス",
-    "section": "データの集計",
-    "text": "データの集計\nsummarize()でデータの集計ができる：\n\nsummarize(flights, mean_sched_dep_time = mean(sched_dep_time))\n\n# A tibble: 1 × 1\n  mean_sched_dep_time\n                &lt;dbl&gt;\n1               1344."
-  },
-  {
-    "objectID": "day4/index.html#グループ化",
-    "href": "day4/index.html#グループ化",
-    "title": "データサイエンス",
-    "section": "グループ化",
-    "text": "グループ化\nしかし、全体の平均だけを計算してもあまり意味はない。\nそれよりも、何か毎にデータの集計を行いたい方が多い。\nそれにはgroup_by()関数を使う。例えば、種ごと。まずはデータのグループを指定する："
-  },
-  {
-    "objectID": "day4/index.html#グループ化-1",
-    "href": "day4/index.html#グループ化-1",
-    "title": "データサイエンス",
-    "section": "グループ化",
-    "text": "グループ化\n次に、集計する：\n\nflights |&gt; \n  group_by(month) |&gt; \n  summarize(\n    avg_delay = mean(dep_delay)\n  )\n\n# A tibble: 12 × 2\n   month avg_delay\n   &lt;int&gt;     &lt;dbl&gt;\n 1     1        NA\n 2     2        NA\n 3     3        NA\n 4     4        NA\n 5     5        NA\n 6     6        NA\n 7     7        NA\n 8     8        NA\n 9     9        NA\n10    10        NA\n11    11        NA\n12    12        NA"
-  },
-  {
-    "objectID": "day4/index.html#グループ化-2",
-    "href": "day4/index.html#グループ化-2",
-    "title": "データサイエンス",
-    "section": "グループ化",
-    "text": "グループ化\nグループ毎の計算が終わったら、ungroup()でグループの解除をする必要がある場合がある。\n（以下のコードでは自動的にグループが解除されるので本当はいらないけど、必要な場合もある）\n\nflights |&gt; \n  group_by(month) |&gt; \n  summarize(\n    avg_delay = mean(dep_delay, na.rm = TRUE)\n  ) |&gt;\n  ungroup()\n\n# A tibble: 12 × 2\n   month avg_delay\n   &lt;int&gt;     &lt;dbl&gt;\n 1     1     10.0 \n 2     2     10.8 \n 3     3     13.2 \n 4     4     13.9 \n 5     5     13.0 \n 6     6     20.8 \n 7     7     21.7 \n 8     8     12.6 \n 9     9      6.72\n10    10      6.24\n11    11      5.44\n12    12     16.6"
-  },
-  {
-    "objectID": "day4/index.html#まとめ今日学んだ関数動詞",
-    "href": "day4/index.html#まとめ今日学んだ関数動詞",
-    "title": "第4回：データの整理",
-    "section": "",
-    "text": "行を扱う関数\n\nfilter()\narrange()\n\n列を扱う関数\n\nmutate()\nselect()\n\n集計の関数\n\nsummarize()\ngroup_by()\nungroup()"
-  },
-  {
-    "objectID": "day4/index.html#まとめ",
-    "href": "day4/index.html#まとめ",
-    "title": "第4回：データの整理",
-    "section": "",
-    "text": "|&gt;とデータ整理用の関数を組み合わせることによって、すぐにでもかなり高度なデータ解析のパイプラインができるようなる。\n初めての方にはとてもコードの量が多いように思えるでしょうが、このようなツールを毎日使うって、慣れていくとそのうちどのようなデータでもRで扱えるようになる！"
   },
   {
     "objectID": "day5/index.html#データの整理data-wrangling",
@@ -1120,11 +154,11 @@
     "text": "グループ化してから、集計する\n次に、集計する：\n\nflights |&gt; \n  group_by(month) |&gt; \n  summarize(\n    avg_delay = mean(dep_delay)\n  )\n\n# A tibble: 12 × 2\n   month avg_delay\n   &lt;int&gt;     &lt;dbl&gt;\n 1     1        NA\n 2     2        NA\n 3     3        NA\n 4     4        NA\n 5     5        NA\n 6     6        NA\n 7     7        NA\n 8     8        NA\n 9     9        NA\n10    10        NA\n11    11        NA\n12    12        NA"
   },
   {
-    "objectID": "day5/index.html#同時に複数の集計処理を行う",
-    "href": "day5/index.html#同時に複数の集計処理を行う",
+    "objectID": "day5/index.html#どこがnaだったのかをfilterで確かめる",
+    "href": "day5/index.html#どこがnaだったのかをfilterで確かめる",
     "title": "データサイエンス",
-    "section": "同時に複数の集計処理を行う",
-    "text": "同時に複数の集計処理を行う\n\nflights |&gt; \n  group_by(month) |&gt; \n  summarize(\n    avg_delay = mean(dep_delay, na.rm = TRUE),\n    avg_dep_time = mean(dep_time, na.rm = TRUE)\n  )\n\n# A tibble: 12 × 3\n   month avg_delay avg_dep_time\n   &lt;int&gt;     &lt;dbl&gt;        &lt;dbl&gt;\n 1     1     10.0         1347.\n 2     2     10.8         1348.\n 3     3     13.2         1359.\n 4     4     13.9         1353.\n 5     5     13.0         1351.\n 6     6     20.8         1351.\n 7     7     21.7         1353.\n 8     8     12.6         1350.\n 9     9      6.72        1334.\n10    10      6.24        1340.\n11    11      5.44        1344.\n12    12     16.6         1357."
+    "section": "どこがNAだったのかをfilter()で確かめる",
+    "text": "どこがNAだったのかをfilter()で確かめる\n\nflights |&gt;\n  filter(is.na(dep_delay))\n\n# A tibble: 8,255 × 19\n    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;\n 1  2013     1     1       NA           1630        NA       NA           1815\n 2  2013     1     1       NA           1935        NA       NA           2240\n 3  2013     1     1       NA           1500        NA       NA           1825\n 4  2013     1     1       NA            600        NA       NA            901\n 5  2013     1     2       NA           1540        NA       NA           1747\n 6  2013     1     2       NA           1620        NA       NA           1746\n 7  2013     1     2       NA           1355        NA       NA           1459\n 8  2013     1     2       NA           1420        NA       NA           1644\n 9  2013     1     2       NA           1321        NA       NA           1536\n10  2013     1     2       NA           1545        NA       NA           1910\n# ℹ 8,245 more rows\n# ℹ 11 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,\n#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,\n#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;"
   },
   {
     "objectID": "day5/index.html#nでグループの件数を数える",
@@ -1155,13 +189,6 @@
     "text": "ungroup()でグループを解除する\n\ndaily |&gt;\n  ungroup() |&gt;\n  summarize(\n    avg_delay = mean(dep_delay, na.rm = TRUE),\n    n = n()\n  )\n\n# A tibble: 1 × 2\n  avg_delay      n\n      &lt;dbl&gt;  &lt;int&gt;\n1      12.6 336776"
   },
   {
-    "objectID": "day5/index.html#どこがnaだったのかを確かめる",
-    "href": "day5/index.html#どこがnaだったのかを確かめる",
-    "title": "データサイエンス",
-    "section": "どこがNAだったのかを確かめる",
-    "text": "どこがNAだったのかを確かめる\n\nflights |&gt;\n  filter(is.na(dep_delay))\n\n# A tibble: 8,255 × 19\n    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;\n 1  2013     1     1       NA           1630        NA       NA           1815\n 2  2013     1     1       NA           1935        NA       NA           2240\n 3  2013     1     1       NA           1500        NA       NA           1825\n 4  2013     1     1       NA            600        NA       NA            901\n 5  2013     1     2       NA           1540        NA       NA           1747\n 6  2013     1     2       NA           1620        NA       NA           1746\n 7  2013     1     2       NA           1355        NA       NA           1459\n 8  2013     1     2       NA           1420        NA       NA           1644\n 9  2013     1     2       NA           1321        NA       NA           1536\n10  2013     1     2       NA           1545        NA       NA           1910\n# ℹ 8,245 more rows\n# ℹ 11 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,\n#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,\n#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;"
-  },
-  {
     "objectID": "day5/index.html#データの形を変える",
     "href": "day5/index.html#データの形を変える",
     "title": "データサイエンス",
@@ -1181,13 +208,6 @@
     "title": "データサイエンス",
     "section": "tidyなデータの定義",
     "text": "tidyなデータの定義\n\n各列が変数を表している\n各行が観察を表している\n各セルが一つの値を表している"
-  },
-  {
-    "objectID": "day5/index.html#どこがnaだったのかをfilterで確かめる",
-    "href": "day5/index.html#どこがnaだったのかをfilterで確かめる",
-    "title": "データサイエンス",
-    "section": "どこがNAだったのかをfilter()で確かめる",
-    "text": "どこがNAだったのかをfilter()で確かめる\n\nflights |&gt;\n  filter(is.na(dep_delay))\n\n# A tibble: 8,255 × 19\n    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;\n 1  2013     1     1       NA           1630        NA       NA           1815\n 2  2013     1     1       NA           1935        NA       NA           2240\n 3  2013     1     1       NA           1500        NA       NA           1825\n 4  2013     1     1       NA            600        NA       NA            901\n 5  2013     1     2       NA           1540        NA       NA           1747\n 6  2013     1     2       NA           1620        NA       NA           1746\n 7  2013     1     2       NA           1355        NA       NA           1459\n 8  2013     1     2       NA           1420        NA       NA           1644\n 9  2013     1     2       NA           1321        NA       NA           1536\n10  2013     1     2       NA           1545        NA       NA           1910\n# ℹ 8,245 more rows\n# ℹ 11 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,\n#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,\n#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;"
   },
   {
     "objectID": "day5/index.html#tidyなデータの利点",
@@ -1309,17 +329,696 @@
     "text": "チャレンジ：他のデータに結合してみる\nplanesのデータをflights2に結合することができますか？"
   },
   {
-    "objectID": "day3/index.html",
-    "href": "day3/index.html",
-    "title": "第３回：プロジェクトの整理とデータの読み込み",
-    "section": "",
-    "text": "2024-04-16\nhttps://data-science-chiba-2024.github.io/day3/\n\n\n\n\n今までは直接Rにコマンドを出していたけど、毎回そうするのは効率が良くない。\n作業を繰り返す場合や再現する場合はスクリプト(テキストファイル)が必要。\nRスクリプトの拡張は.Rか.r。\n\n\n\n\n\n作成\n\nFile ➡︎ New File ➡︎ R Scriptをクリック\n\n保存\n\nFile ➡︎ Save As...をクリックかファイルのアイコンをクリック。\n\nスクリプトの名前はなるべくローマ字を使うように（あとあと公開する時のため）\n\n\n\n\n以下のコードをスクリプトに書いて、script.Rとしてデスクトップに保存しましょう（コードの詳細はまた後で学ぶ）。\nlibrary(tidyverse)\n\nggplot(diamonds, aes(x = carat, y = price)) + \n  geom_hex()\n\n\n\n\nカーソルが現在位置している行をコンソールに送る：Ctrl（あるいは⌘） + Enter\n今開いているスクリプトの行を全てコンソールに送る：Ctrl（あるいは⌘） + Shift+ Enter\n\n\n\n\nスクリプトに間違いが入っている場合、RStudioはそれを教えてくれる（バツマークと赤い線）：\n\n\n\n\n\n読みやすさと覚えやすさを優先しましょう。\nRは大文字と小文字を区別するので、小文字に揃えた方が覚えやく、間違いが少ない（例えば、Dataではなく、data）。\n変数名にはスペースが使えないので、_を使いましょう（例えば、data_set_1など）。\n\n\n\n\n\nコメント（Rが無視する場所）を#で書く\n\n例えば、# this is a comment\n\nコメントは自分用のメモ\n\n未来の自分が、今の自分が何をやったのか、分かるように書く。\nまだ慣れていないうちには特にたくさん書きましょう。\n\n\n\n\n\n\n\nNG ❌\nalternative model.R\ncode for exploratory analysis.r\nfinalreport.qmd\nFinalReport.qmd\nfig 1.png\nFigure_02.png\nmodel_first_try.R\nrun-first.r\ntemp.txt\n\nOK ✅\n01_load_data.R\n02_exploratory_analysis.R\n03_model_approach_1.R\n04_model_approach_2.R\nfig_01.png\nfig_02.png\nreport_2022_03_20.qmd\nreport_2022_04_02.qmd\nreport_draft_notes.txt\n\n\n\n\n\n\nスクリプトとしてコードを保存をするのはいいけど、解析が進むと複数のスクリプトとデータを整理する必要が生じる\nRStudioの「Project」機能によって、スクリプトとデータ（など）の整理ができる\n\n\n\n\n\nFile ➡︎ New Project ➡︎ New Directory ➡︎ New Project をクリック\n\nプロジェクト名と場所を入力（今回はr4dsにしましょう）\n分かりやすい場所がおすすめ（デスクトップにしましょう）\n\n今回は”Create a git repository”をクリックしないけど、本当はgitも使った方がいい（またあとで説明します）\n\n\n\n\n\n\n\nプロジェクト名の入力が終わると、RStudioが再度立ち上がる\nファイルパネル（右下）をよく見てください。今はRがどこに「います」か？\n\n\n\n\n\n右下の「ファイル」パネルを使って、dataというフォルダーを作りましょう\n\nあとで、このフォルダーにこれから解析するデータを置く\n\n\n\n\n\n\n\n新しいプロジェクトには、r4ds.Rprojファイルが入っている\n.Rprojファイルの中身はは基本的に触らない\n\n中身はRStudioの設定（RStudioに任せましょう）\n再度プロジェクトを開く時に使う（ダブルクリック）\n\n\n\n\n\n\n\n「作業ディレクトリ」（“working directory”）というのは、今Rが今「いる」場所のこと\ngetwd()で確認できる：\n\n\ngetwd()\n\n\n\n[1] \"/Users/joelnitta/Desktop/r4ds\"\n\n\n\n\n\n\n時々、他のスクリプトを見ると、set.wd()という関数を目にする\n\n例：set.wd(\"/Users/joelnitta/analysis/\")\n後ろの部分は「パス」と言う（パソコンの中の住所のような物）\n\n\n\n\n\n\nでも、多くの場合、他の人のパソコンにあるパスは自分のパソコンに存在しない\n\n.Rprojを使えば、set.wd()を使う必要がない\n\nなので、set.wd()は使わないようにしましょう。\n\n\n\n\n以下のコードを書いて、スクリプトをdiamonds.Rとしてr4dsプロジェクトに保存して、実行しましょう：\n\nlibrary(tidyverse)\n\nggplot(diamonds, aes(x = carat, y = price)) + \n  geom_hex()\nggsave(\"diamonds.png\")\n\nwrite_csv(diamonds, \"data/diamonds.csv\")\n\nこのスクリプトは何をするのでしょうか？\n\n\n\n\ndiamonds.Rはdiamonds.pngというグラフを作る。\n\n. . .\n\ndiamonds.pngを消しましょう。\n\n. . .\n\n解析結果が消えてしまった！どうしよう！？\n\n\n\n\n\nご心配なく！\n\n再度diamonds.Rを実行してください（Ctrl（あるいは⌘） + Shift+ Enter）\n\n全く同じグラフが再度できた！つまり、再現しました。\n\n. . .\n\nコードとデータがあれば、解析結果はいつでも再現できる\n\n. . .\n\n絶対に必要なのは、コードとデータ。結果は「使い捨て」と考えて良い。\n\n\n\n\n\nデータ整理やプロジェクトの管理はどうしていますか？\n\n\n\n\nMoodleからstudents.csvをダウンロードして、data/に置きましょう。\n.csvはcomma separated valuesの略です\n\nエクセルで扱うようなデータ形式（エクセルでも開くことができる）\n.xslxとの違いは、.csvはそのままどのテキストエディターでも開ける（エクセルがいらない）\n\n\n\n\n\n\nread_csv()関数で読み込む\n\nまずは、読み込んでから直接に中身を見てみましょう：\n\nread_csv(\"data/students.csv\")\n\nRows: 6 Columns: 5\n── Column specification ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (4): Full Name, favourite.food, mealPlan, AGE\ndbl (1): Student ID\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n\n\n# A tibble: 6 × 5\n  `Student ID` `Full Name`      favourite.food     mealPlan            AGE  \n         &lt;dbl&gt; &lt;chr&gt;            &lt;chr&gt;              &lt;chr&gt;               &lt;chr&gt;\n1            1 Sunil Huffmann   Strawberry yoghurt Lunch only          4    \n2            2 Barclay Lynn     French fries       Lunch only          5    \n3            3 Jayendra Lyne    N/A                Breakfast and lunch 7    \n4            4 Leon Rossini     Anchovies          Lunch only          &lt;NA&gt; \n5            5 Chidiegwu Dunkel Pizza              Breakfast and lunch five \n6            6 Güvenç Attila    Ice cream          Lunch only          6    \n\n\n\n\n\n\nでも、これだけではRの環境にそのデータが入っていません\n変数（オブジェクト）として保存する必要がある：\n\n\nstudents &lt;- read_csv(\"data/students.csv\")\n\nRows: 6 Columns: 5\n── Column specification ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (4): Full Name, favourite.food, mealPlan, AGE\ndbl (1): Student ID\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n\n\n\n\n\n\nこのようにRに読み込んだデータをデータフレーム（“dataframe”）、あるいは「tibble」と呼ぶ\n\n２次元データ。エクセルのデータシートみたいな物。\n\n\n\n\n\n\n変数として保存する時は中身が見えない（オブジェクトに渡された）\n中身を見たい時は変数名を直接コンソールに入力すればいい\n\n\nstudents\n\n# A tibble: 6 × 5\n  `Student ID` `Full Name`      favourite.food     mealPlan            AGE  \n         &lt;dbl&gt; &lt;chr&gt;            &lt;chr&gt;              &lt;chr&gt;               &lt;chr&gt;\n1            1 Sunil Huffmann   Strawberry yoghurt Lunch only          4    \n2            2 Barclay Lynn     French fries       Lunch only          5    \n3            3 Jayendra Lyne    N/A                Breakfast and lunch 7    \n4            4 Leon Rossini     Anchovies          Lunch only          &lt;NA&gt; \n5            5 Chidiegwu Dunkel Pizza              Breakfast and lunch five \n6            6 Güvenç Attila    Ice cream          Lunch only          6    \n\n\n\n\n\n\nこのような時に使う：データの中身を確認したい、ヘルプファイルを開きたい、など。\nつまり、データ解析に必要ではない（関係のない）コマンド。\n\n\n\n\n\nもう一つのデータの確認の仕方がある：「Environment」パネルでそのオブジェクトをクリック\nすると、エクセルのようなレイアウトになる\n\nエクセルと大きな違い：直接にデータをいじることができない！\n\n\n. . .\n\nエクセルはデータ入力に使う。Rはデータ解析に使う\n\n\n\n\n\n\n\nstudentsをコンソール（左下のパネル）でもう一回打ってみてください\nデータの上に&lt;dbl&gt;とか&lt;chr&gt;とかと出ているけど、これは何でしょうか？\n\n. . .\n\nA: データの種類です\n\n\n\n\n\ndbl: 数字（“double”の略。なぜ”double”でしょう・・）\nchr: 文字（“character”の略。この方がしっくり来るね）\n\nこのほかに、\n\nlgl：ロジカル（TRUEかFALSEか、そのどっちか）\nint：整数（“integer”の略）\n\nがある\n\n\n\n\nベクトル（vector）とは、同じ型を持つ一連のデータの集まり（一次元の配列）\nベクトルに含まれている一つ一つのデータを要素（element）という\n例えば、letters\n\n\"a\"がlettersの１個目の要素\n\n\n\n\n\n\nベクトルを関数はc()\n\n“combine”（「くっつける」）の略\n\n\n\nc(1, 2, 3)\n\n[1] 1 2 3\n\n\n\n\n\n\n文字列（文字でできているベクトル）を作るときは、引用符をつけないといけない\n\n\nc(\"a\", \"b\", \"c\")\n\n[1] \"a\" \"b\" \"c\"\n\n\n\n\n\n\ntypeof()関数でベクトルの型を確認することができる\n\n\ntypeof(letters)\n\n[1] \"character\"\n\n\n\n\n\n\n以下のコードでベクトルを作ると、そのベクトルの型は何でしょうか？\n\n\nc(1, 2, \"c\")\n\n\n\n\n\n先も言いましたが、あるベクトルの要素は全て同じ型を持たないといけない\nなので、入力が複数の型を含む場合、Rはそれを同じ型に合わせる\n\n\nx &lt;- c(1, 2, \"c\")\ntypeof(x)\n\n[1] \"character\"\n\n\n\n先のベクトルは文字に変換された\n\n\n\n\n\nデータフレームの列は、本当はベクトルになっている\nなので、データフレームの列はそれぞれ、型が決まっている\n\nこれはエクセルと大きな違い\n\n\n\n\n\n\n\nスクリプト（.Rファイル）に解析に必要なコードを書く\nスクリプトとデータがあれば、解析結果を再現できる\nプロジェクトを使うと、解析の管理が大幅にやりやすくなる\nデータフレームはベクトルからなっている\nベクトルは一つの型しか持てない\n\n\n\n\n締め切り：2024-04-23 12:50\n\nクイズ（moodle）\n自分のデータを読み込む。\n二つのファイルmoodleにアップロード：\n\nデータのファイル（csv）\n読み込むスクリプト\n\nもしcsvではないファイルを読み込みたければ、連絡してください"
+    "objectID": "day3/index.html#スクリプトについて",
+    "href": "day3/index.html#スクリプトについて",
+    "title": "データサイエンス",
+    "section": "スクリプトについて",
+    "text": "スクリプトについて\n\n今までは直接Rにコマンドを出していたけど、毎回そうするのは効率が良くない。\n作業を繰り返す場合や再現する場合はスクリプト(テキストファイル)が必要。\nRスクリプトの拡張は.Rか.r。"
   },
   {
-    "objectID": "day4/index.html",
-    "href": "day4/index.html",
-    "title": "第4回：データの整理",
+    "objectID": "day3/index.html#スクリプトの作成と保存",
+    "href": "day3/index.html#スクリプトの作成と保存",
+    "title": "データサイエンス",
+    "section": "スクリプトの作成と保存",
+    "text": "スクリプトの作成と保存\n\n作成\n\nFile ➡︎ New File ➡︎ R Scriptをクリック\n\n保存\n\nFile ➡︎ Save As...をクリックかファイルのアイコンをクリック。\n\nスクリプトの名前はなるべくローマ字を使うように（あとあと公開する時のため）"
+  },
+  {
+    "objectID": "day3/index.html#スクリプトからコードを使う",
+    "href": "day3/index.html#スクリプトからコードを使う",
+    "title": "データサイエンス",
+    "section": "スクリプトからコードを使う",
+    "text": "スクリプトからコードを使う\n以下のコードをスクリプトに書いて、script.Rとしてデスクトップに保存しましょう（コードの詳細はまた後で学ぶ）。\nlibrary(tidyverse)\n\nggplot(diamonds, aes(x = carat, y = price)) + \n  geom_hex()"
+  },
+  {
+    "objectID": "day3/index.html#スクリプトからコードを使う-1",
+    "href": "day3/index.html#スクリプトからコードを使う-1",
+    "title": "データサイエンス",
+    "section": "スクリプトからコードを使う",
+    "text": "スクリプトからコードを使う\n\nカーソルが現在位置している行をコンソールに送る：Ctrl（あるいは⌘） + Enter\n今開いているスクリプトの行を全てコンソールに送る：Ctrl（あるいは⌘） + Shift+ Enter"
+  },
+  {
+    "objectID": "day3/index.html#rstudioによる警告",
+    "href": "day3/index.html#rstudioによる警告",
+    "title": "データサイエンス",
+    "section": "RStudioによる警告",
+    "text": "RStudioによる警告\nスクリプトに間違いが入っている場合、RStudioはそれを教えてくれる（バツマークと赤い線）："
+  },
+  {
+    "objectID": "day3/index.html#スクリプトの書き方",
+    "href": "day3/index.html#スクリプトの書き方",
+    "title": "データサイエンス",
+    "section": "スクリプトの書き方",
+    "text": "スクリプトの書き方\n\n読みやすさと覚えやすさを優先しましょう。\nRは大文字と小文字を区別するので、小文字に揃えた方が覚えやく、間違いが少ない（例えば、Dataではなく、data）。\n変数名にはスペースが使えないので、_を使いましょう（例えば、data_set_1など）。"
+  },
+  {
+    "objectID": "day3/index.html#スクリプトの書き方-1",
+    "href": "day3/index.html#スクリプトの書き方-1",
+    "title": "データサイエンス",
+    "section": "スクリプトの書き方",
+    "text": "スクリプトの書き方\n\nコメント（Rが無視する場所）を#で書く\n\n例えば、# this is a comment\n\nコメントは自分用のメモ\n\n未来の自分が、今の自分が何をやったのか、分かるように書く。\nまだ慣れていないうちには特にたくさん書きましょう。"
+  },
+  {
+    "objectID": "day3/index.html#ファイル名も整えましょう",
+    "href": "day3/index.html#ファイル名も整えましょう",
+    "title": "データサイエンス",
+    "section": "ファイル名も整えましょう",
+    "text": "ファイル名も整えましょう\n\n\nNG ❌\nalternative model.R\ncode for exploratory analysis.r\nfinalreport.qmd\nFinalReport.qmd\nfig 1.png\nFigure_02.png\nmodel_first_try.R\nrun-first.r\ntemp.txt\n\nOK ✅\n01_load_data.R\n02_exploratory_analysis.R\n03_model_approach_1.R\n04_model_approach_2.R\nfig_01.png\nfig_02.png\nreport_2022_03_20.qmd\nreport_2022_04_02.qmd\nreport_draft_notes.txt"
+  },
+  {
+    "objectID": "day3/index.html#プロジェクトについて",
+    "href": "day3/index.html#プロジェクトについて",
+    "title": "データサイエンス",
+    "section": "プロジェクトについて",
+    "text": "プロジェクトについて\n\nスクリプトとしてコードを保存をするのはいいけど、解析が進むと複数のスクリプトとデータを整理する必要が生じる\nRStudioの「Project」機能によって、スクリプトとデータ（など）の整理ができる"
+  },
+  {
+    "objectID": "day3/index.html#新しいプロジェクトを作る",
+    "href": "day3/index.html#新しいプロジェクトを作る",
+    "title": "データサイエンス",
+    "section": "新しいプロジェクトを作る",
+    "text": "新しいプロジェクトを作る\n\nFile ➡︎ New Project ➡︎ New Directory ➡︎ New Project をクリック\n\nプロジェクト名と場所を入力（今回はr4dsにしましょう）\n分かりやすい場所がおすすめ（デスクトップにしましょう）\n\n今回は”Create a git repository”をクリックしないけど、本当はgitも使った方がいい（またあとで説明します）"
+  },
+  {
+    "objectID": "day3/index.html#新しいプロジェクトを作る-1",
+    "href": "day3/index.html#新しいプロジェクトを作る-1",
+    "title": "データサイエンス",
+    "section": "新しいプロジェクトを作る",
+    "text": "新しいプロジェクトを作る\n\nプロジェクト名の入力が終わると、RStudioが再度立ち上がる\nファイルパネル（右下）をよく見てください。今はRがどこに「います」か？"
+  },
+  {
+    "objectID": "day3/index.html#新しいプロジェクトを作る-2",
+    "href": "day3/index.html#新しいプロジェクトを作る-2",
+    "title": "データサイエンス",
+    "section": "新しいプロジェクトを作る",
+    "text": "新しいプロジェクトを作る\n\n右下の「ファイル」パネルを使って、dataというフォルダーを作りましょう\n\nあとで、このフォルダーにこれから解析するデータを置く"
+  },
+  {
+    "objectID": "day3/index.html#rprojファイルについて",
+    "href": "day3/index.html#rprojファイルについて",
+    "title": "データサイエンス",
+    "section": ".Rprojファイルについて",
+    "text": ".Rprojファイルについて\n\n新しいプロジェクトには、r4ds.Rprojファイルが入っている\n.Rprojファイルの中身はは基本的に触らない\n\n中身はRStudioの設定（RStudioに任せましょう）\n再度プロジェクトを開く時に使う（ダブルクリック）"
+  },
+  {
+    "objectID": "day3/index.html#作業ディレクトリについて",
+    "href": "day3/index.html#作業ディレクトリについて",
+    "title": "データサイエンス",
+    "section": "作業ディレクトリについて",
+    "text": "作業ディレクトリについて\n\n「作業ディレクトリ」（“working directory”）というのは、今Rが今「いる」場所のこと\ngetwd()で確認できる：\n\n\ngetwd()\n\n\n\n[1] \"/Users/joelnitta/Desktop/r4ds\""
+  },
+  {
+    "objectID": "day3/index.html#作業ディレクトリについて-1",
+    "href": "day3/index.html#作業ディレクトリについて-1",
+    "title": "データサイエンス",
+    "section": "作業ディレクトリについて",
+    "text": "作業ディレクトリについて\n\n時々、他のスクリプトを見ると、set.wd()という関数を目にする\n\n例：set.wd(\"/Users/joelnitta/analysis/\")\n後ろの部分は「パス」と言う（パソコンの中の住所のような物）"
+  },
+  {
+    "objectID": "day3/index.html#作業ディレクトリについて-2",
+    "href": "day3/index.html#作業ディレクトリについて-2",
+    "title": "データサイエンス",
+    "section": "作業ディレクトリについて",
+    "text": "作業ディレクトリについて\n\nでも、多くの場合、他の人のパソコンにあるパスは自分のパソコンに存在しない\n\n.Rprojを使えば、set.wd()を使う必要がない\n\nなので、set.wd()は使わないようにしましょう。"
+  },
+  {
+    "objectID": "day3/index.html#プロジェクトにスクリプトを置きましょう",
+    "href": "day3/index.html#プロジェクトにスクリプトを置きましょう",
+    "title": "データサイエンス",
+    "section": "プロジェクトにスクリプトを置きましょう",
+    "text": "プロジェクトにスクリプトを置きましょう\n以下のコードを書いて、スクリプトをdiamonds.Rとしてr4dsプロジェクトに保存して、実行しましょう：\n\nlibrary(tidyverse)\n\nggplot(diamonds, aes(x = carat, y = price)) + \n  geom_hex()\nggsave(\"diamonds.png\")\n\nwrite_csv(diamonds, \"data/diamonds.csv\")\n\nこのスクリプトは何をするのでしょうか？"
+  },
+  {
+    "objectID": "day3/index.html#コードによる再現性",
+    "href": "day3/index.html#コードによる再現性",
+    "title": "データサイエンス",
+    "section": "コードによる再現性",
+    "text": "コードによる再現性\n\ndiamonds.Rはdiamonds.pngというグラフを作る。\n\n\n\ndiamonds.pngを消しましょう。\n\n\n\n\n解析結果が消えてしまった！どうしよう！？"
+  },
+  {
+    "objectID": "day3/index.html#コードによる再現性-1",
+    "href": "day3/index.html#コードによる再現性-1",
+    "title": "データサイエンス",
+    "section": "コードによる再現性",
+    "text": "コードによる再現性\n\nご心配なく！\n\n再度diamonds.Rを実行してください（Ctrl（あるいは⌘） + Shift+ Enter）\n\n全く同じグラフが再度できた！つまり、再現しました。\n\n\n\nコードとデータがあれば、解析結果はいつでも再現できる\n\n\n\n\n絶対に必要なのは、コードとデータ。結果は「使い捨て」と考えて良い。"
+  },
+  {
+    "objectID": "day3/index.html#ディスカッション",
+    "href": "day3/index.html#ディスカッション",
+    "title": "データサイエンス",
+    "section": "ディスカッション",
+    "text": "ディスカッション\n\nデータ整理やプロジェクトの管理はどうしていますか？"
+  },
+  {
+    "objectID": "day3/index.html#データの読み込み",
+    "href": "day3/index.html#データの読み込み",
+    "title": "データサイエンス",
+    "section": "データの読み込み",
+    "text": "データの読み込み\n\nMoodleからstudents.csvをダウンロードして、data/に置きましょう。\n.csvはcomma separated valuesの略です\n\nエクセルで扱うようなデータ形式（エクセルでも開くことができる）\n.xslxとの違いは、.csvはそのままどのテキストエディターでも開ける（エクセルがいらない）"
+  },
+  {
+    "objectID": "day3/index.html#データの読み込み-1",
+    "href": "day3/index.html#データの読み込み-1",
+    "title": "データサイエンス",
+    "section": "データの読み込み",
+    "text": "データの読み込み\n\nread_csv()関数で読み込む\n\nまずは、読み込んでから直接に中身を見てみましょう：\n\nread_csv(\"data/students.csv\")\n\n# A tibble: 6 × 5\n  `Student ID` `Full Name`      favourite.food     mealPlan            AGE  \n         &lt;dbl&gt; &lt;chr&gt;            &lt;chr&gt;              &lt;chr&gt;               &lt;chr&gt;\n1            1 Sunil Huffmann   Strawberry yoghurt Lunch only          4    \n2            2 Barclay Lynn     French fries       Lunch only          5    \n3            3 Jayendra Lyne    N/A                Breakfast and lunch 7    \n4            4 Leon Rossini     Anchovies          Lunch only          &lt;NA&gt; \n5            5 Chidiegwu Dunkel Pizza              Breakfast and lunch five \n6            6 Güvenç Attila    Ice cream          Lunch only          6"
+  },
+  {
+    "objectID": "day3/index.html#読み込んだデータの保存",
+    "href": "day3/index.html#読み込んだデータの保存",
+    "title": "データサイエンス",
+    "section": "読み込んだデータの保存",
+    "text": "読み込んだデータの保存\n\nでも、これだけではRの環境にそのデータが入っていません\n変数（オブジェクト）として保存する必要がある：\n\n\nstudents &lt;- read_csv(\"data/students.csv\")"
+  },
+  {
+    "objectID": "day3/index.html#読み込んだデータの中身の確認１",
+    "href": "day3/index.html#読み込んだデータの中身の確認１",
+    "title": "データサイエンス",
+    "section": "読み込んだデータの中身の確認（１）",
+    "text": "読み込んだデータの中身の確認（１）\n\n変数として保存する時は中身が見えない（オブジェクトに渡された）\n中身を見たい時は変数名を直接コンソールに入力すればいい\n\n\nstudents\n\n# A tibble: 6 × 5\n  `Student ID` `Full Name`      favourite.food     mealPlan            AGE  \n         &lt;dbl&gt; &lt;chr&gt;            &lt;chr&gt;              &lt;chr&gt;               &lt;chr&gt;\n1            1 Sunil Huffmann   Strawberry yoghurt Lunch only          4    \n2            2 Barclay Lynn     French fries       Lunch only          5    \n3            3 Jayendra Lyne    N/A                Breakfast and lunch 7    \n4            4 Leon Rossini     Anchovies          Lunch only          &lt;NA&gt; \n5            5 Chidiegwu Dunkel Pizza              Breakfast and lunch five \n6            6 Güvenç Attila    Ice cream          Lunch only          6"
+  },
+  {
+    "objectID": "day3/index.html#コンソールの使い方使うとき",
+    "href": "day3/index.html#コンソールの使い方使うとき",
+    "title": "データサイエンス",
+    "section": "コンソールの使い方（使うとき）",
+    "text": "コンソールの使い方（使うとき）\n\nこのような時に使う：データの中身を確認したい、ヘルプファイルを開きたい、など。\nつまり、データ解析に必要ではない（関係のない）コマンド。"
+  },
+  {
+    "objectID": "day3/index.html#読み込んだデータの中身の確認２",
+    "href": "day3/index.html#読み込んだデータの中身の確認２",
+    "title": "データサイエンス",
+    "section": "読み込んだデータの中身の確認（２）",
+    "text": "読み込んだデータの中身の確認（２）\n\nもう一つのデータの確認の仕方がある：「Environment」パネルでそのオブジェクトをクリック\nすると、エクセルのようなレイアウトになる\n\nエクセルと大きな違い：直接にデータをいじることができない！\n\n\n\n\nエクセルはデータ入力に使う。Rはデータ解析に使う"
+  },
+  {
+    "objectID": "day3/index.html#データの種類型について",
+    "href": "day3/index.html#データの種類型について",
+    "title": "データサイエンス",
+    "section": "データの種類（型）について",
+    "text": "データの種類（型）について\n\nstudentsをコンソール（左下のパネル）でもう一回打ってみてください\nデータの上に&lt;dbl&gt;とか&lt;chr&gt;とかと出ているけど、これは何でしょうか？\n\n\n\nA: データの種類です"
+  },
+  {
+    "objectID": "day3/index.html#データの種類型について-1",
+    "href": "day3/index.html#データの種類型について-1",
+    "title": "データサイエンス",
+    "section": "データの種類（型）について",
+    "text": "データの種類（型）について\n\ndbl: 数字（“double”の略。なぜ”double”でしょう・・）\nchr: 文字（“character”の略。この方がしっくり来るね）\n\nこのほかに、\n\nlgl：ロジカル（TRUEかFALSEか、そのどっちか）\nint：整数（“integer”の略）\n\nがある"
+  },
+  {
+    "objectID": "day3/index.html#ベクトルについて",
+    "href": "day3/index.html#ベクトルについて",
+    "title": "データサイエンス",
+    "section": "ベクトルについて",
+    "text": "ベクトルについて\n\nベクトル（vector）とは、同じ型を持つ一連のデータの集まり（一次元の配列）\nベクトルに含まれている一つ一つのデータを要素（element）という\n例えば、letters\n\n\"a\"がlettersの１個目の要素"
+  },
+  {
+    "objectID": "day3/index.html#ベクトルの作り方",
+    "href": "day3/index.html#ベクトルの作り方",
+    "title": "データサイエンス",
+    "section": "ベクトルの作り方",
+    "text": "ベクトルの作り方\n\nベクトルを関数はc()\n\n“combine”（「くっつける」）の略\n\n\n\nc(1, 2, 3)\n\n[1] 1 2 3"
+  },
+  {
+    "objectID": "day3/index.html#ベクトルの作り方-1",
+    "href": "day3/index.html#ベクトルの作り方-1",
+    "title": "データサイエンス",
+    "section": "ベクトルの作り方",
+    "text": "ベクトルの作り方\n\n文字列（文字でできているベクトル）を作るときは、引用符をつけないといけない\n\n\nc(\"a\", \"b\", \"c\")\n\n[1] \"a\" \"b\" \"c\""
+  },
+  {
+    "objectID": "day3/index.html#ベクトルの型の確認",
+    "href": "day3/index.html#ベクトルの型の確認",
+    "title": "データサイエンス",
+    "section": "ベクトルの型の確認",
+    "text": "ベクトルの型の確認\n\ntypeof()関数でベクトルの型を確認することができる\n\n\ntypeof(letters)\n\n[1] \"character\""
+  },
+  {
+    "objectID": "day3/index.html#チャレンジ",
+    "href": "day3/index.html#チャレンジ",
+    "title": "データサイエンス",
+    "section": "チャレンジ",
+    "text": "チャレンジ\n\n以下のコードでベクトルを作ると、そのベクトルの型は何でしょうか？\n\n\nc(1, 2, \"c\")"
+  },
+  {
+    "objectID": "day3/index.html#ベクトル変換",
+    "href": "day3/index.html#ベクトル変換",
+    "title": "データサイエンス",
+    "section": "ベクトル変換",
+    "text": "ベクトル変換\n\n先も言いましたが、あるベクトルの要素は全て同じ型を持たないといけない\nなので、入力が複数の型を含む場合、Rはそれを同じ型に合わせる\n\n\nx &lt;- c(1, 2, \"c\")\ntypeof(x)\n\n[1] \"character\"\n\n\n\n先のベクトルは文字に変換された"
+  },
+  {
+    "objectID": "day3/index.html#ベクトル型とデータフレーム",
+    "href": "day3/index.html#ベクトル型とデータフレーム",
+    "title": "データサイエンス",
+    "section": "ベクトル型とデータフレーム",
+    "text": "ベクトル型とデータフレーム\n\nデータフレームの列は、本当はベクトルになっている\nなので、データフレームの列はそれぞれ、型が決まっている\n\nこれはエクセルと大きな違い"
+  },
+  {
+    "objectID": "day3/index.html#まとめ",
+    "href": "day3/index.html#まとめ",
+    "title": "データサイエンス",
+    "section": "まとめ",
+    "text": "まとめ\n\nスクリプト（.Rファイル）に解析に必要なコードを書く\nスクリプトとデータがあれば、解析結果を再現できる\nプロジェクトを使うと、解析の管理が大幅にやりやすくなる\nデータフレームはベクトルからなっている\nベクトルは一つの型しか持てない"
+  },
+  {
+    "objectID": "day3/index.html#宿題",
+    "href": "day3/index.html#宿題",
+    "title": "データサイエンス",
+    "section": "宿題",
+    "text": "宿題\n締め切り：2024-04-23 12:50\n\nクイズ（moodle）\n自分のデータを読み込む。\n二つのファイルmoodleにアップロード：\n\nデータのファイル（csv）\n読み込むスクリプト\n\nもしcsvではないファイルを読み込みたければ、連絡してください"
+  },
+  {
+    "objectID": "day4/index.html#rstudioのデフォルト設定を-変えましょう",
+    "href": "day4/index.html#rstudioのデフォルト設定を-変えましょう",
+    "title": "データサイエンス",
+    "section": "RStudioのデフォルト設定を変えましょう",
+    "text": "RStudioのデフォルト設定を変えましょう\n前のセッションのデータが残っていることは再現的にダメ！\n\nTools → Global Options → General → Workspace\n\n“Restore .RData into workspace at startup” → 外す\n“Save workspace to .RData on exit:” → “Never”"
+  },
+  {
+    "objectID": "day4/index.html#rstudioのデフォルト設定を-変えましょう-1",
+    "href": "day4/index.html#rstudioのデフォルト設定を-変えましょう-1",
+    "title": "データサイエンス",
+    "section": "RStudioのデフォルト設定を変えましょう",
+    "text": "RStudioのデフォルト設定を変えましょう\n前のセッションのデータが残っていることは再現の観点からダメ！"
+  },
+  {
+    "objectID": "day4/index.html#データの整理data-wrangling",
+    "href": "day4/index.html#データの整理data-wrangling",
+    "title": "データサイエンス",
+    "section": "データの整理（Data Wrangling）",
+    "text": "データの整理（Data Wrangling）\n\nデータが手に入る時、まだ解析に使いえない状態が多い\nデータの整理（「wrangling」）は解析に使えるように整えるプロセス\n\n元々はカウボーイが牛を扱う技術から来る"
+  },
+  {
+    "objectID": "day4/index.html#今日のデータセット",
+    "href": "day4/index.html#今日のデータセット",
+    "title": "データサイエンス",
+    "section": "今日のデータセット",
+    "text": "今日のデータセット\n\nR4DS第３章で使われているデータは２０１３年にニューヨーク市発着のフライト\nこのデータはncyflights13というパッケージに入っている"
+  },
+  {
+    "objectID": "day4/index.html#チャレンジ",
+    "href": "day4/index.html#チャレンジ",
+    "title": "データサイエンス",
+    "section": "チャレンジ",
+    "text": "チャレンジ\nncyflights13パッケージをインストールして、nycflights.Rというスクリプトでパッケージをロードしてください"
+  },
+  {
+    "objectID": "day4/index.html#今日のデータセット-1",
+    "href": "day4/index.html#今日のデータセット-1",
+    "title": "データサイエンス",
+    "section": "今日のデータセット",
+    "text": "今日のデータセット\nデータはflightsというデータフレームに入っている：\n\nlibrary(nycflights13)\nlibrary(tidyverse)\n\nflights\n\n# A tibble: 336,776 × 19\n    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;\n 1  2013     1     1      517            515         2      830            819\n 2  2013     1     1      533            529         4      850            830\n 3  2013     1     1      542            540         2      923            850\n 4  2013     1     1      544            545        -1     1004           1022\n 5  2013     1     1      554            600        -6      812            837\n 6  2013     1     1      554            558        -4      740            728\n 7  2013     1     1      555            600        -5      913            854\n 8  2013     1     1      557            600        -3      709            723\n 9  2013     1     1      557            600        -3      838            846\n10  2013     1     1      558            600        -2      753            745\n# ℹ 336,766 more rows\n# ℹ 11 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,\n#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,\n#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;"
+  },
+  {
+    "objectID": "day4/index.html#データ整理の関数",
+    "href": "day4/index.html#データ整理の関数",
+    "title": "データサイエンス",
+    "section": "データ整理の関数",
+    "text": "データ整理の関数\nこれから学ぶ関数の共通点：\n\nデータフレームをインプットとし、データフレームを返す\n最初の引数がインプットのデータフレーム\n他の引数は詳細（行の名前に引用符を使わない）"
+  },
+  {
+    "objectID": "day4/index.html#filterで行を絞り込む",
+    "href": "day4/index.html#filterで行を絞り込む",
+    "title": "データサイエンス",
+    "section": "filter()で行を絞り込む",
+    "text": "filter()で行を絞り込む\n\n生データが必要以上に多い場合がよくある（特に、「ビッグデータ」を扱っているとき）\nfilter()で条件を定めて、その行だけに絞り込む"
+  },
+  {
+    "objectID": "day4/index.html#filterで行を絞り込む-1",
+    "href": "day4/index.html#filterで行を絞り込む-1",
+    "title": "データサイエンス",
+    "section": "filter()で行を絞り込む",
+    "text": "filter()で行を絞り込む\n\n元のデータは変わっていない\nfilter()の出力を保存したい時は&lt;-を使う"
+  },
+  {
+    "objectID": "day4/index.html#データの比較",
+    "href": "day4/index.html#データの比較",
+    "title": "データサイエンス",
+    "section": "データの比較",
+    "text": "データの比較\nデータの比較を行う主な記号：\n\n&gt; より大きい\n&lt; より小さい\n== イコール （=ではない！）\n| あるいは\n& そして（複数条件の指定）\n\n比較の記号のアウトプットは論理ベクトル"
+  },
+  {
+    "objectID": "day4/index.html#チャレンジ-1",
+    "href": "day4/index.html#チャレンジ-1",
+    "title": "データサイエンス",
+    "section": "チャレンジ",
+    "text": "チャレンジ\n何故11 = 10がエラーになってしまう？"
+  },
+  {
+    "objectID": "day4/index.html#チャレンジ-2",
+    "href": "day4/index.html#チャレンジ-2",
+    "title": "データサイエンス",
+    "section": "チャレンジ",
+    "text": "チャレンジ\n\n１月のフライトに絞っとください\n\n\n\nfilter(flights, month == 1)\n\n# A tibble: 27,004 × 19\n    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;\n 1  2013     1     1      517            515         2      830            819\n 2  2013     1     1      533            529         4      850            830\n 3  2013     1     1      542            540         2      923            850\n 4  2013     1     1      544            545        -1     1004           1022\n 5  2013     1     1      554            600        -6      812            837\n 6  2013     1     1      554            558        -4      740            728\n 7  2013     1     1      555            600        -5      913            854\n 8  2013     1     1      557            600        -3      709            723\n 9  2013     1     1      557            600        -3      838            846\n10  2013     1     1      558            600        -2      753            745\n# ℹ 26,994 more rows\n# ℹ 11 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,\n#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,\n#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;"
+  },
+  {
+    "objectID": "day4/index.html#チャレンジ-3",
+    "href": "day4/index.html#チャレンジ-3",
+    "title": "データサイエンス",
+    "section": "チャレンジ",
+    "text": "チャレンジ\n\n１月１日のフライトに絞っとください\n\n\n\nfilter(flights, month == 1 & day == 1)\n\n# A tibble: 842 × 19\n    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;\n 1  2013     1     1      517            515         2      830            819\n 2  2013     1     1      533            529         4      850            830\n 3  2013     1     1      542            540         2      923            850\n 4  2013     1     1      544            545        -1     1004           1022\n 5  2013     1     1      554            600        -6      812            837\n 6  2013     1     1      554            558        -4      740            728\n 7  2013     1     1      555            600        -5      913            854\n 8  2013     1     1      557            600        -3      709            723\n 9  2013     1     1      557            600        -3      838            846\n10  2013     1     1      558            600        -2      753            745\n# ℹ 832 more rows\n# ℹ 11 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,\n#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,\n#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;"
+  },
+  {
+    "objectID": "day4/index.html#filterで行を絞り込む-2",
+    "href": "day4/index.html#filterで行を絞り込む-2",
+    "title": "データサイエンス",
+    "section": "filter()で行を絞り込む",
+    "text": "filter()で行を絞り込む\nもう一つの複数条件を設定方法：,で条件を加える（filter()だけ）\n\nfilter(flights, month == 1, day == 1)\n\n# A tibble: 842 × 19\n    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;\n 1  2013     1     1      517            515         2      830            819\n 2  2013     1     1      533            529         4      850            830\n 3  2013     1     1      542            540         2      923            850\n 4  2013     1     1      544            545        -1     1004           1022\n 5  2013     1     1      554            600        -6      812            837\n 6  2013     1     1      554            558        -4      740            728\n 7  2013     1     1      555            600        -5      913            854\n 8  2013     1     1      557            600        -3      709            723\n 9  2013     1     1      557            600        -3      838            846\n10  2013     1     1      558            600        -2      753            745\n# ℹ 832 more rows\n# ℹ 11 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,\n#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,\n#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;"
+  },
+  {
+    "objectID": "day4/index.html#arrangeで行を並べ替える",
+    "href": "day4/index.html#arrangeで行を並べ替える",
+    "title": "データサイエンス",
+    "section": "arrange()で行を並べ替える",
+    "text": "arrange()で行を並べ替える\n\n# 出発の日と時間で並べ替える\narrange(flights, year, month, day, dep_time)\n\n# A tibble: 336,776 × 19\n    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;\n 1  2013     1     1      517            515         2      830            819\n 2  2013     1     1      533            529         4      850            830\n 3  2013     1     1      542            540         2      923            850\n 4  2013     1     1      544            545        -1     1004           1022\n 5  2013     1     1      554            600        -6      812            837\n 6  2013     1     1      554            558        -4      740            728\n 7  2013     1     1      555            600        -5      913            854\n 8  2013     1     1      557            600        -3      709            723\n 9  2013     1     1      557            600        -3      838            846\n10  2013     1     1      558            600        -2      753            745\n# ℹ 336,766 more rows\n# ℹ 11 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,\n#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,\n#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;"
+  },
+  {
+    "objectID": "day4/index.html#arrangeで行を並べ替える-1",
+    "href": "day4/index.html#arrangeで行を並べ替える-1",
+    "title": "データサイエンス",
+    "section": "arrange()で行を並べ替える",
+    "text": "arrange()で行を並べ替える\n\narrange()はデフォルトで小さい方からの順になっている\n大きい方から並べたい時はdesc()（「descend」、「降りる」）を使う：\n\n\n# 大きく遅れた順で並べる\narrange(flights, desc(dep_delay))\n\n# A tibble: 336,776 × 19\n    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;\n 1  2013     1     9      641            900      1301     1242           1530\n 2  2013     6    15     1432           1935      1137     1607           2120\n 3  2013     1    10     1121           1635      1126     1239           1810\n 4  2013     9    20     1139           1845      1014     1457           2210\n 5  2013     7    22      845           1600      1005     1044           1815\n 6  2013     4    10     1100           1900       960     1342           2211\n 7  2013     3    17     2321            810       911      135           1020\n 8  2013     6    27      959           1900       899     1236           2226\n 9  2013     7    22     2257            759       898      121           1026\n10  2013    12     5      756           1700       896     1058           2020\n# ℹ 336,766 more rows\n# ℹ 11 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,\n#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,\n#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;"
+  },
+  {
+    "objectID": "day4/index.html#チャレンジ-4",
+    "href": "day4/index.html#チャレンジ-4",
+    "title": "データサイエンス",
+    "section": "チャレンジ",
+    "text": "チャレンジ\n\nfilter()とarrange()を使って、12月のフライトに絞ってから、遠く飛んだ順に並べ替えてください"
+  },
+  {
+    "objectID": "day4/index.html#パイプにつて",
+    "href": "day4/index.html#パイプにつて",
+    "title": "データサイエンス",
+    "section": "パイプにつて",
+    "text": "パイプにつて\n\nfilter(データ, 条件)というような書き方をしてきたが、また別の書き方がある：\n\nデータ |&gt; filter(条件)"
+  },
+  {
+    "objectID": "day4/index.html#パイプにつて-1",
+    "href": "day4/index.html#パイプにつて-1",
+    "title": "データサイエンス",
+    "section": "パイプにつて",
+    "text": "パイプにつて\n\n|&gt;は「パイプ」と呼ばれる\n左にある物を右の方に渡す\n「それから」と読む"
+  },
+  {
+    "objectID": "day4/index.html#いつパイプを使う",
+    "href": "day4/index.html#いつパイプを使う",
+    "title": "データサイエンス",
+    "section": "いつパイプを使う？",
+    "text": "いつパイプを使う？\n\n複数の作業を施すに便利\n\n「パイプライン」\n\n\n\n# flightsから始まって、12月のデータに絞ってから、遠く飛んだ距離の順で並べる\nflights |&gt;\n  filter(month == 12) |&gt;\n  arrange(desc(distance))\n\n# A tibble: 28,135 × 19\n    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;\n 1  2013    12     1      928            930        -2     1532           1535\n 2  2013    12     2      920            930       -10     1525           1535\n 3  2013    12     4      933            930         3     1519           1535\n 4  2013    12     5      920            930       -10     1609           1535\n 5  2013    12     6      924            930        -6     1545           1535\n 6  2013    12     7      927            930        -3     1549           1535\n 7  2013    12     8      935            930         5     1520           1535\n 8  2013    12     9      928            930        -2     1528           1535\n 9  2013    12    11      930            930         0     1539           1535\n10  2013    12    13      929            930        -1     1527           1535\n# ℹ 28,125 more rows\n# ℹ 11 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,\n#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,\n#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;"
+  },
+  {
+    "objectID": "day4/index.html#mutateで新しい列を計算する",
+    "href": "day4/index.html#mutateで新しい列を計算する",
+    "title": "データサイエンス",
+    "section": "mutate()で新しい列を計算する",
+    "text": "mutate()で新しい列を計算する\n\n新しい列は右側から追加される\n\n列が多い場合は見えないことも\n\n\n\nflights |&gt; \n  mutate(speed = distance / air_time * 60)\n\n# A tibble: 336,776 × 20\n    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;\n 1  2013     1     1      517            515         2      830            819\n 2  2013     1     1      533            529         4      850            830\n 3  2013     1     1      542            540         2      923            850\n 4  2013     1     1      544            545        -1     1004           1022\n 5  2013     1     1      554            600        -6      812            837\n 6  2013     1     1      554            558        -4      740            728\n 7  2013     1     1      555            600        -5      913            854\n 8  2013     1     1      557            600        -3      709            723\n 9  2013     1     1      557            600        -3      838            846\n10  2013     1     1      558            600        -2      753            745\n# ℹ 336,766 more rows\n# ℹ 12 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,\n#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,\n#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;, speed &lt;dbl&gt;"
+  },
+  {
+    "objectID": "day4/index.html#mutateで新しい列を計算する-1",
+    "href": "day4/index.html#mutateで新しい列を計算する-1",
+    "title": "データサイエンス",
+    "section": "mutate()で新しい列を計算する",
+    "text": "mutate()で新しい列を計算する\n\n.beforeを使うと、新しい列が入る場所を指定できる\n\n\nflights |&gt; \n  mutate(\n    speed = distance / air_time * 60,\n    .before = 1)\n\n# A tibble: 336,776 × 20\n   speed  year month   day dep_time sched_dep_time dep_delay arr_time\n   &lt;dbl&gt; &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;\n 1  370.  2013     1     1      517            515         2      830\n 2  374.  2013     1     1      533            529         4      850\n 3  408.  2013     1     1      542            540         2      923\n 4  517.  2013     1     1      544            545        -1     1004\n 5  394.  2013     1     1      554            600        -6      812\n 6  288.  2013     1     1      554            558        -4      740\n 7  404.  2013     1     1      555            600        -5      913\n 8  259.  2013     1     1      557            600        -3      709\n 9  405.  2013     1     1      557            600        -3      838\n10  319.  2013     1     1      558            600        -2      753\n# ℹ 336,766 more rows\n# ℹ 12 more variables: sched_arr_time &lt;int&gt;, arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;,\n#   flight &lt;int&gt;, tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;,\n#   distance &lt;dbl&gt;, hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;"
+  },
+  {
+    "objectID": "day4/index.html#mutateで新しい列を計算する-2",
+    "href": "day4/index.html#mutateで新しい列を計算する-2",
+    "title": "データサイエンス",
+    "section": "mutate()で新しい列を計算する",
+    "text": "mutate()で新しい列を計算する\n\nfilter()（と他のデータ整理用関数と同じように）、mutate()の出力は元のデータを触らない\n解析結果を保存したい時は&lt;-を使う"
+  },
+  {
+    "objectID": "day4/index.html#selectで列を絞る",
+    "href": "day4/index.html#selectで列を絞る",
+    "title": "データサイエンス",
+    "section": "select()で列を絞る",
+    "text": "select()で列を絞る\n\n生データにたくさんの列が入っている場合がよくある。解析に必要な列だけに絞った方が解析がやりやすい\n基本的な使い方：列名で選択する\n\n\nflights |&gt; \n  select(year, month, day)\n\n# A tibble: 336,776 × 3\n    year month   day\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;\n 1  2013     1     1\n 2  2013     1     1\n 3  2013     1     1\n 4  2013     1     1\n 5  2013     1     1\n 6  2013     1     1\n 7  2013     1     1\n 8  2013     1     1\n 9  2013     1     1\n10  2013     1     1\n# ℹ 336,766 more rows"
+  },
+  {
+    "objectID": "day4/index.html#selectで列を絞る-1",
+    "href": "day4/index.html#selectで列を絞る-1",
+    "title": "データサイエンス",
+    "section": "select()で列を絞る",
+    "text": "select()で列を絞る\n\n選択したい列が多い場合は、:を使ってどこから〜どこまでというふうに書くと便利：\n\n\nflights |&gt; \n  select(year:day)\n\n# A tibble: 336,776 × 3\n    year month   day\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;\n 1  2013     1     1\n 2  2013     1     1\n 3  2013     1     1\n 4  2013     1     1\n 5  2013     1     1\n 6  2013     1     1\n 7  2013     1     1\n 8  2013     1     1\n 9  2013     1     1\n10  2013     1     1\n# ℹ 336,766 more rows"
+  },
+  {
+    "objectID": "day4/index.html#チャレンジ-5",
+    "href": "day4/index.html#チャレンジ-5",
+    "title": "データサイエンス",
+    "section": "チャレンジ",
+    "text": "チャレンジ\nJFKから出発したフライトに絞ってから、速度を計算してから、早い速度の順に並べ替えてください"
+  },
+  {
+    "objectID": "day4/index.html#まとめ今日学んだ関数動詞",
+    "href": "day4/index.html#まとめ今日学んだ関数動詞",
+    "title": "データサイエンス",
+    "section": "まとめ：今日学んだ関数（動詞）",
+    "text": "まとめ：今日学んだ関数（動詞）\n\n行を扱う関数\n\nfilter()\narrange()\n\n列を扱う関数\n\nmutate()\nselect()\n\n集計の関数\n\nsummarize()\ngroup_by()\nungroup()"
+  },
+  {
+    "objectID": "day4/index.html#まとめ",
+    "href": "day4/index.html#まとめ",
+    "title": "データサイエンス",
+    "section": "まとめ",
+    "text": "まとめ\n\n|&gt;とデータ整理用の関数を組み合わせることによって、すぐにでもかなり高度なデータ解析のパイプラインができるようなる。\n初めての方にはとてもコードの量が多いように思えるでしょうが、このようなツールを毎日使うって、慣れていくとそのうちどのようなデータでもRで扱えるようになる！"
+  },
+  {
+    "objectID": "day2/index.html#ニッタ-ジョエル",
+    "href": "day2/index.html#ニッタ-ジョエル",
+    "title": "データサイエンス",
+    "section": "ニッタ ジョエル",
+    "text": "ニッタ ジョエル\n\n\n\n研究テーマその１：シダ植物の進化と生態学\n研究テーマその２：データサイエンス用ソフトの開発\nhttps://www.joelnitta.com"
+  },
+  {
+    "objectID": "day2/index.html#スケジュール",
+    "href": "day2/index.html#スケジュール",
+    "title": "データサイエンス",
+    "section": "スケジュール",
+    "text": "スケジュール\n\n生成AIの基本、RとRStudioのインストール（オンデマンド）\nガイダンス、データサイエンスとR入門\nプロジェクトの整理とデータの読み込み\nデータの整理\nデータの可視化\n再現可能な文書の書き方\nレポートの発表\n再現性を高めるツール（オンデマンド）\n\n内容はニーズに合わせる"
+  },
+  {
+    "objectID": "day2/index.html#サイト",
+    "href": "day2/index.html#サイト",
+    "title": "データサイエンス",
+    "section": "サイト",
+    "text": "サイト\nhttps://data-science-chiba-2024.github.io/\nスライドと動画のリンクが掲載されている"
+  },
+  {
+    "objectID": "day2/index.html#オフィスアワー",
+    "href": "day2/index.html#オフィスアワー",
+    "title": "データサイエンス",
+    "section": "オフィスアワー",
+    "text": "オフィスアワー\n予約制（joelnitta@chiba-u.jpまでメールにて連絡ください）。対面・非対面での相談、ご希望とご都合に合わせて対応いたします。"
+  },
+  {
+    "objectID": "day2/index.html#教科書",
+    "href": "day2/index.html#教科書",
+    "title": "データサイエンス",
+    "section": "教科書",
+    "text": "教科書\n\n\n\nR for Data Science (2nd edition)\n\n英語版はオンラインで無料 https://r4ds.hadley.nz/\n日本語版（第１エディションのみ）はアマゾンなどから"
+  },
+  {
+    "objectID": "day2/index.html#リーディング",
+    "href": "day2/index.html#リーディング",
+    "title": "データサイエンス",
+    "section": "リーディング",
+    "text": "リーディング\n毎週のリーディングを講義の前に読んでください。\n\n第２回（2024-04-09）: ガイダンス、データサイエンスとR入門\n\nR4DS Introduction\nR4DS Chapter 2 (Workflow: Basics)\n\n第３回（2024-04-16）: プロジェクトの整理とデータの読み込み\n\nR4DS Chapter 6 (Workflow: Scripts and Projects)\nR4DS Chapter 7 (Data Import)"
+  },
+  {
+    "objectID": "day2/index.html#リーディング-1",
+    "href": "day2/index.html#リーディング-1",
+    "title": "データサイエンス",
+    "section": "リーディング",
+    "text": "リーディング\n\n第４回（2024-04-23）: データの整理\n\nR4DS Chapter 3 (Data Transformation)\nR4DS Chapter 5 (Data Tidying)\n\n第５回（2024-05-07）: データの可視化\n\nR4DS Chapter 1 (Data Visualization)\n\n第６回（2024-05-14）: 再現可能な文書の書き方\n\nR4DS Chapter 28 (Quarto)"
+  },
+  {
+    "objectID": "day2/index.html#課題と評価",
+    "href": "day2/index.html#課題と評価",
+    "title": "データサイエンス",
+    "section": "課題と評価",
+    "text": "課題と評価\n\n宿題（25%）\n\nMoodleからダウンロード、提出\n締め切り：次の週の授業まで\n\nリーディング\n授業のディスカッションに参加する（25%）\nRを使って、自分の研究に関するレポートを書く（50%）"
+  },
+  {
+    "objectID": "day2/index.html#データサイエンスとは-1",
+    "href": "day2/index.html#データサイエンスとは-1",
+    "title": "データサイエンス",
+    "section": "データサイエンスとは？",
+    "text": "データサイエンスとは？\n\nデータから洞察（インサイト）を得ること"
+  },
+  {
+    "objectID": "day2/index.html#データサイエンスとは-2",
+    "href": "day2/index.html#データサイエンスとは-2",
+    "title": "データサイエンス",
+    "section": "データサイエンスとは？",
+    "text": "データサイエンスとは？\n\n他の特徴\n\n大量のデータを扱う（「ビッグデータ」）\n\n統計学を使う\n\nプログラミングを使う（python、R、など）\n様々な用がある（学術研究、治療、産業、など）"
+  },
+  {
+    "objectID": "day2/index.html#データ解析の循環",
+    "href": "day2/index.html#データ解析の循環",
+    "title": "データサイエンス",
+    "section": "データ解析の循環",
+    "text": "データ解析の循環\n\nhttps://r4ds.hadley.nz/diagrams/data-science/base.png"
+  },
+  {
+    "objectID": "day2/index.html#再現性とは-1",
+    "href": "day2/index.html#再現性とは-1",
+    "title": "データサイエンス",
+    "section": "再現性とは？",
+    "text": "再現性とは？\n\n他の人（将来の自分を含めて）があなたの解析を再度行って、同じ結果を得ることができること\nデータサイエンスにおいて、とても重要。再現性がなければ、「サイエンス」にならない！"
+  },
+  {
+    "objectID": "day2/index.html#再現可能にするには",
+    "href": "day2/index.html#再現可能にするには",
+    "title": "データサイエンス",
+    "section": "再現可能にするには・・",
+    "text": "再現可能にするには・・\n\nコードが必要\n\n自分が何をやったのか、記録が残る\n将来、同じ解析ができる\n\nコードとして残らない方法はよろしくない（エクセル、SPSSなど）"
+  },
+  {
+    "objectID": "day2/index.html#本授業ではrを使う",
+    "href": "day2/index.html#本授業ではrを使う",
+    "title": "データサイエンス",
+    "section": "本授業では、Rを使う",
+    "text": "本授業では、Rを使う\n\n\n\n無料\nデータ解析の機能が豊富\n多様なニーズに応えるパッケージ\nコミュニティー\n\n\n\nhttps://www.linkedin.com/pulse/why-r-4-reason-learn-programming-language-business-corporate"
+  },
+  {
+    "objectID": "day2/index.html#rとrstudioについて",
+    "href": "day2/index.html#rとrstudioについて",
+    "title": "データサイエンス",
+    "section": "RとRStudioについて",
+    "text": "RとRStudioについて\n\n\n\nRとは「R Project for Statistical Computing」という組織が提供しているオープンソースプログラミング言語"
+  },
+  {
+    "objectID": "day2/index.html#rとrstudioについて-1",
+    "href": "day2/index.html#rとrstudioについて-1",
+    "title": "データサイエンス",
+    "section": "RとRStudioについて",
+    "text": "RとRStudioについて\n\n\n\nRのコードを書く・実行する最適なソフト（無料）\nRStudioなしでもRは一応使えるけど、不便\nこの授業ではRStudioを介してRを使う。"
+  },
+  {
+    "objectID": "day2/index.html#rstudioについて",
+    "href": "day2/index.html#rstudioについて",
+    "title": "データサイエンス",
+    "section": "RStudioについて",
+    "text": "RStudioについて\n\n主に四つのパネルがある\n\nSource（コードを書く）\nEnvironment（今のRのセッションに入っているオブジェクトが表示される）\nR Console（Rに直接コマンドをする）\nFiles and Plots（ファイルと図）"
+  },
+  {
+    "objectID": "day2/index.html#rを計算機として使う",
+    "href": "day2/index.html#rを計算機として使う",
+    "title": "データサイエンス",
+    "section": "Rを計算機として使う",
+    "text": "Rを計算機として使う\n\nRStudioのコンソール（左下のパネル）にカーソルを置いて、簡単な計算をしてみましょう：\n\n\n\n2 * 20\n\n[1] 40\n\n\n\nおめでとうございます！Rプログラミングができました！"
+  },
+  {
+    "objectID": "day2/index.html#オブジェクト変数について",
+    "href": "day2/index.html#オブジェクト変数について",
+    "title": "データサイエンス",
+    "section": "オブジェクト（変数）について",
+    "text": "オブジェクト（変数）について\n\n次に、Rの中のデータを変数（Rでは、「オブジェクト Object」と呼ぶ）として保存しよう：\n\n\n\nage &lt;- 2 * 20"
+  },
+  {
+    "objectID": "day2/index.html#オブジェクト変数について-1",
+    "href": "day2/index.html#オブジェクト変数について-1",
+    "title": "データサイエンス",
+    "section": "オブジェクト（変数）について",
+    "text": "オブジェクト（変数）について\nこれだけでは何も返ってこない。\n変数の内容を確認するには、コンソールにその変数の名前を打てば良い：\n\n\nage\n\n[1] 40"
+  },
+  {
+    "objectID": "day2/index.html#関数とは",
+    "href": "day2/index.html#関数とは",
+    "title": "データサイエンス",
+    "section": "関数とは",
+    "text": "関数とは\n何かの値（インプット）を受けて、処理して、計算結果（アウトプット）を返すもの\n\n\n\nhttps://manamina.valuesccg.com/articles/756"
+  },
+  {
+    "objectID": "day2/index.html#関数とは-1",
+    "href": "day2/index.html#関数とは-1",
+    "title": "データサイエンス",
+    "section": "関数とは",
+    "text": "関数とは\n関数の書き方：\n\n関数名(引数)\n\n例えば\n\n\nround(3.1415, digits = 1)\n\n[1] 3.1"
+  },
+  {
+    "objectID": "day2/index.html#関数とは-2",
+    "href": "day2/index.html#関数とは-2",
+    "title": "データサイエンス",
+    "section": "関数とは",
+    "text": "関数とは\n関数の使い方を確認したい時は?関数名と打って、ヘルプファイルを参照すれば良い\n\n\n?round"
+  },
+  {
+    "objectID": "day2/index.html#パッケージとは",
+    "href": "day2/index.html#パッケージとは",
+    "title": "データサイエンス",
+    "section": "パッケージとは",
+    "text": "パッケージとは\n\nRパッケージとは、Rが出来ることを大幅に増やす「追加」のソフト（関数のまとまり）\n\n現在、２万近くのパッケージがある！"
+  },
+  {
+    "objectID": "day2/index.html#パッケージのインストール",
+    "href": "day2/index.html#パッケージのインストール",
+    "title": "データサイエンス",
+    "section": "パッケージのインストール",
+    "text": "パッケージのインストール\nRパッケージのインストールを行うには、install.packages()を使う：\n\ninstall.packages(\"ggplot2\")\n\n一回インストールしたら、次回からはしなくて良いので、これはコードとして保存しない"
+  },
+  {
+    "objectID": "day2/index.html#パッケージのロード",
+    "href": "day2/index.html#パッケージのロード",
+    "title": "データサイエンス",
+    "section": "パッケージのロード",
+    "text": "パッケージのロード\n\nパッケージをインストールしたら、使える状態するにはロードすることが必要\n\nインストールは一回でいい\nロードは毎回必要\n\n\nlibrary()関数でロードする：\n\n\nlibrary(ggplot2)"
+  },
+  {
+    "objectID": "day2/index.html#tidyverse",
+    "href": "day2/index.html#tidyverse",
+    "title": "データサイエンス",
+    "section": "tidyverse",
+    "text": "tidyverse\n\ntidyverseはデータサイエンス用パッケージの集まりのパッケージ\n\nggplot2（可視化）\ndplyr（データの整理）\nstringr（文字データを扱う）\nなど\n\n\nこれからよく使うので、インストールしましょう。一気に出来るから、楽。\n\ninstall.packages(\"tidyverse\")"
+  },
+  {
+    "objectID": "day2/index.html#install.packagesとlibraryの違い",
+    "href": "day2/index.html#install.packagesとlibraryの違い",
+    "title": "データサイエンス",
+    "section": "install.packages()とlibrary()の違い",
+    "text": "install.packages()とlibrary()の違い\n\ninstall.packages()は一回だけで良い（パソコンにパッケージをダウンロードする）\nlibrary()はRを使う毎にしないといけない（パッケージを今回のRのセッションで使えるようにする）"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "データサイエンス",
     "section": "",
-    "text": "2024-04-23\nhttps://data-science-chiba-2024.github.io/day4/\n\n\n前のセッションのデータが残っていることは再現的にダメ！\n. . .\nTools → Global Options → General → Workspace\n\n“Restore .RData into workspace at startup” → 外す\n“Save workspace to .RData on exit:” → “Never”\n\n\n\n\n前のセッションのデータが残っていることは再現の観点からダメ！\n\n\n\n\n\nデータが手に入る時、まだ解析に使いえない状態が多い\nデータの整理（「wrangling」）は解析に使えるように整えるプロセス\n\n元々はカウボーイが牛を扱う技術から来る\n\n\n\n\n\n\nGetty Images\n\n\n\n\n\n\nImage by Allison Horst\n\n\n\n\n\n\nR4DS第３章で使われているデータは２０１３年にニューヨーク市発着のフライト\nこのデータはncyflights13というパッケージに入っている\n\n\n\n\nncyflights13パッケージをインストールして、nycflights.Rというスクリプトでパッケージをロードしてください\n\n\ninstall.packages(\"ncyflights13\")\n\n\n\n\n\nnycflights.R\n\nlibrary(nycflights13)\n\n\n\n\n\nデータはflightsというデータフレームに入っている：\n\nlibrary(nycflights13)\nlibrary(tidyverse)\n\nflights\n\n# A tibble: 336,776 × 19\n    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;\n 1  2013     1     1      517            515         2      830            819\n 2  2013     1     1      533            529         4      850            830\n 3  2013     1     1      542            540         2      923            850\n 4  2013     1     1      544            545        -1     1004           1022\n 5  2013     1     1      554            600        -6      812            837\n 6  2013     1     1      554            558        -4      740            728\n 7  2013     1     1      555            600        -5      913            854\n 8  2013     1     1      557            600        -3      709            723\n 9  2013     1     1      557            600        -3      838            846\n10  2013     1     1      558            600        -2      753            745\n# ℹ 336,766 more rows\n# ℹ 11 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,\n#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,\n#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;\n\n\n\n\nflightsにはいくつの列（変数）がある？\nflightsにはいくつの行（観察）がある？\n\n\n\n\nこれから学ぶ関数の共通点：\n\nデータフレームをインプットとし、データフレームを返す\n最初の引数がインプットのデータフレーム\n他の引数は詳細（行の名前に引用符を使わない）\n\n\n\n\n\n生データが必要以上に多い場合がよくある（特に、「ビッグデータ」を扱っているとき）\nfilter()で条件を定めて、その行だけに絞り込む\n\n\n\n# 出発が２時間以上遅れたフライトに絞り込む\nfilter(flights, dep_delay &gt; 120)\n\n# A tibble: 9,723 × 19\n    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;\n 1  2013     1     1      848           1835       853     1001           1950\n 2  2013     1     1      957            733       144     1056            853\n 3  2013     1     1     1114            900       134     1447           1222\n 4  2013     1     1     1540           1338       122     2020           1825\n 5  2013     1     1     1815           1325       290     2120           1542\n 6  2013     1     1     1842           1422       260     1958           1535\n 7  2013     1     1     1856           1645       131     2212           2005\n 8  2013     1     1     1934           1725       129     2126           1855\n 9  2013     1     1     1938           1703       155     2109           1823\n10  2013     1     1     1942           1705       157     2124           1830\n# ℹ 9,713 more rows\n# ℹ 11 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,\n#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,\n#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;\n\n\n\n行の数がどれくらい変わった？\n\n\n\n\n\n元のデータは変わっていない\nfilter()の出力を保存したい時は&lt;-を使う\n\n\n\nflights_delay_120 &lt;- filter(flights, dep_delay &gt; 120)\n\n\n\n\nデータの比較を行う主な記号：\n\n&gt; より大きい\n&lt; より小さい\n== イコール （=ではない！）\n| あるいは\n& そして（複数条件の指定）\n\n比較の記号のアウトプットは論理ベクトル\n\n\n11 &gt; 10\n\n[1] TRUE\n\n\n\n\nc(11, 6) &gt; c(10, 6)\n\n[1]  TRUE FALSE\n\n\n\n\nc(11, 6) == c(10, 6)\n\n[1] FALSE  TRUE\n\n\n\n\nc(5, 6) = c(10, 6)\n\nError in c(5, 6) = c(10, 6): target of assignment expands to non-language object\n\n\n\n\n\n何故11 = 10がエラーになってしまう？\n\n\n\n\n１月のフライトに絞っとください\n\n. . .\n\nfilter(flights, month == 1)\n\n# A tibble: 27,004 × 19\n    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;\n 1  2013     1     1      517            515         2      830            819\n 2  2013     1     1      533            529         4      850            830\n 3  2013     1     1      542            540         2      923            850\n 4  2013     1     1      544            545        -1     1004           1022\n 5  2013     1     1      554            600        -6      812            837\n 6  2013     1     1      554            558        -4      740            728\n 7  2013     1     1      555            600        -5      913            854\n 8  2013     1     1      557            600        -3      709            723\n 9  2013     1     1      557            600        -3      838            846\n10  2013     1     1      558            600        -2      753            745\n# ℹ 26,994 more rows\n# ℹ 11 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,\n#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,\n#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;\n\n\n\n\n\n\n１月１日のフライトに絞っとください\n\n. . .\n\nfilter(flights, month == 1 & day == 1)\n\n# A tibble: 842 × 19\n    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;\n 1  2013     1     1      517            515         2      830            819\n 2  2013     1     1      533            529         4      850            830\n 3  2013     1     1      542            540         2      923            850\n 4  2013     1     1      544            545        -1     1004           1022\n 5  2013     1     1      554            600        -6      812            837\n 6  2013     1     1      554            558        -4      740            728\n 7  2013     1     1      555            600        -5      913            854\n 8  2013     1     1      557            600        -3      709            723\n 9  2013     1     1      557            600        -3      838            846\n10  2013     1     1      558            600        -2      753            745\n# ℹ 832 more rows\n# ℹ 11 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,\n#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,\n#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;\n\n\n\n\n\nもう一つの複数条件を設定方法：,で条件を加える（filter()だけ）\n\nfilter(flights, month == 1, day == 1)\n\n# A tibble: 842 × 19\n    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;\n 1  2013     1     1      517            515         2      830            819\n 2  2013     1     1      533            529         4      850            830\n 3  2013     1     1      542            540         2      923            850\n 4  2013     1     1      544            545        -1     1004           1022\n 5  2013     1     1      554            600        -6      812            837\n 6  2013     1     1      554            558        -4      740            728\n 7  2013     1     1      555            600        -5      913            854\n 8  2013     1     1      557            600        -3      709            723\n 9  2013     1     1      557            600        -3      838            846\n10  2013     1     1      558            600        -2      753            745\n# ℹ 832 more rows\n# ℹ 11 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,\n#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,\n#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;\n\n\n\n\n\n\n# 出発の日と時間で並べ替える\narrange(flights, year, month, day, dep_time)\n\n# A tibble: 336,776 × 19\n    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;\n 1  2013     1     1      517            515         2      830            819\n 2  2013     1     1      533            529         4      850            830\n 3  2013     1     1      542            540         2      923            850\n 4  2013     1     1      544            545        -1     1004           1022\n 5  2013     1     1      554            600        -6      812            837\n 6  2013     1     1      554            558        -4      740            728\n 7  2013     1     1      555            600        -5      913            854\n 8  2013     1     1      557            600        -3      709            723\n 9  2013     1     1      557            600        -3      838            846\n10  2013     1     1      558            600        -2      753            745\n# ℹ 336,766 more rows\n# ℹ 11 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,\n#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,\n#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;\n\n\n\n\n\n\narrange()はデフォルトで小さい方からの順になっている\n大きい方から並べたい時はdesc()（「descend」、「降りる」）を使う：\n\n\n# 大きく遅れた順で並べる\narrange(flights, desc(dep_delay))\n\n# A tibble: 336,776 × 19\n    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;\n 1  2013     1     9      641            900      1301     1242           1530\n 2  2013     6    15     1432           1935      1137     1607           2120\n 3  2013     1    10     1121           1635      1126     1239           1810\n 4  2013     9    20     1139           1845      1014     1457           2210\n 5  2013     7    22      845           1600      1005     1044           1815\n 6  2013     4    10     1100           1900       960     1342           2211\n 7  2013     3    17     2321            810       911      135           1020\n 8  2013     6    27      959           1900       899     1236           2226\n 9  2013     7    22     2257            759       898      121           1026\n10  2013    12     5      756           1700       896     1058           2020\n# ℹ 336,766 more rows\n# ℹ 11 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,\n#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,\n#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;\n\n\n\n\n\n\nfilter()とarrange()を使って、12月のフライトに絞ってから、遠く飛んだ順に並べ替えてください\n\n\n\n\n\nfilter(データ, 条件)というような書き方をしてきたが、また別の書き方がある：\n\nデータ |&gt; filter(条件)\n\n\n\n\n|&gt;は「パイプ」と呼ばれる\n左にある物を右の方に渡す\n「それから」と読む\n\n\n\n\n\n複数の作業を施すに便利\n\n「パイプライン」\n\n\n\n# flightsから始まって、12月のデータに絞ってから、遠く飛んだ距離の順で並べる\nflights |&gt;\n  filter(month == 12) |&gt;\n  arrange(desc(distance))\n\n# A tibble: 28,135 × 19\n    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;\n 1  2013    12     1      928            930        -2     1532           1535\n 2  2013    12     2      920            930       -10     1525           1535\n 3  2013    12     4      933            930         3     1519           1535\n 4  2013    12     5      920            930       -10     1609           1535\n 5  2013    12     6      924            930        -6     1545           1535\n 6  2013    12     7      927            930        -3     1549           1535\n 7  2013    12     8      935            930         5     1520           1535\n 8  2013    12     9      928            930        -2     1528           1535\n 9  2013    12    11      930            930         0     1539           1535\n10  2013    12    13      929            930        -1     1527           1535\n# ℹ 28,125 more rows\n# ℹ 11 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,\n#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,\n#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;\n\n\n\n\n\n\n新しい列は右側から追加される\n\n列が多い場合は見えないことも\n\n\n\nflights |&gt; \n  mutate(speed = distance / air_time * 60)\n\n# A tibble: 336,776 × 20\n    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;\n 1  2013     1     1      517            515         2      830            819\n 2  2013     1     1      533            529         4      850            830\n 3  2013     1     1      542            540         2      923            850\n 4  2013     1     1      544            545        -1     1004           1022\n 5  2013     1     1      554            600        -6      812            837\n 6  2013     1     1      554            558        -4      740            728\n 7  2013     1     1      555            600        -5      913            854\n 8  2013     1     1      557            600        -3      709            723\n 9  2013     1     1      557            600        -3      838            846\n10  2013     1     1      558            600        -2      753            745\n# ℹ 336,766 more rows\n# ℹ 12 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,\n#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,\n#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;, speed &lt;dbl&gt;\n\n\n\n\n\n\n.beforeを使うと、新しい列が入る場所を指定できる\n\n\nflights |&gt; \n  mutate(\n    speed = distance / air_time * 60,\n    .before = 1)\n\n# A tibble: 336,776 × 20\n   speed  year month   day dep_time sched_dep_time dep_delay arr_time\n   &lt;dbl&gt; &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;\n 1  370.  2013     1     1      517            515         2      830\n 2  374.  2013     1     1      533            529         4      850\n 3  408.  2013     1     1      542            540         2      923\n 4  517.  2013     1     1      544            545        -1     1004\n 5  394.  2013     1     1      554            600        -6      812\n 6  288.  2013     1     1      554            558        -4      740\n 7  404.  2013     1     1      555            600        -5      913\n 8  259.  2013     1     1      557            600        -3      709\n 9  405.  2013     1     1      557            600        -3      838\n10  319.  2013     1     1      558            600        -2      753\n# ℹ 336,766 more rows\n# ℹ 12 more variables: sched_arr_time &lt;int&gt;, arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;,\n#   flight &lt;int&gt;, tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;,\n#   distance &lt;dbl&gt;, hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;\n\n\n\n\n\n\nfilter()（と他のデータ整理用関数と同じように）、mutate()の出力は元のデータを触らない\n解析結果を保存したい時は&lt;-を使う\n\n\n\n\n\n生データにたくさんの列が入っている場合がよくある。解析に必要な列だけに絞った方が解析がやりやすい\n基本的な使い方：列名で選択する\n\n\nflights |&gt; \n  select(year, month, day)\n\n# A tibble: 336,776 × 3\n    year month   day\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;\n 1  2013     1     1\n 2  2013     1     1\n 3  2013     1     1\n 4  2013     1     1\n 5  2013     1     1\n 6  2013     1     1\n 7  2013     1     1\n 8  2013     1     1\n 9  2013     1     1\n10  2013     1     1\n# ℹ 336,766 more rows\n\n\n\n\n\n\n選択したい列が多い場合は、:を使ってどこから〜どこまでというふうに書くと便利：\n\n\nflights |&gt; \n  select(year:day)\n\n# A tibble: 336,776 × 3\n    year month   day\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;\n 1  2013     1     1\n 2  2013     1     1\n 3  2013     1     1\n 4  2013     1     1\n 5  2013     1     1\n 6  2013     1     1\n 7  2013     1     1\n 8  2013     1     1\n 9  2013     1     1\n10  2013     1     1\n# ℹ 336,766 more rows\n\n\n\n\n\nJFKから出発したフライトに絞ってから、速度を計算してから、早い速度の順に並べ替えてください\n\n\n\n\n行を扱う関数\n\nfilter()\narrange()\n\n列を扱う関数\n\nmutate()\nselect()\n\n集計の関数\n\nsummarize()\ngroup_by()\nungroup()\n\n\n\n\n\n\n|&gt;とデータ整理用の関数を組み合わせることによって、すぐにでもかなり高度なデータ解析のパイプラインができるようなる。\n初めての方にはとてもコードの量が多いように思えるでしょうが、このようなツールを毎日使うって、慣れていくとそのうちどのようなデータでもRで扱えるようになる！"
+    "text": "千葉大学 総合国際学位プログラムの授業\n担当教員：ニッタ ジョエル"
+  },
+  {
+    "objectID": "index.html#概要",
+    "href": "index.html#概要",
+    "title": "データサイエンス",
+    "section": "概要",
+    "text": "概要\nデータ解析は、理系だけではなく、文系も含めた多くの学問分野で使われるようになっている。本授業では、特に大学院生の研究に応用できるようにデータサイエンスの基本的なスキルとツールを学ぶ。主に「R」プログラミング言語を使用するが、大学院生のニーズに合わせて、必要なツールがあれば適宜授業の内容に加える。"
+  },
+  {
+    "objectID": "index.html#教科書",
+    "href": "index.html#教科書",
+    "title": "データサイエンス",
+    "section": "教科書",
+    "text": "教科書\n\nR for Data Science (2nd Edition) by Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund\n\nアマゾンには第１エディションの翻訳がある"
+  },
+  {
+    "objectID": "index.html#スケジュール",
+    "href": "index.html#スケジュール",
+    "title": "データサイエンス",
+    "section": "スケジュール",
+    "text": "スケジュール\n毎週のリーディングを講義の前に読んでください。\n（全ての講義の録画はありません）\n\n第１回（2024-04-02）: 生成AIの基本、RとRStudioのインストール（オンデマンド）\n\nスライド\n録画\n\n第２回（2024-04-09）: ガイダンス、データサイエンスとR入門\n\nスライド\nリーディング\n\nR4DS Introduction\nR4DS Chapter 2 (Workflow: Basics)\n\n\n第３回（2024-04-16）: プロジェクトの整理とデータの読み込み\n\nスライド\nリーディング\n\nR4DS Chapter 6 (Workflow: Scripts and Projects)\nR4DS Chapter 7 (Data Import)\n\n\n第４回（2024-04-23）: データの整理（１）\n\nスライド\nリーディング\n\nR4DS Chapter 3 (Data Transformation)\n\n\n第５回（2024-05-07）: データの整理（２）\n\nスライド\nリーディング\n\nR4DS Chapter 5 (Data Tidying)\nR4DS Chapter 19 (Joins)\n\n\n第６回（2024-05-14）: データの可視化\n\nリーディング\n\nR4DS Chapter 1 (Data Visualization)\n\n\n第７回（2024-05-21）: 再現可能な文書の書き方\n\nリーディング\n\nR4DS Chapter 28 (Quarto)\n\n\n第８回（2024-05-28）: レポートの発表"
+  },
+  {
+    "objectID": "index.html#オフィスアワー",
+    "href": "index.html#オフィスアワー",
+    "title": "データサイエンス",
+    "section": "オフィスアワー",
+    "text": "オフィスアワー\n予約制（joelnitta@chiba-u.jpまでメールにて連絡ください）。対面・非対面での相談、ご希望とご都合に合わせて対応いたします。"
+  },
+  {
+    "objectID": "index.html#リンク",
+    "href": "index.html#リンク",
+    "title": "データサイエンス",
+    "section": "リンク",
+    "text": "リンク\n\nシラバス"
   }
 ]
