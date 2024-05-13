@@ -1,0 +1,223 @@
+---
+format:
+  revealjs:
+    incremental: false
+    css: ../styles.css
+execute: 
+  echo: true
+---
+
+# 第６回：再現可能な文書の作成
+
+```{r}
+#| echo: false
+#| message: false
+options(width = 70)
+library(tidyverse)
+```
+
+2024-05-14
+
+<https://data-science-chiba-2024.github.io/day6/>
+
+## ディスカッション
+
+よくあるパターン：Rで解析後、その結果をWordにコピペする
+
+- この方法の**メリット**と**デメリット**を議論してください
+
+## 解析結果をWordにコピペする
+
+- 利点：
+  - 手軽である（一度だけの場合）
+
+- 欠点：
+  - 文章に記載された結果がデータに基づいている**保証がない**
+  - 解析を再び行った場合、どの部分を再度コピペすべきか**不明確になる**
+
+## Quartoを用いた再現可能な文書の作成
+
+- Quartoとは、Rコードの計算結果を直接文書に埋め込むためのソフトウェア
+
+- RやRStudioとは別だが、RStudioと一緒にインストールされるため、個別にインストールする必要はない
+
+- ファイルの拡張子は`.Qmd`
+  - 「Quarto Markdown」（Markdownについては後ほど説明する）
+
+
+## `.Qmd`ファイルの基本
+
+```{r}
+#| code-overflow: scroll
+#| echo: false
+#| comment: ""
+#| filename: diamond-sizes.qmd
+cat(readr::read_file("diamond-sizes.qmd"))
+```
+
+## 今までのコードの書き方（`.R`ファイル）
+
+- 普通に書く文章は正常なコードでないといけない
+
+- 他の文章はコメントとして書く
+
+```{r}
+#| eval: false
+
+# 小さなデータセットを作る
+smaller <- diamonds |> 
+  filter(carat <= 2.5)
+```
+
+## Quartoの書き方
+
+::: {.columns}
+::: {.column width="50%"}
+- 今までの書き方の**反対**
+  - 普通に書く文章はコード**ではない**
+  - コードを特別な場所で<br>書く（**コードチャンク**）
+  - ` ```{r} ` と ` ``` `で囲む
+:::
+::: {.column width="10%"}
+:::
+::: {.column width="40%"}
+```{r}
+#| code-overflow: scroll
+#| echo: false
+#| comment: ""
+cat(readr::read_file("diamond-sizes-small.qmd"))
+```
+:::
+:::
+
+## コードの実行の仕方
+
+- RStudioには、それぞれのコードチャンクの上に「再生」ボタンをクリック
+
+![](https://r4ds.hadley.nz/quarto/diamond-sizes-notebook.png)
+
+## コードの実行の仕方
+
+- おすすめ：設定を「Chunk Output in Console」に変える
+
+![](https://r4ds.hadley.nz/quarto/diamond-sizes-console-output.png)
+
+## コードの実行の仕方
+
+- 全部を一気に走らせて、レポートを作成するには、「Render」ボタンをクリック
+
+![](https://r4ds.hadley.nz/quarto/diamond-sizes-report.png)
+
+## コードの実行の仕方
+
+- デフォルトでは、レポートはHTML形式
+
+![](https://r4ds.hadley.nz/quarto/diamond-sizes-report.png)
+
+## YAMLヘッダーについて
+
+- YAMLとは、「YAML ain't markup language」の略
+  - プログラマーの冗談みたいな名前。気にしないでください。
+- 設定を書くための言語。項目名を書いて、コロンを書いて、設定を書く：
+
+::: {.columns}
+::: {.column}
+```
+項目1: 設定
+項目2: 設定
+```
+:::
+::: {.column}
+```
+title: "Diamond sizes"
+date: 2022-09-12
+```
+:::
+::: 
+
+## YAMLヘッダーで設定する項目
+
+- タイトル
+- 著者名
+- 出版日程
+- 形式（PDF、HTML、docx）
+
+など
+
+## チャレンジ
+
+出力をdocxに変えてから、レポートを出力してください
+
+## Markdownでレポートの見た目を調整する
+
+- `.Qmd`ファイルはプレーンテキスト（フォントや文字のサイズなど変えることができない）
+
+- レポートのフォントなどを変えたい時は、Markdownというコードを使う：
+
+::: {.columns}
+::: {.column}
+
+```
+*italic*
+
+**bold**
+
+~~strikeout~~
+```
+
+:::
+::: {.column}
+*italic*
+
+**bold**
+
+~~strikeout~~
+:::
+:::
+
+::: {.aside}
+他のMarkdownの使い方：<https://r4ds.hadley.nz/quarto#sec-source-editor>
+:::
+
+## コードチャンクの設定
+
+- それぞれのコードチャンクの設定を変えることができる
+
+- 多くの場合、レポートでは解析結果を作った**コードを見せたくない**
+  - `echo: false`設定でコードを隠す
+
+- コードチャンクの始まりに`#|`で始まる行に設定をYAMLで書く
+
+## コードチャンクの設定
+
+```{r}
+#| code-overflow: scroll
+#| echo: false
+#| comment: ""
+cat(readr::read_file("diamond-sizes-hide.qmd"))
+```
+
+## 他の設定など
+
+- [R4DS 「Quarto」](https://r4ds.hadley.nz/quarto)
+
+- <https://quarto.org/>
+
+## レポート
+
+- Tidy Tuesdayプロジェクトが提供しているデータセットを使って、**二つ以上**のグラフを作成し、そのグラフから読み取るメッセージを説明してください
+
+- QuartoとRを使って書いて、HTMLとして出力
+
+- 次回（５月２８日）までに提出して、授業中に発表する
+
+## レポートのデータの読み込み
+
+```{r}
+#| eval: false
+library(tidytuesdayR)
+tuesdata <- tt_load(2022, week = 10)
+erasmus <- tuesdata$erasmus
+```
+
+[データの詳細については、こちらを見てください](https://github.com/rfordatascience/tidytuesday/tree/c0168e6866dc33bb2ddfd58328eac8b83e239db6/data/2022/2022-03-08#eu-student-mobility)

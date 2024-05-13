@@ -1,0 +1,7 @@
+```{r}
+#| echo: false
+library(tidyverse)
+
+smaller <- diamonds |> 
+  filter(carat <= 2.5)
+```

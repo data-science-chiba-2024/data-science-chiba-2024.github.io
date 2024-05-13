@@ -144,7 +144,7 @@
     "href": "index.html#スケジュール",
     "title": "データサイエンス",
     "section": "スケジュール",
-    "text": "スケジュール\n毎週のリーディングを講義の前に読んでください。\n（全ての講義の録画はありません）\n\n第１回（2024-04-02）: 生成AIの基本、RとRStudioのインストール（オンデマンド）\n\nスライド\n録画\n\n第２回（2024-04-09）: ガイダンス、データサイエンスとR入門\n\nスライド\nリーディング\n\nR4DS Introduction\nR4DS Chapter 2 (Workflow: Basics)\n\n\n第３回（2024-04-16）: プロジェクトの整理とデータの読み込み\n\nスライド\nリーディング\n\nR4DS Chapter 6 (Workflow: Scripts and Projects)\nR4DS Chapter 7 (Data Import)\n\n\n第４回（2024-04-23）: データの整理（１）\n\nスライド\nリーディング\n\nR4DS Chapter 3 (Data Transformation)\n\n\n第５回（2024-05-07）: データの整理（２）\n\nスライド\nリーディング\n\nR4DS Chapter 5 (Data Tidying)\nR4DS Chapter 19 (Joins)\n\n\n第６回（2024-05-14）: データの可視化\n\nスライド\nリーディング\n\nR4DS Chapter 1 (Data Visualization)\n\n\n第７回（2024-05-14）: 再現可能な文書の書き方\n\nリーディング\n\nR4DS Chapter 28 (Quarto)\n\n\n第８回（2024-05-28）: レポートの発表"
+    "text": "スケジュール\n毎週のリーディングを講義の前に読んでください。\n（全ての講義の録画はありません）\n\n第１回（2024-04-02）: 生成AIの基本、RとRStudioのインストール（オンデマンド）\n\nスライド\n録画\n\n第２回（2024-04-09）: ガイダンス、データサイエンスとR入門\n\nスライド\nリーディング\n\nR4DS Introduction\nR4DS Chapter 2 (Workflow: Basics)\n\n\n第３回（2024-04-16）: プロジェクトの整理とデータの読み込み\n\nスライド\nリーディング\n\nR4DS Chapter 6 (Workflow: Scripts and Projects)\nR4DS Chapter 7 (Data Import)\n\n\n第４回（2024-04-23）: データの整理（１）\n\nスライド\nリーディング\n\nR4DS Chapter 3 (Data Transformation)\n\n\n第５回（2024-05-07）: データの整理（２）\n\nスライド\nリーディング\n\nR4DS Chapter 5 (Data Tidying)\nR4DS Chapter 19 (Joins)\n\n\n第６回（2024-05-14）: データの可視化\n\nスライド\nリーディング\n\nR4DS Chapter 1 (Data Visualization)\n\n\n第７回（2024-05-14）: 再現可能な文書の書き方\n\nスライド\nリーディング\n\nR4DS Chapter 28 (Quarto)\n\n\n第８回（2024-05-28）: レポートの発表"
   },
   {
     "objectID": "index.html#オフィスアワー",
@@ -1251,5 +1251,173 @@
     "title": "データサイエンス",
     "section": "まとめ",
     "text": "まとめ\n\nどのデータやグラフでも、同じ「文法」で記述することができます。\naesthetic mapping（mappingとaes）、どのデータをグラフのどの要素で表示するかを設定する\ngeometry（geom）は、グラフの形状を設定する\nグラフを作成するコマンドは、レイヤーを+で重ねていく"
+  },
+  {
+    "objectID": "day7/index.html#ディスカッション",
+    "href": "day7/index.html#ディスカッション",
+    "title": "データサイエンス",
+    "section": "ディスカッション",
+    "text": "ディスカッション\nよくあるパターン：Rで解析後、その結果をWordにコピペする\n\nこの方法のメリットとデメリットを議論してください"
+  },
+  {
+    "objectID": "day7/index.html#解析結果をワードにコピペする",
+    "href": "day7/index.html#解析結果をワードにコピペする",
+    "title": "データサイエンス",
+    "section": "解析結果をワードにコピペする",
+    "text": "解析結果をワードにコピペする\n\n利点：\n\n手軽である（一度だけの場合）\n\n欠点：\n\n文章に記載された結果がデータに基づいているという保証がない\n解析を再び行った場合、どの部分を再度コピペすべきか不明確になる"
+  },
+  {
+    "objectID": "day7/index.html#quartoを用いた再現可能な文書の作成",
+    "href": "day7/index.html#quartoを用いた再現可能な文書の作成",
+    "title": "データサイエンス",
+    "section": "Quartoを用いた再現可能な文書の作成",
+    "text": "Quartoを用いた再現可能な文書の作成\n\nQuartoとは、Rコードの計算結果を直接文書に埋め込むためのソフトウェア\nRやRStudioとは別だが、RStudioと一緒にインストールされるため、個別にインストールする必要はない\nファイルの拡張子は.Qmd\n\n「Quarto Markdown」（Markdownについては後ほど説明する）"
+  },
+  {
+    "objectID": "day7/index.html#qmdファイルの基本",
+    "href": "day7/index.html#qmdファイルの基本",
+    "title": "データサイエンス",
+    "section": ".Qmdファイルの基本",
+    "text": ".Qmdファイルの基本\n\n\n---\ntitle: \"Diamond sizes\"\ndate: 2022-09-12\nformat: html\n---\n\n```{r}\n#| label: setup\n#| include: false\n\nlibrary(tidyverse)\n\nsmaller &lt;- diamonds |&gt; \n  filter(carat &lt;= 2.5)\n```\n\nWe have data about `r nrow(diamonds)` diamonds.\nOnly `r nrow(diamonds) - nrow(smaller)` are larger than 2.5 carats.\nThe distribution of the remainder is shown below:\n\n```{r}\n#| label: plot-smaller-diamonds\n#| echo: false\n\nsmaller |&gt; \n  ggplot(aes(x = carat)) + \n  geom_freqpoly(binwidth = 0.01)\n```"
+  },
+  {
+    "objectID": "day7/index.html#今までのコードの書き方.rファイル",
+    "href": "day7/index.html#今までのコードの書き方.rファイル",
+    "title": "データサイエンス",
+    "section": "今までのコードの書き方（.Rファイル）",
+    "text": "今までのコードの書き方（.Rファイル）\n\n普通に書く文章は正常なコードでないといけない\n他の文章はコメントとして書く\n\n\n# 小さなデータセットを作る\nsmaller &lt;- diamonds |&gt; \n  filter(carat &lt;= 2.5)"
+  },
+  {
+    "objectID": "day7/index.html#quartoの書き方",
+    "href": "day7/index.html#quartoの書き方",
+    "title": "データサイエンス",
+    "section": "Quartoの書き方",
+    "text": "Quartoの書き方\n\n\n\n今までの書き方の反対\n\n普通に書く文章はコードではない\nコードを特別な場所で書く（コードチャンク）\n```{r} と ```で囲む\n\n\n\n\n\n\n\nLet's make a smaller dataset:\n\n```{r}\n#| label: setup\n#| include: false\n\nlibrary(tidyverse)\n\nsmaller &lt;- diamonds |&gt; \n  filter(carat &lt;= 2.5)\n```"
+  },
+  {
+    "objectID": "day7/index.html#コードの実行の仕方",
+    "href": "day7/index.html#コードの実行の仕方",
+    "title": "データサイエンス",
+    "section": "コードの実行の仕方",
+    "text": "コードの実行の仕方\n\nRStudioには、それぞれのコードチャンクの上に「再生」ボタンをクリック"
+  },
+  {
+    "objectID": "day7/index.html#コードの実行の仕方-1",
+    "href": "day7/index.html#コードの実行の仕方-1",
+    "title": "データサイエンス",
+    "section": "コードの実行の仕方",
+    "text": "コードの実行の仕方\n\nおすすめ：設定を「Chunk Output in Console」に変える"
+  },
+  {
+    "objectID": "day7/index.html#コードの実行の仕方-2",
+    "href": "day7/index.html#コードの実行の仕方-2",
+    "title": "データサイエンス",
+    "section": "コードの実行の仕方",
+    "text": "コードの実行の仕方\n\n全部を一気に走らせて、レポートを作成するには、「Render」ボタンをクリック"
+  },
+  {
+    "objectID": "day7/index.html#コードの実行の仕方-3",
+    "href": "day7/index.html#コードの実行の仕方-3",
+    "title": "データサイエンス",
+    "section": "コードの実行の仕方",
+    "text": "コードの実行の仕方\n\nデフォルトでは、レポートはHTML形式"
+  },
+  {
+    "objectID": "day7/index.html#yamlヘッダーについて",
+    "href": "day7/index.html#yamlヘッダーについて",
+    "title": "データサイエンス",
+    "section": "YAMLヘッダーについて",
+    "text": "YAMLヘッダーについて\n\nYAMLとは、「YAML ain’t markup language」の略\n\nプログラマーの冗談みたいな名前。気にしないでください。\n\n設定を書くための言語。項目名を書いて、コロンを書いて、設定を書く：\n\n\n\n項目1: 設定\n項目2: 設定\n\ntitle: \"Diamond sizes\"\ndate: 2022-09-12"
+  },
+  {
+    "objectID": "day7/index.html#yamlヘッダーで設定する項目",
+    "href": "day7/index.html#yamlヘッダーで設定する項目",
+    "title": "データサイエンス",
+    "section": "YAMLヘッダーで設定する項目",
+    "text": "YAMLヘッダーで設定する項目\n\nタイトル\n著者名\n出版日程\n形式（PDF、HTML、docx）\n\nなど"
+  },
+  {
+    "objectID": "day7/index.html#チャレンジ",
+    "href": "day7/index.html#チャレンジ",
+    "title": "データサイエンス",
+    "section": "チャレンジ",
+    "text": "チャレンジ\n出力をdocxに変えてから、レポートを出力してください"
+  },
+  {
+    "objectID": "day7/index.html#markdownでレポートの見た目を調整する",
+    "href": "day7/index.html#markdownでレポートの見た目を調整する",
+    "title": "データサイエンス",
+    "section": "Markdownでレポートの見た目を調整する",
+    "text": "Markdownでレポートの見た目を調整する\n\n.Qmdファイルはプレーンテキスト（フォントや文字のサイズなど変えることができない）\nレポートのフォントなどを変えたい時は、Markdownというコードを使う：\n\n\n\n*italic*\n\n**bold**\n\n~~strikeout~~\n\nitalic\nbold\nstrikeout\n\n\n\n\n他のMarkdownの使い方：https://r4ds.hadley.nz/quarto#sec-source-editor"
+  },
+  {
+    "objectID": "day7/index.html#コードチャンクの設定",
+    "href": "day7/index.html#コードチャンクの設定",
+    "title": "データサイエンス",
+    "section": "コードチャンクの設定",
+    "text": "コードチャンクの設定\n\nそれぞれのコードチャンクの設定を変えることができる\n多くの場合、レポートでは解析結果を作ったコードを見せたくない\n\necho: false設定でコードを隠す\n\nコードチャンクの始まりに#|で始まる行に設定をYAMLで書く"
+  },
+  {
+    "objectID": "day7/index.html#コードチャンクの設定-1",
+    "href": "day7/index.html#コードチャンクの設定-1",
+    "title": "データサイエンス",
+    "section": "コードチャンクの設定",
+    "text": "コードチャンクの設定\n\n\n```{r}\n#| echo: false\nlibrary(tidyverse)\n\nsmaller &lt;- diamonds |&gt; \n  filter(carat &lt;= 2.5)\n```"
+  },
+  {
+    "objectID": "day7/index.html#他の設定など",
+    "href": "day7/index.html#他の設定など",
+    "title": "データサイエンス",
+    "section": "他の設定など",
+    "text": "他の設定など\n\nR4DS 「Quarto」\nhttps://quarto.org/"
+  },
+  {
+    "objectID": "day7/index.html#レポート",
+    "href": "day7/index.html#レポート",
+    "title": "データサイエンス",
+    "section": "レポート",
+    "text": "レポート\n\nTidy Tuesdayプロジェクトが提供しているデータセットを使って、二つ以上のグラフを作成し、そのグラフから読み取るメッセージを説明してください\nQuartoとRを使って書いて、HTMLとして出力\n次回（５月２８日）までに提出して、授業中に発表する"
+  },
+  {
+    "objectID": "day7/index.html#解析結果をwordにコピペする",
+    "href": "day7/index.html#解析結果をwordにコピペする",
+    "title": "データサイエンス",
+    "section": "解析結果をWordにコピペする",
+    "text": "解析結果をWordにコピペする\n\n利点：\n\n手軽である（一度だけの場合）\n\n欠点：\n\n文章に記載された結果がデータに基づいている保証がない\n解析を再び行った場合、どの部分を再度コピペすべきか不明確になる"
+  },
+  {
+    "objectID": "day7/index.html#データの読み込み",
+    "href": "day7/index.html#データの読み込み",
+    "title": "データサイエンス",
+    "section": "データの読み込み",
+    "text": "データの読み込み\n\nlibrary(tidytuesdayR)\ntuesdata &lt;- tt_load(2022, week = 10)\n\n\n    Downloading file 1 of 1: `erasmus.csv`\n\nerasmus &lt;- tuesdata$erasmus"
+  },
+  {
+    "objectID": "day7/index.html#レポートのデータの読み込み",
+    "href": "day7/index.html#レポートのデータの読み込み",
+    "title": "データサイエンス",
+    "section": "レポートのデータの読み込み",
+    "text": "レポートのデータの読み込み\n\nlibrary(tidytuesdayR)\ntuesdata &lt;- tt_load(2022, week = 10)\nerasmus &lt;- tuesdata$erasmus\n\nデータの詳細については、こちらを見てください"
+  },
+  {
+    "objectID": "day7/diamond-sizes.html",
+    "href": "day7/diamond-sizes.html",
+    "title": "Diamond sizes",
+    "section": "",
+    "text": "We have data about 53940 diamonds. Only 126 are larger than 2.5 carats. The distribution of the remainder is shown below:"
+  },
+  {
+    "objectID": "day7/diamond-sizes-small.html",
+    "href": "day7/diamond-sizes-small.html",
+    "title": "データサイエンス",
+    "section": "",
+    "text": "Let’s make a smaller dataset:"
+  },
+  {
+    "objectID": "day7/diamond-sizes-hide.html",
+    "href": "day7/diamond-sizes-hide.html",
+    "title": "データサイエンス",
+    "section": "",
+    "text": "── Attaching core tidyverse packages ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.1     ✔ tibble    3.2.1\n✔ lubridate 1.9.3     ✔ tidyr     1.3.1\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors"
   }
 ]

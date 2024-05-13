@@ -1,0 +1,11 @@
+Let's make a smaller dataset:
+
+```{r}
+#| label: setup
+#| include: false
+
+library(tidyverse)
+
+smaller <- diamonds |> 
+  filter(carat <= 2.5)
+```

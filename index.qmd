@@ -49,6 +49,7 @@ toc: false
   - リーディング
     - [R4DS Chapter 1 (Data Visualization)](https://r4ds.hadley.nz/data-visualize)
 - 第７回（2024-05-14）: **再現可能な文書の書き方**
+  - [スライド](day7/index.qmd)
   - リーディング
     - [R4DS Chapter 28 (Quarto)](https://r4ds.hadley.nz/quarto)
 - 第８回（2024-05-28）: **レポートの発表**
