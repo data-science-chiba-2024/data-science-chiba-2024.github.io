@@ -1,0 +1,563 @@
+---
+format:
+  revealjs:
+    incremental: false
+    css: ../styles.css
+execute: 
+  echo: true
+---
+
+# 第６回：データの可視化
+
+```{r}
+#| echo: false
+#| message: false
+options(width = 70)
+library(tidyverse)
+```
+
+2024-05-14
+
+<https://data-science-chiba-2024.github.io/day6/>
+
+## データの可視化について
+
+- EDA（**E**ploratory **D**ata **A**nalysis）の際、データの**可視化**が重要なツールになる
+
+---
+
+![Image by Allison Horst](../images/ggplot2_exploratory.png)
+
+## ggplot2について
+
+- Rには備え付けの関数、`plot()`があるが、今回は`tidyverse`の`ggplot2`パッケージを使う
+
+- `gg` = "**G**rammar of **G**raphics"（画像の文法）
+  - 「文法」が分かれば、（ほとんど）<br>どんな図でも作れる
+
+## ggplot2について
+
+図の構造にはいくつか**決まった要素**がある
+
+- **geometry**: 図はどのような**形**にする？
+
+- **aesthetics**: データをどのように図に**表す**？
+
+## Geometry
+
+:::: {.columns}
+
+::: {.column width="50%"}
+Pie chart
+<br><br>
+<img src="https://clauswilke.com/dataviz/proportional_ink_files/figure-html/RI-pop-pie-1.png" alt="drawing" height="220">
+:::
+
+::: {.column width="50%"}
+Bar graph
+<br><br>
+<img src="https://clauswilke.com/dataviz/proportional_ink_files/figure-html/RI-pop-bars-1.png" alt="drawing" height="220">
+:::
+
+::::
+
+:::: {.aside}
+::: {.small}
+https://clauswilke.com/dataviz/proportional-ink.html
+:::
+::::
+
+## Aesthetics
+
+<img src="https://clauswilke.com/dataviz/aesthetic_mapping_files/figure-html/common-aesthetics-1.png" alt="drawing" height="250">
+
+:::: {.aside}
+::: {.small}
+https://clauswilke.com/dataviz/aesthetic-mapping.html
+:::
+::::
+
+## palmerpenguinsについて
+
+```{r}
+#| eval: false
+install.packages("palmerpenguins") # ペンギンのデータ
+install.packages("ggthemes") # グラフの色の設定に使う
+```
+
+- `palmerpenguins`パッケージに入っている
+
+- 三種類のペンギンのデータ（体重、くちばしや翼の大きさなど）を含む
+
+---
+
+![](https://allisonhorst.github.io/palmerpenguins/reference/figures/lter_penguins.png)
+
+## palmerpenguinsについて
+
+```{r}
+library(palmerpenguins)
+library(ggthemes)
+library(tidyverse)
+penguins
+```
+
+## palmerpenguinsについて
+
+```{r}
+glimpse(penguins)
+```
+
+## palmerpenguinsについて
+
+![](https://allisonhorst.github.io/palmerpenguins/reference/figures/culmen_depth.png)
+
+## 目的：このグラフを作る
+
+![](https://r4ds.hadley.nz/data-visualize_files/figure-html/unnamed-chunk-7-1.png)
+
+## `ggplot()`でグラフの基盤を作る
+
+```{r}
+#| output-location: column
+ggplot(data = penguins)
+```
+
+## `mapping()`で座標を指定する
+
+```{r}
+#| output-location: column
+ggplot(
+  data = penguins,
+  mapping = aes(
+    x = flipper_length_mm,
+    y = body_mass_g
+  )
+)
+```
+
+## `mapping()`で座標を指定する
+
+```{r}
+#| output-location: column
+#| code-line-numbers: "3-6"
+ggplot(
+  data = penguins,
+  mapping = aes(
+    x = flipper_length_mm,
+    y = body_mass_g
+  )
+)
+```
+
+## `geom_()`でデータの形を指定する
+
+```{r}
+#| output-location: column
+ggplot(
+  data = penguins,
+  mapping = aes(
+    x = flipper_length_mm,
+    y = body_mass_g
+  )
+) +
+  geom_point()
+```
+
+## `geom_()`でデータの形を指定する
+
+```{r}
+#| output-location: column
+#| code-line-numbers: "7-8"
+ggplot(
+  data = penguins,
+  mapping = aes(
+    x = flipper_length_mm,
+    y = body_mass_g
+  )
+) +
+  geom_point()
+```
+
+## チャレンジ
+
+`bill_length_mm`を横軸、`bill_depth_mm`を縦軸にして、点グラフを作成して下さい
+
+## `color`で色を潰す
+
+```{r}
+#| output-location: column
+ggplot(
+  data = penguins,
+  mapping = aes(
+    x = flipper_length_mm,
+    y = body_mass_g,
+    color = species
+  )
+) +
+  geom_point()
+```
+
+## `color`で色を潰す
+
+```{r}
+#| output-location: column
+#| code-line-numbers: "6"
+ggplot(
+  data = penguins,
+  mapping = aes(
+    x = flipper_length_mm,
+    y = body_mass_g,
+    color = species
+  )
+) +
+  geom_point()
+```
+
+## `geom_smooth()`回帰直線を付け加える
+
+```{r}
+#| output-location: column
+ggplot(
+  data = penguins,
+  mapping = aes(
+    x = flipper_length_mm,
+    y = body_mass_g,
+    color = species
+  )
+) +
+  geom_point() +
+  geom_smooth(method = "lm")
+```
+
+## `geom_smooth()`回帰直線を付け加える
+
+```{r}
+#| output-location: column
+#| code-line-numbers: "9-10"
+ggplot(
+  data = penguins,
+  mapping = aes(
+    x = flipper_length_mm,
+    y = body_mass_g,
+    color = species
+  )
+) +
+  geom_point() +
+  geom_smooth(method = "lm")
+```
+
+## 目的の図と何か違う・・
+
+::: {.columns}
+::: {.column}
+```{r}
+#| echo: false
+ggplot(
+  data = penguins,
+  mapping = aes(x = flipper_length_mm, y = body_mass_g)
+) +
+  geom_point(aes(color = species, shape = species)) +
+  geom_smooth(method = "lm") +
+  labs(
+    title = "Body mass and flipper length",
+    subtitle = "Dimensions for Adelie, Chinstrap, and Gentoo Penguins",
+    x = "Flipper length (mm)", y = "Body mass (g)",
+    color = "Species", shape = "Species"
+  ) +
+  scale_color_colorblind()
+```
+:::
+
+::: {.column}
+```{r}
+#| echo: false
+ggplot(
+  data = penguins,
+  mapping = aes(
+    x = flipper_length_mm,
+    y = body_mass_g,
+    color = species
+  )
+) +
+  geom_point() +
+  geom_smooth(method = "lm")
+```
+:::
+:::
+
+## `aes`設定は`geom_()`の中でもできる
+
+::: {.columns}
+::: {.column}
+- `ggplot()`で指定すると、全てのレーヤーに使用される
+```{r}
+#| eval: false
+ggplot(
+  data = penguins,
+  mapping = aes(
+    x = flipper_length_mm,
+    y = body_mass_g,
+    color = species
+  )
+) +
+  geom_point()
+```
+:::
+::: {.column}
+- `geom_()`で指定すると、そのレーヤーだけで使用される
+
+```{r}
+#| eval: false
+ggplot(
+  data = penguins
+) +
+  geom_point(
+    mapping = aes(
+      x = flipper_length_mm,
+      y = body_mass_g,
+      color = species
+  )
+)
+```
+:::
+:::
+
+## `geom_smooth()`と`geom_point()`で指定したい要素を考えよう
+
+::: {.columns}
+::: {.column}
+```{r}
+#| echo: false
+ggplot(
+  data = penguins,
+  mapping = aes(x = flipper_length_mm, y = body_mass_g)
+) +
+  geom_point(aes(color = species, shape = species)) +
+  geom_smooth(method = "lm") +
+  labs(
+    title = "Body mass and flipper length",
+    subtitle = "Dimensions for Adelie, Chinstrap, and Gentoo Penguins",
+    x = "Flipper length (mm)", y = "Body mass (g)",
+    color = "Species", shape = "Species"
+  ) +
+  scale_color_colorblind()
+```
+:::
+
+::: {.column}
+```{r}
+#| echo: false
+ggplot(
+  data = penguins,
+  mapping = aes(
+    x = flipper_length_mm,
+    y = body_mass_g,
+    color = species
+  )
+) +
+  geom_point() +
+  geom_smooth(method = "lm")
+```
+:::
+:::
+
+## `color`を`geom_point()`だけ指定しよう
+
+```{r}
+#| output-location: column
+ggplot(
+  data = penguins,
+  mapping = aes(
+    x = flipper_length_mm,
+    y = body_mass_g
+  )
+) +
+  geom_point(
+    mapping = aes(
+      color = species
+    )
+) +
+  geom_smooth(method = "lm")
+```
+
+## チャレンジ：`shape`で点の形を変える
+
+`aes`の中で`shape`を使うことによって、それぞれの種を点の形で表しましょう
+
+---
+
+```{r}
+#| output-location: column
+ggplot(
+  data = penguins,
+  mapping = aes(
+    x = flipper_length_mm,
+    y = body_mass_g
+  )
+) +
+  geom_point(
+    mapping = aes(
+      color = species,
+      shape = species
+    )
+) +
+  geom_smooth(method = "lm")
+```
+
+---
+
+```{r}
+#| output-location: column
+#| code-line-numbers: "11"
+ggplot(
+  data = penguins,
+  mapping = aes(
+    x = flipper_length_mm,
+    y = body_mass_g
+  )
+) +
+  geom_point(
+    mapping = aes(
+      color = species,
+      shape = species
+    )
+) +
+  geom_smooth(method = "lm")
+```
+
+## `labs()`でラベルをきれいにする
+
+```{r}
+#| output-location: column
+ggplot(
+  data = penguins,
+  mapping = aes(x = flipper_length_mm, y = body_mass_g)
+) +
+  geom_point(mapping = aes(color = species, shape = species)) +
+  geom_smooth(method = "lm") +
+  labs(
+    title = "Body mass and flipper length",
+    subtitle = "Dimensions for Adelie, Chinstrap, and Gentoo Penguins",
+    x = "Flipper length (mm)", y = "Body mass (g)",
+    color = "Species", shape = "Species"
+  )
+```
+
+## `labs()`でラベルを整える
+
+```{r}
+#| output-location: column
+#| code-line-numbers: "7-12"
+ggplot(
+  data = penguins,
+  mapping = aes(x = flipper_length_mm, y = body_mass_g)
+) +
+  geom_point(mapping = aes(color = species, shape = species)) +
+  geom_smooth(method = "lm") +
+  labs(
+    title = "Body mass and flipper length",
+    subtitle = "Dimensions for Adelie, Chinstrap, and Gentoo Penguins",
+    x = "Flipper length (mm)", y = "Body mass (g)",
+    color = "Species", shape = "Species"
+  )
+```
+
+## `scale_color`で色を変える
+
+```{r}
+#| output-location: column
+ggplot(
+  data = penguins,
+  mapping = aes(x = flipper_length_mm, y = body_mass_g)
+) +
+  geom_point(mapping = aes(color = species, shape = species)) +
+  geom_smooth(method = "lm") +
+  labs(
+    title = "Body mass and flipper length",
+    subtitle = "Dimensions for Adelie, Chinstrap, and Gentoo Penguins",
+    x = "Flipper length (mm)", y = "Body mass (g)",
+    color = "Species", shape = "Species"
+  ) +
+  scale_color_colorblind()
+```
+
+## `scale_color`で色を変える
+
+```{r}
+#| output-location: column
+#| code-line-numbers: "13"
+ggplot(
+  data = penguins,
+  mapping = aes(x = flipper_length_mm, y = body_mass_g)
+) +
+  geom_point(mapping = aes(color = species, shape = species)) +
+  geom_smooth(method = "lm") +
+  labs(
+    title = "Body mass and flipper length",
+    subtitle = "Dimensions for Adelie, Chinstrap, and Gentoo Penguins",
+    x = "Flipper length (mm)", y = "Body mass (g)",
+    color = "Species", shape = "Species"
+  ) +
+  scale_color_colorblind()
+```
+
+## よりもコンパクトな書き方
+
+`data = `と`mapping = `を書かなくて良い
+
+```{r}
+#| output-location: column
+ggplot(penguins,　aes(x = flipper_length_mm, y = body_mass_g)) +
+  geom_point(aes(color = species, shape = species)) +
+  geom_smooth(method = "lm") +
+  labs(
+    title = "Body mass and flipper length",
+    subtitle = "Dimensions for Adelie, Chinstrap, and Gentoo Penguins",
+    x = "Flipper length (mm)", y = "Body mass (g)",
+    color = "Species", shape = "Species"
+  ) +
+  scale_color_colorblind()
+```
+
+## `base_family`で文字化けを防ぐ
+
+```{r}
+#| output-location: column
+ggplot(penguins,　aes(x = flipper_length_mm, y = body_mass_g)) +
+  geom_point(aes(color = species, shape = species)) +
+  geom_smooth(method = "lm") +
+  labs(
+    title = "体重とフリッパーの長さ",
+    subtitle = "アデリー、チンストラップ、ジェンツーのペンギンのサイズ",
+    x = "フリッパーの長さ（mm）", y = "体重（g）",
+    color = "種", shape = "種"
+  ) +
+  scale_color_colorblind() + 
+  theme_gray(base_family = "HiraKakuPro-W3")
+```
+
+## `base_family`で文字化けを防ぐ
+
+```{r}
+#| output-location: column
+#| code-line-numbers: "11"
+ggplot(penguins,　aes(x = flipper_length_mm, y = body_mass_g)) +
+  geom_point(aes(color = species, shape = species)) +
+  geom_smooth(method = "lm") +
+  labs(
+    title = "体重とフリッパーの長さ",
+    subtitle = "アデリー、チンストラップ、ジェンツーのペンギンのサイズ",
+    x = "フリッパーの長さ（mm）", y = "体重（g）",
+    color = "種", shape = "種"
+  ) +
+  scale_color_colorblind() + 
+  theme_gray(base_family = "HiraKakuPro-W3")
+```
+
+## まとめ
+
+- どのデータやグラフでも、同じ「文法」で記述することができます。
+- aesthetic mapping（`mapping`と`aes`）、どのデータをグラフのどの要素で表示するかを設定する
+- geometry（`geom`）は、グラフの形状を設定する
+- グラフを作成するコマンドは、レイヤーを`+`で重ねていく

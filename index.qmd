@@ -45,6 +45,7 @@ toc: false
     - [R4DS Chapter 5 (Data Tidying)](https://r4ds.hadley.nz/data-tidy)
     - [R4DS Chapter 19 (Joins)](https://r4ds.hadley.nz/joins)
 - 第６回（2024-05-14）: **データの可視化**
+  - [スライド](day6/index.qmd)
   - リーディング
     - [R4DS Chapter 1 (Data Visualization)](https://r4ds.hadley.nz/data-visualize)
 - 第７回（2024-05-14）: **再現可能な文書の書き方**

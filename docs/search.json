@@ -1005,7 +1005,7 @@
     "href": "index.html#スケジュール",
     "title": "データサイエンス",
     "section": "スケジュール",
-    "text": "スケジュール\n毎週のリーディングを講義の前に読んでください。\n（全ての講義の録画はありません）\n\n第１回（2024-04-02）: 生成AIの基本、RとRStudioのインストール（オンデマンド）\n\nスライド\n録画\n\n第２回（2024-04-09）: ガイダンス、データサイエンスとR入門\n\nスライド\nリーディング\n\nR4DS Introduction\nR4DS Chapter 2 (Workflow: Basics)\n\n\n第３回（2024-04-16）: プロジェクトの整理とデータの読み込み\n\nスライド\nリーディング\n\nR4DS Chapter 6 (Workflow: Scripts and Projects)\nR4DS Chapter 7 (Data Import)\n\n\n第４回（2024-04-23）: データの整理（１）\n\nスライド\nリーディング\n\nR4DS Chapter 3 (Data Transformation)\n\n\n第５回（2024-05-07）: データの整理（２）\n\nスライド\nリーディング\n\nR4DS Chapter 5 (Data Tidying)\nR4DS Chapter 19 (Joins)\n\n\n第６回（2024-05-14）: データの可視化\n\nリーディング\n\nR4DS Chapter 1 (Data Visualization)\n\n\n第７回（2024-05-14）: 再現可能な文書の書き方\n\nリーディング\n\nR4DS Chapter 28 (Quarto)\n\n\n第８回（2024-05-28）: レポートの発表"
+    "text": "スケジュール\n毎週のリーディングを講義の前に読んでください。\n（全ての講義の録画はありません）\n\n第１回（2024-04-02）: 生成AIの基本、RとRStudioのインストール（オンデマンド）\n\nスライド\n録画\n\n第２回（2024-04-09）: ガイダンス、データサイエンスとR入門\n\nスライド\nリーディング\n\nR4DS Introduction\nR4DS Chapter 2 (Workflow: Basics)\n\n\n第３回（2024-04-16）: プロジェクトの整理とデータの読み込み\n\nスライド\nリーディング\n\nR4DS Chapter 6 (Workflow: Scripts and Projects)\nR4DS Chapter 7 (Data Import)\n\n\n第４回（2024-04-23）: データの整理（１）\n\nスライド\nリーディング\n\nR4DS Chapter 3 (Data Transformation)\n\n\n第５回（2024-05-07）: データの整理（２）\n\nスライド\nリーディング\n\nR4DS Chapter 5 (Data Tidying)\nR4DS Chapter 19 (Joins)\n\n\n第６回（2024-05-14）: データの可視化\n\nスライド\nリーディング\n\nR4DS Chapter 1 (Data Visualization)\n\n\n第７回（2024-05-21）: 再現可能な文書の書き方\n\nリーディング\n\nR4DS Chapter 28 (Quarto)\n\n\n第８回（2024-05-28）: レポートの発表"
   },
   {
     "objectID": "index.html#オフィスアワー",
@@ -1020,5 +1020,313 @@
     "title": "データサイエンス",
     "section": "リンク",
     "text": "リンク\n\nシラバス"
+  },
+  {
+    "objectID": "day6/index.html#データの可視化について",
+    "href": "day6/index.html#データの可視化について",
+    "title": "データサイエンス",
+    "section": "データの可視化について",
+    "text": "データの可視化について\n\nEDA（Eploratory Data Analysis）の際、データの可視化が重要なツールになる"
+  },
+  {
+    "objectID": "day6/index.html#ggplot2について",
+    "href": "day6/index.html#ggplot2について",
+    "title": "データサイエンス",
+    "section": "ggplot2について",
+    "text": "ggplot2について\n\nRには備え付けの関数、plot()があるが、今回はtidyverseのggplot2パッケージを使う\ngg = “Grammar of Graphics”（画像の文法）\n\n「文法」が分かれば、（ほとんど）どんな図でも作れる"
+  },
+  {
+    "objectID": "day6/index.html#ggplot2について-1",
+    "href": "day6/index.html#ggplot2について-1",
+    "title": "データサイエンス",
+    "section": "ggplot2について",
+    "text": "ggplot2について\n図の構造にはいくつか決まった要素がある\n\ngeometry: 図はどのような形にする？\naesthetics: データをどのように図に表す？"
+  },
+  {
+    "objectID": "day6/index.html#geometry",
+    "href": "day6/index.html#geometry",
+    "title": "データサイエンス",
+    "section": "Geometry",
+    "text": "Geometry\n\n\nPie chart  \n\nBar graph  \n\n\n\n\n\nhttps://clauswilke.com/dataviz/proportional-ink.html"
+  },
+  {
+    "objectID": "day6/index.html#aesthetics",
+    "href": "day6/index.html#aesthetics",
+    "title": "データサイエンス",
+    "section": "Aesthetics",
+    "text": "Aesthetics\n\n\n\n\nhttps://clauswilke.com/dataviz/aesthetic-mapping.html"
+  },
+  {
+    "objectID": "day6/index.html#ggplot2の基本的な使い方",
+    "href": "day6/index.html#ggplot2の基本的な使い方",
+    "title": "データサイエンス",
+    "section": "ggplot2の基本的な使い方",
+    "text": "ggplot2の基本的な使い方"
+  },
+  {
+    "objectID": "day6/index.html#ggplot2の基本的な使い方-1",
+    "href": "day6/index.html#ggplot2の基本的な使い方-1",
+    "title": "データサイエンス",
+    "section": "ggplot2の基本的な使い方",
+    "text": "ggplot2の基本的な使い方"
+  },
+  {
+    "objectID": "day6/index.html#チャレンジ",
+    "href": "day6/index.html#チャレンジ",
+    "title": "データサイエンス",
+    "section": "チャレンジ",
+    "text": "チャレンジ\nbill_length_mmを横軸、bill_depth_mmを縦軸にして、点グラフを作成して下さい"
+  },
+  {
+    "objectID": "day6/index.html#palmerpenguinsについて",
+    "href": "day6/index.html#palmerpenguinsについて",
+    "title": "データサイエンス",
+    "section": "palmerpenguinsについて",
+    "text": "palmerpenguinsについて\n\ninstall.packages(\"palmerpenguins\") # ペンギンのデータ\ninstall.packages(\"ggthemes\") # グラフの色の設定に使う\n\n\npalmerpenguinsパッケージに入っている\n三種類のペンギンのデータ（体重、くちばしや翼の大きさなど）を含む"
+  },
+  {
+    "objectID": "day6/index.html#palmerpenguinsについて-1",
+    "href": "day6/index.html#palmerpenguinsについて-1",
+    "title": "データサイエンス",
+    "section": "palmerpenguinsについて",
+    "text": "palmerpenguinsについて\n\nlibrary(palmerpenguins)\nlibrary(ggthemes)\nlibrary(tidyverse)\npenguins\n\n# A tibble: 344 × 8\n   species island    bill_length_mm bill_depth_mm flipper_length_mm\n   &lt;fct&gt;   &lt;fct&gt;              &lt;dbl&gt;         &lt;dbl&gt;             &lt;int&gt;\n 1 Adelie  Torgersen           39.1          18.7               181\n 2 Adelie  Torgersen           39.5          17.4               186\n 3 Adelie  Torgersen           40.3          18                 195\n 4 Adelie  Torgersen           NA            NA                  NA\n 5 Adelie  Torgersen           36.7          19.3               193\n 6 Adelie  Torgersen           39.3          20.6               190\n 7 Adelie  Torgersen           38.9          17.8               181\n 8 Adelie  Torgersen           39.2          19.6               195\n 9 Adelie  Torgersen           34.1          18.1               193\n10 Adelie  Torgersen           42            20.2               190\n# ℹ 334 more rows\n# ℹ 3 more variables: body_mass_g &lt;int&gt;, sex &lt;fct&gt;, year &lt;int&gt;"
+  },
+  {
+    "objectID": "day6/index.html#palmerpenguinsについて-2",
+    "href": "day6/index.html#palmerpenguinsについて-2",
+    "title": "データサイエンス",
+    "section": "palmerpenguinsについて",
+    "text": "palmerpenguinsについて\n\nglimpse(penguins)\n\nRows: 344\nColumns: 8\n$ species           &lt;fct&gt; Adelie, Adelie, Adelie, Adelie, Adelie, Ad…\n$ island            &lt;fct&gt; Torgersen, Torgersen, Torgersen, Torgersen…\n$ bill_length_mm    &lt;dbl&gt; 39.1, 39.5, 40.3, NA, 36.7, 39.3, 38.9, 39…\n$ bill_depth_mm     &lt;dbl&gt; 18.7, 17.4, 18.0, NA, 19.3, 20.6, 17.8, 19…\n$ flipper_length_mm &lt;int&gt; 181, 186, 195, NA, 193, 190, 181, 195, 193…\n$ body_mass_g       &lt;int&gt; 3750, 3800, 3250, NA, 3450, 3650, 3625, 46…\n$ sex               &lt;fct&gt; male, female, female, NA, female, male, fe…\n$ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, …"
+  },
+  {
+    "objectID": "day6/index.html#palmerpenguinsについて-3",
+    "href": "day6/index.html#palmerpenguinsについて-3",
+    "title": "データサイエンス",
+    "section": "palmerpenguinsについて",
+    "text": "palmerpenguinsについて"
+  },
+  {
+    "objectID": "day6/index.html#目的このグラフを作る",
+    "href": "day6/index.html#目的このグラフを作る",
+    "title": "データサイエンス",
+    "section": "目的：このグラフを作る",
+    "text": "目的：このグラフを作る"
+  },
+  {
+    "objectID": "day6/index.html#色を付け加える",
+    "href": "day6/index.html#色を付け加える",
+    "title": "データサイエンス",
+    "section": "色を付け加える",
+    "text": "色を付け加える\n\n\nggplot(\n  data = penguins,\n  mapping = aes(\n    x = flipper_length_mm,\n    y = body_mass_g,\n    color = species)\n) +\n  geom_point()"
+  },
+  {
+    "objectID": "day6/index.html#色を付け加える-1",
+    "href": "day6/index.html#色を付け加える-1",
+    "title": "データサイエンス",
+    "section": "色を付け加える",
+    "text": "色を付け加える\n\n\nggplot(\n  data = penguins,\n  mapping = aes(\n    x = flipper_length_mm,\n    y = body_mass_g,\n    color = species)\n) +\n  geom_point()"
+  },
+  {
+    "objectID": "day6/index.html#ggplotでグラフの基本土台を作る",
+    "href": "day6/index.html#ggplotでグラフの基本土台を作る",
+    "title": "データサイエンス",
+    "section": "ggplot()でグラフの基本（土台）を作る",
+    "text": "ggplot()でグラフの基本（土台）を作る\n\n\nggplot(data = penguins)"
+  },
+  {
+    "objectID": "day6/index.html#色を潰す",
+    "href": "day6/index.html#色を潰す",
+    "title": "データサイエンス",
+    "section": "色を潰す",
+    "text": "色を潰す\n\n\nggplot(\n  data = penguins,\n  mapping = aes(\n    x = flipper_length_mm,\n    y = body_mass_g,\n    color = species\n  )\n) +\n  geom_point()"
+  },
+  {
+    "objectID": "day6/index.html#色を潰す-1",
+    "href": "day6/index.html#色を潰す-1",
+    "title": "データサイエンス",
+    "section": "色を潰す",
+    "text": "色を潰す\n\n\nggplot(\n  data = penguins,\n  mapping = aes(\n    x = flipper_length_mm,\n    y = body_mass_g,\n    color = species\n  )\n) +\n  geom_point()"
+  },
+  {
+    "objectID": "day6/index.html#回帰直線を付け加える",
+    "href": "day6/index.html#回帰直線を付け加える",
+    "title": "データサイエンス",
+    "section": "回帰直線を付け加える",
+    "text": "回帰直線を付け加える\n\n\nggplot(\n  data = penguins,\n  mapping = aes(\n    x = flipper_length_mm,\n    y = body_mass_g,\n    color = species\n  )\n) +\n  geom_point() +\n  geom_smooth(method = \"lm\")"
+  },
+  {
+    "objectID": "day6/index.html#回帰直線を付け加える-1",
+    "href": "day6/index.html#回帰直線を付け加える-1",
+    "title": "データサイエンス",
+    "section": "回帰直線を付け加える",
+    "text": "回帰直線を付け加える\n\n\nggplot(\n  data = penguins,\n  mapping = aes(\n    x = flipper_length_mm,\n    y = body_mass_g,\n    color = species\n  )\n) +\n  geom_point() +\n  geom_smooth(method = \"lm\")"
+  },
+  {
+    "objectID": "day6/index.html#ggplotでグラフの基盤を作る",
+    "href": "day6/index.html#ggplotでグラフの基盤を作る",
+    "title": "データサイエンス",
+    "section": "ggplot()でグラフの基盤を作る",
+    "text": "ggplot()でグラフの基盤を作る\n\n\nggplot(data = penguins)"
+  },
+  {
+    "objectID": "day6/index.html#mappingで座標を指定する",
+    "href": "day6/index.html#mappingで座標を指定する",
+    "title": "データサイエンス",
+    "section": "mapping()で座標を指定する",
+    "text": "mapping()で座標を指定する\n\n\nggplot(\n  data = penguins,\n  mapping = aes(\n    x = flipper_length_mm,\n    y = body_mass_g\n  )\n)"
+  },
+  {
+    "objectID": "day6/index.html#mappingで座標を指定する-1",
+    "href": "day6/index.html#mappingで座標を指定する-1",
+    "title": "データサイエンス",
+    "section": "mapping()で座標を指定する",
+    "text": "mapping()で座標を指定する\n\n\nggplot(\n  data = penguins,\n  mapping = aes(\n    x = flipper_length_mm,\n    y = body_mass_g\n  )\n)"
+  },
+  {
+    "objectID": "day6/index.html#geom_でデータの形を指定する",
+    "href": "day6/index.html#geom_でデータの形を指定する",
+    "title": "データサイエンス",
+    "section": "geom_()でデータの形を指定する",
+    "text": "geom_()でデータの形を指定する\n\n\nggplot(\n  data = penguins,\n  mapping = aes(\n    x = flipper_length_mm,\n    y = body_mass_g\n  )\n) +\n  geom_point()"
+  },
+  {
+    "objectID": "day6/index.html#geom_でデータの形を指定する-1",
+    "href": "day6/index.html#geom_でデータの形を指定する-1",
+    "title": "データサイエンス",
+    "section": "geom_()でデータの形を指定する",
+    "text": "geom_()でデータの形を指定する\n\n\nggplot(\n  data = penguins,\n  mapping = aes(\n    x = flipper_length_mm,\n    y = body_mass_g\n  )\n) +\n  geom_point()"
+  },
+  {
+    "objectID": "day6/index.html#colorで色を潰す",
+    "href": "day6/index.html#colorで色を潰す",
+    "title": "データサイエンス",
+    "section": "colorで色を潰す",
+    "text": "colorで色を潰す\n\n\nggplot(\n  data = penguins,\n  mapping = aes(\n    x = flipper_length_mm,\n    y = body_mass_g,\n    color = species\n  )\n) +\n  geom_point()"
+  },
+  {
+    "objectID": "day6/index.html#colorで色を潰す-1",
+    "href": "day6/index.html#colorで色を潰す-1",
+    "title": "データサイエンス",
+    "section": "colorで色を潰す",
+    "text": "colorで色を潰す\n\n\nggplot(\n  data = penguins,\n  mapping = aes(\n    x = flipper_length_mm,\n    y = body_mass_g,\n    color = species\n  )\n) +\n  geom_point()"
+  },
+  {
+    "objectID": "day6/index.html#geom_smooth回帰直線を付け加える",
+    "href": "day6/index.html#geom_smooth回帰直線を付け加える",
+    "title": "データサイエンス",
+    "section": "geom_smooth()回帰直線を付け加える",
+    "text": "geom_smooth()回帰直線を付け加える\n\n\nggplot(\n  data = penguins,\n  mapping = aes(\n    x = flipper_length_mm,\n    y = body_mass_g,\n    color = species\n  )\n) +\n  geom_point() +\n  geom_smooth(method = \"lm\")"
+  },
+  {
+    "objectID": "day6/index.html#geom_smooth回帰直線を付け加える-1",
+    "href": "day6/index.html#geom_smooth回帰直線を付け加える-1",
+    "title": "データサイエンス",
+    "section": "geom_smooth()回帰直線を付け加える",
+    "text": "geom_smooth()回帰直線を付け加える\n\n\nggplot(\n  data = penguins,\n  mapping = aes(\n    x = flipper_length_mm,\n    y = body_mass_g,\n    color = species\n  )\n) +\n  geom_point() +\n  geom_smooth(method = \"lm\")"
+  },
+  {
+    "objectID": "day6/index.html#目的の図と何か違う",
+    "href": "day6/index.html#目的の図と何か違う",
+    "title": "データサイエンス",
+    "section": "目的の図と何か違う・・",
+    "text": "目的の図と何か違う・・"
+  },
+  {
+    "objectID": "day6/index.html#aes設定はgeom_の中でもできる",
+    "href": "day6/index.html#aes設定はgeom_の中でもできる",
+    "title": "データサイエンス",
+    "section": "aes設定はgeom_()の中でもできる",
+    "text": "aes設定はgeom_()の中でもできる\n\n\n\nggplot()で指定すると、全てのレーヤーに使用される\n\n\nggplot(\n  data = penguins,\n  mapping = aes(\n    x = flipper_length_mm,\n    y = body_mass_g,\n    color = species\n  )\n) +\n  geom_point()\n\n\n\ngeom_()で指定すると、そのレーヤーだけで使用される\n\n\nggplot(\n  data = penguins\n) +\n  geom_point(\n    mapping = aes(\n      x = flipper_length_mm,\n      y = body_mass_g,\n      color = species\n  )\n)"
+  },
+  {
+    "objectID": "day6/index.html#geom_smoothとgeom_pointで指定したい要素を考えよう",
+    "href": "day6/index.html#geom_smoothとgeom_pointで指定したい要素を考えよう",
+    "title": "データサイエンス",
+    "section": "geom_smooth()とgeom_point()で指定したい要素を考えよう",
+    "text": "geom_smooth()とgeom_point()で指定したい要素を考えよう"
+  },
+  {
+    "objectID": "day6/index.html#colorをgeom_pointだけ指定しよう",
+    "href": "day6/index.html#colorをgeom_pointだけ指定しよう",
+    "title": "データサイエンス",
+    "section": "colorをgeom_point()だけ指定しよう",
+    "text": "colorをgeom_point()だけ指定しよう\n\n\nggplot(\n  data = penguins,\n  mapping = aes(\n    x = flipper_length_mm,\n    y = body_mass_g\n  )\n) +\n  geom_point(\n    mapping = aes(\n      color = species\n    )\n) +\n  geom_smooth(method = \"lm\")"
+  },
+  {
+    "objectID": "day6/index.html#チャレンジshapeで点の形を変える",
+    "href": "day6/index.html#チャレンジshapeで点の形を変える",
+    "title": "データサイエンス",
+    "section": "チャレンジ：shapeで点の形を変える",
+    "text": "チャレンジ：shapeで点の形を変える\naesの中でshapeを使うことによって、それぞれの種を点の形で表しましょう"
+  },
+  {
+    "objectID": "day6/index.html#labsでラベルをきれいにする",
+    "href": "day6/index.html#labsでラベルをきれいにする",
+    "title": "データサイエンス",
+    "section": "labs()でラベルをきれいにする",
+    "text": "labs()でラベルをきれいにする\n\n\nggplot(\n  data = penguins,\n  mapping = aes(x = flipper_length_mm, y = body_mass_g)\n) +\n  geom_point(mapping = aes(color = species, shape = species)) +\n  geom_smooth(method = \"lm\") +\n  labs(\n    title = \"Body mass and flipper length\",\n    subtitle = \"Dimensions for Adelie, Chinstrap, and Gentoo Penguins\",\n    x = \"Flipper length (mm)\", y = \"Body mass (g)\",\n    color = \"Species\", shape = \"Species\"\n  )"
+  },
+  {
+    "objectID": "day6/index.html#labsでラベルをきれいにする-1",
+    "href": "day6/index.html#labsでラベルをきれいにする-1",
+    "title": "データサイエンス",
+    "section": "labs()でラベルをきれいにする",
+    "text": "labs()でラベルをきれいにする\n\n\nggplot(\n  data = penguins,\n  mapping = aes(x = flipper_length_mm, y = body_mass_g)\n) +\n  geom_point(mapping = aes(color = species, shape = species)) +\n  geom_smooth(method = \"lm\") +\n  labs(\n    title = \"Body mass and flipper length\",\n    subtitle = \"Dimensions for Adelie, Chinstrap, and Gentoo Penguins\",\n    x = \"Flipper length (mm)\", y = \"Body mass (g)\",\n    color = \"Species\", shape = \"Species\"\n  )"
+  },
+  {
+    "objectID": "day6/index.html#scale_colorで色を変える",
+    "href": "day6/index.html#scale_colorで色を変える",
+    "title": "データサイエンス",
+    "section": "scale_colorで色を変える",
+    "text": "scale_colorで色を変える\n\n\nggplot(\n  data = penguins,\n  mapping = aes(x = flipper_length_mm, y = body_mass_g)\n) +\n  geom_point(mapping = aes(color = species, shape = species)) +\n  geom_smooth(method = \"lm\") +\n  labs(\n    title = \"Body mass and flipper length\",\n    subtitle = \"Dimensions for Adelie, Chinstrap, and Gentoo Penguins\",\n    x = \"Flipper length (mm)\", y = \"Body mass (g)\",\n    color = \"Species\", shape = \"Species\"\n  ) +\n  scale_color_colorblind()"
+  },
+  {
+    "objectID": "day6/index.html#scale_colorで色を変える-1",
+    "href": "day6/index.html#scale_colorで色を変える-1",
+    "title": "データサイエンス",
+    "section": "scale_colorで色を変える",
+    "text": "scale_colorで色を変える\n\n\nggplot(\n  data = penguins,\n  mapping = aes(x = flipper_length_mm, y = body_mass_g)\n) +\n  geom_point(mapping = aes(color = species, shape = species)) +\n  geom_smooth(method = \"lm\") +\n  labs(\n    title = \"Body mass and flipper length\",\n    subtitle = \"Dimensions for Adelie, Chinstrap, and Gentoo Penguins\",\n    x = \"Flipper length (mm)\", y = \"Body mass (g)\",\n    color = \"Species\", shape = \"Species\"\n  ) +\n  scale_color_colorblind()"
+  },
+  {
+    "objectID": "day6/index.html#labsでラベルを整える",
+    "href": "day6/index.html#labsでラベルを整える",
+    "title": "データサイエンス",
+    "section": "labs()でラベルを整える",
+    "text": "labs()でラベルを整える\n\n\nggplot(\n  data = penguins,\n  mapping = aes(x = flipper_length_mm, y = body_mass_g)\n) +\n  geom_point(mapping = aes(color = species, shape = species)) +\n  geom_smooth(method = \"lm\") +\n  labs(\n    title = \"Body mass and flipper length\",\n    subtitle = \"Dimensions for Adelie, Chinstrap, and Gentoo Penguins\",\n    x = \"Flipper length (mm)\", y = \"Body mass (g)\",\n    color = \"Species\", shape = \"Species\"\n  )"
+  },
+  {
+    "objectID": "day6/index.html#よりもコンパクトな書き方",
+    "href": "day6/index.html#よりもコンパクトな書き方",
+    "title": "データサイエンス",
+    "section": "よりもコンパクトな書き方",
+    "text": "よりもコンパクトな書き方\ndata =とmapping =を書かなくて良い\n\n\nggplot(penguins,　aes(x = flipper_length_mm, y = body_mass_g)) +\n  geom_point(aes(color = species, shape = species)) +\n  geom_smooth(method = \"lm\") +\n  labs(\n    title = \"Body mass and flipper length\",\n    subtitle = \"Dimensions for Adelie, Chinstrap, and Gentoo Penguins\",\n    x = \"Flipper length (mm)\", y = \"Body mass (g)\",\n    color = \"Species\", shape = \"Species\"\n  ) +\n  scale_color_colorblind()"
+  },
+  {
+    "objectID": "day6/index.html#まとめ",
+    "href": "day6/index.html#まとめ",
+    "title": "データサイエンス",
+    "section": "まとめ",
+    "text": "まとめ\n\nどのデータやグラフでも、同じ「文法」で記述することができます。\naesthetic mapping（mappingとaes）、どのデータをグラフのどの要素で表示するかを設定する\ngeometry（geom）は、グラフの形状を設定する\nグラフを作成するコマンドは、レイヤーを+で重ねていく"
+  },
+  {
+    "objectID": "day6/index.html#文字化けを防ぐ方法",
+    "href": "day6/index.html#文字化けを防ぐ方法",
+    "title": "データサイエンス",
+    "section": "文字化けを防ぐ方法",
+    "text": "文字化けを防ぐ方法\n\n\nggplot(penguins,　aes(x = flipper_length_mm, y = body_mass_g)) +\n  geom_point(aes(color = species, shape = species)) +\n  geom_smooth(method = \"lm\") +\n  labs(\n    title = \"体重とフリッパーの長さ\",\n    subtitle = \"アデリー、チンストラップ、ジェンツーのペンギンのサイズ\",\n    x = \"フリッパーの長さ（mm）\", y = \"体重（g）\",\n    color = \"種\", shape = \"種\"\n  ) +\n  scale_color_colorblind() + \n  theme_gray(base_family = \"HiraKakuPro-W3\", base_size = 12)"
+  },
+  {
+    "objectID": "day6/index.html#base_familyで文字化けを防ぐ",
+    "href": "day6/index.html#base_familyで文字化けを防ぐ",
+    "title": "データサイエンス",
+    "section": "base_familyで文字化けを防ぐ",
+    "text": "base_familyで文字化けを防ぐ\n\n\nggplot(penguins,　aes(x = flipper_length_mm, y = body_mass_g)) +\n  geom_point(aes(color = species, shape = species)) +\n  geom_smooth(method = \"lm\") +\n  labs(\n    title = \"体重とフリッパーの長さ\",\n    subtitle = \"アデリー、チンストラップ、ジェンツーのペンギンのサイズ\",\n    x = \"フリッパーの長さ（mm）\", y = \"体重（g）\",\n    color = \"種\", shape = \"種\"\n  ) +\n  scale_color_colorblind() + \n  theme_gray(base_family = \"HiraKakuPro-W3\")"
+  },
+  {
+    "objectID": "day6/index.html#base_familyで文字化けを防ぐ-1",
+    "href": "day6/index.html#base_familyで文字化けを防ぐ-1",
+    "title": "データサイエンス",
+    "section": "base_familyで文字化けを防ぐ",
+    "text": "base_familyで文字化けを防ぐ\n\n\nggplot(penguins,　aes(x = flipper_length_mm, y = body_mass_g)) +\n  geom_point(aes(color = species, shape = species)) +\n  geom_smooth(method = \"lm\") +\n  labs(\n    title = \"体重とフリッパーの長さ\",\n    subtitle = \"アデリー、チンストラップ、ジェンツーのペンギンのサイズ\",\n    x = \"フリッパーの長さ（mm）\", y = \"体重（g）\",\n    color = \"種\", shape = \"種\"\n  ) +\n  scale_color_colorblind() + \n  theme_gray(base_family = \"HiraKakuPro-W3\")"
   }
 ]
