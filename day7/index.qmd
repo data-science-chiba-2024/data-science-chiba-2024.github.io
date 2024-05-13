@@ -7,7 +7,7 @@ execute:
   echo: true
 ---
 
-# 第６回：再現可能な文書の作成
+# 第７回：再現可能な文書の作成
 
 ```{r}
 #| echo: false
@@ -18,7 +18,7 @@ library(tidyverse)
 
 2024-05-14
 
-<https://data-science-chiba-2024.github.io/day6/>
+<https://data-science-chiba-2024.github.io/day7/>
 
 ## ディスカッション
 
