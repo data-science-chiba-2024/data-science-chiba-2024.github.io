@@ -37,7 +37,8 @@ execute:
 
 以下のコードをスクリプトに書いて、`script.R`としてデスクトップに保存しましょう（コードの詳細はまた後で学ぶ）。
 
-```r
+```{r}
+#| eval: false
 library(tidyverse)
 
 ggplot(diamonds, aes(x = carat, y = price)) + 

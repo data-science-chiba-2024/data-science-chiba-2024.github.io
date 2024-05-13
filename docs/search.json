@@ -119,214 +119,438 @@
     "text": "困ったら・・\nご連絡下さい（joelnitta@chiba-u.jp）"
   },
   {
-    "objectID": "day5/index.html#データの整理data-wrangling",
-    "href": "day5/index.html#データの整理data-wrangling",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "データサイエンス",
+    "section": "",
+    "text": "千葉大学 総合国際学位プログラムの授業\n担当教員：ニッタ ジョエル"
+  },
+  {
+    "objectID": "index.html#概要",
+    "href": "index.html#概要",
+    "title": "データサイエンス",
+    "section": "概要",
+    "text": "概要\nデータ解析は、理系だけではなく、文系も含めた多くの学問分野で使われるようになっている。本授業では、特に大学院生の研究に応用できるようにデータサイエンスの基本的なスキルとツールを学ぶ。主に「R」プログラミング言語を使用するが、大学院生のニーズに合わせて、必要なツールがあれば適宜授業の内容に加える。"
+  },
+  {
+    "objectID": "index.html#教科書",
+    "href": "index.html#教科書",
+    "title": "データサイエンス",
+    "section": "教科書",
+    "text": "教科書\n\nR for Data Science (2nd Edition) by Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund\n\nアマゾンには第１エディションの翻訳がある"
+  },
+  {
+    "objectID": "index.html#スケジュール",
+    "href": "index.html#スケジュール",
+    "title": "データサイエンス",
+    "section": "スケジュール",
+    "text": "スケジュール\n毎週のリーディングを講義の前に読んでください。\n（全ての講義の録画はありません）\n\n第１回（2024-04-02）: 生成AIの基本、RとRStudioのインストール（オンデマンド）\n\nスライド\n録画\n\n第２回（2024-04-09）: ガイダンス、データサイエンスとR入門\n\nスライド\nリーディング\n\nR4DS Introduction\nR4DS Chapter 2 (Workflow: Basics)\n\n\n第３回（2024-04-16）: プロジェクトの整理とデータの読み込み\n\nスライド\nリーディング\n\nR4DS Chapter 6 (Workflow: Scripts and Projects)\nR4DS Chapter 7 (Data Import)\n\n\n第４回（2024-04-23）: データの整理（１）\n\nスライド\nリーディング\n\nR4DS Chapter 3 (Data Transformation)\n\n\n第５回（2024-05-07）: データの整理（２）\n\nスライド\nリーディング\n\nR4DS Chapter 5 (Data Tidying)\nR4DS Chapter 19 (Joins)\n\n\n第６回（2024-05-14）: データの可視化\n\nスライド\nリーディング\n\nR4DS Chapter 1 (Data Visualization)\n\n\n第７回（2024-05-14）: 再現可能な文書の書き方\n\nリーディング\n\nR4DS Chapter 28 (Quarto)\n\n\n第８回（2024-05-28）: レポートの発表"
+  },
+  {
+    "objectID": "index.html#オフィスアワー",
+    "href": "index.html#オフィスアワー",
+    "title": "データサイエンス",
+    "section": "オフィスアワー",
+    "text": "オフィスアワー\n予約制（joelnitta@chiba-u.jpまでメールにて連絡ください）。対面・非対面での相談、ご希望とご都合に合わせて対応いたします。"
+  },
+  {
+    "objectID": "index.html#リンク",
+    "href": "index.html#リンク",
+    "title": "データサイエンス",
+    "section": "リンク",
+    "text": "リンク\n\nシラバス"
+  },
+  {
+    "objectID": "day2/index.html#ニッタ-ジョエル",
+    "href": "day2/index.html#ニッタ-ジョエル",
+    "title": "データサイエンス",
+    "section": "ニッタ ジョエル",
+    "text": "ニッタ ジョエル\n\n\n\n研究テーマその１：シダ植物の進化と生態学\n研究テーマその２：データサイエンス用ソフトの開発\nhttps://www.joelnitta.com"
+  },
+  {
+    "objectID": "day2/index.html#スケジュール",
+    "href": "day2/index.html#スケジュール",
+    "title": "データサイエンス",
+    "section": "スケジュール",
+    "text": "スケジュール\n\n生成AIの基本、RとRStudioのインストール（オンデマンド）\nガイダンス、データサイエンスとR入門\nプロジェクトの整理とデータの読み込み\nデータの整理\nデータの可視化\n再現可能な文書の書き方\nレポートの発表\n再現性を高めるツール（オンデマンド）\n\n内容はニーズに合わせる"
+  },
+  {
+    "objectID": "day2/index.html#サイト",
+    "href": "day2/index.html#サイト",
+    "title": "データサイエンス",
+    "section": "サイト",
+    "text": "サイト\nhttps://data-science-chiba-2024.github.io/\nスライドと動画のリンクが掲載されている"
+  },
+  {
+    "objectID": "day2/index.html#オフィスアワー",
+    "href": "day2/index.html#オフィスアワー",
+    "title": "データサイエンス",
+    "section": "オフィスアワー",
+    "text": "オフィスアワー\n予約制（joelnitta@chiba-u.jpまでメールにて連絡ください）。対面・非対面での相談、ご希望とご都合に合わせて対応いたします。"
+  },
+  {
+    "objectID": "day2/index.html#教科書",
+    "href": "day2/index.html#教科書",
+    "title": "データサイエンス",
+    "section": "教科書",
+    "text": "教科書\n\n\n\nR for Data Science (2nd edition)\n\n英語版はオンラインで無料 https://r4ds.hadley.nz/\n日本語版（第１エディションのみ）はアマゾンなどから"
+  },
+  {
+    "objectID": "day2/index.html#リーディング",
+    "href": "day2/index.html#リーディング",
+    "title": "データサイエンス",
+    "section": "リーディング",
+    "text": "リーディング\n毎週のリーディングを講義の前に読んでください。\n\n第２回（2024-04-09）: ガイダンス、データサイエンスとR入門\n\nR4DS Introduction\nR4DS Chapter 2 (Workflow: Basics)\n\n第３回（2024-04-16）: プロジェクトの整理とデータの読み込み\n\nR4DS Chapter 6 (Workflow: Scripts and Projects)\nR4DS Chapter 7 (Data Import)"
+  },
+  {
+    "objectID": "day2/index.html#リーディング-1",
+    "href": "day2/index.html#リーディング-1",
+    "title": "データサイエンス",
+    "section": "リーディング",
+    "text": "リーディング\n\n第４回（2024-04-23）: データの整理\n\nR4DS Chapter 3 (Data Transformation)\nR4DS Chapter 5 (Data Tidying)\n\n第５回（2024-05-07）: データの可視化\n\nR4DS Chapter 1 (Data Visualization)\n\n第６回（2024-05-14）: 再現可能な文書の書き方\n\nR4DS Chapter 28 (Quarto)"
+  },
+  {
+    "objectID": "day2/index.html#課題と評価",
+    "href": "day2/index.html#課題と評価",
+    "title": "データサイエンス",
+    "section": "課題と評価",
+    "text": "課題と評価\n\n宿題（25%）\n\nMoodleからダウンロード、提出\n締め切り：次の週の授業まで\n\nリーディング\n授業のディスカッションに参加する（25%）\nRを使って、自分の研究に関するレポートを書く（50%）"
+  },
+  {
+    "objectID": "day2/index.html#データサイエンスとは-1",
+    "href": "day2/index.html#データサイエンスとは-1",
+    "title": "データサイエンス",
+    "section": "データサイエンスとは？",
+    "text": "データサイエンスとは？\n\nデータから洞察（インサイト）を得ること"
+  },
+  {
+    "objectID": "day2/index.html#データサイエンスとは-2",
+    "href": "day2/index.html#データサイエンスとは-2",
+    "title": "データサイエンス",
+    "section": "データサイエンスとは？",
+    "text": "データサイエンスとは？\n\n他の特徴\n\n大量のデータを扱う（「ビッグデータ」）\n\n統計学を使う\n\nプログラミングを使う（python、R、など）\n様々な用がある（学術研究、治療、産業、など）"
+  },
+  {
+    "objectID": "day2/index.html#データ解析の循環",
+    "href": "day2/index.html#データ解析の循環",
+    "title": "データサイエンス",
+    "section": "データ解析の循環",
+    "text": "データ解析の循環\n\nhttps://r4ds.hadley.nz/diagrams/data-science/base.png"
+  },
+  {
+    "objectID": "day2/index.html#再現性とは-1",
+    "href": "day2/index.html#再現性とは-1",
+    "title": "データサイエンス",
+    "section": "再現性とは？",
+    "text": "再現性とは？\n\n他の人（将来の自分を含めて）があなたの解析を再度行って、同じ結果を得ることができること\nデータサイエンスにおいて、とても重要。再現性がなければ、「サイエンス」にならない！"
+  },
+  {
+    "objectID": "day2/index.html#再現可能にするには",
+    "href": "day2/index.html#再現可能にするには",
+    "title": "データサイエンス",
+    "section": "再現可能にするには・・",
+    "text": "再現可能にするには・・\n\nコードが必要\n\n自分が何をやったのか、記録が残る\n将来、同じ解析ができる\n\nコードとして残らない方法はよろしくない（エクセル、SPSSなど）"
+  },
+  {
+    "objectID": "day2/index.html#本授業ではrを使う",
+    "href": "day2/index.html#本授業ではrを使う",
+    "title": "データサイエンス",
+    "section": "本授業では、Rを使う",
+    "text": "本授業では、Rを使う\n\n\n\n無料\nデータ解析の機能が豊富\n多様なニーズに応えるパッケージ\nコミュニティー\n\n\n\nhttps://www.linkedin.com/pulse/why-r-4-reason-learn-programming-language-business-corporate"
+  },
+  {
+    "objectID": "day2/index.html#rとrstudioについて",
+    "href": "day2/index.html#rとrstudioについて",
+    "title": "データサイエンス",
+    "section": "RとRStudioについて",
+    "text": "RとRStudioについて\n\n\n\nRとは「R Project for Statistical Computing」という組織が提供しているオープンソースプログラミング言語"
+  },
+  {
+    "objectID": "day2/index.html#rとrstudioについて-1",
+    "href": "day2/index.html#rとrstudioについて-1",
+    "title": "データサイエンス",
+    "section": "RとRStudioについて",
+    "text": "RとRStudioについて\n\n\n\nRのコードを書く・実行する最適なソフト（無料）\nRStudioなしでもRは一応使えるけど、不便\nこの授業ではRStudioを介してRを使う。"
+  },
+  {
+    "objectID": "day2/index.html#rstudioについて",
+    "href": "day2/index.html#rstudioについて",
+    "title": "データサイエンス",
+    "section": "RStudioについて",
+    "text": "RStudioについて\n\n主に四つのパネルがある\n\nSource（コードを書く）\nEnvironment（今のRのセッションに入っているオブジェクトが表示される）\nR Console（Rに直接コマンドをする）\nFiles and Plots（ファイルと図）"
+  },
+  {
+    "objectID": "day2/index.html#rを計算機として使う",
+    "href": "day2/index.html#rを計算機として使う",
+    "title": "データサイエンス",
+    "section": "Rを計算機として使う",
+    "text": "Rを計算機として使う\n\nRStudioのコンソール（左下のパネル）にカーソルを置いて、簡単な計算をしてみましょう：\n\n\n\n2 * 20\n\n[1] 40\n\n\n\nおめでとうございます！Rプログラミングができました！"
+  },
+  {
+    "objectID": "day2/index.html#オブジェクト変数について",
+    "href": "day2/index.html#オブジェクト変数について",
+    "title": "データサイエンス",
+    "section": "オブジェクト（変数）について",
+    "text": "オブジェクト（変数）について\n\n次に、Rの中のデータを変数（Rでは、「オブジェクト Object」と呼ぶ）として保存しよう：\n\n\n\nage &lt;- 2 * 20"
+  },
+  {
+    "objectID": "day2/index.html#オブジェクト変数について-1",
+    "href": "day2/index.html#オブジェクト変数について-1",
+    "title": "データサイエンス",
+    "section": "オブジェクト（変数）について",
+    "text": "オブジェクト（変数）について\nこれだけでは何も返ってこない。\n変数の内容を確認するには、コンソールにその変数の名前を打てば良い：\n\n\nage\n\n[1] 40"
+  },
+  {
+    "objectID": "day2/index.html#関数とは",
+    "href": "day2/index.html#関数とは",
+    "title": "データサイエンス",
+    "section": "関数とは",
+    "text": "関数とは\n何かの値（インプット）を受けて、処理して、計算結果（アウトプット）を返すもの\n\n\n\nhttps://manamina.valuesccg.com/articles/756"
+  },
+  {
+    "objectID": "day2/index.html#関数とは-1",
+    "href": "day2/index.html#関数とは-1",
+    "title": "データサイエンス",
+    "section": "関数とは",
+    "text": "関数とは\n関数の書き方：\n\n関数名(引数)\n\n例えば\n\n\nround(3.1415, digits = 1)\n\n[1] 3.1"
+  },
+  {
+    "objectID": "day2/index.html#関数とは-2",
+    "href": "day2/index.html#関数とは-2",
+    "title": "データサイエンス",
+    "section": "関数とは",
+    "text": "関数とは\n関数の使い方を確認したい時は?関数名と打って、ヘルプファイルを参照すれば良い\n\n\n?round"
+  },
+  {
+    "objectID": "day2/index.html#パッケージとは",
+    "href": "day2/index.html#パッケージとは",
+    "title": "データサイエンス",
+    "section": "パッケージとは",
+    "text": "パッケージとは\n\nRパッケージとは、Rが出来ることを大幅に増やす「追加」のソフト（関数のまとまり）\n\n現在、２万近くのパッケージがある！"
+  },
+  {
+    "objectID": "day2/index.html#パッケージのインストール",
+    "href": "day2/index.html#パッケージのインストール",
+    "title": "データサイエンス",
+    "section": "パッケージのインストール",
+    "text": "パッケージのインストール\nRパッケージのインストールを行うには、install.packages()を使う：\n\ninstall.packages(\"ggplot2\")\n\n一回インストールしたら、次回からはしなくて良いので、これはコードとして保存しない"
+  },
+  {
+    "objectID": "day2/index.html#パッケージのロード",
+    "href": "day2/index.html#パッケージのロード",
+    "title": "データサイエンス",
+    "section": "パッケージのロード",
+    "text": "パッケージのロード\n\nパッケージをインストールしたら、使える状態するにはロードすることが必要\n\nインストールは一回でいい\nロードは毎回必要\n\n\nlibrary()関数でロードする：\n\n\nlibrary(ggplot2)"
+  },
+  {
+    "objectID": "day2/index.html#tidyverse",
+    "href": "day2/index.html#tidyverse",
+    "title": "データサイエンス",
+    "section": "tidyverse",
+    "text": "tidyverse\n\ntidyverseはデータサイエンス用パッケージの集まりのパッケージ\n\nggplot2（可視化）\ndplyr（データの整理）\nstringr（文字データを扱う）\nなど\n\n\nこれからよく使うので、インストールしましょう。一気に出来るから、楽。\n\ninstall.packages(\"tidyverse\")"
+  },
+  {
+    "objectID": "day2/index.html#install.packagesとlibraryの違い",
+    "href": "day2/index.html#install.packagesとlibraryの違い",
+    "title": "データサイエンス",
+    "section": "install.packages()とlibrary()の違い",
+    "text": "install.packages()とlibrary()の違い\n\ninstall.packages()は一回だけで良い（パソコンにパッケージをダウンロードする）\nlibrary()はRを使う毎にしないといけない（パッケージを今回のRのセッションで使えるようにする）"
+  },
+  {
+    "objectID": "day4/index.html#rstudioのデフォルト設定を-変えましょう",
+    "href": "day4/index.html#rstudioのデフォルト設定を-変えましょう",
+    "title": "データサイエンス",
+    "section": "RStudioのデフォルト設定を変えましょう",
+    "text": "RStudioのデフォルト設定を変えましょう\n前のセッションのデータが残っていることは再現的にダメ！\n\nTools → Global Options → General → Workspace\n\n“Restore .RData into workspace at startup” → 外す\n“Save workspace to .RData on exit:” → “Never”"
+  },
+  {
+    "objectID": "day4/index.html#rstudioのデフォルト設定を-変えましょう-1",
+    "href": "day4/index.html#rstudioのデフォルト設定を-変えましょう-1",
+    "title": "データサイエンス",
+    "section": "RStudioのデフォルト設定を変えましょう",
+    "text": "RStudioのデフォルト設定を変えましょう\n前のセッションのデータが残っていることは再現の観点からダメ！"
+  },
+  {
+    "objectID": "day4/index.html#データの整理data-wrangling",
+    "href": "day4/index.html#データの整理data-wrangling",
     "title": "データサイエンス",
     "section": "データの整理（Data Wrangling）",
     "text": "データの整理（Data Wrangling）\n\nデータが手に入る時、まだ解析に使いえない状態が多い\nデータの整理（「wrangling」）は解析に使えるように整えるプロセス\n\n元々はカウボーイが牛を扱う技術から来る"
   },
   {
-    "objectID": "day5/index.html#今日学ぶこと",
-    "href": "day5/index.html#今日学ぶこと",
+    "objectID": "day4/index.html#今日のデータセット",
+    "href": "day4/index.html#今日のデータセット",
     "title": "データサイエンス",
-    "section": "今日学ぶこと",
-    "text": "今日学ぶこと\n\nデータの集計\nデータの形の変え方（縦長いから横広いとその逆）\nデータの結合"
+    "section": "今日のデータセット",
+    "text": "今日のデータセット\n\nR4DS第３章で使われているデータは２０１３年にニューヨーク市発着のフライト\nこのデータはncyflights13というパッケージに入っている"
   },
   {
-    "objectID": "day5/index.html#データの集計",
-    "href": "day5/index.html#データの集計",
+    "objectID": "day4/index.html#チャレンジ",
+    "href": "day4/index.html#チャレンジ",
     "title": "データサイエンス",
-    "section": "データの集計",
-    "text": "データの集計\nsummarize()でデータの集計ができる：\n\nlibrary(nycflights13)\nlibrary(tidyverse)\n\nsummarize(flights, mean_sched_dep_time = mean(sched_dep_time))\n\n# A tibble: 1 × 1\n  mean_sched_dep_time\n                &lt;dbl&gt;\n1               1344."
+    "section": "チャレンジ",
+    "text": "チャレンジ\nncyflights13パッケージをインストールして、nycflights.Rというスクリプトでパッケージをロードしてください"
   },
   {
-    "objectID": "day5/index.html#グループ化",
-    "href": "day5/index.html#グループ化",
+    "objectID": "day4/index.html#今日のデータセット-1",
+    "href": "day4/index.html#今日のデータセット-1",
     "title": "データサイエンス",
-    "section": "グループ化",
-    "text": "グループ化\n\nしかし、全体の平均だけを計算してもあまり意味はない。\nそれよりも、何か毎にデータの集計を行いたい方が多い。\nそれにはgroup_by()関数を使う。例えば、月ごと。まずはデータのグループを指定する："
+    "section": "今日のデータセット",
+    "text": "今日のデータセット\nデータはflightsというデータフレームに入っている：\n\nlibrary(nycflights13)\nlibrary(tidyverse)\n\nflights\n\n# A tibble: 336,776 × 19\n    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;\n 1  2013     1     1      517            515         2      830            819\n 2  2013     1     1      533            529         4      850            830\n 3  2013     1     1      542            540         2      923            850\n 4  2013     1     1      544            545        -1     1004           1022\n 5  2013     1     1      554            600        -6      812            837\n 6  2013     1     1      554            558        -4      740            728\n 7  2013     1     1      555            600        -5      913            854\n 8  2013     1     1      557            600        -3      709            723\n 9  2013     1     1      557            600        -3      838            846\n10  2013     1     1      558            600        -2      753            745\n# ℹ 336,766 more rows\n# ℹ 11 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,\n#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,\n#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;"
   },
   {
-    "objectID": "day5/index.html#グループ化してから集計する",
-    "href": "day5/index.html#グループ化してから集計する",
+    "objectID": "day4/index.html#データ整理の関数",
+    "href": "day4/index.html#データ整理の関数",
     "title": "データサイエンス",
-    "section": "グループ化してから、集計する",
-    "text": "グループ化してから、集計する\n次に、集計する：\n\nflights |&gt; \n  group_by(month) |&gt; \n  summarize(\n    avg_delay = mean(dep_delay)\n  )\n\n# A tibble: 12 × 2\n   month avg_delay\n   &lt;int&gt;     &lt;dbl&gt;\n 1     1        NA\n 2     2        NA\n 3     3        NA\n 4     4        NA\n 5     5        NA\n 6     6        NA\n 7     7        NA\n 8     8        NA\n 9     9        NA\n10    10        NA\n11    11        NA\n12    12        NA"
+    "section": "データ整理の関数",
+    "text": "データ整理の関数\nこれから学ぶ関数の共通点：\n\nデータフレームをインプットとし、データフレームを返す\n最初の引数がインプットのデータフレーム\n他の引数は詳細（行の名前に引用符を使わない）"
   },
   {
-    "objectID": "day5/index.html#どこがnaだったのかをfilterで確かめる",
-    "href": "day5/index.html#どこがnaだったのかをfilterで確かめる",
+    "objectID": "day4/index.html#filterで行を絞り込む",
+    "href": "day4/index.html#filterで行を絞り込む",
     "title": "データサイエンス",
-    "section": "どこがNAだったのかをfilter()で確かめる",
-    "text": "どこがNAだったのかをfilter()で確かめる\n\nflights |&gt;\n  filter(is.na(dep_delay))\n\n# A tibble: 8,255 × 19\n    year month   day dep_time sched_dep_time dep_delay arr_time\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;\n 1  2013     1     1       NA           1630        NA       NA\n 2  2013     1     1       NA           1935        NA       NA\n 3  2013     1     1       NA           1500        NA       NA\n 4  2013     1     1       NA            600        NA       NA\n 5  2013     1     2       NA           1540        NA       NA\n 6  2013     1     2       NA           1620        NA       NA\n 7  2013     1     2       NA           1355        NA       NA\n 8  2013     1     2       NA           1420        NA       NA\n 9  2013     1     2       NA           1321        NA       NA\n10  2013     1     2       NA           1545        NA       NA\n# ℹ 8,245 more rows\n# ℹ 12 more variables: sched_arr_time &lt;int&gt;, arr_delay &lt;dbl&gt;,\n#   carrier &lt;chr&gt;, flight &lt;int&gt;, tailnum &lt;chr&gt;, origin &lt;chr&gt;,\n#   dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;, hour &lt;dbl&gt;,\n#   minute &lt;dbl&gt;, time_hour &lt;dttm&gt;"
+    "section": "filter()で行を絞り込む",
+    "text": "filter()で行を絞り込む\n\n生データが必要以上に多い場合がよくある（特に、「ビッグデータ」を扱っているとき）\nfilter()で条件を定めて、その行だけに絞り込む"
   },
   {
-    "objectID": "day5/index.html#nでグループの件数を数える",
-    "href": "day5/index.html#nでグループの件数を数える",
+    "objectID": "day4/index.html#filterで行を絞り込む-1",
+    "href": "day4/index.html#filterで行を絞り込む-1",
     "title": "データサイエンス",
-    "section": "n()でグループの件数を数える",
-    "text": "n()でグループの件数を数える\n\nflights |&gt; \n  group_by(month) |&gt; \n  summarize(\n    avg_delay = mean(dep_delay, na.rm = TRUE),\n    n = n()\n  )\n\n# A tibble: 12 × 3\n   month avg_delay     n\n   &lt;int&gt;     &lt;dbl&gt; &lt;int&gt;\n 1     1     10.0  27004\n 2     2     10.8  24951\n 3     3     13.2  28834\n 4     4     13.9  28330\n 5     5     13.0  28796\n 6     6     20.8  28243\n 7     7     21.7  29425\n 8     8     12.6  29327\n 9     9      6.72 27574\n10    10      6.24 28889\n11    11      5.44 27268\n12    12     16.6  28135"
+    "section": "filter()で行を絞り込む",
+    "text": "filter()で行を絞り込む\n\n元のデータは変わっていない\nfilter()の出力を保存したい時は&lt;-を使う"
   },
   {
-    "objectID": "day5/index.html#ungroupでグループを解除する",
-    "href": "day5/index.html#ungroupでグループを解除する",
+    "objectID": "day4/index.html#データの比較",
+    "href": "day4/index.html#データの比較",
     "title": "データサイエンス",
-    "section": "ungroup()でグループを解除する",
-    "text": "ungroup()でグループを解除する\n\nグループ毎の計算が終わったら、ungroup()でグループの解除をする必要がある場合がある。\n\n（以下のコードでは自動的にグループが解除されるので本当はいらないけど、必要な場合もある）\n\nflights |&gt; \n  group_by(month) |&gt; \n  summarize(\n    avg_delay = mean(dep_delay, na.rm = TRUE)\n  ) |&gt;\n  ungroup()\n\n# A tibble: 12 × 2\n   month avg_delay\n   &lt;int&gt;     &lt;dbl&gt;\n 1     1     10.0 \n 2     2     10.8 \n 3     3     13.2 \n 4     4     13.9 \n 5     5     13.0 \n 6     6     20.8 \n 7     7     21.7 \n 8     8     12.6 \n 9     9      6.72\n10    10      6.24\n11    11      5.44\n12    12     16.6"
+    "section": "データの比較",
+    "text": "データの比較\nデータの比較を行う主な記号：\n\n&gt; より大きい\n&lt; より小さい\n== イコール （=ではない！）\n| あるいは\n& そして（複数条件の指定）\n\n比較の記号のアウトプットは論理ベクトル"
   },
   {
-    "objectID": "day5/index.html#複数条件でグループ分けする",
-    "href": "day5/index.html#複数条件でグループ分けする",
+    "objectID": "day4/index.html#チャレンジ-1",
+    "href": "day4/index.html#チャレンジ-1",
     "title": "データサイエンス",
-    "section": "複数条件でグループ分けする",
-    "text": "複数条件でグループ分けする\n\ndaily &lt;-\n  flights |&gt;\n  group_by(year, month, day)\n\n\nsummarize(daily, n = n())\n\n# A tibble: 365 × 4\n# Groups:   year, month [12]\n    year month   day     n\n   &lt;int&gt; &lt;int&gt; &lt;int&gt; &lt;int&gt;\n 1  2013     1     1   842\n 2  2013     1     2   943\n 3  2013     1     3   914\n 4  2013     1     4   915\n 5  2013     1     5   720\n 6  2013     1     6   832\n 7  2013     1     7   933\n 8  2013     1     8   899\n 9  2013     1     9   902\n10  2013     1    10   932\n# ℹ 355 more rows"
+    "section": "チャレンジ",
+    "text": "チャレンジ\n何故11 = 10がエラーになってしまう？"
   },
   {
-    "objectID": "day5/index.html#ungroupでグループを解除する-1",
-    "href": "day5/index.html#ungroupでグループを解除する-1",
+    "objectID": "day4/index.html#チャレンジ-2",
+    "href": "day4/index.html#チャレンジ-2",
     "title": "データサイエンス",
-    "section": "ungroup()でグループを解除する",
-    "text": "ungroup()でグループを解除する\n\ndaily |&gt;\n  ungroup() |&gt;\n  summarize(\n    avg_delay = mean(dep_delay, na.rm = TRUE),\n    n = n()\n  )\n\n# A tibble: 1 × 2\n  avg_delay      n\n      &lt;dbl&gt;  &lt;int&gt;\n1      12.6 336776"
+    "section": "チャレンジ",
+    "text": "チャレンジ\n\n１月のフライトに絞っとください\n\n\n\nfilter(flights, month == 1)\n\n# A tibble: 27,004 × 19\n    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;\n 1  2013     1     1      517            515         2      830            819\n 2  2013     1     1      533            529         4      850            830\n 3  2013     1     1      542            540         2      923            850\n 4  2013     1     1      544            545        -1     1004           1022\n 5  2013     1     1      554            600        -6      812            837\n 6  2013     1     1      554            558        -4      740            728\n 7  2013     1     1      555            600        -5      913            854\n 8  2013     1     1      557            600        -3      709            723\n 9  2013     1     1      557            600        -3      838            846\n10  2013     1     1      558            600        -2      753            745\n# ℹ 26,994 more rows\n# ℹ 11 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,\n#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,\n#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;"
   },
   {
-    "objectID": "day5/index.html#データの形を変える",
-    "href": "day5/index.html#データの形を変える",
+    "objectID": "day4/index.html#チャレンジ-3",
+    "href": "day4/index.html#チャレンジ-3",
     "title": "データサイエンス",
-    "section": "データの形を変える",
-    "text": "データの形を変える\n\n同じデータを様々な形で表すことができる。\n例えば、以下の結核のデータを見ましょう（tidyverseのtidyrパッケージに入っている例のデータセット）：\n\n\ntable1\n\n# A tibble: 6 × 4\n  country      year  cases population\n  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;\n1 Afghanistan  1999    745   19987071\n2 Afghanistan  2000   2666   20595360\n3 Brazil       1999  37737  172006362\n4 Brazil       2000  80488  174504898\n5 China        1999 212258 1272915272\n6 China        2000 213766 1280428583"
+    "section": "チャレンジ",
+    "text": "チャレンジ\n\n１月１日のフライトに絞っとください\n\n\n\nfilter(flights, month == 1 & day == 1)\n\n# A tibble: 842 × 19\n    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;\n 1  2013     1     1      517            515         2      830            819\n 2  2013     1     1      533            529         4      850            830\n 3  2013     1     1      542            540         2      923            850\n 4  2013     1     1      544            545        -1     1004           1022\n 5  2013     1     1      554            600        -6      812            837\n 6  2013     1     1      554            558        -4      740            728\n 7  2013     1     1      555            600        -5      913            854\n 8  2013     1     1      557            600        -3      709            723\n 9  2013     1     1      557            600        -3      838            846\n10  2013     1     1      558            600        -2      753            745\n# ℹ 832 more rows\n# ℹ 11 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,\n#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,\n#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;"
   },
   {
-    "objectID": "day5/index.html#データの形を変える-1",
-    "href": "day5/index.html#データの形を変える-1",
+    "objectID": "day4/index.html#filterで行を絞り込む-2",
+    "href": "day4/index.html#filterで行を絞り込む-2",
     "title": "データサイエンス",
-    "section": "データの形を変える",
-    "text": "データの形を変える\n\n元々のデータが同じであることは確認できましたか？\nでも、table1とtable2には大事な違いがある：\n\ntable1だけがtidy（すぐに解析できるように整っている）になっている"
+    "section": "filter()で行を絞り込む",
+    "text": "filter()で行を絞り込む\nもう一つの複数条件を設定方法：,で条件を加える（filter()だけ）\n\nfilter(flights, month == 1, day == 1)\n\n# A tibble: 842 × 19\n    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;\n 1  2013     1     1      517            515         2      830            819\n 2  2013     1     1      533            529         4      850            830\n 3  2013     1     1      542            540         2      923            850\n 4  2013     1     1      544            545        -1     1004           1022\n 5  2013     1     1      554            600        -6      812            837\n 6  2013     1     1      554            558        -4      740            728\n 7  2013     1     1      555            600        -5      913            854\n 8  2013     1     1      557            600        -3      709            723\n 9  2013     1     1      557            600        -3      838            846\n10  2013     1     1      558            600        -2      753            745\n# ℹ 832 more rows\n# ℹ 11 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,\n#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,\n#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;"
   },
   {
-    "objectID": "day5/index.html#tidyなデータの定義",
-    "href": "day5/index.html#tidyなデータの定義",
+    "objectID": "day4/index.html#arrangeで行を並べ替える",
+    "href": "day4/index.html#arrangeで行を並べ替える",
     "title": "データサイエンス",
-    "section": "tidyなデータの定義",
-    "text": "tidyなデータの定義\n\n各列が変数を表している\n各行が観察を表している\n各セルが一つの値を表している"
+    "section": "arrange()で行を並べ替える",
+    "text": "arrange()で行を並べ替える\n\n# 出発の日と時間で並べ替える\narrange(flights, year, month, day, dep_time)\n\n# A tibble: 336,776 × 19\n    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;\n 1  2013     1     1      517            515         2      830            819\n 2  2013     1     1      533            529         4      850            830\n 3  2013     1     1      542            540         2      923            850\n 4  2013     1     1      544            545        -1     1004           1022\n 5  2013     1     1      554            600        -6      812            837\n 6  2013     1     1      554            558        -4      740            728\n 7  2013     1     1      555            600        -5      913            854\n 8  2013     1     1      557            600        -3      709            723\n 9  2013     1     1      557            600        -3      838            846\n10  2013     1     1      558            600        -2      753            745\n# ℹ 336,766 more rows\n# ℹ 11 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,\n#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,\n#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;"
   },
   {
-    "objectID": "day5/index.html#tidyなデータの利点",
-    "href": "day5/index.html#tidyなデータの利点",
+    "objectID": "day4/index.html#arrangeで行を並べ替える-1",
+    "href": "day4/index.html#arrangeで行を並べ替える-1",
     "title": "データサイエンス",
-    "section": "tidyなデータの利点",
-    "text": "tidyなデータの利点\n\n今まで学んできた関数（mutate()、filter()など）はtidyなデータの方が使いやすい\nグラフを作成する際も、tidyなデータの方が使いやすいです\n\n例えば：\n\n# 1万人あたりの病気の発生率を計算する\ntable1 |&gt;\n  mutate(rate = cases / population * 10000)\n\n# A tibble: 6 × 5\n  country      year  cases population  rate\n  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt; &lt;dbl&gt;\n1 Afghanistan  1999    745   19987071 0.373\n2 Afghanistan  2000   2666   20595360 1.29 \n3 Brazil       1999  37737  172006362 2.19 \n4 Brazil       2000  80488  174504898 4.61 \n5 China        1999 212258 1272915272 1.67 \n6 China        2000 213766 1280428583 1.67"
+    "section": "arrange()で行を並べ替える",
+    "text": "arrange()で行を並べ替える\n\narrange()はデフォルトで小さい方からの順になっている\n大きい方から並べたい時はdesc()（「descend」、「降りる」）を使う：\n\n\n# 大きく遅れた順で並べる\narrange(flights, desc(dep_delay))\n\n# A tibble: 336,776 × 19\n    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;\n 1  2013     1     9      641            900      1301     1242           1530\n 2  2013     6    15     1432           1935      1137     1607           2120\n 3  2013     1    10     1121           1635      1126     1239           1810\n 4  2013     9    20     1139           1845      1014     1457           2210\n 5  2013     7    22      845           1600      1005     1044           1815\n 6  2013     4    10     1100           1900       960     1342           2211\n 7  2013     3    17     2321            810       911      135           1020\n 8  2013     6    27      959           1900       899     1236           2226\n 9  2013     7    22     2257            759       898      121           1026\n10  2013    12     5      756           1700       896     1058           2020\n# ℹ 336,766 more rows\n# ℹ 11 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,\n#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,\n#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;"
   },
   {
-    "objectID": "day5/index.html#ワイド横広いデータを縦長ロングに変える",
-    "href": "day5/index.html#ワイド横広いデータを縦長ロングに変える",
+    "objectID": "day4/index.html#チャレンジ-4",
+    "href": "day4/index.html#チャレンジ-4",
     "title": "データサイエンス",
-    "section": "ワイド（横広い）データを縦長（ロング）に変える",
-    "text": "ワイド（横広い）データを縦長（ロング）に変える\nbillboardというデータセットには２０００年の歌のランキングが入っている：\n\nbillboard\n\n# A tibble: 317 × 79\n   artist track date.entered   wk1   wk2   wk3   wk4   wk5   wk6   wk7\n   &lt;chr&gt;  &lt;chr&gt; &lt;date&gt;       &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 2 Pac  Baby… 2000-02-26      87    82    72    77    87    94    99\n 2 2Ge+h… The … 2000-09-02      91    87    92    NA    NA    NA    NA\n 3 3 Doo… Kryp… 2000-04-08      81    70    68    67    66    57    54\n 4 3 Doo… Loser 2000-10-21      76    76    72    69    67    65    55\n 5 504 B… Wobb… 2000-04-15      57    34    25    17    17    31    36\n 6 98^0   Give… 2000-08-19      51    39    34    26    26    19     2\n 7 A*Tee… Danc… 2000-07-08      97    97    96    95   100    NA    NA\n 8 Aaliy… I Do… 2000-01-29      84    62    51    41    38    35    35\n 9 Aaliy… Try … 2000-03-18      59    53    38    28    21    18    16\n10 Adams… Open… 2000-08-26      76    76    74    69    68    67    61\n# ℹ 307 more rows\n# ℹ 69 more variables: wk8 &lt;dbl&gt;, wk9 &lt;dbl&gt;, wk10 &lt;dbl&gt;, wk11 &lt;dbl&gt;,\n#   wk12 &lt;dbl&gt;, wk13 &lt;dbl&gt;, wk14 &lt;dbl&gt;, wk15 &lt;dbl&gt;, wk16 &lt;dbl&gt;,\n#   wk17 &lt;dbl&gt;, wk18 &lt;dbl&gt;, wk19 &lt;dbl&gt;, wk20 &lt;dbl&gt;, wk21 &lt;dbl&gt;,\n#   wk22 &lt;dbl&gt;, wk23 &lt;dbl&gt;, wk24 &lt;dbl&gt;, wk25 &lt;dbl&gt;, wk26 &lt;dbl&gt;,\n#   wk27 &lt;dbl&gt;, wk28 &lt;dbl&gt;, wk29 &lt;dbl&gt;, wk30 &lt;dbl&gt;, wk31 &lt;dbl&gt;,\n#   wk32 &lt;dbl&gt;, wk33 &lt;dbl&gt;, wk34 &lt;dbl&gt;, wk35 &lt;dbl&gt;, wk36 &lt;dbl&gt;, …"
+    "section": "チャレンジ",
+    "text": "チャレンジ\n\nfilter()とarrange()を使って、12月のフライトに絞ってから、遠く飛んだ順に並べ替えてください"
   },
   {
-    "objectID": "day5/index.html#ワイドなデータの例billboard",
-    "href": "day5/index.html#ワイドなデータの例billboard",
+    "objectID": "day4/index.html#パイプにつて",
+    "href": "day4/index.html#パイプにつて",
     "title": "データサイエンス",
-    "section": "ワイドなデータの例：billboard",
-    "text": "ワイドなデータの例：billboard\n\n列：\n\nartist アーティスト（演奏者）\ntrack 曲名\ndate.entered 最初にランキングに入った日付\nwk1 .. wk76 それぞれの種のランキング\n\n\n列がやたらある。そして、列の名前にデータがある（周目）。これをどうやって別の変数にできるのでしょうか？"
+    "section": "パイプにつて",
+    "text": "パイプにつて\n\nfilter(データ, 条件)というような書き方をしてきたが、また別の書き方がある：\n\nデータ |&gt; filter(条件)"
   },
   {
-    "objectID": "day5/index.html#ワイドからロングにするのはpivot_longer",
-    "href": "day5/index.html#ワイドからロングにするのはpivot_longer",
+    "objectID": "day4/index.html#パイプにつて-1",
+    "href": "day4/index.html#パイプにつて-1",
     "title": "データサイエンス",
-    "section": "ワイドからロングにするのはpivot_longer()",
-    "text": "ワイドからロングにするのはpivot_longer()\n\npivot_longer()の主な引数：\n\ncols どの列を使う（ロングにする）\nnames_to ロング形式に変換される新しい列の名前\nvalues_to 新しい値の列の名前\n\n\nでや、やって見ましょう"
+    "section": "パイプにつて",
+    "text": "パイプにつて\n\n|&gt;は「パイプ」と呼ばれる\n左にある物を右の方に渡す\n「それから」と読む"
   },
   {
-    "objectID": "day5/index.html#ロングなデータをワイドに変える",
-    "href": "day5/index.html#ロングなデータをワイドに変える",
+    "objectID": "day4/index.html#いつパイプを使う",
+    "href": "day4/index.html#いつパイプを使う",
     "title": "データサイエンス",
-    "section": "ロングなデータをワイドに変える",
-    "text": "ロングなデータをワイドに変える\ncms_patient_experienceというデータセットには患者の経験のデータが入っている\n\ncms_patient_experience\n\n# A tibble: 500 × 5\n   org_pac_id org_nm                 measure_cd measure_title prf_rate\n   &lt;chr&gt;      &lt;chr&gt;                  &lt;chr&gt;      &lt;chr&gt;            &lt;dbl&gt;\n 1 0446157747 USC CARE MEDICAL GROU… CAHPS_GRP… CAHPS for MI…       63\n 2 0446157747 USC CARE MEDICAL GROU… CAHPS_GRP… CAHPS for MI…       87\n 3 0446157747 USC CARE MEDICAL GROU… CAHPS_GRP… CAHPS for MI…       86\n 4 0446157747 USC CARE MEDICAL GROU… CAHPS_GRP… CAHPS for MI…       57\n 5 0446157747 USC CARE MEDICAL GROU… CAHPS_GRP… CAHPS for MI…       85\n 6 0446157747 USC CARE MEDICAL GROU… CAHPS_GRP… CAHPS for MI…       24\n 7 0446162697 ASSOCIATION OF UNIVER… CAHPS_GRP… CAHPS for MI…       59\n 8 0446162697 ASSOCIATION OF UNIVER… CAHPS_GRP… CAHPS for MI…       85\n 9 0446162697 ASSOCIATION OF UNIVER… CAHPS_GRP… CAHPS for MI…       83\n10 0446162697 ASSOCIATION OF UNIVER… CAHPS_GRP… CAHPS for MI…       63\n# ℹ 490 more rows"
+    "section": "いつパイプを使う？",
+    "text": "いつパイプを使う？\n\n複数の作業を施すに便利\n\n「パイプライン」\n\n\n\n# flightsから始まって、12月のデータに絞ってから、遠く飛んだ距離の順で並べる\nflights |&gt;\n  filter(month == 12) |&gt;\n  arrange(desc(distance))\n\n# A tibble: 28,135 × 19\n    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;\n 1  2013    12     1      928            930        -2     1532           1535\n 2  2013    12     2      920            930       -10     1525           1535\n 3  2013    12     4      933            930         3     1519           1535\n 4  2013    12     5      920            930       -10     1609           1535\n 5  2013    12     6      924            930        -6     1545           1535\n 6  2013    12     7      927            930        -3     1549           1535\n 7  2013    12     8      935            930         5     1520           1535\n 8  2013    12     9      928            930        -2     1528           1535\n 9  2013    12    11      930            930         0     1539           1535\n10  2013    12    13      929            930        -1     1527           1535\n# ℹ 28,125 more rows\n# ℹ 11 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,\n#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,\n#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;"
   },
   {
-    "objectID": "day5/index.html#cms_patient_experienceの特徴",
-    "href": "day5/index.html#cms_patient_experienceの特徴",
+    "objectID": "day4/index.html#mutateで新しい列を計算する",
+    "href": "day4/index.html#mutateで新しい列を計算する",
     "title": "データサイエンス",
-    "section": "cms_patient_experienceの特徴",
-    "text": "cms_patient_experienceの特徴\n\n研究の対象となっているのは組織だけど、各組織のデータは６つの行を跨いでいる。\nどうやって一つの組織を一つの列にできる？"
+    "section": "mutate()で新しい列を計算する",
+    "text": "mutate()で新しい列を計算する\n\n新しい列は右側から追加される\n\n列が多い場合は見えないことも\n\n\n\nflights |&gt; \n  mutate(speed = distance / air_time * 60)\n\n# A tibble: 336,776 × 20\n    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;\n 1  2013     1     1      517            515         2      830            819\n 2  2013     1     1      533            529         4      850            830\n 3  2013     1     1      542            540         2      923            850\n 4  2013     1     1      544            545        -1     1004           1022\n 5  2013     1     1      554            600        -6      812            837\n 6  2013     1     1      554            558        -4      740            728\n 7  2013     1     1      555            600        -5      913            854\n 8  2013     1     1      557            600        -3      709            723\n 9  2013     1     1      557            600        -3      838            846\n10  2013     1     1      558            600        -2      753            745\n# ℹ 336,766 more rows\n# ℹ 12 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,\n#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,\n#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;, speed &lt;dbl&gt;"
   },
   {
-    "objectID": "day5/index.html#ロングからワイドにするのはpivot_wider",
-    "href": "day5/index.html#ロングからワイドにするのはpivot_wider",
+    "objectID": "day4/index.html#mutateで新しい列を計算する-1",
+    "href": "day4/index.html#mutateで新しい列を計算する-1",
     "title": "データサイエンス",
-    "section": "ロングからワイドにするのはpivot_wider()",
-    "text": "ロングからワイドにするのはpivot_wider()\n\npivot_wider()の主な引数：\n\ncols どの列を使う（ワイドにする）\nnames_from 列名として使用するロング形式の列名\nvalues_from 新しい列に配置される値を持つロング形式の列\n\n\nでや、やって見ましょう"
+    "section": "mutate()で新しい列を計算する",
+    "text": "mutate()で新しい列を計算する\n\n.beforeを使うと、新しい列が入る場所を指定できる\n\n\nflights |&gt; \n  mutate(\n    speed = distance / air_time * 60,\n    .before = 1)\n\n# A tibble: 336,776 × 20\n   speed  year month   day dep_time sched_dep_time dep_delay arr_time\n   &lt;dbl&gt; &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;\n 1  370.  2013     1     1      517            515         2      830\n 2  374.  2013     1     1      533            529         4      850\n 3  408.  2013     1     1      542            540         2      923\n 4  517.  2013     1     1      544            545        -1     1004\n 5  394.  2013     1     1      554            600        -6      812\n 6  288.  2013     1     1      554            558        -4      740\n 7  404.  2013     1     1      555            600        -5      913\n 8  259.  2013     1     1      557            600        -3      709\n 9  405.  2013     1     1      557            600        -3      838\n10  319.  2013     1     1      558            600        -2      753\n# ℹ 336,766 more rows\n# ℹ 12 more variables: sched_arr_time &lt;int&gt;, arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;,\n#   flight &lt;int&gt;, tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;,\n#   distance &lt;dbl&gt;, hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;"
   },
   {
-    "objectID": "day5/index.html#id_colsで行を識別する列を指定する",
-    "href": "day5/index.html#id_colsで行を識別する列を指定する",
+    "objectID": "day4/index.html#mutateで新しい列を計算する-2",
+    "href": "day4/index.html#mutateで新しい列を計算する-2",
     "title": "データサイエンス",
-    "section": "id_colsで行を識別する列を指定する",
-    "text": "id_colsで行を識別する列を指定する\n\ncms_patient_experience |&gt;\n  pivot_wider(\n    names_from = measure_cd,\n    values_from = prf_rate,\n    id_cols = starts_with(\"org\")\n  )\n\n# A tibble: 95 × 8\n   org_pac_id org_nm   CAHPS_GRP_1 CAHPS_GRP_2 CAHPS_GRP_3 CAHPS_GRP_5\n   &lt;chr&gt;      &lt;chr&gt;          &lt;dbl&gt;       &lt;dbl&gt;       &lt;dbl&gt;       &lt;dbl&gt;\n 1 0446157747 USC CAR…          63          87          86          57\n 2 0446162697 ASSOCIA…          59          85          83          63\n 3 0547164295 BEAVER …          49          NA          75          44\n 4 0749333730 CAPE PH…          67          84          85          65\n 5 0840104360 ALLIANC…          66          87          87          64\n 6 0840109864 REX HOS…          73          87          84          67\n 7 0840513552 SCL HEA…          58          83          76          58\n 8 0941545784 GRITMAN…          46          86          81          54\n 9 1052612785 COMMUNI…          65          84          80          58\n10 1254237779 OUR LAD…          61          NA          NA          65\n# ℹ 85 more rows\n# ℹ 2 more variables: CAHPS_GRP_8 &lt;dbl&gt;, CAHPS_GRP_12 &lt;dbl&gt;"
+    "section": "mutate()で新しい列を計算する",
+    "text": "mutate()で新しい列を計算する\n\nfilter()（と他のデータ整理用関数と同じように）、mutate()の出力は元のデータを触らない\n解析結果を保存したい時は&lt;-を使う"
   },
   {
-    "objectID": "day5/index.html#データの結合",
-    "href": "day5/index.html#データの結合",
+    "objectID": "day4/index.html#selectで列を絞る",
+    "href": "day4/index.html#selectで列を絞る",
     "title": "データサイエンス",
-    "section": "データの結合",
-    "text": "データの結合\n\n多くの場合、使いたいデータが複数のデータセット（データフレーム、あるいはファイル）に跨いで入っている\nしたがって、データの結合（join）を行う必要がある"
+    "section": "select()で列を絞る",
+    "text": "select()で列を絞る\n\n生データにたくさんの列が入っている場合がよくある。解析に必要な列だけに絞った方が解析がやりやすい\n基本的な使い方：列名で選択する\n\n\nflights |&gt; \n  select(year, month, day)\n\n# A tibble: 336,776 × 3\n    year month   day\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;\n 1  2013     1     1\n 2  2013     1     1\n 3  2013     1     1\n 4  2013     1     1\n 5  2013     1     1\n 6  2013     1     1\n 7  2013     1     1\n 8  2013     1     1\n 9  2013     1     1\n10  2013     1     1\n# ℹ 336,766 more rows"
   },
   {
-    "objectID": "day5/index.html#複数のデータセットの例飛行機のデータ",
-    "href": "day5/index.html#複数のデータセットの例飛行機のデータ",
+    "objectID": "day4/index.html#selectで列を絞る-1",
+    "href": "day4/index.html#selectで列を絞る-1",
     "title": "データサイエンス",
-    "section": "複数のデータセットの例：飛行機のデータ",
-    "text": "複数のデータセットの例：飛行機のデータ\nairlinesには航空会社の名前のデータが入っている：\n\nairlines\n\n# A tibble: 16 × 2\n   carrier name                       \n   &lt;chr&gt;   &lt;chr&gt;                      \n 1 9E      Endeavor Air Inc.          \n 2 AA      American Airlines Inc.     \n 3 AS      Alaska Airlines Inc.       \n 4 B6      JetBlue Airways            \n 5 DL      Delta Air Lines Inc.       \n 6 EV      ExpressJet Airlines Inc.   \n 7 F9      Frontier Airlines Inc.     \n 8 FL      AirTran Airways Corporation\n 9 HA      Hawaiian Airlines Inc.     \n10 MQ      Envoy Air                  \n11 OO      SkyWest Airlines Inc.      \n12 UA      United Air Lines Inc.      \n13 US      US Airways Inc.            \n14 VX      Virgin America             \n15 WN      Southwest Airlines Co.     \n16 YV      Mesa Airlines Inc."
+    "section": "select()で列を絞る",
+    "text": "select()で列を絞る\n\n選択したい列が多い場合は、:を使ってどこから〜どこまでというふうに書くと便利：\n\n\nflights |&gt; \n  select(year:day)\n\n# A tibble: 336,776 × 3\n    year month   day\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;\n 1  2013     1     1\n 2  2013     1     1\n 3  2013     1     1\n 4  2013     1     1\n 5  2013     1     1\n 6  2013     1     1\n 7  2013     1     1\n 8  2013     1     1\n 9  2013     1     1\n10  2013     1     1\n# ℹ 336,766 more rows"
   },
   {
-    "objectID": "day5/index.html#付け加えたデータが右の方に入る",
-    "href": "day5/index.html#付け加えたデータが右の方に入る",
+    "objectID": "day4/index.html#チャレンジ-5",
+    "href": "day4/index.html#チャレンジ-5",
     "title": "データサイエンス",
-    "section": "付け加えたデータが右の方に入る",
-    "text": "付け加えたデータが右の方に入る\nnycflights13は列の数が多いことを覚えていますか？\n\nこれから新しいデータと結合しても、付け加えたデータが右の方に入るため、結果が見えないので、説明するために小さいバージョンを用意する\n\n\nflights2 &lt;- flights |&gt;\n  select(year, time_hour, origin, dest, tailnum, carrier)"
+    "section": "チャレンジ",
+    "text": "チャレンジ\nJFKから出発したフライトに絞ってから、速度を計算してから、早い速度の順に並べ替えてください"
   },
   {
-    "objectID": "day5/index.html#別のデータフレームからデータを加えるleft_join",
-    "href": "day5/index.html#別のデータフレームからデータを加えるleft_join",
+    "objectID": "day4/index.html#まとめ今日学んだ関数動詞",
+    "href": "day4/index.html#まとめ今日学んだ関数動詞",
     "title": "データサイエンス",
-    "section": "別のデータフレームからデータを加える：left_join()",
-    "text": "別のデータフレームからデータを加える：left_join()\n航空会社の名前を追加しましょう：\n\nflights2 |&gt;\n  left_join(airlines)\n\n# A tibble: 336,776 × 7\n    year time_hour           origin dest  tailnum carrier name        \n   &lt;int&gt; &lt;dttm&gt;              &lt;chr&gt;  &lt;chr&gt; &lt;chr&gt;   &lt;chr&gt;   &lt;chr&gt;       \n 1  2013 2013-01-01 05:00:00 EWR    IAH   N14228  UA      United Air …\n 2  2013 2013-01-01 05:00:00 LGA    IAH   N24211  UA      United Air …\n 3  2013 2013-01-01 05:00:00 JFK    MIA   N619AA  AA      American Ai…\n 4  2013 2013-01-01 05:00:00 JFK    BQN   N804JB  B6      JetBlue Air…\n 5  2013 2013-01-01 06:00:00 LGA    ATL   N668DN  DL      Delta Air L…\n 6  2013 2013-01-01 05:00:00 EWR    ORD   N39463  UA      United Air …\n 7  2013 2013-01-01 06:00:00 EWR    FLL   N516JB  B6      JetBlue Air…\n 8  2013 2013-01-01 06:00:00 LGA    IAD   N829AS  EV      ExpressJet …\n 9  2013 2013-01-01 06:00:00 JFK    MCO   N593JB  B6      JetBlue Air…\n10  2013 2013-01-01 06:00:00 LGA    ORD   N3ALAA  AA      American Ai…\n# ℹ 336,766 more rows"
+    "section": "まとめ：今日学んだ関数（動詞）",
+    "text": "まとめ：今日学んだ関数（動詞）\n\n行を扱う関数\n\nfilter()\narrange()\n\n列を扱う関数\n\nmutate()\nselect()\n\n集計の関数\n\nsummarize()\ngroup_by()\nungroup()"
   },
   {
-    "objectID": "day5/index.html#結合する時は鍵が大事",
-    "href": "day5/index.html#結合する時は鍵が大事",
+    "objectID": "day4/index.html#まとめ",
+    "href": "day4/index.html#まとめ",
     "title": "データサイエンス",
-    "section": "結合する時は「鍵」が大事",
-    "text": "結合する時は「鍵」が大事\n上のコードを走らせた際、このメッセージがありました：\nJoining with `by = join_by(carrier)`\n\nつまり、それぞれのデータフレームが共通に持っている列です。これ「鍵」（Key）と呼ぶ。\n共通に持っている列がないと、結合ができない。"
-  },
-  {
-    "objectID": "day5/index.html#結合する時は鍵が大事-1",
-    "href": "day5/index.html#結合する時は鍵が大事-1",
-    "title": "データサイエンス",
-    "section": "結合する時は「鍵」が大事",
-    "text": "結合する時は「鍵」が大事\n上のコードは自動的に共通する列を鍵として使ったけど、手動で指定することもできる：\n\nflights2 |&gt;\n  left_join(\n    airlines,\n    by = join_by(carrier))\n\n# A tibble: 336,776 × 7\n    year time_hour           origin dest  tailnum carrier name        \n   &lt;int&gt; &lt;dttm&gt;              &lt;chr&gt;  &lt;chr&gt; &lt;chr&gt;   &lt;chr&gt;   &lt;chr&gt;       \n 1  2013 2013-01-01 05:00:00 EWR    IAH   N14228  UA      United Air …\n 2  2013 2013-01-01 05:00:00 LGA    IAH   N24211  UA      United Air …\n 3  2013 2013-01-01 05:00:00 JFK    MIA   N619AA  AA      American Ai…\n 4  2013 2013-01-01 05:00:00 JFK    BQN   N804JB  B6      JetBlue Air…\n 5  2013 2013-01-01 06:00:00 LGA    ATL   N668DN  DL      Delta Air L…\n 6  2013 2013-01-01 05:00:00 EWR    ORD   N39463  UA      United Air …\n 7  2013 2013-01-01 06:00:00 EWR    FLL   N516JB  B6      JetBlue Air…\n 8  2013 2013-01-01 06:00:00 LGA    IAD   N829AS  EV      ExpressJet …\n 9  2013 2013-01-01 06:00:00 JFK    MCO   N593JB  B6      JetBlue Air…\n10  2013 2013-01-01 06:00:00 LGA    ORD   N3ALAA  AA      American Ai…\n# ℹ 336,766 more rows"
-  },
-  {
-    "objectID": "day5/index.html#鍵となる列の条件",
-    "href": "day5/index.html#鍵となる列の条件",
-    "title": "データサイエンス",
-    "section": "鍵となる列の条件",
-    "text": "鍵となる列の条件\n\n右側のデータの鍵が行を識別できる必要がある。それぞれのcarrierはデータに一回だけ出てくる\ncount()で確かめる（nが全て1になっている）\n\n\nairlines |&gt;\n  count(carrier)\n\n# A tibble: 16 × 2\n   carrier     n\n   &lt;chr&gt;   &lt;int&gt;\n 1 9E          1\n 2 AA          1\n 3 AS          1\n 4 B6          1\n 5 DL          1\n 6 EV          1\n 7 F9          1\n 8 FL          1\n 9 HA          1\n10 MQ          1\n11 OO          1\n12 UA          1\n13 US          1\n14 VX          1\n15 WN          1\n16 YV          1"
-  },
-  {
-    "objectID": "day5/index.html#他のデータに結合してみる",
-    "href": "day5/index.html#他のデータに結合してみる",
-    "title": "データサイエンス",
-    "section": "他のデータに結合してみる",
-    "text": "他のデータに結合してみる\nnycflights13パッケージに他のデータフレームがいくつかある："
-  },
-  {
-    "objectID": "day5/index.html#チャレンジ他のデータに結合してみる",
-    "href": "day5/index.html#チャレンジ他のデータに結合してみる",
-    "title": "データサイエンス",
-    "section": "チャレンジ：他のデータに結合してみる",
-    "text": "チャレンジ：他のデータに結合してみる\nplanesのデータをflights2に結合することができますか？"
+    "section": "まとめ",
+    "text": "まとめ\n\n|&gt;とデータ整理用の関数を組み合わせることによって、すぐにでもかなり高度なデータ解析のパイプラインができるようなる。\n初めての方にはとてもコードの量が多いように思えるでしょうが、このようなツールを毎日使うって、慣れていくとそのうちどのようなデータでもRで扱えるようになる！"
   },
   {
     "objectID": "day3/index.html#スクリプトについて",
@@ -347,7 +571,7 @@
     "href": "day3/index.html#スクリプトからコードを使う",
     "title": "データサイエンス",
     "section": "スクリプトからコードを使う",
-    "text": "スクリプトからコードを使う\n以下のコードをスクリプトに書いて、script.Rとしてデスクトップに保存しましょう（コードの詳細はまた後で学ぶ）。\nlibrary(tidyverse)\n\nggplot(diamonds, aes(x = carat, y = price)) + \n  geom_hex()"
+    "text": "スクリプトからコードを使う\n以下のコードをスクリプトに書いて、script.Rとしてデスクトップに保存しましょう（コードの詳細はまた後で学ぶ）。\n\nlibrary(tidyverse)\n\nggplot(diamonds, aes(x = carat, y = price)) + \n  geom_hex()"
   },
   {
     "objectID": "day3/index.html#スクリプトからコードを使う-1",
@@ -588,438 +812,214 @@
     "text": "宿題\n締め切り：2024-04-23 12:50\n\nクイズ（moodle）\n自分のデータを読み込む。\n二つのファイルmoodleにアップロード：\n\nデータのファイル（csv）\n読み込むスクリプト\n\nもしcsvではないファイルを読み込みたければ、連絡してください"
   },
   {
-    "objectID": "day4/index.html#rstudioのデフォルト設定を-変えましょう",
-    "href": "day4/index.html#rstudioのデフォルト設定を-変えましょう",
-    "title": "データサイエンス",
-    "section": "RStudioのデフォルト設定を変えましょう",
-    "text": "RStudioのデフォルト設定を変えましょう\n前のセッションのデータが残っていることは再現的にダメ！\n\nTools → Global Options → General → Workspace\n\n“Restore .RData into workspace at startup” → 外す\n“Save workspace to .RData on exit:” → “Never”"
-  },
-  {
-    "objectID": "day4/index.html#rstudioのデフォルト設定を-変えましょう-1",
-    "href": "day4/index.html#rstudioのデフォルト設定を-変えましょう-1",
-    "title": "データサイエンス",
-    "section": "RStudioのデフォルト設定を変えましょう",
-    "text": "RStudioのデフォルト設定を変えましょう\n前のセッションのデータが残っていることは再現の観点からダメ！"
-  },
-  {
-    "objectID": "day4/index.html#データの整理data-wrangling",
-    "href": "day4/index.html#データの整理data-wrangling",
+    "objectID": "day5/index.html#データの整理data-wrangling",
+    "href": "day5/index.html#データの整理data-wrangling",
     "title": "データサイエンス",
     "section": "データの整理（Data Wrangling）",
     "text": "データの整理（Data Wrangling）\n\nデータが手に入る時、まだ解析に使いえない状態が多い\nデータの整理（「wrangling」）は解析に使えるように整えるプロセス\n\n元々はカウボーイが牛を扱う技術から来る"
   },
   {
-    "objectID": "day4/index.html#今日のデータセット",
-    "href": "day4/index.html#今日のデータセット",
+    "objectID": "day5/index.html#今日学ぶこと",
+    "href": "day5/index.html#今日学ぶこと",
     "title": "データサイエンス",
-    "section": "今日のデータセット",
-    "text": "今日のデータセット\n\nR4DS第３章で使われているデータは２０１３年にニューヨーク市発着のフライト\nこのデータはncyflights13というパッケージに入っている"
+    "section": "今日学ぶこと",
+    "text": "今日学ぶこと\n\nデータの集計\nデータの形の変え方（縦長いから横広いとその逆）\nデータの結合"
   },
   {
-    "objectID": "day4/index.html#チャレンジ",
-    "href": "day4/index.html#チャレンジ",
+    "objectID": "day5/index.html#データの集計",
+    "href": "day5/index.html#データの集計",
     "title": "データサイエンス",
-    "section": "チャレンジ",
-    "text": "チャレンジ\nncyflights13パッケージをインストールして、nycflights.Rというスクリプトでパッケージをロードしてください"
+    "section": "データの集計",
+    "text": "データの集計\nsummarize()でデータの集計ができる：\n\nlibrary(nycflights13)\nlibrary(tidyverse)\n\nsummarize(flights, mean_sched_dep_time = mean(sched_dep_time))\n\n# A tibble: 1 × 1\n  mean_sched_dep_time\n                &lt;dbl&gt;\n1               1344."
   },
   {
-    "objectID": "day4/index.html#今日のデータセット-1",
-    "href": "day4/index.html#今日のデータセット-1",
+    "objectID": "day5/index.html#グループ化",
+    "href": "day5/index.html#グループ化",
     "title": "データサイエンス",
-    "section": "今日のデータセット",
-    "text": "今日のデータセット\nデータはflightsというデータフレームに入っている：\n\nlibrary(nycflights13)\nlibrary(tidyverse)\n\nflights\n\n# A tibble: 336,776 × 19\n    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;\n 1  2013     1     1      517            515         2      830            819\n 2  2013     1     1      533            529         4      850            830\n 3  2013     1     1      542            540         2      923            850\n 4  2013     1     1      544            545        -1     1004           1022\n 5  2013     1     1      554            600        -6      812            837\n 6  2013     1     1      554            558        -4      740            728\n 7  2013     1     1      555            600        -5      913            854\n 8  2013     1     1      557            600        -3      709            723\n 9  2013     1     1      557            600        -3      838            846\n10  2013     1     1      558            600        -2      753            745\n# ℹ 336,766 more rows\n# ℹ 11 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,\n#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,\n#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;"
+    "section": "グループ化",
+    "text": "グループ化\n\nしかし、全体の平均だけを計算してもあまり意味はない。\nそれよりも、何か毎にデータの集計を行いたい方が多い。\nそれにはgroup_by()関数を使う。例えば、月ごと。まずはデータのグループを指定する："
   },
   {
-    "objectID": "day4/index.html#データ整理の関数",
-    "href": "day4/index.html#データ整理の関数",
+    "objectID": "day5/index.html#グループ化してから集計する",
+    "href": "day5/index.html#グループ化してから集計する",
     "title": "データサイエンス",
-    "section": "データ整理の関数",
-    "text": "データ整理の関数\nこれから学ぶ関数の共通点：\n\nデータフレームをインプットとし、データフレームを返す\n最初の引数がインプットのデータフレーム\n他の引数は詳細（行の名前に引用符を使わない）"
+    "section": "グループ化してから、集計する",
+    "text": "グループ化してから、集計する\n次に、集計する：\n\nflights |&gt; \n  group_by(month) |&gt; \n  summarize(\n    avg_delay = mean(dep_delay)\n  )\n\n# A tibble: 12 × 2\n   month avg_delay\n   &lt;int&gt;     &lt;dbl&gt;\n 1     1        NA\n 2     2        NA\n 3     3        NA\n 4     4        NA\n 5     5        NA\n 6     6        NA\n 7     7        NA\n 8     8        NA\n 9     9        NA\n10    10        NA\n11    11        NA\n12    12        NA"
   },
   {
-    "objectID": "day4/index.html#filterで行を絞り込む",
-    "href": "day4/index.html#filterで行を絞り込む",
+    "objectID": "day5/index.html#どこがnaだったのかをfilterで確かめる",
+    "href": "day5/index.html#どこがnaだったのかをfilterで確かめる",
     "title": "データサイエンス",
-    "section": "filter()で行を絞り込む",
-    "text": "filter()で行を絞り込む\n\n生データが必要以上に多い場合がよくある（特に、「ビッグデータ」を扱っているとき）\nfilter()で条件を定めて、その行だけに絞り込む"
+    "section": "どこがNAだったのかをfilter()で確かめる",
+    "text": "どこがNAだったのかをfilter()で確かめる\n\nflights |&gt;\n  filter(is.na(dep_delay))\n\n# A tibble: 8,255 × 19\n    year month   day dep_time sched_dep_time dep_delay arr_time\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;\n 1  2013     1     1       NA           1630        NA       NA\n 2  2013     1     1       NA           1935        NA       NA\n 3  2013     1     1       NA           1500        NA       NA\n 4  2013     1     1       NA            600        NA       NA\n 5  2013     1     2       NA           1540        NA       NA\n 6  2013     1     2       NA           1620        NA       NA\n 7  2013     1     2       NA           1355        NA       NA\n 8  2013     1     2       NA           1420        NA       NA\n 9  2013     1     2       NA           1321        NA       NA\n10  2013     1     2       NA           1545        NA       NA\n# ℹ 8,245 more rows\n# ℹ 12 more variables: sched_arr_time &lt;int&gt;, arr_delay &lt;dbl&gt;,\n#   carrier &lt;chr&gt;, flight &lt;int&gt;, tailnum &lt;chr&gt;, origin &lt;chr&gt;,\n#   dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;, hour &lt;dbl&gt;,\n#   minute &lt;dbl&gt;, time_hour &lt;dttm&gt;"
   },
   {
-    "objectID": "day4/index.html#filterで行を絞り込む-1",
-    "href": "day4/index.html#filterで行を絞り込む-1",
+    "objectID": "day5/index.html#nでグループの件数を数える",
+    "href": "day5/index.html#nでグループの件数を数える",
     "title": "データサイエンス",
-    "section": "filter()で行を絞り込む",
-    "text": "filter()で行を絞り込む\n\n元のデータは変わっていない\nfilter()の出力を保存したい時は&lt;-を使う"
+    "section": "n()でグループの件数を数える",
+    "text": "n()でグループの件数を数える\n\nflights |&gt; \n  group_by(month) |&gt; \n  summarize(\n    avg_delay = mean(dep_delay, na.rm = TRUE),\n    n = n()\n  )\n\n# A tibble: 12 × 3\n   month avg_delay     n\n   &lt;int&gt;     &lt;dbl&gt; &lt;int&gt;\n 1     1     10.0  27004\n 2     2     10.8  24951\n 3     3     13.2  28834\n 4     4     13.9  28330\n 5     5     13.0  28796\n 6     6     20.8  28243\n 7     7     21.7  29425\n 8     8     12.6  29327\n 9     9      6.72 27574\n10    10      6.24 28889\n11    11      5.44 27268\n12    12     16.6  28135"
   },
   {
-    "objectID": "day4/index.html#データの比較",
-    "href": "day4/index.html#データの比較",
+    "objectID": "day5/index.html#ungroupでグループを解除する",
+    "href": "day5/index.html#ungroupでグループを解除する",
     "title": "データサイエンス",
-    "section": "データの比較",
-    "text": "データの比較\nデータの比較を行う主な記号：\n\n&gt; より大きい\n&lt; より小さい\n== イコール （=ではない！）\n| あるいは\n& そして（複数条件の指定）\n\n比較の記号のアウトプットは論理ベクトル"
+    "section": "ungroup()でグループを解除する",
+    "text": "ungroup()でグループを解除する\n\nグループ毎の計算が終わったら、ungroup()でグループの解除をする必要がある場合がある。\n\n（以下のコードでは自動的にグループが解除されるので本当はいらないけど、必要な場合もある）\n\nflights |&gt; \n  group_by(month) |&gt; \n  summarize(\n    avg_delay = mean(dep_delay, na.rm = TRUE)\n  ) |&gt;\n  ungroup()\n\n# A tibble: 12 × 2\n   month avg_delay\n   &lt;int&gt;     &lt;dbl&gt;\n 1     1     10.0 \n 2     2     10.8 \n 3     3     13.2 \n 4     4     13.9 \n 5     5     13.0 \n 6     6     20.8 \n 7     7     21.7 \n 8     8     12.6 \n 9     9      6.72\n10    10      6.24\n11    11      5.44\n12    12     16.6"
   },
   {
-    "objectID": "day4/index.html#チャレンジ-1",
-    "href": "day4/index.html#チャレンジ-1",
+    "objectID": "day5/index.html#複数条件でグループ分けする",
+    "href": "day5/index.html#複数条件でグループ分けする",
     "title": "データサイエンス",
-    "section": "チャレンジ",
-    "text": "チャレンジ\n何故11 = 10がエラーになってしまう？"
+    "section": "複数条件でグループ分けする",
+    "text": "複数条件でグループ分けする\n\ndaily &lt;-\n  flights |&gt;\n  group_by(year, month, day)\n\n\nsummarize(daily, n = n())\n\n# A tibble: 365 × 4\n# Groups:   year, month [12]\n    year month   day     n\n   &lt;int&gt; &lt;int&gt; &lt;int&gt; &lt;int&gt;\n 1  2013     1     1   842\n 2  2013     1     2   943\n 3  2013     1     3   914\n 4  2013     1     4   915\n 5  2013     1     5   720\n 6  2013     1     6   832\n 7  2013     1     7   933\n 8  2013     1     8   899\n 9  2013     1     9   902\n10  2013     1    10   932\n# ℹ 355 more rows"
   },
   {
-    "objectID": "day4/index.html#チャレンジ-2",
-    "href": "day4/index.html#チャレンジ-2",
+    "objectID": "day5/index.html#ungroupでグループを解除する-1",
+    "href": "day5/index.html#ungroupでグループを解除する-1",
     "title": "データサイエンス",
-    "section": "チャレンジ",
-    "text": "チャレンジ\n\n１月のフライトに絞っとください\n\n\n\nfilter(flights, month == 1)\n\n# A tibble: 27,004 × 19\n    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;\n 1  2013     1     1      517            515         2      830            819\n 2  2013     1     1      533            529         4      850            830\n 3  2013     1     1      542            540         2      923            850\n 4  2013     1     1      544            545        -1     1004           1022\n 5  2013     1     1      554            600        -6      812            837\n 6  2013     1     1      554            558        -4      740            728\n 7  2013     1     1      555            600        -5      913            854\n 8  2013     1     1      557            600        -3      709            723\n 9  2013     1     1      557            600        -3      838            846\n10  2013     1     1      558            600        -2      753            745\n# ℹ 26,994 more rows\n# ℹ 11 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,\n#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,\n#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;"
+    "section": "ungroup()でグループを解除する",
+    "text": "ungroup()でグループを解除する\n\ndaily |&gt;\n  ungroup() |&gt;\n  summarize(\n    avg_delay = mean(dep_delay, na.rm = TRUE),\n    n = n()\n  )\n\n# A tibble: 1 × 2\n  avg_delay      n\n      &lt;dbl&gt;  &lt;int&gt;\n1      12.6 336776"
   },
   {
-    "objectID": "day4/index.html#チャレンジ-3",
-    "href": "day4/index.html#チャレンジ-3",
+    "objectID": "day5/index.html#データの形を変える",
+    "href": "day5/index.html#データの形を変える",
     "title": "データサイエンス",
-    "section": "チャレンジ",
-    "text": "チャレンジ\n\n１月１日のフライトに絞っとください\n\n\n\nfilter(flights, month == 1 & day == 1)\n\n# A tibble: 842 × 19\n    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;\n 1  2013     1     1      517            515         2      830            819\n 2  2013     1     1      533            529         4      850            830\n 3  2013     1     1      542            540         2      923            850\n 4  2013     1     1      544            545        -1     1004           1022\n 5  2013     1     1      554            600        -6      812            837\n 6  2013     1     1      554            558        -4      740            728\n 7  2013     1     1      555            600        -5      913            854\n 8  2013     1     1      557            600        -3      709            723\n 9  2013     1     1      557            600        -3      838            846\n10  2013     1     1      558            600        -2      753            745\n# ℹ 832 more rows\n# ℹ 11 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,\n#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,\n#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;"
+    "section": "データの形を変える",
+    "text": "データの形を変える\n\n同じデータを様々な形で表すことができる。\n例えば、以下の結核のデータを見ましょう（tidyverseのtidyrパッケージに入っている例のデータセット）：\n\n\ntable1\n\n# A tibble: 6 × 4\n  country      year  cases population\n  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;\n1 Afghanistan  1999    745   19987071\n2 Afghanistan  2000   2666   20595360\n3 Brazil       1999  37737  172006362\n4 Brazil       2000  80488  174504898\n5 China        1999 212258 1272915272\n6 China        2000 213766 1280428583"
   },
   {
-    "objectID": "day4/index.html#filterで行を絞り込む-2",
-    "href": "day4/index.html#filterで行を絞り込む-2",
+    "objectID": "day5/index.html#データの形を変える-1",
+    "href": "day5/index.html#データの形を変える-1",
     "title": "データサイエンス",
-    "section": "filter()で行を絞り込む",
-    "text": "filter()で行を絞り込む\nもう一つの複数条件を設定方法：,で条件を加える（filter()だけ）\n\nfilter(flights, month == 1, day == 1)\n\n# A tibble: 842 × 19\n    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;\n 1  2013     1     1      517            515         2      830            819\n 2  2013     1     1      533            529         4      850            830\n 3  2013     1     1      542            540         2      923            850\n 4  2013     1     1      544            545        -1     1004           1022\n 5  2013     1     1      554            600        -6      812            837\n 6  2013     1     1      554            558        -4      740            728\n 7  2013     1     1      555            600        -5      913            854\n 8  2013     1     1      557            600        -3      709            723\n 9  2013     1     1      557            600        -3      838            846\n10  2013     1     1      558            600        -2      753            745\n# ℹ 832 more rows\n# ℹ 11 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,\n#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,\n#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;"
+    "section": "データの形を変える",
+    "text": "データの形を変える\n\n元々のデータが同じであることは確認できましたか？\nでも、table1とtable2には大事な違いがある：\n\ntable1だけがtidy（すぐに解析できるように整っている）になっている"
   },
   {
-    "objectID": "day4/index.html#arrangeで行を並べ替える",
-    "href": "day4/index.html#arrangeで行を並べ替える",
+    "objectID": "day5/index.html#tidyなデータの定義",
+    "href": "day5/index.html#tidyなデータの定義",
     "title": "データサイエンス",
-    "section": "arrange()で行を並べ替える",
-    "text": "arrange()で行を並べ替える\n\n# 出発の日と時間で並べ替える\narrange(flights, year, month, day, dep_time)\n\n# A tibble: 336,776 × 19\n    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;\n 1  2013     1     1      517            515         2      830            819\n 2  2013     1     1      533            529         4      850            830\n 3  2013     1     1      542            540         2      923            850\n 4  2013     1     1      544            545        -1     1004           1022\n 5  2013     1     1      554            600        -6      812            837\n 6  2013     1     1      554            558        -4      740            728\n 7  2013     1     1      555            600        -5      913            854\n 8  2013     1     1      557            600        -3      709            723\n 9  2013     1     1      557            600        -3      838            846\n10  2013     1     1      558            600        -2      753            745\n# ℹ 336,766 more rows\n# ℹ 11 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,\n#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,\n#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;"
+    "section": "tidyなデータの定義",
+    "text": "tidyなデータの定義\n\n各列が変数を表している\n各行が観察を表している\n各セルが一つの値を表している"
   },
   {
-    "objectID": "day4/index.html#arrangeで行を並べ替える-1",
-    "href": "day4/index.html#arrangeで行を並べ替える-1",
+    "objectID": "day5/index.html#tidyなデータの利点",
+    "href": "day5/index.html#tidyなデータの利点",
     "title": "データサイエンス",
-    "section": "arrange()で行を並べ替える",
-    "text": "arrange()で行を並べ替える\n\narrange()はデフォルトで小さい方からの順になっている\n大きい方から並べたい時はdesc()（「descend」、「降りる」）を使う：\n\n\n# 大きく遅れた順で並べる\narrange(flights, desc(dep_delay))\n\n# A tibble: 336,776 × 19\n    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;\n 1  2013     1     9      641            900      1301     1242           1530\n 2  2013     6    15     1432           1935      1137     1607           2120\n 3  2013     1    10     1121           1635      1126     1239           1810\n 4  2013     9    20     1139           1845      1014     1457           2210\n 5  2013     7    22      845           1600      1005     1044           1815\n 6  2013     4    10     1100           1900       960     1342           2211\n 7  2013     3    17     2321            810       911      135           1020\n 8  2013     6    27      959           1900       899     1236           2226\n 9  2013     7    22     2257            759       898      121           1026\n10  2013    12     5      756           1700       896     1058           2020\n# ℹ 336,766 more rows\n# ℹ 11 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,\n#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,\n#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;"
+    "section": "tidyなデータの利点",
+    "text": "tidyなデータの利点\n\n今まで学んできた関数（mutate()、filter()など）はtidyなデータの方が使いやすい\nグラフを作成する際も、tidyなデータの方が使いやすいです\n\n例えば：\n\n# 1万人あたりの病気の発生率を計算する\ntable1 |&gt;\n  mutate(rate = cases / population * 10000)\n\n# A tibble: 6 × 5\n  country      year  cases population  rate\n  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt; &lt;dbl&gt;\n1 Afghanistan  1999    745   19987071 0.373\n2 Afghanistan  2000   2666   20595360 1.29 \n3 Brazil       1999  37737  172006362 2.19 \n4 Brazil       2000  80488  174504898 4.61 \n5 China        1999 212258 1272915272 1.67 \n6 China        2000 213766 1280428583 1.67"
   },
   {
-    "objectID": "day4/index.html#チャレンジ-4",
-    "href": "day4/index.html#チャレンジ-4",
+    "objectID": "day5/index.html#ワイド横広いデータを縦長ロングに変える",
+    "href": "day5/index.html#ワイド横広いデータを縦長ロングに変える",
     "title": "データサイエンス",
-    "section": "チャレンジ",
-    "text": "チャレンジ\n\nfilter()とarrange()を使って、12月のフライトに絞ってから、遠く飛んだ順に並べ替えてください"
+    "section": "ワイド（横広い）データを縦長（ロング）に変える",
+    "text": "ワイド（横広い）データを縦長（ロング）に変える\nbillboardというデータセットには２０００年の歌のランキングが入っている：\n\nbillboard\n\n# A tibble: 317 × 79\n   artist track date.entered   wk1   wk2   wk3   wk4   wk5   wk6   wk7\n   &lt;chr&gt;  &lt;chr&gt; &lt;date&gt;       &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;\n 1 2 Pac  Baby… 2000-02-26      87    82    72    77    87    94    99\n 2 2Ge+h… The … 2000-09-02      91    87    92    NA    NA    NA    NA\n 3 3 Doo… Kryp… 2000-04-08      81    70    68    67    66    57    54\n 4 3 Doo… Loser 2000-10-21      76    76    72    69    67    65    55\n 5 504 B… Wobb… 2000-04-15      57    34    25    17    17    31    36\n 6 98^0   Give… 2000-08-19      51    39    34    26    26    19     2\n 7 A*Tee… Danc… 2000-07-08      97    97    96    95   100    NA    NA\n 8 Aaliy… I Do… 2000-01-29      84    62    51    41    38    35    35\n 9 Aaliy… Try … 2000-03-18      59    53    38    28    21    18    16\n10 Adams… Open… 2000-08-26      76    76    74    69    68    67    61\n# ℹ 307 more rows\n# ℹ 69 more variables: wk8 &lt;dbl&gt;, wk9 &lt;dbl&gt;, wk10 &lt;dbl&gt;, wk11 &lt;dbl&gt;,\n#   wk12 &lt;dbl&gt;, wk13 &lt;dbl&gt;, wk14 &lt;dbl&gt;, wk15 &lt;dbl&gt;, wk16 &lt;dbl&gt;,\n#   wk17 &lt;dbl&gt;, wk18 &lt;dbl&gt;, wk19 &lt;dbl&gt;, wk20 &lt;dbl&gt;, wk21 &lt;dbl&gt;,\n#   wk22 &lt;dbl&gt;, wk23 &lt;dbl&gt;, wk24 &lt;dbl&gt;, wk25 &lt;dbl&gt;, wk26 &lt;dbl&gt;,\n#   wk27 &lt;dbl&gt;, wk28 &lt;dbl&gt;, wk29 &lt;dbl&gt;, wk30 &lt;dbl&gt;, wk31 &lt;dbl&gt;,\n#   wk32 &lt;dbl&gt;, wk33 &lt;dbl&gt;, wk34 &lt;dbl&gt;, wk35 &lt;dbl&gt;, wk36 &lt;dbl&gt;, …"
   },
   {
-    "objectID": "day4/index.html#パイプにつて",
-    "href": "day4/index.html#パイプにつて",
+    "objectID": "day5/index.html#ワイドなデータの例billboard",
+    "href": "day5/index.html#ワイドなデータの例billboard",
     "title": "データサイエンス",
-    "section": "パイプにつて",
-    "text": "パイプにつて\n\nfilter(データ, 条件)というような書き方をしてきたが、また別の書き方がある：\n\nデータ |&gt; filter(条件)"
+    "section": "ワイドなデータの例：billboard",
+    "text": "ワイドなデータの例：billboard\n\n列：\n\nartist アーティスト（演奏者）\ntrack 曲名\ndate.entered 最初にランキングに入った日付\nwk1 .. wk76 それぞれの種のランキング\n\n\n列がやたらある。そして、列の名前にデータがある（周目）。これをどうやって別の変数にできるのでしょうか？"
   },
   {
-    "objectID": "day4/index.html#パイプにつて-1",
-    "href": "day4/index.html#パイプにつて-1",
+    "objectID": "day5/index.html#ワイドからロングにするのはpivot_longer",
+    "href": "day5/index.html#ワイドからロングにするのはpivot_longer",
     "title": "データサイエンス",
-    "section": "パイプにつて",
-    "text": "パイプにつて\n\n|&gt;は「パイプ」と呼ばれる\n左にある物を右の方に渡す\n「それから」と読む"
+    "section": "ワイドからロングにするのはpivot_longer()",
+    "text": "ワイドからロングにするのはpivot_longer()\n\npivot_longer()の主な引数：\n\ncols どの列を使う（ロングにする）\nnames_to ロング形式に変換される新しい列の名前\nvalues_to 新しい値の列の名前\n\n\nでや、やって見ましょう"
   },
   {
-    "objectID": "day4/index.html#いつパイプを使う",
-    "href": "day4/index.html#いつパイプを使う",
+    "objectID": "day5/index.html#ロングなデータをワイドに変える",
+    "href": "day5/index.html#ロングなデータをワイドに変える",
     "title": "データサイエンス",
-    "section": "いつパイプを使う？",
-    "text": "いつパイプを使う？\n\n複数の作業を施すに便利\n\n「パイプライン」\n\n\n\n# flightsから始まって、12月のデータに絞ってから、遠く飛んだ距離の順で並べる\nflights |&gt;\n  filter(month == 12) |&gt;\n  arrange(desc(distance))\n\n# A tibble: 28,135 × 19\n    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;\n 1  2013    12     1      928            930        -2     1532           1535\n 2  2013    12     2      920            930       -10     1525           1535\n 3  2013    12     4      933            930         3     1519           1535\n 4  2013    12     5      920            930       -10     1609           1535\n 5  2013    12     6      924            930        -6     1545           1535\n 6  2013    12     7      927            930        -3     1549           1535\n 7  2013    12     8      935            930         5     1520           1535\n 8  2013    12     9      928            930        -2     1528           1535\n 9  2013    12    11      930            930         0     1539           1535\n10  2013    12    13      929            930        -1     1527           1535\n# ℹ 28,125 more rows\n# ℹ 11 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,\n#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,\n#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;"
+    "section": "ロングなデータをワイドに変える",
+    "text": "ロングなデータをワイドに変える\ncms_patient_experienceというデータセットには患者の経験のデータが入っている\n\ncms_patient_experience\n\n# A tibble: 500 × 5\n   org_pac_id org_nm                 measure_cd measure_title prf_rate\n   &lt;chr&gt;      &lt;chr&gt;                  &lt;chr&gt;      &lt;chr&gt;            &lt;dbl&gt;\n 1 0446157747 USC CARE MEDICAL GROU… CAHPS_GRP… CAHPS for MI…       63\n 2 0446157747 USC CARE MEDICAL GROU… CAHPS_GRP… CAHPS for MI…       87\n 3 0446157747 USC CARE MEDICAL GROU… CAHPS_GRP… CAHPS for MI…       86\n 4 0446157747 USC CARE MEDICAL GROU… CAHPS_GRP… CAHPS for MI…       57\n 5 0446157747 USC CARE MEDICAL GROU… CAHPS_GRP… CAHPS for MI…       85\n 6 0446157747 USC CARE MEDICAL GROU… CAHPS_GRP… CAHPS for MI…       24\n 7 0446162697 ASSOCIATION OF UNIVER… CAHPS_GRP… CAHPS for MI…       59\n 8 0446162697 ASSOCIATION OF UNIVER… CAHPS_GRP… CAHPS for MI…       85\n 9 0446162697 ASSOCIATION OF UNIVER… CAHPS_GRP… CAHPS for MI…       83\n10 0446162697 ASSOCIATION OF UNIVER… CAHPS_GRP… CAHPS for MI…       63\n# ℹ 490 more rows"
   },
   {
-    "objectID": "day4/index.html#mutateで新しい列を計算する",
-    "href": "day4/index.html#mutateで新しい列を計算する",
+    "objectID": "day5/index.html#cms_patient_experienceの特徴",
+    "href": "day5/index.html#cms_patient_experienceの特徴",
     "title": "データサイエンス",
-    "section": "mutate()で新しい列を計算する",
-    "text": "mutate()で新しい列を計算する\n\n新しい列は右側から追加される\n\n列が多い場合は見えないことも\n\n\n\nflights |&gt; \n  mutate(speed = distance / air_time * 60)\n\n# A tibble: 336,776 × 20\n    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;\n 1  2013     1     1      517            515         2      830            819\n 2  2013     1     1      533            529         4      850            830\n 3  2013     1     1      542            540         2      923            850\n 4  2013     1     1      544            545        -1     1004           1022\n 5  2013     1     1      554            600        -6      812            837\n 6  2013     1     1      554            558        -4      740            728\n 7  2013     1     1      555            600        -5      913            854\n 8  2013     1     1      557            600        -3      709            723\n 9  2013     1     1      557            600        -3      838            846\n10  2013     1     1      558            600        -2      753            745\n# ℹ 336,766 more rows\n# ℹ 12 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,\n#   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,\n#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;, speed &lt;dbl&gt;"
+    "section": "cms_patient_experienceの特徴",
+    "text": "cms_patient_experienceの特徴\n\n研究の対象となっているのは組織だけど、各組織のデータは６つの行を跨いでいる。\nどうやって一つの組織を一つの列にできる？"
   },
   {
-    "objectID": "day4/index.html#mutateで新しい列を計算する-1",
-    "href": "day4/index.html#mutateで新しい列を計算する-1",
+    "objectID": "day5/index.html#ロングからワイドにするのはpivot_wider",
+    "href": "day5/index.html#ロングからワイドにするのはpivot_wider",
     "title": "データサイエンス",
-    "section": "mutate()で新しい列を計算する",
-    "text": "mutate()で新しい列を計算する\n\n.beforeを使うと、新しい列が入る場所を指定できる\n\n\nflights |&gt; \n  mutate(\n    speed = distance / air_time * 60,\n    .before = 1)\n\n# A tibble: 336,776 × 20\n   speed  year month   day dep_time sched_dep_time dep_delay arr_time\n   &lt;dbl&gt; &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;\n 1  370.  2013     1     1      517            515         2      830\n 2  374.  2013     1     1      533            529         4      850\n 3  408.  2013     1     1      542            540         2      923\n 4  517.  2013     1     1      544            545        -1     1004\n 5  394.  2013     1     1      554            600        -6      812\n 6  288.  2013     1     1      554            558        -4      740\n 7  404.  2013     1     1      555            600        -5      913\n 8  259.  2013     1     1      557            600        -3      709\n 9  405.  2013     1     1      557            600        -3      838\n10  319.  2013     1     1      558            600        -2      753\n# ℹ 336,766 more rows\n# ℹ 12 more variables: sched_arr_time &lt;int&gt;, arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;,\n#   flight &lt;int&gt;, tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;,\n#   distance &lt;dbl&gt;, hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;"
+    "section": "ロングからワイドにするのはpivot_wider()",
+    "text": "ロングからワイドにするのはpivot_wider()\n\npivot_wider()の主な引数：\n\ncols どの列を使う（ワイドにする）\nnames_from 列名として使用するロング形式の列名\nvalues_from 新しい列に配置される値を持つロング形式の列\n\n\nでや、やって見ましょう"
   },
   {
-    "objectID": "day4/index.html#mutateで新しい列を計算する-2",
-    "href": "day4/index.html#mutateで新しい列を計算する-2",
+    "objectID": "day5/index.html#id_colsで行を識別する列を指定する",
+    "href": "day5/index.html#id_colsで行を識別する列を指定する",
     "title": "データサイエンス",
-    "section": "mutate()で新しい列を計算する",
-    "text": "mutate()で新しい列を計算する\n\nfilter()（と他のデータ整理用関数と同じように）、mutate()の出力は元のデータを触らない\n解析結果を保存したい時は&lt;-を使う"
+    "section": "id_colsで行を識別する列を指定する",
+    "text": "id_colsで行を識別する列を指定する\n\ncms_patient_experience |&gt;\n  pivot_wider(\n    names_from = measure_cd,\n    values_from = prf_rate,\n    id_cols = starts_with(\"org\")\n  )\n\n# A tibble: 95 × 8\n   org_pac_id org_nm   CAHPS_GRP_1 CAHPS_GRP_2 CAHPS_GRP_3 CAHPS_GRP_5\n   &lt;chr&gt;      &lt;chr&gt;          &lt;dbl&gt;       &lt;dbl&gt;       &lt;dbl&gt;       &lt;dbl&gt;\n 1 0446157747 USC CAR…          63          87          86          57\n 2 0446162697 ASSOCIA…          59          85          83          63\n 3 0547164295 BEAVER …          49          NA          75          44\n 4 0749333730 CAPE PH…          67          84          85          65\n 5 0840104360 ALLIANC…          66          87          87          64\n 6 0840109864 REX HOS…          73          87          84          67\n 7 0840513552 SCL HEA…          58          83          76          58\n 8 0941545784 GRITMAN…          46          86          81          54\n 9 1052612785 COMMUNI…          65          84          80          58\n10 1254237779 OUR LAD…          61          NA          NA          65\n# ℹ 85 more rows\n# ℹ 2 more variables: CAHPS_GRP_8 &lt;dbl&gt;, CAHPS_GRP_12 &lt;dbl&gt;"
   },
   {
-    "objectID": "day4/index.html#selectで列を絞る",
-    "href": "day4/index.html#selectで列を絞る",
+    "objectID": "day5/index.html#データの結合",
+    "href": "day5/index.html#データの結合",
     "title": "データサイエンス",
-    "section": "select()で列を絞る",
-    "text": "select()で列を絞る\n\n生データにたくさんの列が入っている場合がよくある。解析に必要な列だけに絞った方が解析がやりやすい\n基本的な使い方：列名で選択する\n\n\nflights |&gt; \n  select(year, month, day)\n\n# A tibble: 336,776 × 3\n    year month   day\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;\n 1  2013     1     1\n 2  2013     1     1\n 3  2013     1     1\n 4  2013     1     1\n 5  2013     1     1\n 6  2013     1     1\n 7  2013     1     1\n 8  2013     1     1\n 9  2013     1     1\n10  2013     1     1\n# ℹ 336,766 more rows"
+    "section": "データの結合",
+    "text": "データの結合\n\n多くの場合、使いたいデータが複数のデータセット（データフレーム、あるいはファイル）に跨いで入っている\nしたがって、データの結合（join）を行う必要がある"
   },
   {
-    "objectID": "day4/index.html#selectで列を絞る-1",
-    "href": "day4/index.html#selectで列を絞る-1",
+    "objectID": "day5/index.html#複数のデータセットの例飛行機のデータ",
+    "href": "day5/index.html#複数のデータセットの例飛行機のデータ",
     "title": "データサイエンス",
-    "section": "select()で列を絞る",
-    "text": "select()で列を絞る\n\n選択したい列が多い場合は、:を使ってどこから〜どこまでというふうに書くと便利：\n\n\nflights |&gt; \n  select(year:day)\n\n# A tibble: 336,776 × 3\n    year month   day\n   &lt;int&gt; &lt;int&gt; &lt;int&gt;\n 1  2013     1     1\n 2  2013     1     1\n 3  2013     1     1\n 4  2013     1     1\n 5  2013     1     1\n 6  2013     1     1\n 7  2013     1     1\n 8  2013     1     1\n 9  2013     1     1\n10  2013     1     1\n# ℹ 336,766 more rows"
+    "section": "複数のデータセットの例：飛行機のデータ",
+    "text": "複数のデータセットの例：飛行機のデータ\nairlinesには航空会社の名前のデータが入っている：\n\nairlines\n\n# A tibble: 16 × 2\n   carrier name                       \n   &lt;chr&gt;   &lt;chr&gt;                      \n 1 9E      Endeavor Air Inc.          \n 2 AA      American Airlines Inc.     \n 3 AS      Alaska Airlines Inc.       \n 4 B6      JetBlue Airways            \n 5 DL      Delta Air Lines Inc.       \n 6 EV      ExpressJet Airlines Inc.   \n 7 F9      Frontier Airlines Inc.     \n 8 FL      AirTran Airways Corporation\n 9 HA      Hawaiian Airlines Inc.     \n10 MQ      Envoy Air                  \n11 OO      SkyWest Airlines Inc.      \n12 UA      United Air Lines Inc.      \n13 US      US Airways Inc.            \n14 VX      Virgin America             \n15 WN      Southwest Airlines Co.     \n16 YV      Mesa Airlines Inc."
   },
   {
-    "objectID": "day4/index.html#チャレンジ-5",
-    "href": "day4/index.html#チャレンジ-5",
+    "objectID": "day5/index.html#付け加えたデータが右の方に入る",
+    "href": "day5/index.html#付け加えたデータが右の方に入る",
     "title": "データサイエンス",
-    "section": "チャレンジ",
-    "text": "チャレンジ\nJFKから出発したフライトに絞ってから、速度を計算してから、早い速度の順に並べ替えてください"
+    "section": "付け加えたデータが右の方に入る",
+    "text": "付け加えたデータが右の方に入る\nnycflights13は列の数が多いことを覚えていますか？\n\nこれから新しいデータと結合しても、付け加えたデータが右の方に入るため、結果が見えないので、説明するために小さいバージョンを用意する\n\n\nflights2 &lt;- flights |&gt;\n  select(year, time_hour, origin, dest, tailnum, carrier)"
   },
   {
-    "objectID": "day4/index.html#まとめ今日学んだ関数動詞",
-    "href": "day4/index.html#まとめ今日学んだ関数動詞",
+    "objectID": "day5/index.html#別のデータフレームからデータを加えるleft_join",
+    "href": "day5/index.html#別のデータフレームからデータを加えるleft_join",
     "title": "データサイエンス",
-    "section": "まとめ：今日学んだ関数（動詞）",
-    "text": "まとめ：今日学んだ関数（動詞）\n\n行を扱う関数\n\nfilter()\narrange()\n\n列を扱う関数\n\nmutate()\nselect()\n\n集計の関数\n\nsummarize()\ngroup_by()\nungroup()"
+    "section": "別のデータフレームからデータを加える：left_join()",
+    "text": "別のデータフレームからデータを加える：left_join()\n航空会社の名前を追加しましょう：\n\nflights2 |&gt;\n  left_join(airlines)\n\n# A tibble: 336,776 × 7\n    year time_hour           origin dest  tailnum carrier name        \n   &lt;int&gt; &lt;dttm&gt;              &lt;chr&gt;  &lt;chr&gt; &lt;chr&gt;   &lt;chr&gt;   &lt;chr&gt;       \n 1  2013 2013-01-01 05:00:00 EWR    IAH   N14228  UA      United Air …\n 2  2013 2013-01-01 05:00:00 LGA    IAH   N24211  UA      United Air …\n 3  2013 2013-01-01 05:00:00 JFK    MIA   N619AA  AA      American Ai…\n 4  2013 2013-01-01 05:00:00 JFK    BQN   N804JB  B6      JetBlue Air…\n 5  2013 2013-01-01 06:00:00 LGA    ATL   N668DN  DL      Delta Air L…\n 6  2013 2013-01-01 05:00:00 EWR    ORD   N39463  UA      United Air …\n 7  2013 2013-01-01 06:00:00 EWR    FLL   N516JB  B6      JetBlue Air…\n 8  2013 2013-01-01 06:00:00 LGA    IAD   N829AS  EV      ExpressJet …\n 9  2013 2013-01-01 06:00:00 JFK    MCO   N593JB  B6      JetBlue Air…\n10  2013 2013-01-01 06:00:00 LGA    ORD   N3ALAA  AA      American Ai…\n# ℹ 336,766 more rows"
   },
   {
-    "objectID": "day4/index.html#まとめ",
-    "href": "day4/index.html#まとめ",
+    "objectID": "day5/index.html#結合する時は鍵が大事",
+    "href": "day5/index.html#結合する時は鍵が大事",
     "title": "データサイエンス",
-    "section": "まとめ",
-    "text": "まとめ\n\n|&gt;とデータ整理用の関数を組み合わせることによって、すぐにでもかなり高度なデータ解析のパイプラインができるようなる。\n初めての方にはとてもコードの量が多いように思えるでしょうが、このようなツールを毎日使うって、慣れていくとそのうちどのようなデータでもRで扱えるようになる！"
+    "section": "結合する時は「鍵」が大事",
+    "text": "結合する時は「鍵」が大事\n上のコードを走らせた際、このメッセージがありました：\nJoining with `by = join_by(carrier)`\n\nつまり、それぞれのデータフレームが共通に持っている列です。これ「鍵」（Key）と呼ぶ。\n共通に持っている列がないと、結合ができない。"
   },
   {
-    "objectID": "day2/index.html#ニッタ-ジョエル",
-    "href": "day2/index.html#ニッタ-ジョエル",
+    "objectID": "day5/index.html#結合する時は鍵が大事-1",
+    "href": "day5/index.html#結合する時は鍵が大事-1",
     "title": "データサイエンス",
-    "section": "ニッタ ジョエル",
-    "text": "ニッタ ジョエル\n\n\n\n研究テーマその１：シダ植物の進化と生態学\n研究テーマその２：データサイエンス用ソフトの開発\nhttps://www.joelnitta.com"
+    "section": "結合する時は「鍵」が大事",
+    "text": "結合する時は「鍵」が大事\n上のコードは自動的に共通する列を鍵として使ったけど、手動で指定することもできる：\n\nflights2 |&gt;\n  left_join(\n    airlines,\n    by = join_by(carrier))\n\n# A tibble: 336,776 × 7\n    year time_hour           origin dest  tailnum carrier name        \n   &lt;int&gt; &lt;dttm&gt;              &lt;chr&gt;  &lt;chr&gt; &lt;chr&gt;   &lt;chr&gt;   &lt;chr&gt;       \n 1  2013 2013-01-01 05:00:00 EWR    IAH   N14228  UA      United Air …\n 2  2013 2013-01-01 05:00:00 LGA    IAH   N24211  UA      United Air …\n 3  2013 2013-01-01 05:00:00 JFK    MIA   N619AA  AA      American Ai…\n 4  2013 2013-01-01 05:00:00 JFK    BQN   N804JB  B6      JetBlue Air…\n 5  2013 2013-01-01 06:00:00 LGA    ATL   N668DN  DL      Delta Air L…\n 6  2013 2013-01-01 05:00:00 EWR    ORD   N39463  UA      United Air …\n 7  2013 2013-01-01 06:00:00 EWR    FLL   N516JB  B6      JetBlue Air…\n 8  2013 2013-01-01 06:00:00 LGA    IAD   N829AS  EV      ExpressJet …\n 9  2013 2013-01-01 06:00:00 JFK    MCO   N593JB  B6      JetBlue Air…\n10  2013 2013-01-01 06:00:00 LGA    ORD   N3ALAA  AA      American Ai…\n# ℹ 336,766 more rows"
   },
   {
-    "objectID": "day2/index.html#スケジュール",
-    "href": "day2/index.html#スケジュール",
+    "objectID": "day5/index.html#鍵となる列の条件",
+    "href": "day5/index.html#鍵となる列の条件",
     "title": "データサイエンス",
-    "section": "スケジュール",
-    "text": "スケジュール\n\n生成AIの基本、RとRStudioのインストール（オンデマンド）\nガイダンス、データサイエンスとR入門\nプロジェクトの整理とデータの読み込み\nデータの整理\nデータの可視化\n再現可能な文書の書き方\nレポートの発表\n再現性を高めるツール（オンデマンド）\n\n内容はニーズに合わせる"
+    "section": "鍵となる列の条件",
+    "text": "鍵となる列の条件\n\n右側のデータの鍵が行を識別できる必要がある。それぞれのcarrierはデータに一回だけ出てくる\ncount()で確かめる（nが全て1になっている）\n\n\nairlines |&gt;\n  count(carrier)\n\n# A tibble: 16 × 2\n   carrier     n\n   &lt;chr&gt;   &lt;int&gt;\n 1 9E          1\n 2 AA          1\n 3 AS          1\n 4 B6          1\n 5 DL          1\n 6 EV          1\n 7 F9          1\n 8 FL          1\n 9 HA          1\n10 MQ          1\n11 OO          1\n12 UA          1\n13 US          1\n14 VX          1\n15 WN          1\n16 YV          1"
   },
   {
-    "objectID": "day2/index.html#サイト",
-    "href": "day2/index.html#サイト",
+    "objectID": "day5/index.html#他のデータに結合してみる",
+    "href": "day5/index.html#他のデータに結合してみる",
     "title": "データサイエンス",
-    "section": "サイト",
-    "text": "サイト\nhttps://data-science-chiba-2024.github.io/\nスライドと動画のリンクが掲載されている"
+    "section": "他のデータに結合してみる",
+    "text": "他のデータに結合してみる\nnycflights13パッケージに他のデータフレームがいくつかある："
   },
   {
-    "objectID": "day2/index.html#オフィスアワー",
-    "href": "day2/index.html#オフィスアワー",
+    "objectID": "day5/index.html#チャレンジ他のデータに結合してみる",
+    "href": "day5/index.html#チャレンジ他のデータに結合してみる",
     "title": "データサイエンス",
-    "section": "オフィスアワー",
-    "text": "オフィスアワー\n予約制（joelnitta@chiba-u.jpまでメールにて連絡ください）。対面・非対面での相談、ご希望とご都合に合わせて対応いたします。"
-  },
-  {
-    "objectID": "day2/index.html#教科書",
-    "href": "day2/index.html#教科書",
-    "title": "データサイエンス",
-    "section": "教科書",
-    "text": "教科書\n\n\n\nR for Data Science (2nd edition)\n\n英語版はオンラインで無料 https://r4ds.hadley.nz/\n日本語版（第１エディションのみ）はアマゾンなどから"
-  },
-  {
-    "objectID": "day2/index.html#リーディング",
-    "href": "day2/index.html#リーディング",
-    "title": "データサイエンス",
-    "section": "リーディング",
-    "text": "リーディング\n毎週のリーディングを講義の前に読んでください。\n\n第２回（2024-04-09）: ガイダンス、データサイエンスとR入門\n\nR4DS Introduction\nR4DS Chapter 2 (Workflow: Basics)\n\n第３回（2024-04-16）: プロジェクトの整理とデータの読み込み\n\nR4DS Chapter 6 (Workflow: Scripts and Projects)\nR4DS Chapter 7 (Data Import)"
-  },
-  {
-    "objectID": "day2/index.html#リーディング-1",
-    "href": "day2/index.html#リーディング-1",
-    "title": "データサイエンス",
-    "section": "リーディング",
-    "text": "リーディング\n\n第４回（2024-04-23）: データの整理\n\nR4DS Chapter 3 (Data Transformation)\nR4DS Chapter 5 (Data Tidying)\n\n第５回（2024-05-07）: データの可視化\n\nR4DS Chapter 1 (Data Visualization)\n\n第６回（2024-05-14）: 再現可能な文書の書き方\n\nR4DS Chapter 28 (Quarto)"
-  },
-  {
-    "objectID": "day2/index.html#課題と評価",
-    "href": "day2/index.html#課題と評価",
-    "title": "データサイエンス",
-    "section": "課題と評価",
-    "text": "課題と評価\n\n宿題（25%）\n\nMoodleからダウンロード、提出\n締め切り：次の週の授業まで\n\nリーディング\n授業のディスカッションに参加する（25%）\nRを使って、自分の研究に関するレポートを書く（50%）"
-  },
-  {
-    "objectID": "day2/index.html#データサイエンスとは-1",
-    "href": "day2/index.html#データサイエンスとは-1",
-    "title": "データサイエンス",
-    "section": "データサイエンスとは？",
-    "text": "データサイエンスとは？\n\nデータから洞察（インサイト）を得ること"
-  },
-  {
-    "objectID": "day2/index.html#データサイエンスとは-2",
-    "href": "day2/index.html#データサイエンスとは-2",
-    "title": "データサイエンス",
-    "section": "データサイエンスとは？",
-    "text": "データサイエンスとは？\n\n他の特徴\n\n大量のデータを扱う（「ビッグデータ」）\n\n統計学を使う\n\nプログラミングを使う（python、R、など）\n様々な用がある（学術研究、治療、産業、など）"
-  },
-  {
-    "objectID": "day2/index.html#データ解析の循環",
-    "href": "day2/index.html#データ解析の循環",
-    "title": "データサイエンス",
-    "section": "データ解析の循環",
-    "text": "データ解析の循環\n\nhttps://r4ds.hadley.nz/diagrams/data-science/base.png"
-  },
-  {
-    "objectID": "day2/index.html#再現性とは-1",
-    "href": "day2/index.html#再現性とは-1",
-    "title": "データサイエンス",
-    "section": "再現性とは？",
-    "text": "再現性とは？\n\n他の人（将来の自分を含めて）があなたの解析を再度行って、同じ結果を得ることができること\nデータサイエンスにおいて、とても重要。再現性がなければ、「サイエンス」にならない！"
-  },
-  {
-    "objectID": "day2/index.html#再現可能にするには",
-    "href": "day2/index.html#再現可能にするには",
-    "title": "データサイエンス",
-    "section": "再現可能にするには・・",
-    "text": "再現可能にするには・・\n\nコードが必要\n\n自分が何をやったのか、記録が残る\n将来、同じ解析ができる\n\nコードとして残らない方法はよろしくない（エクセル、SPSSなど）"
-  },
-  {
-    "objectID": "day2/index.html#本授業ではrを使う",
-    "href": "day2/index.html#本授業ではrを使う",
-    "title": "データサイエンス",
-    "section": "本授業では、Rを使う",
-    "text": "本授業では、Rを使う\n\n\n\n無料\nデータ解析の機能が豊富\n多様なニーズに応えるパッケージ\nコミュニティー\n\n\n\nhttps://www.linkedin.com/pulse/why-r-4-reason-learn-programming-language-business-corporate"
-  },
-  {
-    "objectID": "day2/index.html#rとrstudioについて",
-    "href": "day2/index.html#rとrstudioについて",
-    "title": "データサイエンス",
-    "section": "RとRStudioについて",
-    "text": "RとRStudioについて\n\n\n\nRとは「R Project for Statistical Computing」という組織が提供しているオープンソースプログラミング言語"
-  },
-  {
-    "objectID": "day2/index.html#rとrstudioについて-1",
-    "href": "day2/index.html#rとrstudioについて-1",
-    "title": "データサイエンス",
-    "section": "RとRStudioについて",
-    "text": "RとRStudioについて\n\n\n\nRのコードを書く・実行する最適なソフト（無料）\nRStudioなしでもRは一応使えるけど、不便\nこの授業ではRStudioを介してRを使う。"
-  },
-  {
-    "objectID": "day2/index.html#rstudioについて",
-    "href": "day2/index.html#rstudioについて",
-    "title": "データサイエンス",
-    "section": "RStudioについて",
-    "text": "RStudioについて\n\n主に四つのパネルがある\n\nSource（コードを書く）\nEnvironment（今のRのセッションに入っているオブジェクトが表示される）\nR Console（Rに直接コマンドをする）\nFiles and Plots（ファイルと図）"
-  },
-  {
-    "objectID": "day2/index.html#rを計算機として使う",
-    "href": "day2/index.html#rを計算機として使う",
-    "title": "データサイエンス",
-    "section": "Rを計算機として使う",
-    "text": "Rを計算機として使う\n\nRStudioのコンソール（左下のパネル）にカーソルを置いて、簡単な計算をしてみましょう：\n\n\n\n2 * 20\n\n[1] 40\n\n\n\nおめでとうございます！Rプログラミングができました！"
-  },
-  {
-    "objectID": "day2/index.html#オブジェクト変数について",
-    "href": "day2/index.html#オブジェクト変数について",
-    "title": "データサイエンス",
-    "section": "オブジェクト（変数）について",
-    "text": "オブジェクト（変数）について\n\n次に、Rの中のデータを変数（Rでは、「オブジェクト Object」と呼ぶ）として保存しよう：\n\n\n\nage &lt;- 2 * 20"
-  },
-  {
-    "objectID": "day2/index.html#オブジェクト変数について-1",
-    "href": "day2/index.html#オブジェクト変数について-1",
-    "title": "データサイエンス",
-    "section": "オブジェクト（変数）について",
-    "text": "オブジェクト（変数）について\nこれだけでは何も返ってこない。\n変数の内容を確認するには、コンソールにその変数の名前を打てば良い：\n\n\nage\n\n[1] 40"
-  },
-  {
-    "objectID": "day2/index.html#関数とは",
-    "href": "day2/index.html#関数とは",
-    "title": "データサイエンス",
-    "section": "関数とは",
-    "text": "関数とは\n何かの値（インプット）を受けて、処理して、計算結果（アウトプット）を返すもの\n\n\n\nhttps://manamina.valuesccg.com/articles/756"
-  },
-  {
-    "objectID": "day2/index.html#関数とは-1",
-    "href": "day2/index.html#関数とは-1",
-    "title": "データサイエンス",
-    "section": "関数とは",
-    "text": "関数とは\n関数の書き方：\n\n関数名(引数)\n\n例えば\n\n\nround(3.1415, digits = 1)\n\n[1] 3.1"
-  },
-  {
-    "objectID": "day2/index.html#関数とは-2",
-    "href": "day2/index.html#関数とは-2",
-    "title": "データサイエンス",
-    "section": "関数とは",
-    "text": "関数とは\n関数の使い方を確認したい時は?関数名と打って、ヘルプファイルを参照すれば良い\n\n\n?round"
-  },
-  {
-    "objectID": "day2/index.html#パッケージとは",
-    "href": "day2/index.html#パッケージとは",
-    "title": "データサイエンス",
-    "section": "パッケージとは",
-    "text": "パッケージとは\n\nRパッケージとは、Rが出来ることを大幅に増やす「追加」のソフト（関数のまとまり）\n\n現在、２万近くのパッケージがある！"
-  },
-  {
-    "objectID": "day2/index.html#パッケージのインストール",
-    "href": "day2/index.html#パッケージのインストール",
-    "title": "データサイエンス",
-    "section": "パッケージのインストール",
-    "text": "パッケージのインストール\nRパッケージのインストールを行うには、install.packages()を使う：\n\ninstall.packages(\"ggplot2\")\n\n一回インストールしたら、次回からはしなくて良いので、これはコードとして保存しない"
-  },
-  {
-    "objectID": "day2/index.html#パッケージのロード",
-    "href": "day2/index.html#パッケージのロード",
-    "title": "データサイエンス",
-    "section": "パッケージのロード",
-    "text": "パッケージのロード\n\nパッケージをインストールしたら、使える状態するにはロードすることが必要\n\nインストールは一回でいい\nロードは毎回必要\n\n\nlibrary()関数でロードする：\n\n\nlibrary(ggplot2)"
-  },
-  {
-    "objectID": "day2/index.html#tidyverse",
-    "href": "day2/index.html#tidyverse",
-    "title": "データサイエンス",
-    "section": "tidyverse",
-    "text": "tidyverse\n\ntidyverseはデータサイエンス用パッケージの集まりのパッケージ\n\nggplot2（可視化）\ndplyr（データの整理）\nstringr（文字データを扱う）\nなど\n\n\nこれからよく使うので、インストールしましょう。一気に出来るから、楽。\n\ninstall.packages(\"tidyverse\")"
-  },
-  {
-    "objectID": "day2/index.html#install.packagesとlibraryの違い",
-    "href": "day2/index.html#install.packagesとlibraryの違い",
-    "title": "データサイエンス",
-    "section": "install.packages()とlibrary()の違い",
-    "text": "install.packages()とlibrary()の違い\n\ninstall.packages()は一回だけで良い（パソコンにパッケージをダウンロードする）\nlibrary()はRを使う毎にしないといけない（パッケージを今回のRのセッションで使えるようにする）"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "データサイエンス",
-    "section": "",
-    "text": "千葉大学 総合国際学位プログラムの授業\n担当教員：ニッタ ジョエル"
-  },
-  {
-    "objectID": "index.html#概要",
-    "href": "index.html#概要",
-    "title": "データサイエンス",
-    "section": "概要",
-    "text": "概要\nデータ解析は、理系だけではなく、文系も含めた多くの学問分野で使われるようになっている。本授業では、特に大学院生の研究に応用できるようにデータサイエンスの基本的なスキルとツールを学ぶ。主に「R」プログラミング言語を使用するが、大学院生のニーズに合わせて、必要なツールがあれば適宜授業の内容に加える。"
-  },
-  {
-    "objectID": "index.html#教科書",
-    "href": "index.html#教科書",
-    "title": "データサイエンス",
-    "section": "教科書",
-    "text": "教科書\n\nR for Data Science (2nd Edition) by Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund\n\nアマゾンには第１エディションの翻訳がある"
-  },
-  {
-    "objectID": "index.html#スケジュール",
-    "href": "index.html#スケジュール",
-    "title": "データサイエンス",
-    "section": "スケジュール",
-    "text": "スケジュール\n毎週のリーディングを講義の前に読んでください。\n（全ての講義の録画はありません）\n\n第１回（2024-04-02）: 生成AIの基本、RとRStudioのインストール（オンデマンド）\n\nスライド\n録画\n\n第２回（2024-04-09）: ガイダンス、データサイエンスとR入門\n\nスライド\nリーディング\n\nR4DS Introduction\nR4DS Chapter 2 (Workflow: Basics)\n\n\n第３回（2024-04-16）: プロジェクトの整理とデータの読み込み\n\nスライド\nリーディング\n\nR4DS Chapter 6 (Workflow: Scripts and Projects)\nR4DS Chapter 7 (Data Import)\n\n\n第４回（2024-04-23）: データの整理（１）\n\nスライド\nリーディング\n\nR4DS Chapter 3 (Data Transformation)\n\n\n第５回（2024-05-07）: データの整理（２）\n\nスライド\nリーディング\n\nR4DS Chapter 5 (Data Tidying)\nR4DS Chapter 19 (Joins)\n\n\n第６回（2024-05-14）: データの可視化\n\nスライド\nリーディング\n\nR4DS Chapter 1 (Data Visualization)\n\n\n第７回（2024-05-21）: 再現可能な文書の書き方\n\nリーディング\n\nR4DS Chapter 28 (Quarto)\n\n\n第８回（2024-05-28）: レポートの発表"
-  },
-  {
-    "objectID": "index.html#オフィスアワー",
-    "href": "index.html#オフィスアワー",
-    "title": "データサイエンス",
-    "section": "オフィスアワー",
-    "text": "オフィスアワー\n予約制（joelnitta@chiba-u.jpまでメールにて連絡ください）。対面・非対面での相談、ご希望とご都合に合わせて対応いたします。"
-  },
-  {
-    "objectID": "index.html#リンク",
-    "href": "index.html#リンク",
-    "title": "データサイエンス",
-    "section": "リンク",
-    "text": "リンク\n\nシラバス"
+    "section": "チャレンジ：他のデータに結合してみる",
+    "text": "チャレンジ：他のデータに結合してみる\nplanesのデータをflights2に結合することができますか？"
   },
   {
     "objectID": "day6/index.html#データの可視化について",
@@ -1057,27 +1057,6 @@
     "text": "Aesthetics\n\n\n\n\nhttps://clauswilke.com/dataviz/aesthetic-mapping.html"
   },
   {
-    "objectID": "day6/index.html#ggplot2の基本的な使い方",
-    "href": "day6/index.html#ggplot2の基本的な使い方",
-    "title": "データサイエンス",
-    "section": "ggplot2の基本的な使い方",
-    "text": "ggplot2の基本的な使い方"
-  },
-  {
-    "objectID": "day6/index.html#ggplot2の基本的な使い方-1",
-    "href": "day6/index.html#ggplot2の基本的な使い方-1",
-    "title": "データサイエンス",
-    "section": "ggplot2の基本的な使い方",
-    "text": "ggplot2の基本的な使い方"
-  },
-  {
-    "objectID": "day6/index.html#チャレンジ",
-    "href": "day6/index.html#チャレンジ",
-    "title": "データサイエンス",
-    "section": "チャレンジ",
-    "text": "チャレンジ\nbill_length_mmを横軸、bill_depth_mmを縦軸にして、点グラフを作成して下さい"
-  },
-  {
     "objectID": "day6/index.html#palmerpenguinsについて",
     "href": "day6/index.html#palmerpenguinsについて",
     "title": "データサイエンス",
@@ -1113,55 +1092,6 @@
     "text": "目的：このグラフを作る"
   },
   {
-    "objectID": "day6/index.html#色を付け加える",
-    "href": "day6/index.html#色を付け加える",
-    "title": "データサイエンス",
-    "section": "色を付け加える",
-    "text": "色を付け加える\n\n\nggplot(\n  data = penguins,\n  mapping = aes(\n    x = flipper_length_mm,\n    y = body_mass_g,\n    color = species)\n) +\n  geom_point()"
-  },
-  {
-    "objectID": "day6/index.html#色を付け加える-1",
-    "href": "day6/index.html#色を付け加える-1",
-    "title": "データサイエンス",
-    "section": "色を付け加える",
-    "text": "色を付け加える\n\n\nggplot(\n  data = penguins,\n  mapping = aes(\n    x = flipper_length_mm,\n    y = body_mass_g,\n    color = species)\n) +\n  geom_point()"
-  },
-  {
-    "objectID": "day6/index.html#ggplotでグラフの基本土台を作る",
-    "href": "day6/index.html#ggplotでグラフの基本土台を作る",
-    "title": "データサイエンス",
-    "section": "ggplot()でグラフの基本（土台）を作る",
-    "text": "ggplot()でグラフの基本（土台）を作る\n\n\nggplot(data = penguins)"
-  },
-  {
-    "objectID": "day6/index.html#色を潰す",
-    "href": "day6/index.html#色を潰す",
-    "title": "データサイエンス",
-    "section": "色を潰す",
-    "text": "色を潰す\n\n\nggplot(\n  data = penguins,\n  mapping = aes(\n    x = flipper_length_mm,\n    y = body_mass_g,\n    color = species\n  )\n) +\n  geom_point()"
-  },
-  {
-    "objectID": "day6/index.html#色を潰す-1",
-    "href": "day6/index.html#色を潰す-1",
-    "title": "データサイエンス",
-    "section": "色を潰す",
-    "text": "色を潰す\n\n\nggplot(\n  data = penguins,\n  mapping = aes(\n    x = flipper_length_mm,\n    y = body_mass_g,\n    color = species\n  )\n) +\n  geom_point()"
-  },
-  {
-    "objectID": "day6/index.html#回帰直線を付け加える",
-    "href": "day6/index.html#回帰直線を付け加える",
-    "title": "データサイエンス",
-    "section": "回帰直線を付け加える",
-    "text": "回帰直線を付け加える\n\n\nggplot(\n  data = penguins,\n  mapping = aes(\n    x = flipper_length_mm,\n    y = body_mass_g,\n    color = species\n  )\n) +\n  geom_point() +\n  geom_smooth(method = \"lm\")"
-  },
-  {
-    "objectID": "day6/index.html#回帰直線を付け加える-1",
-    "href": "day6/index.html#回帰直線を付け加える-1",
-    "title": "データサイエンス",
-    "section": "回帰直線を付け加える",
-    "text": "回帰直線を付け加える\n\n\nggplot(\n  data = penguins,\n  mapping = aes(\n    x = flipper_length_mm,\n    y = body_mass_g,\n    color = species\n  )\n) +\n  geom_point() +\n  geom_smooth(method = \"lm\")"
-  },
-  {
     "objectID": "day6/index.html#ggplotでグラフの基盤を作る",
     "href": "day6/index.html#ggplotでグラフの基盤を作る",
     "title": "データサイエンス",
@@ -1195,6 +1125,13 @@
     "title": "データサイエンス",
     "section": "geom_()でデータの形を指定する",
     "text": "geom_()でデータの形を指定する\n\n\nggplot(\n  data = penguins,\n  mapping = aes(\n    x = flipper_length_mm,\n    y = body_mass_g\n  )\n) +\n  geom_point()"
+  },
+  {
+    "objectID": "day6/index.html#チャレンジ",
+    "href": "day6/index.html#チャレンジ",
+    "title": "データサイエンス",
+    "section": "チャレンジ",
+    "text": "チャレンジ\nbill_length_mmを横軸、bill_depth_mmを縦軸にして、点グラフを作成して下さい"
   },
   {
     "objectID": "day6/index.html#colorで色を潰す",
@@ -1267,11 +1204,11 @@
     "text": "labs()でラベルをきれいにする\n\n\nggplot(\n  data = penguins,\n  mapping = aes(x = flipper_length_mm, y = body_mass_g)\n) +\n  geom_point(mapping = aes(color = species, shape = species)) +\n  geom_smooth(method = \"lm\") +\n  labs(\n    title = \"Body mass and flipper length\",\n    subtitle = \"Dimensions for Adelie, Chinstrap, and Gentoo Penguins\",\n    x = \"Flipper length (mm)\", y = \"Body mass (g)\",\n    color = \"Species\", shape = \"Species\"\n  )"
   },
   {
-    "objectID": "day6/index.html#labsでラベルをきれいにする-1",
-    "href": "day6/index.html#labsでラベルをきれいにする-1",
+    "objectID": "day6/index.html#labsでラベルを整える",
+    "href": "day6/index.html#labsでラベルを整える",
     "title": "データサイエンス",
-    "section": "labs()でラベルをきれいにする",
-    "text": "labs()でラベルをきれいにする\n\n\nggplot(\n  data = penguins,\n  mapping = aes(x = flipper_length_mm, y = body_mass_g)\n) +\n  geom_point(mapping = aes(color = species, shape = species)) +\n  geom_smooth(method = \"lm\") +\n  labs(\n    title = \"Body mass and flipper length\",\n    subtitle = \"Dimensions for Adelie, Chinstrap, and Gentoo Penguins\",\n    x = \"Flipper length (mm)\", y = \"Body mass (g)\",\n    color = \"Species\", shape = \"Species\"\n  )"
+    "section": "labs()でラベルを整える",
+    "text": "labs()でラベルを整える\n\n\nggplot(\n  data = penguins,\n  mapping = aes(x = flipper_length_mm, y = body_mass_g)\n) +\n  geom_point(mapping = aes(color = species, shape = species)) +\n  geom_smooth(method = \"lm\") +\n  labs(\n    title = \"Body mass and flipper length\",\n    subtitle = \"Dimensions for Adelie, Chinstrap, and Gentoo Penguins\",\n    x = \"Flipper length (mm)\", y = \"Body mass (g)\",\n    color = \"Species\", shape = \"Species\"\n  )"
   },
   {
     "objectID": "day6/index.html#scale_colorで色を変える",
@@ -1288,32 +1225,11 @@
     "text": "scale_colorで色を変える\n\n\nggplot(\n  data = penguins,\n  mapping = aes(x = flipper_length_mm, y = body_mass_g)\n) +\n  geom_point(mapping = aes(color = species, shape = species)) +\n  geom_smooth(method = \"lm\") +\n  labs(\n    title = \"Body mass and flipper length\",\n    subtitle = \"Dimensions for Adelie, Chinstrap, and Gentoo Penguins\",\n    x = \"Flipper length (mm)\", y = \"Body mass (g)\",\n    color = \"Species\", shape = \"Species\"\n  ) +\n  scale_color_colorblind()"
   },
   {
-    "objectID": "day6/index.html#labsでラベルを整える",
-    "href": "day6/index.html#labsでラベルを整える",
-    "title": "データサイエンス",
-    "section": "labs()でラベルを整える",
-    "text": "labs()でラベルを整える\n\n\nggplot(\n  data = penguins,\n  mapping = aes(x = flipper_length_mm, y = body_mass_g)\n) +\n  geom_point(mapping = aes(color = species, shape = species)) +\n  geom_smooth(method = \"lm\") +\n  labs(\n    title = \"Body mass and flipper length\",\n    subtitle = \"Dimensions for Adelie, Chinstrap, and Gentoo Penguins\",\n    x = \"Flipper length (mm)\", y = \"Body mass (g)\",\n    color = \"Species\", shape = \"Species\"\n  )"
-  },
-  {
     "objectID": "day6/index.html#よりもコンパクトな書き方",
     "href": "day6/index.html#よりもコンパクトな書き方",
     "title": "データサイエンス",
     "section": "よりもコンパクトな書き方",
     "text": "よりもコンパクトな書き方\ndata =とmapping =を書かなくて良い\n\n\nggplot(penguins,　aes(x = flipper_length_mm, y = body_mass_g)) +\n  geom_point(aes(color = species, shape = species)) +\n  geom_smooth(method = \"lm\") +\n  labs(\n    title = \"Body mass and flipper length\",\n    subtitle = \"Dimensions for Adelie, Chinstrap, and Gentoo Penguins\",\n    x = \"Flipper length (mm)\", y = \"Body mass (g)\",\n    color = \"Species\", shape = \"Species\"\n  ) +\n  scale_color_colorblind()"
-  },
-  {
-    "objectID": "day6/index.html#まとめ",
-    "href": "day6/index.html#まとめ",
-    "title": "データサイエンス",
-    "section": "まとめ",
-    "text": "まとめ\n\nどのデータやグラフでも、同じ「文法」で記述することができます。\naesthetic mapping（mappingとaes）、どのデータをグラフのどの要素で表示するかを設定する\ngeometry（geom）は、グラフの形状を設定する\nグラフを作成するコマンドは、レイヤーを+で重ねていく"
-  },
-  {
-    "objectID": "day6/index.html#文字化けを防ぐ方法",
-    "href": "day6/index.html#文字化けを防ぐ方法",
-    "title": "データサイエンス",
-    "section": "文字化けを防ぐ方法",
-    "text": "文字化けを防ぐ方法\n\n\nggplot(penguins,　aes(x = flipper_length_mm, y = body_mass_g)) +\n  geom_point(aes(color = species, shape = species)) +\n  geom_smooth(method = \"lm\") +\n  labs(\n    title = \"体重とフリッパーの長さ\",\n    subtitle = \"アデリー、チンストラップ、ジェンツーのペンギンのサイズ\",\n    x = \"フリッパーの長さ（mm）\", y = \"体重（g）\",\n    color = \"種\", shape = \"種\"\n  ) +\n  scale_color_colorblind() + \n  theme_gray(base_family = \"HiraKakuPro-W3\", base_size = 12)"
   },
   {
     "objectID": "day6/index.html#base_familyで文字化けを防ぐ",
@@ -1328,5 +1244,12 @@
     "title": "データサイエンス",
     "section": "base_familyで文字化けを防ぐ",
     "text": "base_familyで文字化けを防ぐ\n\n\nggplot(penguins,　aes(x = flipper_length_mm, y = body_mass_g)) +\n  geom_point(aes(color = species, shape = species)) +\n  geom_smooth(method = \"lm\") +\n  labs(\n    title = \"体重とフリッパーの長さ\",\n    subtitle = \"アデリー、チンストラップ、ジェンツーのペンギンのサイズ\",\n    x = \"フリッパーの長さ（mm）\", y = \"体重（g）\",\n    color = \"種\", shape = \"種\"\n  ) +\n  scale_color_colorblind() + \n  theme_gray(base_family = \"HiraKakuPro-W3\")"
+  },
+  {
+    "objectID": "day6/index.html#まとめ",
+    "href": "day6/index.html#まとめ",
+    "title": "データサイエンス",
+    "section": "まとめ",
+    "text": "まとめ\n\nどのデータやグラフでも、同じ「文法」で記述することができます。\naesthetic mapping（mappingとaes）、どのデータをグラフのどの要素で表示するかを設定する\ngeometry（geom）は、グラフの形状を設定する\nグラフを作成するコマンドは、レイヤーを+で重ねていく"
   }
 ]
