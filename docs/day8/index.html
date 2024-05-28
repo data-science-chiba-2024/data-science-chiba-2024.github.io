@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>データサイエンス</title>
+<title>データサイエンス – index</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +23,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -61,17 +61,17 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">データサイエンス</span>
     </a>
   </div>
@@ -82,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="../index.html" rel="" target="">
  <span class="menu-text">ホーム</span></a>
   </li>  
 </ul>
@@ -96,120 +96,114 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#第８回再現可能な-データ解析のベスト-プラクティス" id="toc-第８回再現可能な-データ解析のベスト-プラクティス" class="nav-link active" data-scroll-target="#第８回再現可能な-データ解析のベスト-プラクティス">第８回：再現可能な<br>データ解析のベスト<br>プラクティス</a>
+  <ul class="collapse">
+  <li><a href="#再現可能性を高めよう" id="toc-再現可能性を高めよう" class="nav-link" data-scroll-target="#再現可能性を高めよう">再現可能性を高めよう</a></li>
+  <li><a href="#バージョン管理git" id="toc-バージョン管理git" class="nav-link" data-scroll-target="#バージョン管理git">バージョン管理：git</a></li>
+  <li><a href="#解析環境の管理docker" id="toc-解析環境の管理docker" class="nav-link" data-scroll-target="#解析環境の管理docker">解析環境の管理：Docker</a></li>
+  <li><a href="#dockerの概要" id="toc-dockerの概要" class="nav-link" data-scroll-target="#dockerの概要">Dockerの概要</a></li>
+  <li><a href="#gitとdockerのデモンストレーション" id="toc-gitとdockerのデモンストレーション" class="nav-link" data-scroll-target="#gitとdockerのデモンストレーション">gitとDockerのデモンストレーション</a></li>
+  <li><a href="#データのリポジトリ" id="toc-データのリポジトリ" class="nav-link" data-scroll-target="#データのリポジトリ">データのリポジトリ</a></li>
+  <li><a href="#データのリポジトリ-1" id="toc-データのリポジトリ-1" class="nav-link" data-scroll-target="#データのリポジトリ-1">データのリポジトリ</a></li>
+  <li><a href="#erasmusのデータ" id="toc-erasmusのデータ" class="nav-link" data-scroll-target="#erasmusのデータ">erasmusのデータ</a></li>
+  <li><a href="#tokyorについて" id="toc-tokyorについて" class="nav-link" data-scroll-target="#tokyorについて">tokyoRについて</a></li>
+  </ul></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="index.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">データサイエンス</h1>
-</div>
 
 
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-</header>
-
-<p>千葉大学 総合国際学位プログラムの授業</p>
-<p>担当教員：<a href="https://www.joelnitta.com">ニッタ ジョエル</a></p>
-<section id="概要" class="level2">
-<h2 class="anchored" data-anchor-id="概要">概要</h2>
-<p>データ解析は、理系だけではなく、文系も含めた多くの学問分野で使われるようになっている。本授業では、特に大学院生の研究に応用できるようにデータサイエンスの基本的なスキルとツールを学ぶ。主に「R」プログラミング言語を使用するが、大学院生のニーズに合わせて、必要なツールがあれば適宜授業の内容に加える。</p>
-</section>
-<section id="教科書" class="level2">
-<h2 class="anchored" data-anchor-id="教科書">教科書</h2>
+<section id="第８回再現可能な-データ解析のベスト-プラクティス" class="level1">
+<h1>第８回：再現可能な<br>データ解析のベスト<br>プラクティス</h1>
+<p>2024-05-28</p>
+<p><a href="https://data-science-chiba-2024.github.io/day8/" class="uri">https://data-science-chiba-2024.github.io/day8/</a></p>
+<section id="再現可能性を高めよう" class="level2">
+<h2 class="anchored" data-anchor-id="再現可能性を高めよう">再現可能性を高めよう</h2>
 <ul>
-<li><a href="https://r4ds.hadley.nz">R for Data Science (2nd Edition) by Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund</a>
+<li><p>今回の授業ではコードの書き方（R）を学んだ</p></li>
+<li><p>でも、解析を再現可能にするのに、全部で<strong>三つ</strong>のことを管理しないといけない：</p>
 <ul>
-<li>アマゾンには<a href="https://www.amazon.co.jp/Data-Science-Transform-Visualize-Model/dp/1491910399/ref=sr_1_2?crid=1LT40JGBKBE7B&amp;dib=eyJ2IjoiMSJ9.Z1c-Zpi4mNudjpLRyuLhducKMb-YhxP24EK3mPHAaT5H6I_YQpDy0ZiscWF82DKAikv-M7lwWejexO95nHjrlzYnimhuR5TsrxMqJ3xzzyKt-MpXmv7F4blKBfY6qX0DfUN_PQ-4bl6CejwCLucudSL95GZMCfZGbLEHNQzcCtIwaeIVUebyC3vIlTf1_GfvpTEAISm-kZsSQBfO17vhW1IJe4k7PVF8dZBIg34EoKM7QPySNJp31Yfe3RXF3H_OJPWCLD9Dey5YK2b6F4TRs1xOFYECtZv25z83hy9-2fc.rr3weMHRTFsoSsue9htecVJLWPkGRlrwYtOb_p6g5Pg&amp;dib_tag=se&amp;keywords=r+for+data+science+2e&amp;qid=1712609538&amp;sprefix=R+for+data+science%2Caps%2C495&amp;sr=8-2">第１エディションの翻訳</a>がある</li>
+<li><strong>コード</strong>の管理（バージョン管理）</li>
+<li><strong>解析環境</strong>の管理</li>
+<li><strong>データ</strong>の管理</li>
 </ul></li>
 </ul>
 </section>
-<section id="スケジュール" class="level2">
-<h2 class="anchored" data-anchor-id="スケジュール">スケジュール</h2>
-<p>毎週のリーディングを講義の<strong>前に</strong>読んでください。</p>
-<p>（全ての講義の録画はありません）</p>
+<section id="バージョン管理git" class="level2">
+<h2 class="anchored" data-anchor-id="バージョン管理git">バージョン管理：git</h2>
 <ul>
-<li>第１回（2024-04-02）: <strong>生成AIの基本、RとRStudioのインストール（オンデマンド）</strong>
-<ul>
-<li><a href="./day1/index.html">スライド</a></li>
-<li><a href="https://youtu.be/PVTgdrTJKyM">録画</a></li>
-</ul></li>
-<li>第２回（2024-04-09）: <strong>ガイダンス、データサイエンスとR入門</strong>
-<ul>
-<li><a href="./day2/index.html">スライド</a></li>
-<li>リーディング
-<ul>
-<li><a href="https://r4ds.hadley.nz/intro">R4DS Introduction</a></li>
-<li><a href="https://r4ds.hadley.nz/workflow-basics">R4DS Chapter 2 (Workflow: Basics)</a></li>
-</ul></li>
-</ul></li>
-<li>第３回（2024-04-16）: <strong>プロジェクトの整理とデータの読み込み</strong>
-<ul>
-<li><a href="./day3/index.html">スライド</a></li>
-<li>リーディング
-<ul>
-<li><a href="https://r4ds.hadley.nz/workflow-scripts">R4DS Chapter 6 (Workflow: Scripts and Projects)</a></li>
-<li><a href="https://r4ds.hadley.nz/data-import">R4DS Chapter 7 (Data Import)</a></li>
-</ul></li>
-</ul></li>
-<li>第４回（2024-04-23）: <strong>データの整理（１）</strong>
-<ul>
-<li><a href="./day4/index.html">スライド</a></li>
-<li>リーディング
-<ul>
-<li><a href="https://r4ds.hadley.nz/">R4DS Chapter 3 (Data Transformation)</a></li>
-</ul></li>
-</ul></li>
-<li>第５回（2024-05-07）: <strong>データの整理（２）</strong>
-<ul>
-<li><a href="./day5/index.html">スライド</a></li>
-<li>リーディング
-<ul>
-<li><a href="https://r4ds.hadley.nz/data-tidy">R4DS Chapter 5 (Data Tidying)</a></li>
-<li><a href="https://r4ds.hadley.nz/joins">R4DS Chapter 19 (Joins)</a></li>
-</ul></li>
-</ul></li>
-<li>第６回（2024-05-14）: <strong>データの可視化</strong>
-<ul>
-<li><a href="./day6/index.html">スライド</a></li>
-<li>リーディング
-<ul>
-<li><a href="https://r4ds.hadley.nz/data-visualize">R4DS Chapter 1 (Data Visualization)</a></li>
-</ul></li>
-</ul></li>
-<li>第７回（2024-05-14）: <strong>再現可能な文書の書き方</strong>
-<ul>
-<li><a href="./day7/index.html">スライド</a></li>
-<li>リーディング
-<ul>
-<li><a href="https://r4ds.hadley.nz/quarto">R4DS Chapter 28 (Quarto)</a></li>
-</ul></li>
-</ul></li>
-<li>第８回（2024-05-28）: <strong>レポートの発表、再現可能なデータ解析のベストプラクティス</strong>
-<ul>
-<li><a href="./day8/index.html">スライド</a></li>
-</ul></li>
+<li><p>バージョン管理とは、ソフトウェアやドキュメントの変更履歴を追跡し、特定の時点に戻すことができるシステム</p></li>
+<li><p>特に Git は広く使用されており、GitHub というプラットフォームを利用してオンラインでプロジェクトを管理できる</p></li>
+<li><p>複数人での作業が容易になり、同じファイルを同時に編集しても衝突を防ぎやすくなる</p></li>
 </ul>
 </section>
-<section id="オフィスアワー" class="level2">
-<h2 class="anchored" data-anchor-id="オフィスアワー">オフィスアワー</h2>
-<p>予約制（<a href="mailto:joelnitta@chiba-u.jp" class="email">joelnitta@chiba-u.jp</a>までメールにて連絡ください）。対面・非対面での相談、ご希望とご都合に合わせて対応いたします。</p>
-</section>
-<section id="リンク" class="level2">
-<h2 class="anchored" data-anchor-id="リンク">リンク</h2>
+<section id="解析環境の管理docker" class="level2">
+<h2 class="anchored" data-anchor-id="解析環境の管理docker">解析環境の管理：Docker</h2>
 <ul>
-<li><a href="https://syllabus.gs.chiba-u.jp/2024/211218201000000/Z021100201/ja_JP">シラバス</a></li>
+<li><p>コードとまた別に、解析する環境（パソコン、ソフトウエア）の管理が必要</p></li>
+<li><p>コードが同じでも、解析環境が異なると、同じ解析結果が得られない恐れがある</p></li>
+<li><p>ハードウエアを再現するのはほぼ不可能ですが、ソフトウエアの環境を<strong>Docker</strong>というツールで再現することはできる</p></li>
+</ul>
+</section>
+<section id="dockerの概要" class="level2">
+<h2 class="anchored" data-anchor-id="dockerの概要">Dockerの概要</h2>
+<ul>
+<li><p>Dockerは、自分のパソコンの中に存在する別のパソコンみたいなもの</p></li>
+<li><p>「イメージ」あるいは「コンテナ」と呼ぶ</p></li>
+<li><p>自分のパソコンのソフトを変えても（RやRパッケージのアップげレードなど）、コンテナの中身は<strong>変わらない</strong>ので、どれくらい時間が経っても、再現できる</p></li>
+</ul>
+</section>
+<section id="gitとdockerのデモンストレーション" class="level2">
+<h2 class="anchored" data-anchor-id="gitとdockerのデモンストレーション">gitとDockerのデモンストレーション</h2>
+<p><a href="https://github.com/joelnitta/pleurosoriopsis" class="uri">https://github.com/joelnitta/pleurosoriopsis</a></p>
+<ul>
+<li><p>必要なソフトはDockerのみ</p></li>
+<li><p>あとは全部Dockerのコンテナに入っているので、別にインストールするひつしょうがない</p></li>
+</ul>
+</section>
+<section id="データのリポジトリ" class="level2">
+<h2 class="anchored" data-anchor-id="データのリポジトリ">データのリポジトリ</h2>
+<ul>
+<li>解析（論文）を発表する際、データも公開しましょう
+<ul>
+<li>再現性を高める</li>
+<li>信頼度を高める</li>
+<li>「頼めば提供します」では足りない！</li>
+</ul></li>
+<li>公開している<strong>データのリポジトリ</strong>に置くのがベスト</li>
+</ul>
+</section>
+<section id="データのリポジトリ-1" class="level2">
+<h2 class="anchored" data-anchor-id="データのリポジトリ-1">データのリポジトリ</h2>
+<ul>
+<li><p><a href="https://zenodo.org/">Zenodo</a></p></li>
+<li><p><a href="https://datadryad.org/">Data Dryad</a></p></li>
+<li><p><a href="https://figshare.com/">FigShare</a></p></li>
+</ul>
+<p>データを置くだけではなく、<strong>キチンと説明</strong>することも大事（「metadata」）</p>
+</section>
+<section id="erasmusのデータ" class="level2">
+<h2 class="anchored" data-anchor-id="erasmusのデータ">erasmusのデータ</h2>
+<p><a href="https://data.europa.eu/data/datasets/erasmus-mobility-statistics-2014-2020?locale=en" class="uri">https://data.europa.eu/data/datasets/erasmus-mobility-statistics-2014-2020?locale=en</a></p>
+<p>メタデータがちゃんと記録されていないから困りましたね・・</p>
+</section>
+<section id="tokyorについて" class="level2">
+<h2 class="anchored" data-anchor-id="tokyorについて">tokyoRについて</h2>
+<ul>
+<li><p>Rに困った時、tokyoRのスラックで聞くと（多くの場合）すぐに誰か答えてくれる</p></li>
+<li><p><a href="https://github.com/tokyor/r-wakalang" class="uri">https://github.com/tokyor/r-wakalang</a>からジョイン</p></li>
 </ul>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
