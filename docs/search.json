@@ -1423,65 +1423,65 @@
   {
     "objectID": "day8/index.html#再現可能性を高めよう",
     "href": "day8/index.html#再現可能性を高めよう",
-    "title": "第８回：再現可能なデータ解析のベストプラクティス",
-    "section": "",
-    "text": "今回の授業ではコードの書き方（R）を学んだ\nでも、解析を再現可能にするのに、全部で三つのことを管理しないといけない：\n\nコードの管理（バージョン管理）\n解析環境の管理\nデータの管理"
+    "title": "データサイエンス",
+    "section": "再現可能性を高めよう",
+    "text": "再現可能性を高めよう\n\n今回の授業ではコードの書き方（R）を学んだ\nでも、解析を再現可能にするのに、全部で三つのことを管理しないといけない：\n\nコードの管理（バージョン管理）\n解析環境の管理\nデータの管理"
   },
   {
     "objectID": "day8/index.html#バージョン管理git",
     "href": "day8/index.html#バージョン管理git",
-    "title": "第８回：再現可能なデータ解析のベストプラクティス",
-    "section": "",
-    "text": "バージョン管理とは、ソフトウェアやドキュメントの変更履歴を追跡し、特定の時点に戻すことができるシステム\n特に Git は広く使用されており、GitHub というプラットフォームを利用してオンラインでプロジェクトを管理できる\n複数人での作業が容易になり、同じファイルを同時に編集しても衝突を防ぎやすくなる"
+    "title": "データサイエンス",
+    "section": "バージョン管理：git",
+    "text": "バージョン管理：git\n\nバージョン管理とは、ソフトウェアやドキュメントの変更履歴を追跡し、特定の時点に戻すことができるシステム\n特に Git は広く使用されており、GitHub というプラットフォームを利用してオンラインでプロジェクトを管理できる\n複数人での作業が容易になり、同じファイルを同時に編集しても衝突を防ぎやすくなる"
   },
   {
     "objectID": "day8/index.html#解析環境の管理docker",
     "href": "day8/index.html#解析環境の管理docker",
-    "title": "第８回：再現可能なデータ解析のベストプラクティス",
-    "section": "",
-    "text": "コードとまた別に、解析する環境（パソコン、ソフトウエア）の管理が必要\nコードが同じでも、解析環境が異なると、同じ解析結果が得られない恐れがある\nハードウエアを再現するのはほぼ不可能ですが、ソフトウエアの環境をDockerというツールで再現することはできる"
+    "title": "データサイエンス",
+    "section": "解析環境の管理：Docker",
+    "text": "解析環境の管理：Docker\n\nコードとまた別に、解析する環境（パソコン、ソフトウエア）の管理が必要\nコードが同じでも、解析環境が異なると、同じ解析結果が得られない恐れがある\nハードウエアを再現するのはほぼ不可能ですが、ソフトウエアの環境をDockerというツールで再現することはできる"
   },
   {
     "objectID": "day8/index.html#dockerの概要",
     "href": "day8/index.html#dockerの概要",
-    "title": "第８回：再現可能なデータ解析のベストプラクティス",
-    "section": "",
-    "text": "Dockerは、自分のパソコンの中に存在する別のパソコンみたいなもの\n「イメージ」あるいは「コンテナ」と呼ぶ\n自分のパソコンのソフトを変えても（RやRパッケージのアップげレードなど）、コンテナの中身は変わらないので、どれくらい時間が経っても、再現できる"
+    "title": "データサイエンス",
+    "section": "Dockerの概要",
+    "text": "Dockerの概要\n\nDockerは、自分のパソコンの中に存在する別のパソコンみたいなもの\n「イメージ」あるいは「コンテナ」と呼ぶ\n自分のパソコンのソフトを変えても（RやRパッケージのアップげレードなど）、コンテナの中身は変わらないので、どれくらい時間が経っても、再現できる"
   },
   {
     "objectID": "day8/index.html#gitとdockerのデモンストレーション",
     "href": "day8/index.html#gitとdockerのデモンストレーション",
-    "title": "第８回：再現可能なデータ解析のベストプラクティス",
-    "section": "",
-    "text": "https://github.com/joelnitta/pleurosoriopsis\n\n必要なソフトはDockerのみ\nあとは全部Dockerのコンテナに入っているので、別にインストールするひつしょうがない"
+    "title": "データサイエンス",
+    "section": "gitとDockerのデモンストレーション",
+    "text": "gitとDockerのデモンストレーション\nhttps://github.com/joelnitta/pleurosoriopsis\n\n必要なソフトはDockerのみ\nあとは全部Dockerのコンテナに入っているので、別にインストールするひつしょうがない"
   },
   {
     "objectID": "day8/index.html#データのリポジトリ",
     "href": "day8/index.html#データのリポジトリ",
-    "title": "第８回：再現可能なデータ解析のベストプラクティス",
-    "section": "",
-    "text": "解析（論文）を発表する際、データも公開しましょう\n\n再現性を高める\n信頼度を高める\n「頼めば提供します」では足りない！\n\n公開しているデータのリポジトリに置くのがベスト"
+    "title": "データサイエンス",
+    "section": "データのリポジトリ",
+    "text": "データのリポジトリ\n\n解析（論文）を発表する際、データも公開しましょう\n\n再現性を高める\n信頼度を高める\n「頼めば提供します」では足りない！\n\n公開しているデータのリポジトリに置くのがベスト"
   },
   {
     "objectID": "day8/index.html#データのリポジトリ-1",
     "href": "day8/index.html#データのリポジトリ-1",
-    "title": "第８回：再現可能なデータ解析のベストプラクティス",
-    "section": "",
-    "text": "Zenodo\nData Dryad\nFigShare\n\nデータを置くだけではなく、キチンと説明することも大事（「metadata」）"
+    "title": "データサイエンス",
+    "section": "データのリポジトリ",
+    "text": "データのリポジトリ\n\nZenodo\nData Dryad\nFigShare\n\nデータを置くだけではなく、キチンと説明することも大事（「metadata」）"
   },
   {
     "objectID": "day8/index.html#erasmusのデータ",
     "href": "day8/index.html#erasmusのデータ",
-    "title": "第８回：再現可能なデータ解析のベストプラクティス",
-    "section": "",
-    "text": "https://data.europa.eu/data/datasets/erasmus-mobility-statistics-2014-2020?locale=en\nメタデータがちゃんと記録されていないから困りましたね・・"
+    "title": "データサイエンス",
+    "section": "erasmusのデータ",
+    "text": "erasmusのデータ\nhttps://data.europa.eu/data/datasets/erasmus-mobility-statistics-2014-2020?locale=en\nメタデータがちゃんと記録されていないから困りましたね・・"
   },
   {
     "objectID": "day8/index.html#tokyorについて",
     "href": "day8/index.html#tokyorについて",
-    "title": "第８回：再現可能なデータ解析のベストプラクティス",
-    "section": "",
-    "text": "Rに困った時、tokyoRのスラックで聞くと（多くの場合）すぐに誰か答えてくれる\nhttps://github.com/tokyor/r-wakalangからジョイン"
+    "title": "データサイエンス",
+    "section": "tokyoRについて",
+    "text": "tokyoRについて\n\nRに困った時、tokyoRのスラックで聞くと（多くの場合）すぐに誰か答えてくれる\nhttps://github.com/tokyor/r-wakalangからジョイン"
   },
   {
     "objectID": "day8/index.html",
