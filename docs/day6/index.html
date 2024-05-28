@@ -8,9 +8,9 @@
 <link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.4.549">
+  <meta name="generator" content="quarto-1.3.450">
 
-  <title>データサイエンス</title>
+  <title>データサイエンス – index</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -30,7 +30,7 @@
     }
     /* CSS for syntax highlighting */
     pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { line-height: 1.25; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
     pre > code.sourceCode > span:empty { height: 1.2em; }
     .sourceCode { overflow: visible; }
     code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -221,8 +221,7 @@
   }
 
   .callout.callout-titled .callout-body > .callout-content > :last-child {
-    padding-bottom: 0.5rem;
-    margin-bottom: 0;
+    margin-bottom: 0.5rem;
   }
 
   .callout.callout-titled .callout-icon::before {
@@ -452,8 +451,8 @@
 <section id="palmerpenguinsについて" class="slide level2">
 <h2>palmerpenguinsについて</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a><span class="fu">install.packages</span>(<span class="st">"palmerpenguins"</span>) <span class="co"># ペンギンのデータ</span></span>
-<span id="cb1-2"><a></a><span class="fu">install.packages</span>(<span class="st">"ggthemes"</span>) <span class="co"># グラフの色の設定に使う</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="fu">install.packages</span>(<span class="st">"palmerpenguins"</span>) <span class="co"># ペンギンのデータ</span></span>
+<span id="cb1-2"><a href="#cb1-2"></a><span class="fu">install.packages</span>(<span class="st">"ggthemes"</span>) <span class="co"># グラフの色の設定に使う</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <ul>
 <li><p><code>palmerpenguins</code>パッケージに入っている</p></li>
@@ -467,10 +466,10 @@
 <section id="palmerpenguinsについて-1" class="slide level2">
 <h2>palmerpenguinsについて</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a></a><span class="fu">library</span>(palmerpenguins)</span>
-<span id="cb2-2"><a></a><span class="fu">library</span>(ggthemes)</span>
-<span id="cb2-3"><a></a><span class="fu">library</span>(tidyverse)</span>
-<span id="cb2-4"><a></a>penguins</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1"></a><span class="fu">library</span>(palmerpenguins)</span>
+<span id="cb2-2"><a href="#cb2-2"></a><span class="fu">library</span>(ggthemes)</span>
+<span id="cb2-3"><a href="#cb2-3"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb2-4"><a href="#cb2-4"></a>penguins</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 344 × 8
    species island    bill_length_mm bill_depth_mm flipper_length_mm
@@ -493,7 +492,7 @@
 <section id="palmerpenguinsについて-2" class="slide level2">
 <h2>palmerpenguinsについて</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a></a><span class="fu">glimpse</span>(penguins)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1"></a><span class="fu">glimpse</span>(penguins)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Rows: 344
 Columns: 8
@@ -520,14 +519,10 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, …</c
 <h2><code>ggplot()</code>でグラフの基盤を作る</h2>
 <div class="cell columns column-output-location">
 <div class="column">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a></a><span class="fu">ggplot</span>(<span class="at">data =</span> penguins)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> penguins)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div><div class="column">
 <div class="cell-output-display">
-<div>
-<figure>
 <p><img data-src="index_files/figure-revealjs/unnamed-chunk-5-1.png" width="960"></p>
-</figure>
-</div>
 </div>
 </div>
 </div>
@@ -536,20 +531,16 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, …</c
 <h2><code>mapping()</code>で座標を指定する</h2>
 <div class="cell columns column-output-location">
 <div class="column">
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a></a><span class="fu">ggplot</span>(</span>
-<span id="cb7-2"><a></a>  <span class="at">data =</span> penguins,</span>
-<span id="cb7-3"><a></a>  <span class="at">mapping =</span> <span class="fu">aes</span>(</span>
-<span id="cb7-4"><a></a>    <span class="at">x =</span> flipper_length_mm,</span>
-<span id="cb7-5"><a></a>    <span class="at">y =</span> body_mass_g</span>
-<span id="cb7-6"><a></a>  )</span>
-<span id="cb7-7"><a></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1"></a><span class="fu">ggplot</span>(</span>
+<span id="cb7-2"><a href="#cb7-2"></a>  <span class="at">data =</span> penguins,</span>
+<span id="cb7-3"><a href="#cb7-3"></a>  <span class="at">mapping =</span> <span class="fu">aes</span>(</span>
+<span id="cb7-4"><a href="#cb7-4"></a>    <span class="at">x =</span> flipper_length_mm,</span>
+<span id="cb7-5"><a href="#cb7-5"></a>    <span class="at">y =</span> body_mass_g</span>
+<span id="cb7-6"><a href="#cb7-6"></a>  )</span>
+<span id="cb7-7"><a href="#cb7-7"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div><div class="column">
 <div class="cell-output-display">
-<div>
-<figure>
 <p><img data-src="index_files/figure-revealjs/unnamed-chunk-6-1.png" width="960"></p>
-</figure>
-</div>
 </div>
 </div>
 </div>
@@ -558,20 +549,16 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, …</c
 <h2><code>mapping()</code>で座標を指定する</h2>
 <div class="cell columns column-output-location">
 <div class="column">
-<div class="sourceCode cell-code" id="cb8" data-code-line-numbers="3-6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a></a><span class="fu">ggplot</span>(</span>
-<span id="cb8-2"><a></a>  <span class="at">data =</span> penguins,</span>
-<span id="cb8-3"><a></a>  <span class="at">mapping =</span> <span class="fu">aes</span>(</span>
-<span id="cb8-4"><a></a>    <span class="at">x =</span> flipper_length_mm,</span>
-<span id="cb8-5"><a></a>    <span class="at">y =</span> body_mass_g</span>
-<span id="cb8-6"><a></a>  )</span>
-<span id="cb8-7"><a></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb8" data-code-line-numbers="3-6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1"></a><span class="fu">ggplot</span>(</span>
+<span id="cb8-2"><a href="#cb8-2"></a>  <span class="at">data =</span> penguins,</span>
+<span id="cb8-3"><a href="#cb8-3"></a>  <span class="at">mapping =</span> <span class="fu">aes</span>(</span>
+<span id="cb8-4"><a href="#cb8-4"></a>    <span class="at">x =</span> flipper_length_mm,</span>
+<span id="cb8-5"><a href="#cb8-5"></a>    <span class="at">y =</span> body_mass_g</span>
+<span id="cb8-6"><a href="#cb8-6"></a>  )</span>
+<span id="cb8-7"><a href="#cb8-7"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div><div class="column">
 <div class="cell-output-display">
-<div>
-<figure>
 <p><img data-src="index_files/figure-revealjs/unnamed-chunk-7-1.png" width="960"></p>
-</figure>
-</div>
 </div>
 </div>
 </div>
@@ -580,21 +567,17 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, …</c
 <h2><code>geom_()</code>でデータの形を指定する</h2>
 <div class="cell columns column-output-location">
 <div class="column">
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a></a><span class="fu">ggplot</span>(</span>
-<span id="cb9-2"><a></a>  <span class="at">data =</span> penguins,</span>
-<span id="cb9-3"><a></a>  <span class="at">mapping =</span> <span class="fu">aes</span>(</span>
-<span id="cb9-4"><a></a>    <span class="at">x =</span> flipper_length_mm,</span>
-<span id="cb9-5"><a></a>    <span class="at">y =</span> body_mass_g</span>
-<span id="cb9-6"><a></a>  )</span>
-<span id="cb9-7"><a></a>) <span class="sc">+</span></span>
-<span id="cb9-8"><a></a>  <span class="fu">geom_point</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1"></a><span class="fu">ggplot</span>(</span>
+<span id="cb9-2"><a href="#cb9-2"></a>  <span class="at">data =</span> penguins,</span>
+<span id="cb9-3"><a href="#cb9-3"></a>  <span class="at">mapping =</span> <span class="fu">aes</span>(</span>
+<span id="cb9-4"><a href="#cb9-4"></a>    <span class="at">x =</span> flipper_length_mm,</span>
+<span id="cb9-5"><a href="#cb9-5"></a>    <span class="at">y =</span> body_mass_g</span>
+<span id="cb9-6"><a href="#cb9-6"></a>  )</span>
+<span id="cb9-7"><a href="#cb9-7"></a>) <span class="sc">+</span></span>
+<span id="cb9-8"><a href="#cb9-8"></a>  <span class="fu">geom_point</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div><div class="column">
 <div class="cell-output-display">
-<div>
-<figure>
 <p><img data-src="index_files/figure-revealjs/unnamed-chunk-8-1.png" width="960"></p>
-</figure>
-</div>
 </div>
 </div>
 </div>
@@ -603,21 +586,17 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, …</c
 <h2><code>geom_()</code>でデータの形を指定する</h2>
 <div class="cell columns column-output-location">
 <div class="column">
-<div class="sourceCode cell-code" id="cb10" data-code-line-numbers="7-8"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a></a><span class="fu">ggplot</span>(</span>
-<span id="cb10-2"><a></a>  <span class="at">data =</span> penguins,</span>
-<span id="cb10-3"><a></a>  <span class="at">mapping =</span> <span class="fu">aes</span>(</span>
-<span id="cb10-4"><a></a>    <span class="at">x =</span> flipper_length_mm,</span>
-<span id="cb10-5"><a></a>    <span class="at">y =</span> body_mass_g</span>
-<span id="cb10-6"><a></a>  )</span>
-<span id="cb10-7"><a></a>) <span class="sc">+</span></span>
-<span id="cb10-8"><a></a>  <span class="fu">geom_point</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb10" data-code-line-numbers="7-8"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1"></a><span class="fu">ggplot</span>(</span>
+<span id="cb10-2"><a href="#cb10-2"></a>  <span class="at">data =</span> penguins,</span>
+<span id="cb10-3"><a href="#cb10-3"></a>  <span class="at">mapping =</span> <span class="fu">aes</span>(</span>
+<span id="cb10-4"><a href="#cb10-4"></a>    <span class="at">x =</span> flipper_length_mm,</span>
+<span id="cb10-5"><a href="#cb10-5"></a>    <span class="at">y =</span> body_mass_g</span>
+<span id="cb10-6"><a href="#cb10-6"></a>  )</span>
+<span id="cb10-7"><a href="#cb10-7"></a>) <span class="sc">+</span></span>
+<span id="cb10-8"><a href="#cb10-8"></a>  <span class="fu">geom_point</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div><div class="column">
 <div class="cell-output-display">
-<div>
-<figure>
 <p><img data-src="index_files/figure-revealjs/unnamed-chunk-9-1.png" width="960"></p>
-</figure>
-</div>
 </div>
 </div>
 </div>
@@ -630,22 +609,18 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, …</c
 <h2><code>color</code>で色を潰す</h2>
 <div class="cell columns column-output-location">
 <div class="column">
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a></a><span class="fu">ggplot</span>(</span>
-<span id="cb11-2"><a></a>  <span class="at">data =</span> penguins,</span>
-<span id="cb11-3"><a></a>  <span class="at">mapping =</span> <span class="fu">aes</span>(</span>
-<span id="cb11-4"><a></a>    <span class="at">x =</span> flipper_length_mm,</span>
-<span id="cb11-5"><a></a>    <span class="at">y =</span> body_mass_g,</span>
-<span id="cb11-6"><a></a>    <span class="at">color =</span> species</span>
-<span id="cb11-7"><a></a>  )</span>
-<span id="cb11-8"><a></a>) <span class="sc">+</span></span>
-<span id="cb11-9"><a></a>  <span class="fu">geom_point</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1"></a><span class="fu">ggplot</span>(</span>
+<span id="cb11-2"><a href="#cb11-2"></a>  <span class="at">data =</span> penguins,</span>
+<span id="cb11-3"><a href="#cb11-3"></a>  <span class="at">mapping =</span> <span class="fu">aes</span>(</span>
+<span id="cb11-4"><a href="#cb11-4"></a>    <span class="at">x =</span> flipper_length_mm,</span>
+<span id="cb11-5"><a href="#cb11-5"></a>    <span class="at">y =</span> body_mass_g,</span>
+<span id="cb11-6"><a href="#cb11-6"></a>    <span class="at">color =</span> species</span>
+<span id="cb11-7"><a href="#cb11-7"></a>  )</span>
+<span id="cb11-8"><a href="#cb11-8"></a>) <span class="sc">+</span></span>
+<span id="cb11-9"><a href="#cb11-9"></a>  <span class="fu">geom_point</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div><div class="column">
 <div class="cell-output-display">
-<div>
-<figure>
 <p><img data-src="index_files/figure-revealjs/unnamed-chunk-10-1.png" width="960"></p>
-</figure>
-</div>
 </div>
 </div>
 </div>
@@ -654,22 +629,18 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, …</c
 <h2><code>color</code>で色を潰す</h2>
 <div class="cell columns column-output-location">
 <div class="column">
-<div class="sourceCode cell-code" id="cb12" data-code-line-numbers="6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a></a><span class="fu">ggplot</span>(</span>
-<span id="cb12-2"><a></a>  <span class="at">data =</span> penguins,</span>
-<span id="cb12-3"><a></a>  <span class="at">mapping =</span> <span class="fu">aes</span>(</span>
-<span id="cb12-4"><a></a>    <span class="at">x =</span> flipper_length_mm,</span>
-<span id="cb12-5"><a></a>    <span class="at">y =</span> body_mass_g,</span>
-<span id="cb12-6"><a></a>    <span class="at">color =</span> species</span>
-<span id="cb12-7"><a></a>  )</span>
-<span id="cb12-8"><a></a>) <span class="sc">+</span></span>
-<span id="cb12-9"><a></a>  <span class="fu">geom_point</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb12" data-code-line-numbers="6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1"></a><span class="fu">ggplot</span>(</span>
+<span id="cb12-2"><a href="#cb12-2"></a>  <span class="at">data =</span> penguins,</span>
+<span id="cb12-3"><a href="#cb12-3"></a>  <span class="at">mapping =</span> <span class="fu">aes</span>(</span>
+<span id="cb12-4"><a href="#cb12-4"></a>    <span class="at">x =</span> flipper_length_mm,</span>
+<span id="cb12-5"><a href="#cb12-5"></a>    <span class="at">y =</span> body_mass_g,</span>
+<span id="cb12-6"><a href="#cb12-6"></a>    <span class="at">color =</span> species</span>
+<span id="cb12-7"><a href="#cb12-7"></a>  )</span>
+<span id="cb12-8"><a href="#cb12-8"></a>) <span class="sc">+</span></span>
+<span id="cb12-9"><a href="#cb12-9"></a>  <span class="fu">geom_point</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div><div class="column">
 <div class="cell-output-display">
-<div>
-<figure>
 <p><img data-src="index_files/figure-revealjs/unnamed-chunk-11-1.png" width="960"></p>
-</figure>
-</div>
 </div>
 </div>
 </div>
@@ -678,23 +649,19 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, …</c
 <h2><code>geom_smooth()</code>回帰直線を付け加える</h2>
 <div class="cell columns column-output-location">
 <div class="column">
-<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a></a><span class="fu">ggplot</span>(</span>
-<span id="cb13-2"><a></a>  <span class="at">data =</span> penguins,</span>
-<span id="cb13-3"><a></a>  <span class="at">mapping =</span> <span class="fu">aes</span>(</span>
-<span id="cb13-4"><a></a>    <span class="at">x =</span> flipper_length_mm,</span>
-<span id="cb13-5"><a></a>    <span class="at">y =</span> body_mass_g,</span>
-<span id="cb13-6"><a></a>    <span class="at">color =</span> species</span>
-<span id="cb13-7"><a></a>  )</span>
-<span id="cb13-8"><a></a>) <span class="sc">+</span></span>
-<span id="cb13-9"><a></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
-<span id="cb13-10"><a></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">"lm"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1"></a><span class="fu">ggplot</span>(</span>
+<span id="cb13-2"><a href="#cb13-2"></a>  <span class="at">data =</span> penguins,</span>
+<span id="cb13-3"><a href="#cb13-3"></a>  <span class="at">mapping =</span> <span class="fu">aes</span>(</span>
+<span id="cb13-4"><a href="#cb13-4"></a>    <span class="at">x =</span> flipper_length_mm,</span>
+<span id="cb13-5"><a href="#cb13-5"></a>    <span class="at">y =</span> body_mass_g,</span>
+<span id="cb13-6"><a href="#cb13-6"></a>    <span class="at">color =</span> species</span>
+<span id="cb13-7"><a href="#cb13-7"></a>  )</span>
+<span id="cb13-8"><a href="#cb13-8"></a>) <span class="sc">+</span></span>
+<span id="cb13-9"><a href="#cb13-9"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
+<span id="cb13-10"><a href="#cb13-10"></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">"lm"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div><div class="column">
 <div class="cell-output-display">
-<div>
-<figure>
 <p><img data-src="index_files/figure-revealjs/unnamed-chunk-12-1.png" width="960"></p>
-</figure>
-</div>
 </div>
 </div>
 </div>
@@ -703,23 +670,19 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, …</c
 <h2><code>geom_smooth()</code>回帰直線を付け加える</h2>
 <div class="cell columns column-output-location">
 <div class="column">
-<div class="sourceCode cell-code" id="cb14" data-code-line-numbers="9-10"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a></a><span class="fu">ggplot</span>(</span>
-<span id="cb14-2"><a></a>  <span class="at">data =</span> penguins,</span>
-<span id="cb14-3"><a></a>  <span class="at">mapping =</span> <span class="fu">aes</span>(</span>
-<span id="cb14-4"><a></a>    <span class="at">x =</span> flipper_length_mm,</span>
-<span id="cb14-5"><a></a>    <span class="at">y =</span> body_mass_g,</span>
-<span id="cb14-6"><a></a>    <span class="at">color =</span> species</span>
-<span id="cb14-7"><a></a>  )</span>
-<span id="cb14-8"><a></a>) <span class="sc">+</span></span>
-<span id="cb14-9"><a></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
-<span id="cb14-10"><a></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">"lm"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb14" data-code-line-numbers="9-10"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1"></a><span class="fu">ggplot</span>(</span>
+<span id="cb14-2"><a href="#cb14-2"></a>  <span class="at">data =</span> penguins,</span>
+<span id="cb14-3"><a href="#cb14-3"></a>  <span class="at">mapping =</span> <span class="fu">aes</span>(</span>
+<span id="cb14-4"><a href="#cb14-4"></a>    <span class="at">x =</span> flipper_length_mm,</span>
+<span id="cb14-5"><a href="#cb14-5"></a>    <span class="at">y =</span> body_mass_g,</span>
+<span id="cb14-6"><a href="#cb14-6"></a>    <span class="at">color =</span> species</span>
+<span id="cb14-7"><a href="#cb14-7"></a>  )</span>
+<span id="cb14-8"><a href="#cb14-8"></a>) <span class="sc">+</span></span>
+<span id="cb14-9"><a href="#cb14-9"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
+<span id="cb14-10"><a href="#cb14-10"></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">"lm"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div><div class="column">
 <div class="cell-output-display">
-<div>
-<figure>
 <p><img data-src="index_files/figure-revealjs/unnamed-chunk-13-1.png" width="960"></p>
-</figure>
-</div>
 </div>
 </div>
 </div>
@@ -730,21 +693,13 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, …</c
 <div class="column">
 <div class="cell">
 <div class="cell-output-display">
-<div>
-<figure>
 <p><img data-src="index_files/figure-revealjs/unnamed-chunk-14-1.png" width="960"></p>
-</figure>
-</div>
 </div>
 </div>
 </div><div class="column">
 <div class="cell">
 <div class="cell-output-display">
-<div>
-<figure>
 <p><img data-src="index_files/figure-revealjs/unnamed-chunk-15-1.png" width="960"></p>
-</figure>
-</div>
 </div>
 </div>
 </div>
@@ -758,31 +713,31 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, …</c
 <li><code>ggplot()</code>で指定すると、全てのレーヤーに使用される</li>
 </ul>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a></a><span class="fu">ggplot</span>(</span>
-<span id="cb15-2"><a></a>  <span class="at">data =</span> penguins,</span>
-<span id="cb15-3"><a></a>  <span class="at">mapping =</span> <span class="fu">aes</span>(</span>
-<span id="cb15-4"><a></a>    <span class="at">x =</span> flipper_length_mm,</span>
-<span id="cb15-5"><a></a>    <span class="at">y =</span> body_mass_g,</span>
-<span id="cb15-6"><a></a>    <span class="at">color =</span> species</span>
-<span id="cb15-7"><a></a>  )</span>
-<span id="cb15-8"><a></a>) <span class="sc">+</span></span>
-<span id="cb15-9"><a></a>  <span class="fu">geom_point</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1"></a><span class="fu">ggplot</span>(</span>
+<span id="cb15-2"><a href="#cb15-2"></a>  <span class="at">data =</span> penguins,</span>
+<span id="cb15-3"><a href="#cb15-3"></a>  <span class="at">mapping =</span> <span class="fu">aes</span>(</span>
+<span id="cb15-4"><a href="#cb15-4"></a>    <span class="at">x =</span> flipper_length_mm,</span>
+<span id="cb15-5"><a href="#cb15-5"></a>    <span class="at">y =</span> body_mass_g,</span>
+<span id="cb15-6"><a href="#cb15-6"></a>    <span class="at">color =</span> species</span>
+<span id="cb15-7"><a href="#cb15-7"></a>  )</span>
+<span id="cb15-8"><a href="#cb15-8"></a>) <span class="sc">+</span></span>
+<span id="cb15-9"><a href="#cb15-9"></a>  <span class="fu">geom_point</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div><div class="column">
 <ul>
 <li><code>geom_()</code>で指定すると、そのレーヤーだけで使用される</li>
 </ul>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a></a><span class="fu">ggplot</span>(</span>
-<span id="cb16-2"><a></a>  <span class="at">data =</span> penguins</span>
-<span id="cb16-3"><a></a>) <span class="sc">+</span></span>
-<span id="cb16-4"><a></a>  <span class="fu">geom_point</span>(</span>
-<span id="cb16-5"><a></a>    <span class="at">mapping =</span> <span class="fu">aes</span>(</span>
-<span id="cb16-6"><a></a>      <span class="at">x =</span> flipper_length_mm,</span>
-<span id="cb16-7"><a></a>      <span class="at">y =</span> body_mass_g,</span>
-<span id="cb16-8"><a></a>      <span class="at">color =</span> species</span>
-<span id="cb16-9"><a></a>  )</span>
-<span id="cb16-10"><a></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1"></a><span class="fu">ggplot</span>(</span>
+<span id="cb16-2"><a href="#cb16-2"></a>  <span class="at">data =</span> penguins</span>
+<span id="cb16-3"><a href="#cb16-3"></a>) <span class="sc">+</span></span>
+<span id="cb16-4"><a href="#cb16-4"></a>  <span class="fu">geom_point</span>(</span>
+<span id="cb16-5"><a href="#cb16-5"></a>    <span class="at">mapping =</span> <span class="fu">aes</span>(</span>
+<span id="cb16-6"><a href="#cb16-6"></a>      <span class="at">x =</span> flipper_length_mm,</span>
+<span id="cb16-7"><a href="#cb16-7"></a>      <span class="at">y =</span> body_mass_g,</span>
+<span id="cb16-8"><a href="#cb16-8"></a>      <span class="at">color =</span> species</span>
+<span id="cb16-9"><a href="#cb16-9"></a>  )</span>
+<span id="cb16-10"><a href="#cb16-10"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
 </div>
@@ -793,21 +748,13 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, …</c
 <div class="column">
 <div class="cell">
 <div class="cell-output-display">
-<div>
-<figure>
 <p><img data-src="index_files/figure-revealjs/unnamed-chunk-18-1.png" width="960"></p>
-</figure>
-</div>
 </div>
 </div>
 </div><div class="column">
 <div class="cell">
 <div class="cell-output-display">
-<div>
-<figure>
 <p><img data-src="index_files/figure-revealjs/unnamed-chunk-19-1.png" width="960"></p>
-</figure>
-</div>
 </div>
 </div>
 </div>
@@ -817,26 +764,22 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, …</c
 <h2><code>color</code>を<code>geom_point()</code>だけ指定しよう</h2>
 <div class="cell columns column-output-location">
 <div class="column">
-<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a></a><span class="fu">ggplot</span>(</span>
-<span id="cb17-2"><a></a>  <span class="at">data =</span> penguins,</span>
-<span id="cb17-3"><a></a>  <span class="at">mapping =</span> <span class="fu">aes</span>(</span>
-<span id="cb17-4"><a></a>    <span class="at">x =</span> flipper_length_mm,</span>
-<span id="cb17-5"><a></a>    <span class="at">y =</span> body_mass_g</span>
-<span id="cb17-6"><a></a>  )</span>
-<span id="cb17-7"><a></a>) <span class="sc">+</span></span>
-<span id="cb17-8"><a></a>  <span class="fu">geom_point</span>(</span>
-<span id="cb17-9"><a></a>    <span class="at">mapping =</span> <span class="fu">aes</span>(</span>
-<span id="cb17-10"><a></a>      <span class="at">color =</span> species</span>
-<span id="cb17-11"><a></a>    )</span>
-<span id="cb17-12"><a></a>) <span class="sc">+</span></span>
-<span id="cb17-13"><a></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">"lm"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1"></a><span class="fu">ggplot</span>(</span>
+<span id="cb17-2"><a href="#cb17-2"></a>  <span class="at">data =</span> penguins,</span>
+<span id="cb17-3"><a href="#cb17-3"></a>  <span class="at">mapping =</span> <span class="fu">aes</span>(</span>
+<span id="cb17-4"><a href="#cb17-4"></a>    <span class="at">x =</span> flipper_length_mm,</span>
+<span id="cb17-5"><a href="#cb17-5"></a>    <span class="at">y =</span> body_mass_g</span>
+<span id="cb17-6"><a href="#cb17-6"></a>  )</span>
+<span id="cb17-7"><a href="#cb17-7"></a>) <span class="sc">+</span></span>
+<span id="cb17-8"><a href="#cb17-8"></a>  <span class="fu">geom_point</span>(</span>
+<span id="cb17-9"><a href="#cb17-9"></a>    <span class="at">mapping =</span> <span class="fu">aes</span>(</span>
+<span id="cb17-10"><a href="#cb17-10"></a>      <span class="at">color =</span> species</span>
+<span id="cb17-11"><a href="#cb17-11"></a>    )</span>
+<span id="cb17-12"><a href="#cb17-12"></a>) <span class="sc">+</span></span>
+<span id="cb17-13"><a href="#cb17-13"></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">"lm"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div><div class="column">
 <div class="cell-output-display">
-<div>
-<figure>
 <p><img data-src="index_files/figure-revealjs/unnamed-chunk-20-1.png" width="960"></p>
-</figure>
-</div>
 </div>
 </div>
 </div>
@@ -849,27 +792,23 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, …</c
 
 <div class="cell columns column-output-location">
 <div class="column">
-<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a></a><span class="fu">ggplot</span>(</span>
-<span id="cb18-2"><a></a>  <span class="at">data =</span> penguins,</span>
-<span id="cb18-3"><a></a>  <span class="at">mapping =</span> <span class="fu">aes</span>(</span>
-<span id="cb18-4"><a></a>    <span class="at">x =</span> flipper_length_mm,</span>
-<span id="cb18-5"><a></a>    <span class="at">y =</span> body_mass_g</span>
-<span id="cb18-6"><a></a>  )</span>
-<span id="cb18-7"><a></a>) <span class="sc">+</span></span>
-<span id="cb18-8"><a></a>  <span class="fu">geom_point</span>(</span>
-<span id="cb18-9"><a></a>    <span class="at">mapping =</span> <span class="fu">aes</span>(</span>
-<span id="cb18-10"><a></a>      <span class="at">color =</span> species,</span>
-<span id="cb18-11"><a></a>      <span class="at">shape =</span> species</span>
-<span id="cb18-12"><a></a>    )</span>
-<span id="cb18-13"><a></a>) <span class="sc">+</span></span>
-<span id="cb18-14"><a></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">"lm"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1"></a><span class="fu">ggplot</span>(</span>
+<span id="cb18-2"><a href="#cb18-2"></a>  <span class="at">data =</span> penguins,</span>
+<span id="cb18-3"><a href="#cb18-3"></a>  <span class="at">mapping =</span> <span class="fu">aes</span>(</span>
+<span id="cb18-4"><a href="#cb18-4"></a>    <span class="at">x =</span> flipper_length_mm,</span>
+<span id="cb18-5"><a href="#cb18-5"></a>    <span class="at">y =</span> body_mass_g</span>
+<span id="cb18-6"><a href="#cb18-6"></a>  )</span>
+<span id="cb18-7"><a href="#cb18-7"></a>) <span class="sc">+</span></span>
+<span id="cb18-8"><a href="#cb18-8"></a>  <span class="fu">geom_point</span>(</span>
+<span id="cb18-9"><a href="#cb18-9"></a>    <span class="at">mapping =</span> <span class="fu">aes</span>(</span>
+<span id="cb18-10"><a href="#cb18-10"></a>      <span class="at">color =</span> species,</span>
+<span id="cb18-11"><a href="#cb18-11"></a>      <span class="at">shape =</span> species</span>
+<span id="cb18-12"><a href="#cb18-12"></a>    )</span>
+<span id="cb18-13"><a href="#cb18-13"></a>) <span class="sc">+</span></span>
+<span id="cb18-14"><a href="#cb18-14"></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">"lm"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div><div class="column">
 <div class="cell-output-display">
-<div>
-<figure>
 <p><img data-src="index_files/figure-revealjs/unnamed-chunk-21-1.png" width="960"></p>
-</figure>
-</div>
 </div>
 </div>
 </div>
@@ -878,27 +817,23 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, …</c
 
 <div class="cell columns column-output-location">
 <div class="column">
-<div class="sourceCode cell-code" id="cb19" data-code-line-numbers="11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a></a><span class="fu">ggplot</span>(</span>
-<span id="cb19-2"><a></a>  <span class="at">data =</span> penguins,</span>
-<span id="cb19-3"><a></a>  <span class="at">mapping =</span> <span class="fu">aes</span>(</span>
-<span id="cb19-4"><a></a>    <span class="at">x =</span> flipper_length_mm,</span>
-<span id="cb19-5"><a></a>    <span class="at">y =</span> body_mass_g</span>
-<span id="cb19-6"><a></a>  )</span>
-<span id="cb19-7"><a></a>) <span class="sc">+</span></span>
-<span id="cb19-8"><a></a>  <span class="fu">geom_point</span>(</span>
-<span id="cb19-9"><a></a>    <span class="at">mapping =</span> <span class="fu">aes</span>(</span>
-<span id="cb19-10"><a></a>      <span class="at">color =</span> species,</span>
-<span id="cb19-11"><a></a>      <span class="at">shape =</span> species</span>
-<span id="cb19-12"><a></a>    )</span>
-<span id="cb19-13"><a></a>) <span class="sc">+</span></span>
-<span id="cb19-14"><a></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">"lm"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb19" data-code-line-numbers="11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1"></a><span class="fu">ggplot</span>(</span>
+<span id="cb19-2"><a href="#cb19-2"></a>  <span class="at">data =</span> penguins,</span>
+<span id="cb19-3"><a href="#cb19-3"></a>  <span class="at">mapping =</span> <span class="fu">aes</span>(</span>
+<span id="cb19-4"><a href="#cb19-4"></a>    <span class="at">x =</span> flipper_length_mm,</span>
+<span id="cb19-5"><a href="#cb19-5"></a>    <span class="at">y =</span> body_mass_g</span>
+<span id="cb19-6"><a href="#cb19-6"></a>  )</span>
+<span id="cb19-7"><a href="#cb19-7"></a>) <span class="sc">+</span></span>
+<span id="cb19-8"><a href="#cb19-8"></a>  <span class="fu">geom_point</span>(</span>
+<span id="cb19-9"><a href="#cb19-9"></a>    <span class="at">mapping =</span> <span class="fu">aes</span>(</span>
+<span id="cb19-10"><a href="#cb19-10"></a>      <span class="at">color =</span> species,</span>
+<span id="cb19-11"><a href="#cb19-11"></a>      <span class="at">shape =</span> species</span>
+<span id="cb19-12"><a href="#cb19-12"></a>    )</span>
+<span id="cb19-13"><a href="#cb19-13"></a>) <span class="sc">+</span></span>
+<span id="cb19-14"><a href="#cb19-14"></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">"lm"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div><div class="column">
 <div class="cell-output-display">
-<div>
-<figure>
 <p><img data-src="index_files/figure-revealjs/unnamed-chunk-22-1.png" width="960"></p>
-</figure>
-</div>
 </div>
 </div>
 </div>
@@ -907,25 +842,21 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, …</c
 <h2><code>labs()</code>でラベルをきれいにする</h2>
 <div class="cell columns column-output-location">
 <div class="column">
-<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a></a><span class="fu">ggplot</span>(</span>
-<span id="cb20-2"><a></a>  <span class="at">data =</span> penguins,</span>
-<span id="cb20-3"><a></a>  <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> flipper_length_mm, <span class="at">y =</span> body_mass_g)</span>
-<span id="cb20-4"><a></a>) <span class="sc">+</span></span>
-<span id="cb20-5"><a></a>  <span class="fu">geom_point</span>(<span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">color =</span> species, <span class="at">shape =</span> species)) <span class="sc">+</span></span>
-<span id="cb20-6"><a></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">"lm"</span>) <span class="sc">+</span></span>
-<span id="cb20-7"><a></a>  <span class="fu">labs</span>(</span>
-<span id="cb20-8"><a></a>    <span class="at">title =</span> <span class="st">"Body mass and flipper length"</span>,</span>
-<span id="cb20-9"><a></a>    <span class="at">subtitle =</span> <span class="st">"Dimensions for Adelie, Chinstrap, and Gentoo Penguins"</span>,</span>
-<span id="cb20-10"><a></a>    <span class="at">x =</span> <span class="st">"Flipper length (mm)"</span>, <span class="at">y =</span> <span class="st">"Body mass (g)"</span>,</span>
-<span id="cb20-11"><a></a>    <span class="at">color =</span> <span class="st">"Species"</span>, <span class="at">shape =</span> <span class="st">"Species"</span></span>
-<span id="cb20-12"><a></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1"></a><span class="fu">ggplot</span>(</span>
+<span id="cb20-2"><a href="#cb20-2"></a>  <span class="at">data =</span> penguins,</span>
+<span id="cb20-3"><a href="#cb20-3"></a>  <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> flipper_length_mm, <span class="at">y =</span> body_mass_g)</span>
+<span id="cb20-4"><a href="#cb20-4"></a>) <span class="sc">+</span></span>
+<span id="cb20-5"><a href="#cb20-5"></a>  <span class="fu">geom_point</span>(<span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">color =</span> species, <span class="at">shape =</span> species)) <span class="sc">+</span></span>
+<span id="cb20-6"><a href="#cb20-6"></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">"lm"</span>) <span class="sc">+</span></span>
+<span id="cb20-7"><a href="#cb20-7"></a>  <span class="fu">labs</span>(</span>
+<span id="cb20-8"><a href="#cb20-8"></a>    <span class="at">title =</span> <span class="st">"Body mass and flipper length"</span>,</span>
+<span id="cb20-9"><a href="#cb20-9"></a>    <span class="at">subtitle =</span> <span class="st">"Dimensions for Adelie, Chinstrap, and Gentoo Penguins"</span>,</span>
+<span id="cb20-10"><a href="#cb20-10"></a>    <span class="at">x =</span> <span class="st">"Flipper length (mm)"</span>, <span class="at">y =</span> <span class="st">"Body mass (g)"</span>,</span>
+<span id="cb20-11"><a href="#cb20-11"></a>    <span class="at">color =</span> <span class="st">"Species"</span>, <span class="at">shape =</span> <span class="st">"Species"</span></span>
+<span id="cb20-12"><a href="#cb20-12"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div><div class="column">
 <div class="cell-output-display">
-<div>
-<figure>
 <p><img data-src="index_files/figure-revealjs/unnamed-chunk-23-1.png" width="960"></p>
-</figure>
-</div>
 </div>
 </div>
 </div>
@@ -934,25 +865,21 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, …</c
 <h2><code>labs()</code>でラベルを整える</h2>
 <div class="cell columns column-output-location">
 <div class="column">
-<div class="sourceCode cell-code" id="cb21" data-code-line-numbers="7-12"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a></a><span class="fu">ggplot</span>(</span>
-<span id="cb21-2"><a></a>  <span class="at">data =</span> penguins,</span>
-<span id="cb21-3"><a></a>  <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> flipper_length_mm, <span class="at">y =</span> body_mass_g)</span>
-<span id="cb21-4"><a></a>) <span class="sc">+</span></span>
-<span id="cb21-5"><a></a>  <span class="fu">geom_point</span>(<span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">color =</span> species, <span class="at">shape =</span> species)) <span class="sc">+</span></span>
-<span id="cb21-6"><a></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">"lm"</span>) <span class="sc">+</span></span>
-<span id="cb21-7"><a></a>  <span class="fu">labs</span>(</span>
-<span id="cb21-8"><a></a>    <span class="at">title =</span> <span class="st">"Body mass and flipper length"</span>,</span>
-<span id="cb21-9"><a></a>    <span class="at">subtitle =</span> <span class="st">"Dimensions for Adelie, Chinstrap, and Gentoo Penguins"</span>,</span>
-<span id="cb21-10"><a></a>    <span class="at">x =</span> <span class="st">"Flipper length (mm)"</span>, <span class="at">y =</span> <span class="st">"Body mass (g)"</span>,</span>
-<span id="cb21-11"><a></a>    <span class="at">color =</span> <span class="st">"Species"</span>, <span class="at">shape =</span> <span class="st">"Species"</span></span>
-<span id="cb21-12"><a></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb21" data-code-line-numbers="7-12"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1"></a><span class="fu">ggplot</span>(</span>
+<span id="cb21-2"><a href="#cb21-2"></a>  <span class="at">data =</span> penguins,</span>
+<span id="cb21-3"><a href="#cb21-3"></a>  <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> flipper_length_mm, <span class="at">y =</span> body_mass_g)</span>
+<span id="cb21-4"><a href="#cb21-4"></a>) <span class="sc">+</span></span>
+<span id="cb21-5"><a href="#cb21-5"></a>  <span class="fu">geom_point</span>(<span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">color =</span> species, <span class="at">shape =</span> species)) <span class="sc">+</span></span>
+<span id="cb21-6"><a href="#cb21-6"></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">"lm"</span>) <span class="sc">+</span></span>
+<span id="cb21-7"><a href="#cb21-7"></a>  <span class="fu">labs</span>(</span>
+<span id="cb21-8"><a href="#cb21-8"></a>    <span class="at">title =</span> <span class="st">"Body mass and flipper length"</span>,</span>
+<span id="cb21-9"><a href="#cb21-9"></a>    <span class="at">subtitle =</span> <span class="st">"Dimensions for Adelie, Chinstrap, and Gentoo Penguins"</span>,</span>
+<span id="cb21-10"><a href="#cb21-10"></a>    <span class="at">x =</span> <span class="st">"Flipper length (mm)"</span>, <span class="at">y =</span> <span class="st">"Body mass (g)"</span>,</span>
+<span id="cb21-11"><a href="#cb21-11"></a>    <span class="at">color =</span> <span class="st">"Species"</span>, <span class="at">shape =</span> <span class="st">"Species"</span></span>
+<span id="cb21-12"><a href="#cb21-12"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div><div class="column">
 <div class="cell-output-display">
-<div>
-<figure>
 <p><img data-src="index_files/figure-revealjs/unnamed-chunk-24-1.png" width="960"></p>
-</figure>
-</div>
 </div>
 </div>
 </div>
@@ -961,26 +888,22 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, …</c
 <h2><code>scale_color</code>で色を変える</h2>
 <div class="cell columns column-output-location">
 <div class="column">
-<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a></a><span class="fu">ggplot</span>(</span>
-<span id="cb22-2"><a></a>  <span class="at">data =</span> penguins,</span>
-<span id="cb22-3"><a></a>  <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> flipper_length_mm, <span class="at">y =</span> body_mass_g)</span>
-<span id="cb22-4"><a></a>) <span class="sc">+</span></span>
-<span id="cb22-5"><a></a>  <span class="fu">geom_point</span>(<span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">color =</span> species, <span class="at">shape =</span> species)) <span class="sc">+</span></span>
-<span id="cb22-6"><a></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">"lm"</span>) <span class="sc">+</span></span>
-<span id="cb22-7"><a></a>  <span class="fu">labs</span>(</span>
-<span id="cb22-8"><a></a>    <span class="at">title =</span> <span class="st">"Body mass and flipper length"</span>,</span>
-<span id="cb22-9"><a></a>    <span class="at">subtitle =</span> <span class="st">"Dimensions for Adelie, Chinstrap, and Gentoo Penguins"</span>,</span>
-<span id="cb22-10"><a></a>    <span class="at">x =</span> <span class="st">"Flipper length (mm)"</span>, <span class="at">y =</span> <span class="st">"Body mass (g)"</span>,</span>
-<span id="cb22-11"><a></a>    <span class="at">color =</span> <span class="st">"Species"</span>, <span class="at">shape =</span> <span class="st">"Species"</span></span>
-<span id="cb22-12"><a></a>  ) <span class="sc">+</span></span>
-<span id="cb22-13"><a></a>  <span class="fu">scale_color_colorblind</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1"></a><span class="fu">ggplot</span>(</span>
+<span id="cb22-2"><a href="#cb22-2"></a>  <span class="at">data =</span> penguins,</span>
+<span id="cb22-3"><a href="#cb22-3"></a>  <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> flipper_length_mm, <span class="at">y =</span> body_mass_g)</span>
+<span id="cb22-4"><a href="#cb22-4"></a>) <span class="sc">+</span></span>
+<span id="cb22-5"><a href="#cb22-5"></a>  <span class="fu">geom_point</span>(<span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">color =</span> species, <span class="at">shape =</span> species)) <span class="sc">+</span></span>
+<span id="cb22-6"><a href="#cb22-6"></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">"lm"</span>) <span class="sc">+</span></span>
+<span id="cb22-7"><a href="#cb22-7"></a>  <span class="fu">labs</span>(</span>
+<span id="cb22-8"><a href="#cb22-8"></a>    <span class="at">title =</span> <span class="st">"Body mass and flipper length"</span>,</span>
+<span id="cb22-9"><a href="#cb22-9"></a>    <span class="at">subtitle =</span> <span class="st">"Dimensions for Adelie, Chinstrap, and Gentoo Penguins"</span>,</span>
+<span id="cb22-10"><a href="#cb22-10"></a>    <span class="at">x =</span> <span class="st">"Flipper length (mm)"</span>, <span class="at">y =</span> <span class="st">"Body mass (g)"</span>,</span>
+<span id="cb22-11"><a href="#cb22-11"></a>    <span class="at">color =</span> <span class="st">"Species"</span>, <span class="at">shape =</span> <span class="st">"Species"</span></span>
+<span id="cb22-12"><a href="#cb22-12"></a>  ) <span class="sc">+</span></span>
+<span id="cb22-13"><a href="#cb22-13"></a>  <span class="fu">scale_color_colorblind</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div><div class="column">
 <div class="cell-output-display">
-<div>
-<figure>
 <p><img data-src="index_files/figure-revealjs/unnamed-chunk-25-1.png" width="960"></p>
-</figure>
-</div>
 </div>
 </div>
 </div>
@@ -989,26 +912,22 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, …</c
 <h2><code>scale_color</code>で色を変える</h2>
 <div class="cell columns column-output-location">
 <div class="column">
-<div class="sourceCode cell-code" id="cb23" data-code-line-numbers="13"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a></a><span class="fu">ggplot</span>(</span>
-<span id="cb23-2"><a></a>  <span class="at">data =</span> penguins,</span>
-<span id="cb23-3"><a></a>  <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> flipper_length_mm, <span class="at">y =</span> body_mass_g)</span>
-<span id="cb23-4"><a></a>) <span class="sc">+</span></span>
-<span id="cb23-5"><a></a>  <span class="fu">geom_point</span>(<span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">color =</span> species, <span class="at">shape =</span> species)) <span class="sc">+</span></span>
-<span id="cb23-6"><a></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">"lm"</span>) <span class="sc">+</span></span>
-<span id="cb23-7"><a></a>  <span class="fu">labs</span>(</span>
-<span id="cb23-8"><a></a>    <span class="at">title =</span> <span class="st">"Body mass and flipper length"</span>,</span>
-<span id="cb23-9"><a></a>    <span class="at">subtitle =</span> <span class="st">"Dimensions for Adelie, Chinstrap, and Gentoo Penguins"</span>,</span>
-<span id="cb23-10"><a></a>    <span class="at">x =</span> <span class="st">"Flipper length (mm)"</span>, <span class="at">y =</span> <span class="st">"Body mass (g)"</span>,</span>
-<span id="cb23-11"><a></a>    <span class="at">color =</span> <span class="st">"Species"</span>, <span class="at">shape =</span> <span class="st">"Species"</span></span>
-<span id="cb23-12"><a></a>  ) <span class="sc">+</span></span>
-<span id="cb23-13"><a></a>  <span class="fu">scale_color_colorblind</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb23" data-code-line-numbers="13"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1"></a><span class="fu">ggplot</span>(</span>
+<span id="cb23-2"><a href="#cb23-2"></a>  <span class="at">data =</span> penguins,</span>
+<span id="cb23-3"><a href="#cb23-3"></a>  <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> flipper_length_mm, <span class="at">y =</span> body_mass_g)</span>
+<span id="cb23-4"><a href="#cb23-4"></a>) <span class="sc">+</span></span>
+<span id="cb23-5"><a href="#cb23-5"></a>  <span class="fu">geom_point</span>(<span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">color =</span> species, <span class="at">shape =</span> species)) <span class="sc">+</span></span>
+<span id="cb23-6"><a href="#cb23-6"></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">"lm"</span>) <span class="sc">+</span></span>
+<span id="cb23-7"><a href="#cb23-7"></a>  <span class="fu">labs</span>(</span>
+<span id="cb23-8"><a href="#cb23-8"></a>    <span class="at">title =</span> <span class="st">"Body mass and flipper length"</span>,</span>
+<span id="cb23-9"><a href="#cb23-9"></a>    <span class="at">subtitle =</span> <span class="st">"Dimensions for Adelie, Chinstrap, and Gentoo Penguins"</span>,</span>
+<span id="cb23-10"><a href="#cb23-10"></a>    <span class="at">x =</span> <span class="st">"Flipper length (mm)"</span>, <span class="at">y =</span> <span class="st">"Body mass (g)"</span>,</span>
+<span id="cb23-11"><a href="#cb23-11"></a>    <span class="at">color =</span> <span class="st">"Species"</span>, <span class="at">shape =</span> <span class="st">"Species"</span></span>
+<span id="cb23-12"><a href="#cb23-12"></a>  ) <span class="sc">+</span></span>
+<span id="cb23-13"><a href="#cb23-13"></a>  <span class="fu">scale_color_colorblind</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div><div class="column">
 <div class="cell-output-display">
-<div>
-<figure>
 <p><img data-src="index_files/figure-revealjs/unnamed-chunk-26-1.png" width="960"></p>
-</figure>
-</div>
 </div>
 </div>
 </div>
@@ -1018,23 +937,19 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, …</c
 <p><code>data =</code>と<code>mapping =</code>を書かなくて良い</p>
 <div class="cell columns column-output-location">
 <div class="column">
-<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a></a><span class="fu">ggplot</span>(penguins,　<span class="fu">aes</span>(<span class="at">x =</span> flipper_length_mm, <span class="at">y =</span> body_mass_g)) <span class="sc">+</span></span>
-<span id="cb24-2"><a></a>  <span class="fu">geom_point</span>(<span class="fu">aes</span>(<span class="at">color =</span> species, <span class="at">shape =</span> species)) <span class="sc">+</span></span>
-<span id="cb24-3"><a></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">"lm"</span>) <span class="sc">+</span></span>
-<span id="cb24-4"><a></a>  <span class="fu">labs</span>(</span>
-<span id="cb24-5"><a></a>    <span class="at">title =</span> <span class="st">"Body mass and flipper length"</span>,</span>
-<span id="cb24-6"><a></a>    <span class="at">subtitle =</span> <span class="st">"Dimensions for Adelie, Chinstrap, and Gentoo Penguins"</span>,</span>
-<span id="cb24-7"><a></a>    <span class="at">x =</span> <span class="st">"Flipper length (mm)"</span>, <span class="at">y =</span> <span class="st">"Body mass (g)"</span>,</span>
-<span id="cb24-8"><a></a>    <span class="at">color =</span> <span class="st">"Species"</span>, <span class="at">shape =</span> <span class="st">"Species"</span></span>
-<span id="cb24-9"><a></a>  ) <span class="sc">+</span></span>
-<span id="cb24-10"><a></a>  <span class="fu">scale_color_colorblind</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1"></a><span class="fu">ggplot</span>(penguins,　<span class="fu">aes</span>(<span class="at">x =</span> flipper_length_mm, <span class="at">y =</span> body_mass_g)) <span class="sc">+</span></span>
+<span id="cb24-2"><a href="#cb24-2"></a>  <span class="fu">geom_point</span>(<span class="fu">aes</span>(<span class="at">color =</span> species, <span class="at">shape =</span> species)) <span class="sc">+</span></span>
+<span id="cb24-3"><a href="#cb24-3"></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">"lm"</span>) <span class="sc">+</span></span>
+<span id="cb24-4"><a href="#cb24-4"></a>  <span class="fu">labs</span>(</span>
+<span id="cb24-5"><a href="#cb24-5"></a>    <span class="at">title =</span> <span class="st">"Body mass and flipper length"</span>,</span>
+<span id="cb24-6"><a href="#cb24-6"></a>    <span class="at">subtitle =</span> <span class="st">"Dimensions for Adelie, Chinstrap, and Gentoo Penguins"</span>,</span>
+<span id="cb24-7"><a href="#cb24-7"></a>    <span class="at">x =</span> <span class="st">"Flipper length (mm)"</span>, <span class="at">y =</span> <span class="st">"Body mass (g)"</span>,</span>
+<span id="cb24-8"><a href="#cb24-8"></a>    <span class="at">color =</span> <span class="st">"Species"</span>, <span class="at">shape =</span> <span class="st">"Species"</span></span>
+<span id="cb24-9"><a href="#cb24-9"></a>  ) <span class="sc">+</span></span>
+<span id="cb24-10"><a href="#cb24-10"></a>  <span class="fu">scale_color_colorblind</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div><div class="column">
 <div class="cell-output-display">
-<div>
-<figure>
 <p><img data-src="index_files/figure-revealjs/unnamed-chunk-27-1.png" width="960"></p>
-</figure>
-</div>
 </div>
 </div>
 </div>
@@ -1043,24 +958,20 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, …</c
 <h2><code>base_family</code>で文字化けを防ぐ</h2>
 <div class="cell columns column-output-location">
 <div class="column">
-<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a></a><span class="fu">ggplot</span>(penguins,　<span class="fu">aes</span>(<span class="at">x =</span> flipper_length_mm, <span class="at">y =</span> body_mass_g)) <span class="sc">+</span></span>
-<span id="cb25-2"><a></a>  <span class="fu">geom_point</span>(<span class="fu">aes</span>(<span class="at">color =</span> species, <span class="at">shape =</span> species)) <span class="sc">+</span></span>
-<span id="cb25-3"><a></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">"lm"</span>) <span class="sc">+</span></span>
-<span id="cb25-4"><a></a>  <span class="fu">labs</span>(</span>
-<span id="cb25-5"><a></a>    <span class="at">title =</span> <span class="st">"体重とフリッパーの長さ"</span>,</span>
-<span id="cb25-6"><a></a>    <span class="at">subtitle =</span> <span class="st">"アデリー、チンストラップ、ジェンツーのペンギンのサイズ"</span>,</span>
-<span id="cb25-7"><a></a>    <span class="at">x =</span> <span class="st">"フリッパーの長さ（mm）"</span>, <span class="at">y =</span> <span class="st">"体重（g）"</span>,</span>
-<span id="cb25-8"><a></a>    <span class="at">color =</span> <span class="st">"種"</span>, <span class="at">shape =</span> <span class="st">"種"</span></span>
-<span id="cb25-9"><a></a>  ) <span class="sc">+</span></span>
-<span id="cb25-10"><a></a>  <span class="fu">scale_color_colorblind</span>() <span class="sc">+</span> </span>
-<span id="cb25-11"><a></a>  <span class="fu">theme_gray</span>(<span class="at">base_family =</span> <span class="st">"HiraKakuPro-W3"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1"></a><span class="fu">ggplot</span>(penguins,　<span class="fu">aes</span>(<span class="at">x =</span> flipper_length_mm, <span class="at">y =</span> body_mass_g)) <span class="sc">+</span></span>
+<span id="cb25-2"><a href="#cb25-2"></a>  <span class="fu">geom_point</span>(<span class="fu">aes</span>(<span class="at">color =</span> species, <span class="at">shape =</span> species)) <span class="sc">+</span></span>
+<span id="cb25-3"><a href="#cb25-3"></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">"lm"</span>) <span class="sc">+</span></span>
+<span id="cb25-4"><a href="#cb25-4"></a>  <span class="fu">labs</span>(</span>
+<span id="cb25-5"><a href="#cb25-5"></a>    <span class="at">title =</span> <span class="st">"体重とフリッパーの長さ"</span>,</span>
+<span id="cb25-6"><a href="#cb25-6"></a>    <span class="at">subtitle =</span> <span class="st">"アデリー、チンストラップ、ジェンツーのペンギンのサイズ"</span>,</span>
+<span id="cb25-7"><a href="#cb25-7"></a>    <span class="at">x =</span> <span class="st">"フリッパーの長さ（mm）"</span>, <span class="at">y =</span> <span class="st">"体重（g）"</span>,</span>
+<span id="cb25-8"><a href="#cb25-8"></a>    <span class="at">color =</span> <span class="st">"種"</span>, <span class="at">shape =</span> <span class="st">"種"</span></span>
+<span id="cb25-9"><a href="#cb25-9"></a>  ) <span class="sc">+</span></span>
+<span id="cb25-10"><a href="#cb25-10"></a>  <span class="fu">scale_color_colorblind</span>() <span class="sc">+</span> </span>
+<span id="cb25-11"><a href="#cb25-11"></a>  <span class="fu">theme_gray</span>(<span class="at">base_family =</span> <span class="st">"HiraKakuPro-W3"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div><div class="column">
 <div class="cell-output-display">
-<div>
-<figure>
 <p><img data-src="index_files/figure-revealjs/unnamed-chunk-28-1.png" width="960"></p>
-</figure>
-</div>
 </div>
 </div>
 </div>
@@ -1069,24 +980,20 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, …</c
 <h2><code>base_family</code>で文字化けを防ぐ</h2>
 <div class="cell columns column-output-location">
 <div class="column">
-<div class="sourceCode cell-code" id="cb26" data-code-line-numbers="11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a></a><span class="fu">ggplot</span>(penguins,　<span class="fu">aes</span>(<span class="at">x =</span> flipper_length_mm, <span class="at">y =</span> body_mass_g)) <span class="sc">+</span></span>
-<span id="cb26-2"><a></a>  <span class="fu">geom_point</span>(<span class="fu">aes</span>(<span class="at">color =</span> species, <span class="at">shape =</span> species)) <span class="sc">+</span></span>
-<span id="cb26-3"><a></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">"lm"</span>) <span class="sc">+</span></span>
-<span id="cb26-4"><a></a>  <span class="fu">labs</span>(</span>
-<span id="cb26-5"><a></a>    <span class="at">title =</span> <span class="st">"体重とフリッパーの長さ"</span>,</span>
-<span id="cb26-6"><a></a>    <span class="at">subtitle =</span> <span class="st">"アデリー、チンストラップ、ジェンツーのペンギンのサイズ"</span>,</span>
-<span id="cb26-7"><a></a>    <span class="at">x =</span> <span class="st">"フリッパーの長さ（mm）"</span>, <span class="at">y =</span> <span class="st">"体重（g）"</span>,</span>
-<span id="cb26-8"><a></a>    <span class="at">color =</span> <span class="st">"種"</span>, <span class="at">shape =</span> <span class="st">"種"</span></span>
-<span id="cb26-9"><a></a>  ) <span class="sc">+</span></span>
-<span id="cb26-10"><a></a>  <span class="fu">scale_color_colorblind</span>() <span class="sc">+</span> </span>
-<span id="cb26-11"><a></a>  <span class="fu">theme_gray</span>(<span class="at">base_family =</span> <span class="st">"HiraKakuPro-W3"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb26" data-code-line-numbers="11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1"></a><span class="fu">ggplot</span>(penguins,　<span class="fu">aes</span>(<span class="at">x =</span> flipper_length_mm, <span class="at">y =</span> body_mass_g)) <span class="sc">+</span></span>
+<span id="cb26-2"><a href="#cb26-2"></a>  <span class="fu">geom_point</span>(<span class="fu">aes</span>(<span class="at">color =</span> species, <span class="at">shape =</span> species)) <span class="sc">+</span></span>
+<span id="cb26-3"><a href="#cb26-3"></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">"lm"</span>) <span class="sc">+</span></span>
+<span id="cb26-4"><a href="#cb26-4"></a>  <span class="fu">labs</span>(</span>
+<span id="cb26-5"><a href="#cb26-5"></a>    <span class="at">title =</span> <span class="st">"体重とフリッパーの長さ"</span>,</span>
+<span id="cb26-6"><a href="#cb26-6"></a>    <span class="at">subtitle =</span> <span class="st">"アデリー、チンストラップ、ジェンツーのペンギンのサイズ"</span>,</span>
+<span id="cb26-7"><a href="#cb26-7"></a>    <span class="at">x =</span> <span class="st">"フリッパーの長さ（mm）"</span>, <span class="at">y =</span> <span class="st">"体重（g）"</span>,</span>
+<span id="cb26-8"><a href="#cb26-8"></a>    <span class="at">color =</span> <span class="st">"種"</span>, <span class="at">shape =</span> <span class="st">"種"</span></span>
+<span id="cb26-9"><a href="#cb26-9"></a>  ) <span class="sc">+</span></span>
+<span id="cb26-10"><a href="#cb26-10"></a>  <span class="fu">scale_color_colorblind</span>() <span class="sc">+</span> </span>
+<span id="cb26-11"><a href="#cb26-11"></a>  <span class="fu">theme_gray</span>(<span class="at">base_family =</span> <span class="st">"HiraKakuPro-W3"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div><div class="column">
 <div class="cell-output-display">
-<div>
-<figure>
 <p><img data-src="index_files/figure-revealjs/unnamed-chunk-29-1.png" width="960"></p>
-</figure>
-</div>
 </div>
 </div>
 </div>
@@ -1100,10 +1007,8 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, …</c
 <li>グラフを作成するコマンドは、レイヤーを<code>+</code>で重ねていく</li>
 </ul>
 
-<div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 
-</div>
 </div>
 </section></section>
     </div>
@@ -1132,6 +1037,7 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, …</c
       Reveal.initialize({
 'controlsAuto': true,
 'previewLinksAuto': false,
+'smaller': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
@@ -1430,9 +1336,10 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, …</c
         // clear code selection
         e.clearSelection();
       });
-      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      function tippyHover(el, contentFn) {
         const config = {
           allowHTML: true,
+          content: contentFn,
           maxWidth: 500,
           delay: 100,
           arrow: false,
@@ -1442,17 +1349,8 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, …</c
           interactive: true,
           interactiveBorder: 10,
           theme: 'light-border',
-          placement: 'bottom-start',
+          placement: 'bottom-start'
         };
-        if (contentFn) {
-          config.content = contentFn;
-        }
-        if (onTriggerFn) {
-          config.onTrigger = onTriggerFn;
-        }
-        if (onUntriggerFn) {
-          config.onUntrigger = onUntriggerFn;
-        }
           config['offset'] = [0,0];
           config['maxWidth'] = 700;
         window.tippy(el, config); 
